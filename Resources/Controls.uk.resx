@@ -1,0 +1,4649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Про програму</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Прийняти</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>Обліковий запис</value>
+  </data>
+  <data name="AccountGroups" xml:space="preserve">
+    <value>Групи обл. записів</value>
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>Облік</value>
+  </data>
+  <data name="AccountingDocuments" xml:space="preserve">
+    <value>Облікові документи</value>
+  </data>
+  <data name="AccountingJournal" xml:space="preserve">
+    <value>Обліковий журнал</value>
+  </data>
+  <data name="AccountingReports" xml:space="preserve">
+    <value>Обліковий звіт</value>
+  </data>
+  <data name="AccountJour" xml:space="preserve">
+    <value>Журнал облікового запису</value>
+  </data>
+  <data name="AccountKeys" xml:space="preserve">
+    <value>Ключі обл. записів</value>
+  </data>
+  <data name="AccountName" xml:space="preserve">
+    <value>Ім'я обл. запису</value>
+  </data>
+  <data name="AccountObjectKeyGroups" xml:space="preserve">
+    <value>Групи ключів облікових об'єктів</value>
+  </data>
+  <data name="AccountObjectKeyList" xml:space="preserve">
+    <value>Список ключів облікових об'єктів</value>
+  </data>
+  <data name="AccountObjectKeys" xml:space="preserve">
+    <value>Ключі облікових об'єктів</value>
+  </data>
+  <data name="AccountRests" xml:space="preserve">
+    <value>Залишки облікових записів</value>
+  </data>
+  <data name="Accounts" xml:space="preserve">
+    <value>Облікові записи</value>
+  </data>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>Налаштування облікових записів</value>
+  </data>
+  <data name="AccountStandardGroups" xml:space="preserve">
+    <value>Стандартні групи облікових записів</value>
+  </data>
+  <data name="AccountWorkflow" xml:space="preserve">
+    <value>Робочий процес облікових записів</value>
+  </data>
+  <data name="AccrualAccount" xml:space="preserve">
+    <value>Обліковий запис нарахування</value>
+  </data>
+  <data name="AccrualPeriods" xml:space="preserve">
+    <value>Періоди нарахування</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Дії</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Активний</value>
+  </data>
+  <data name="ActiveOperation" xml:space="preserve">
+    <value>Активна операція</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Додати</value>
+  </data>
+  <data name="AddAccountsToGroup" xml:space="preserve">
+    <value>Додати обліковий(і) запис(и) у групу</value>
+  </data>
+  <data name="AddAddress" xml:space="preserve">
+    <value>Додати адресу</value>
+  </data>
+  <data name="AddArticle" xml:space="preserve">
+    <value>Додати артикул</value>
+  </data>
+  <data name="AddArticlesToCategory" xml:space="preserve">
+    <value>Додати артикул(и) у групу</value>
+  </data>
+  <data name="AddAssembly" xml:space="preserve">
+    <value>Додати збірку</value>
+  </data>
+  <data name="AddBcc" xml:space="preserve">
+    <value>Додати Bcc</value>
+  </data>
+  <data name="AddCc" xml:space="preserve">
+    <value>Додати Cc</value>
+  </data>
+  <data name="AddChild" xml:space="preserve">
+    <value>Додати нащадка</value>
+  </data>
+  <data name="AddComment" xml:space="preserve">
+    <value>Додати коментар</value>
+  </data>
+  <data name="AddDepartment" xml:space="preserve">
+    <value>Додати підрозділ</value>
+  </data>
+  <data name="AddFreeday" xml:space="preserve">
+    <value>Додати вільний день</value>
+  </data>
+  <data name="AddGroup" xml:space="preserve">
+    <value>Додати групу</value>
+  </data>
+  <data name="AddHoliday" xml:space="preserve">
+    <value>Додати свято</value>
+  </data>
+  <data name="AddMaterial" xml:space="preserve">
+    <value>Додати матеріал</value>
+  </data>
+  <data name="AddNewOperation" xml:space="preserve">
+    <value>Додати операцію</value>
+  </data>
+  <data name="AddOperationFromTemplate" xml:space="preserve">
+    <value>Додати операцію з шаблону</value>
+  </data>
+  <data name="AddProjectLine" xml:space="preserve">
+    <value>Додати лінію проекту</value>
+  </data>
+  <data name="AddProjectSubLine" xml:space="preserve">
+    <value>Додати підлінію проекту</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Адреса</value>
+  </data>
+  <data name="Addresses" xml:space="preserve">
+    <value>Адреси</value>
+  </data>
+  <data name="AddressesWizard" xml:space="preserve">
+    <value>Майстер адрес</value>
+  </data>
+  <data name="AddRoot" xml:space="preserve">
+    <value>Додати в корінь</value>
+  </data>
+  <data name="AddSelectionGroup" xml:space="preserve">
+    <value>Додати групу вибору</value>
+  </data>
+  <data name="AddService" xml:space="preserve">
+    <value>Додати послугу</value>
+  </data>
+  <data name="AddShift" xml:space="preserve">
+    <value>Додати зміну</value>
+  </data>
+  <data name="AddSpecificationList" xml:space="preserve">
+    <value>Додати специфікацію</value>
+  </data>
+  <data name="AddSubDepartment" xml:space="preserve">
+    <value>Додати субпідрозділ</value>
+  </data>
+  <data name="AddSummaryNode" xml:space="preserve">
+    <value>Додати сумарний заголовок</value>
+  </data>
+  <data name="AddTask" xml:space="preserve">
+    <value>Додати завдання</value>
+  </data>
+  <data name="AddToWorkList" xml:space="preserve">
+    <value>Додати в робочий список</value>
+  </data>
+  <data name="AddVendorArticle" xml:space="preserve">
+    <value>Додати матеріал постачальника</value>
+  </data>
+  <data name="AddVendorToChecked" xml:space="preserve">
+    <value>Добавити вендора</value>
+  </data>
+  <data name="AdjustmentTime" xml:space="preserve">
+    <value>Час коригування</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Адміністрування</value>
+  </data>
+  <data name="AdministratorLogin" xml:space="preserve">
+    <value>Логін адміністратора</value>
+  </data>
+  <data name="AdministratorName" xml:space="preserve">
+    <value>Ім'я адміністратора</value>
+  </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>Додатково</value>
+  </data>
+  <data name="AlignBottoms" xml:space="preserve">
+    <value>По нижньому краю</value>
+  </data>
+  <data name="AlignCenters" xml:space="preserve">
+    <value>По центру горизонтально</value>
+  </data>
+  <data name="AlignLefts" xml:space="preserve">
+    <value>По лівому краю</value>
+  </data>
+  <data name="Alignment" xml:space="preserve">
+    <value>Вирівнювання</value>
+  </data>
+  <data name="AlignMiddles" xml:space="preserve">
+    <value>По центу вертикально</value>
+  </data>
+  <data name="AlignRights" xml:space="preserve">
+    <value>По правому краю</value>
+  </data>
+  <data name="AlignToGrid" xml:space="preserve">
+    <value>До сітки</value>
+  </data>
+  <data name="AlignTops" xml:space="preserve">
+    <value>По верхньому краю</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="AllCaps" xml:space="preserve">
+    <value>Всі прописні</value>
+  </data>
+  <data name="AllMenuItems" xml:space="preserve">
+    <value>Всі пункти меню</value>
+  </data>
+  <data name="AllOrgUnits" xml:space="preserve">
+    <value>Всі організаційні одиниці</value>
+  </data>
+  <data name="AllowDifference" xml:space="preserve">
+    <value>Дозволити різницю</value>
+  </data>
+  <data name="AllProjectGroups" xml:space="preserve">
+    <value>*Всі групи проектів</value>
+  </data>
+  <data name="AllProjects" xml:space="preserve">
+    <value>Всі проекти</value>
+  </data>
+  <data name="AllToFinished" xml:space="preserve">
+    <value>Всі для завершення</value>
+  </data>
+  <data name="AllUsers" xml:space="preserve">
+    <value>Всі користувачі</value>
+  </data>
+  <data name="AllUsersAndEquipments" xml:space="preserve">
+    <value>Робітники та обладнання поза складом</value>
+  </data>
+  <data name="AllUsersAndGroups" xml:space="preserve">
+    <value>Користувачі і групи поза складом</value>
+  </data>
+  <data name="AlternativeUnit" xml:space="preserve">
+    <value>Альтернативна одиниця</value>
+  </data>
+  <data name="AlternativeUnitFourth" xml:space="preserve">
+    <value>Альтернативна одиниця 4</value>
+  </data>
+  <data name="AlternativeUnitSecond" xml:space="preserve">
+    <value>Альтернативна одиниця 2</value>
+  </data>
+  <data name="AlternativeUnitThird" xml:space="preserve">
+    <value>Альтернативна одиниця 3</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Кількість</value>
+  </data>
+  <data name="Analysis" xml:space="preserve">
+    <value>Аналіз</value>
+  </data>
+  <data name="AppendLast" xml:space="preserve">
+    <value>приєднати останнім</value>
+  </data>
+  <data name="AppendLastChild" xml:space="preserve">
+    <value>приєднати останнім нащадком</value>
+  </data>
+  <data name="ApplyFilter" xml:space="preserve">
+    <value>Застосувати фільтр</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Затвердити</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Затверджено</value>
+  </data>
+  <data name="ApproveDecline" xml:space="preserve">
+    <value>Затвердити / Відх.</value>
+  </data>
+  <data name="ApproveDescription" xml:space="preserve">
+    <value>Опис затвердження</value>
+  </data>
+  <data name="Approvement" xml:space="preserve">
+    <value>Затвердження</value>
+  </data>
+  <data name="AproveWizard" xml:space="preserve">
+    <value>Майстер затвердження</value>
+  </data>
+  <data name="Arrow" xml:space="preserve">
+    <value>Стрілка</value>
+  </data>
+  <data name="Arrowheads" xml:space="preserve">
+    <value>Кінці стрілок</value>
+  </data>
+  <data name="Article" xml:space="preserve">
+    <value>Артикул</value>
+  </data>
+  <data name="ArticleAccountCategory" xml:space="preserve">
+    <value>Категорії облікових записів</value>
+  </data>
+  <data name="ArticleCode" xml:space="preserve">
+    <value>Код артикула</value>
+  </data>
+  <data name="ArticleGroups" xml:space="preserve">
+    <value>Групи артикулів</value>
+  </data>
+  <data name="ArticleMeasurements" xml:space="preserve">
+    <value>Одиниці виміру для артикула</value>
+  </data>
+  <data name="ArticleMinQuantityOnStock" xml:space="preserve">
+    <value>Мінімальна кількість артикулів на складі</value>
+  </data>
+  <data name="ArticlePrefixes" xml:space="preserve">
+    <value>Префікси артикулів</value>
+  </data>
+  <data name="ArticlePriceDefinitions" xml:space="preserve">
+    <value>Визначення ціни артикула</value>
+  </data>
+  <data name="Articles" xml:space="preserve">
+    <value>Артикули</value>
+  </data>
+  <data name="ArticleSearch" xml:space="preserve">
+    <value>Пошук артикула</value>
+  </data>
+  <data name="ArticleSettings" xml:space="preserve">
+    <value>Налаштування артикула</value>
+  </data>
+  <data name="ArticleType" xml:space="preserve">
+    <value>Тип артикула</value>
+  </data>
+  <data name="ArticleVendorArticles" xml:space="preserve">
+    <value>Артикули постачальника</value>
+  </data>
+  <data name="ArticleWorkflow" xml:space="preserve">
+    <value>Робочий процес артикула</value>
+  </data>
+  <data name="AskForApprovement" xml:space="preserve">
+    <value>Запит на затвердження</value>
+  </data>
+  <data name="AskForApprovementWizard" xml:space="preserve">
+    <value>Запит на затвердження</value>
+  </data>
+  <data name="AskMoveWorkflowItemWizard" xml:space="preserve">
+    <value>Перенести робочий процес</value>
+  </data>
+  <data name="Assembly" xml:space="preserve">
+    <value>Збірка</value>
+  </data>
+  <data name="AssemblyDocument" xml:space="preserve">
+    <value>Документ збірки</value>
+  </data>
+  <data name="AssemblyFromScratch" xml:space="preserve">
+    <value>З нуля</value>
+  </data>
+  <data name="AssemblyTree" xml:space="preserve">
+    <value>Збірка</value>
+  </data>
+  <data name="AssemblyTreeLine" xml:space="preserve">
+    <value>Збірка</value>
+  </data>
+  <data name="AssemblyTreeLineWizard" xml:space="preserve">
+    <value>Майстер позииції збірки</value>
+  </data>
+  <data name="AssemblyTreeView" xml:space="preserve">
+    <value>Перегляд збірки</value>
+  </data>
+  <data name="AssetManagement" xml:space="preserve">
+    <value>Управління активами</value>
+  </data>
+  <data name="AssetRegister" xml:space="preserve">
+    <value>Реєстр активів</value>
+  </data>
+  <data name="AssignFrom" xml:space="preserve">
+    <value>Призначити з</value>
+  </data>
+  <data name="AssignTo" xml:space="preserve">
+    <value>Призначений до...</value>
+  </data>
+  <data name="AssignToAccount" xml:space="preserve">
+    <value>Рахунок</value>
+  </data>
+  <data name="AssignToArticle" xml:space="preserve">
+    <value>Артикул</value>
+  </data>
+  <data name="AssignToDocument" xml:space="preserve">
+    <value>Документ</value>
+  </data>
+  <data name="AssignToLot" xml:space="preserve">
+    <value>Лот</value>
+  </data>
+  <data name="AssignToOrgUnit" xml:space="preserve">
+    <value>Організаційна одиниця</value>
+  </data>
+  <data name="AssignToProject" xml:space="preserve">
+    <value>Проект</value>
+  </data>
+  <data name="AssignToUser" xml:space="preserve">
+    <value>Користувача</value>
+  </data>
+  <data name="AssignWorkflowSyncFolderWizard" xml:space="preserve">
+    <value>Майстер призначення синхронізації папки</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>Прикріплення</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>Вкладення</value>
+  </data>
+  <data name="AutoFilterRowShow" xml:space="preserve">
+    <value>Авто</value>
+  </data>
+  <data name="AutoLogOut" xml:space="preserve">
+    <value>Авто-вихід</value>
+  </data>
+  <data name="Automatically" xml:space="preserve">
+    <value>Автоматично</value>
+  </data>
+  <data name="AutoNumbering" xml:space="preserve">
+    <value>Автоматична нумерація</value>
+  </data>
+  <data name="AutoSchedule" xml:space="preserve">
+    <value>Авто планування</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="BackColor" xml:space="preserve">
+    <value>Колір фону</value>
+  </data>
+  <data name="BankAccount" xml:space="preserve">
+    <value>Банківський рахунок</value>
+  </data>
+  <data name="BankPaymentIncomeMoney" xml:space="preserve">
+    <value>Банківські надходження</value>
+  </data>
+  <data name="BankPaymentsDocuments" xml:space="preserve">
+    <value>Банківські платежі</value>
+  </data>
+  <data name="BankPaymentSpendMoney" xml:space="preserve">
+    <value>Банківські витрати</value>
+  </data>
+  <data name="Batches" xml:space="preserve">
+    <value>Партії</value>
+  </data>
+  <data name="BatchTimeRegistrationWizard" xml:space="preserve">
+    <value>Майстер реєстрації часу партією</value>
+  </data>
+  <data name="BecomeCustomer" xml:space="preserve">
+    <value>Стати клієнтом</value>
+  </data>
+  <data name="BecomeVendor" xml:space="preserve">
+    <value>Стати постачальником</value>
+  </data>
+  <data name="BeginRests" xml:space="preserve">
+    <value>Початкові залишки</value>
+  </data>
+  <data name="BeginRestsDocument" xml:space="preserve">
+    <value>Документ початкових залишків</value>
+  </data>
+  <data name="BeginWork" xml:space="preserve">
+    <value>Почати роботу</value>
+  </data>
+  <data name="BestFit" xml:space="preserve">
+    <value>Найкраща ширина</value>
+  </data>
+  <data name="BestFitAllColumns" xml:space="preserve">
+    <value>Найкраща ширина для всіх</value>
+  </data>
+  <data name="Bezier" xml:space="preserve">
+    <value>Крива безье</value>
+  </data>
+  <data name="Bookkeeping" xml:space="preserve">
+    <value>Бухгалтерія</value>
+  </data>
+  <data name="BPIncomeMoneyDocument" xml:space="preserve">
+    <value>Документ банківських надходжень</value>
+  </data>
+  <data name="BPSpendMoneyDocument" xml:space="preserve">
+    <value>Документ банківських витрат</value>
+  </data>
+  <data name="Brand" xml:space="preserve">
+    <value>Зігма 360</value>
+  </data>
+  <data name="BridgeStyle" xml:space="preserve">
+    <value>Стиль моста</value>
+  </data>
+  <data name="BringForward" xml:space="preserve">
+    <value>Перенести ближче</value>
+  </data>
+  <data name="BringToFront" xml:space="preserve">
+    <value>Перенести вперед</value>
+  </data>
+  <data name="Budget" xml:space="preserve">
+    <value>Бюджет</value>
+  </data>
+  <data name="Budgets" xml:space="preserve">
+    <value>Бюджети</value>
+  </data>
+  <data name="BundleProduction" xml:space="preserve">
+    <value>Пакетне виробництво</value>
+  </data>
+  <data name="ByProject" xml:space="preserve">
+    <value>За проектом</value>
+  </data>
+  <data name="ByResource" xml:space="preserve">
+    <value>За ресурсом</value>
+  </data>
+  <data name="ByWorklist" xml:space="preserve">
+    <value>За робочим списком</value>
+  </data>
+  <data name="ByWorkOrder" xml:space="preserve">
+    <value>За нарядом по роботі</value>
+  </data>
+  <data name="Calculate" xml:space="preserve">
+    <value>Рахувати</value>
+  </data>
+  <data name="CallOff" xml:space="preserve">
+    <value>Скасувати</value>
+  </data>
+  <data name="CallOffProjects" xml:space="preserve">
+    <value>Call-off проекти</value>
+  </data>
+  <data name="CallOffPurchase" xml:space="preserve">
+    <value>Call-off покупки</value>
+  </data>
+  <data name="CallOffPurchaseProjects" xml:space="preserve">
+    <value>Call-off проекти покупок</value>
+  </data>
+  <data name="CallOffSales" xml:space="preserve">
+    <value>Call-off продажі</value>
+  </data>
+  <data name="CallOffSalesProjects" xml:space="preserve">
+    <value>Call-off проекти продаж</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Скасувати</value>
+  </data>
+  <data name="CenterHorizontally" xml:space="preserve">
+    <value>Центрувати горизонтально</value>
+  </data>
+  <data name="CenterVertically" xml:space="preserve">
+    <value>Центрувати вертикально</value>
+  </data>
+  <data name="CertificateNumber" xml:space="preserve">
+    <value>Номер сертифіката</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Змінити</value>
+  </data>
+  <data name="ChangeDocumentCurrencyWizard" xml:space="preserve">
+    <value>Змінити валюту документа</value>
+  </data>
+  <data name="ChangeFileStateWizard" xml:space="preserve">
+    <value>Змінити стан  файла</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Змінити пароль</value>
+  </data>
+  <data name="ChangePasswordWizard" xml:space="preserve">
+    <value>Майстер зміни паролю</value>
+  </data>
+  <data name="ChangeProjectCurrencyWizard" xml:space="preserve">
+    <value>Змінти валюту проекта</value>
+  </data>
+  <data name="ChangeProjectLineState" xml:space="preserve">
+    <value>Змінити стан лінії проекту</value>
+  </data>
+  <data name="ChangeProjectState" xml:space="preserve">
+    <value>Змінити стан проекту</value>
+  </data>
+  <data name="ChangeProjectStateWizard" xml:space="preserve">
+    <value>Майстер зміни стану проекту</value>
+  </data>
+  <data name="ChangeState" xml:space="preserve">
+    <value>Змінити стан</value>
+  </data>
+  <data name="ChangeStateAllToFinished" xml:space="preserve">
+    <value>Завершити всі</value>
+  </data>
+  <data name="ChangeStateAllToWork" xml:space="preserve">
+    <value>Все до роботи</value>
+  </data>
+  <data name="ChangeStateToAllFinished" xml:space="preserve">
+    <value>Все завершити</value>
+  </data>
+  <data name="ChangeStateToDraft" xml:space="preserve">
+    <value>Чернетка(обране)</value>
+  </data>
+  <data name="ChangeStateToDraftToAll" xml:space="preserve">
+    <value>Чернетка(все)</value>
+  </data>
+  <data name="ChangeStateToFinished" xml:space="preserve">
+    <value>Завершити</value>
+  </data>
+  <data name="ChangeStateToReadyForWork" xml:space="preserve">
+    <value>Готовий до роботи (для обраних)</value>
+  </data>
+  <data name="ChangeStateToReadyForWorkToAll" xml:space="preserve">
+    <value>Готовий до роботи (увесь проект)</value>
+  </data>
+  <data name="ChangeStateToWork" xml:space="preserve">
+    <value>До роботи</value>
+  </data>
+  <data name="ChangeWorkOrderState" xml:space="preserve">
+    <value>Змінити стан виробн. наряду</value>
+  </data>
+  <data name="ChangeWOStateToDraft" xml:space="preserve">
+    <value>Чернетка (вибрані)</value>
+  </data>
+  <data name="ChangeWOStateToDraftToAll" xml:space="preserve">
+    <value>Чернетка (всі рядки проекту)</value>
+  </data>
+  <data name="ChangeWOStateToWork" xml:space="preserve">
+    <value>В робочий (вибрані)</value>
+  </data>
+  <data name="ChangeWOStateToWorkToAll" xml:space="preserve">
+    <value>В робочий (всі рядки)</value>
+  </data>
+  <data name="CheckAll" xml:space="preserve">
+    <value>Вибрати все</value>
+  </data>
+  <data name="CheckDelivered" xml:space="preserve">
+    <value>Перевірити доставлені</value>
+  </data>
+  <data name="CheckLists" xml:space="preserve">
+    <value>Контролі</value>
+  </data>
+  <data name="CheckNone" xml:space="preserve">
+    <value>Нічого не вибрати</value>
+  </data>
+  <data name="CheckProduced" xml:space="preserve">
+    <value>Перевірити вироблені</value>
+  </data>
+  <data name="ChildrenUsersAndEquipments" xml:space="preserve">
+    <value>Робітники та обладнання у складі</value>
+  </data>
+  <data name="ChildrenUsersAndGroups" xml:space="preserve">
+    <value>Корустувачі і группи у складі</value>
+  </data>
+  <data name="CircularArc" xml:space="preserve">
+    <value>Дуга</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Місто</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Очистити</value>
+  </data>
+  <data name="ClearFilter" xml:space="preserve">
+    <value>Очистити фільтр</value>
+  </data>
+  <data name="ClearSorting" xml:space="preserve">
+    <value>Очистити сортування</value>
+  </data>
+  <data name="Client" xml:space="preserve">
+    <value>Клієнт</value>
+  </data>
+  <data name="ClientSettings" xml:space="preserve">
+    <value>Налаштування клієнта</value>
+  </data>
+  <data name="ClientTypeColon" xml:space="preserve">
+    <value>Тип об'єкту:</value>
+  </data>
+  <data name="Clipboard" xml:space="preserve">
+    <value>Буфер обміну</value>
+  </data>
+  <data name="ClockAndSalary" xml:space="preserve">
+    <value>Годинна та зарплатна реєстрація</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>Закрито</value>
+  </data>
+  <data name="ClosedCurve" xml:space="preserve">
+    <value>Замкнута крива</value>
+  </data>
+  <data name="ClosePeriod" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+  <data name="CloseProject" xml:space="preserve">
+    <value>Закрити проект</value>
+  </data>
+  <data name="Closing" xml:space="preserve">
+    <value>Закриття</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Колір</value>
+  </data>
+  <data name="ColumnCustomization" xml:space="preserve">
+    <value>Кастомізація</value>
+  </data>
+  <data name="ColumnFilter" xml:space="preserve">
+    <value>Фільтер колонки</value>
+  </data>
+  <data name="ColumnGroup" xml:space="preserve">
+    <value>Групувати</value>
+  </data>
+  <data name="ColumnUngroup" xml:space="preserve">
+    <value>Не групувати</value>
+  </data>
+  <data name="Combined" xml:space="preserve">
+    <value>Змішаний</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Коментар</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Коментарі</value>
+  </data>
+  <data name="CommitteeMeetings" xml:space="preserve">
+    <value>Засідання комітету</value>
+  </data>
+  <data name="CommonDictionaryLines" xml:space="preserve">
+    <value>Загальний словник</value>
+  </data>
+  <data name="CommonRegistry" xml:space="preserve">
+    <value>Загальний реєстр</value>
+  </data>
+  <data name="CommonTasks" xml:space="preserve">
+    <value>Загальні завдання</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Компанія</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Виконано</value>
+  </data>
+  <data name="Compose" xml:space="preserve">
+    <value>Композиція</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Підтвердіть пароль</value>
+  </data>
+  <data name="ConnectorTool" xml:space="preserve">
+    <value>Інструмент з'єднання</value>
+  </data>
+  <data name="Consist" xml:space="preserve">
+    <value>Склад</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>Зв'яжіться з нами</value>
+  </data>
+  <data name="ContactPerson" xml:space="preserve">
+    <value>Контактна персона</value>
+  </data>
+  <data name="ContactPersoneMobilePhone" xml:space="preserve">
+    <value>Мобільний телефон</value>
+  </data>
+  <data name="ContactPersonGroups" xml:space="preserve">
+    <value>Група контактних персон</value>
+  </data>
+  <data name="ContactPersons" xml:space="preserve">
+    <value>Контактні персони</value>
+  </data>
+  <data name="ContactPersonWizard" xml:space="preserve">
+    <value>Майстер контактних персон</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Контакти</value>
+  </data>
+  <data name="ContactSettings" xml:space="preserve">
+    <value>Налаштування контакту</value>
+  </data>
+  <data name="ContactsMenuItem" xml:space="preserve">
+    <value>Контакти</value>
+  </data>
+  <data name="ContactsTabItem" xml:space="preserve">
+    <value>Контакти</value>
+  </data>
+  <data name="ContinueOperation" xml:space="preserve">
+    <value>Продовжити {0}</value>
+  </data>
+  <data name="ContinueWorkOrder" xml:space="preserve">
+    <value>Продовжити виробн. наряд</value>
+  </data>
+  <data name="ControlsAndMeetings" xml:space="preserve">
+    <value>Контролі і зустрічі</value>
+  </data>
+  <data name="ControlView" xml:space="preserve">
+    <value>Режим</value>
+  </data>
+  <data name="ConvertToPdf" xml:space="preserve">
+    <value>Конвертувати у PDF</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Копіювати</value>
+  </data>
+  <data name="CopyBudget" xml:space="preserve">
+    <value>Копіювати бюджет</value>
+  </data>
+  <data name="CopyFact" xml:space="preserve">
+    <value>Копіювати факт</value>
+  </data>
+  <data name="CopyOf" xml:space="preserve">
+    <value>Копія з</value>
+  </data>
+  <data name="CopyToClipboard" xml:space="preserve">
+    <value>Копіювати</value>
+  </data>
+  <data name="CopyUserSettingsWizard" xml:space="preserve">
+    <value>Майстер копіювання налаштувань користувача</value>
+  </data>
+  <data name="CorrectRests" xml:space="preserve">
+    <value>Правильні залишки</value>
+  </data>
+  <data name="CorrectRestsDocument" xml:space="preserve">
+    <value>Документи правильних залишків</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Вартість</value>
+  </data>
+  <data name="CostAccount" xml:space="preserve">
+    <value>Акаунт вартості</value>
+  </data>
+  <data name="CostAndPriceForOne" xml:space="preserve">
+    <value>Вартість і ціна на одного</value>
+  </data>
+  <data name="CostDay" xml:space="preserve">
+    <value>Вартість за день</value>
+  </data>
+  <data name="CostFromArticle" xml:space="preserve">
+    <value>Вартість з артикула</value>
+  </data>
+  <data name="CostMaterial" xml:space="preserve">
+    <value>Вартість матеріалу</value>
+  </data>
+  <data name="CostPerHour" xml:space="preserve">
+    <value>Вартість за годину</value>
+  </data>
+  <data name="CostToPricePercent" xml:space="preserve">
+    <value>Процент вартості до ціни</value>
+  </data>
+  <data name="Countries" xml:space="preserve">
+    <value>Країни</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Країна</value>
+  </data>
+  <data name="CreateAddresses" xml:space="preserve">
+    <value>Створити адреси</value>
+  </data>
+  <data name="CreateArticleDocumentLineWizard" xml:space="preserve">
+    <value>Створити рядок документа артикула</value>
+  </data>
+  <data name="CreateArticleWizard" xml:space="preserve">
+    <value>Майстер створення артикулів</value>
+  </data>
+  <data name="CreateAssemblyTreeLineWizard" xml:space="preserve">
+    <value>Майстер створення збірки</value>
+  </data>
+  <data name="CreateBatchWizard" xml:space="preserve">
+    <value>Створити пакет</value>
+  </data>
+  <data name="CreateBPIncomeMoneyDocumentWizard" xml:space="preserve">
+    <value>Майстер створення документу банківських надходжень</value>
+  </data>
+  <data name="CreateBPSpendMoneyDocumentWizard" xml:space="preserve">
+    <value>Майстер створення документу банківських витрат</value>
+  </data>
+  <data name="CreateContactPersons" xml:space="preserve">
+    <value>Створити контактну персону</value>
+  </data>
+  <data name="CreateControlHelpUrlWizard" xml:space="preserve">
+    <value>Майстер створення URL допомоги контролу</value>
+  </data>
+  <data name="CreateCorrectRestsDocumentWizard" xml:space="preserve">
+    <value>Майстер створення документу правильних залишків</value>
+  </data>
+  <data name="CreateCustomerCreditInvoice" xml:space="preserve">
+    <value>Створити кредітний рахунок-фактуру клієнта</value>
+  </data>
+  <data name="CreateCustomerPaymentDocumentWizard" xml:space="preserve">
+    <value>Майстер створення документу платежу клієнта</value>
+  </data>
+  <data name="CreateDefaultCode" xml:space="preserve">
+    <value>Створити з кодом по замовчуванню</value>
+  </data>
+  <data name="CreateDeliveryDocument" xml:space="preserve">
+    <value>Створити документ доставки</value>
+  </data>
+  <data name="CreateDeliveryDocumentWizard" xml:space="preserve">
+    <value>Майстер створення документу доставки</value>
+  </data>
+  <data name="CreateDetails" xml:space="preserve">
+    <value>Створити деталі</value>
+  </data>
+  <data name="CreateDeviation" xml:space="preserve">
+    <value>Створити відхилення</value>
+  </data>
+  <data name="CreateDeviationTask" xml:space="preserve">
+    <value>Створити завдання для відхилення</value>
+  </data>
+  <data name="CreateDeviationWorkflowItemWizard" xml:space="preserve">
+    <value>Майстер створення робочого процесу для відхилення</value>
+  </data>
+  <data name="CreateDiagram" xml:space="preserve">
+    <value>Створити діаграму</value>
+  </data>
+  <data name="CreateDocument" xml:space="preserve">
+    <value>Створити документ</value>
+  </data>
+  <data name="CreateFilterOnFilterPage" xml:space="preserve">
+    <value>Створити фільтр</value>
+  </data>
+  <data name="CreateHelpUrlWizard" xml:space="preserve">
+    <value>Майстер URL-допомоги</value>
+  </data>
+  <data name="CreateIncomeInvoiceDocumentDetailsWizard" xml:space="preserve">
+    <value>Майстер створення</value>
+  </data>
+  <data name="CreateIncomeInvoiceDocumentWizard" xml:space="preserve">
+    <value>Майстер створення</value>
+  </data>
+  <data name="CreateIncomeInvoicePurchaseDocumentWizard" xml:space="preserve">
+    <value>Майстер створення</value>
+  </data>
+  <data name="CreateInvoiceForPurchaseDocument" xml:space="preserve">
+    <value>Фактура для доку.</value>
+  </data>
+  <data name="CreateInvoiceLines" xml:space="preserve">
+    <value>Створити рядки рахунка фактури</value>
+  </data>
+  <data name="CreateInvoicingLinesWizard" xml:space="preserve">
+    <value>Майстер створення</value>
+  </data>
+  <data name="CreateJournalEntryDocumentWizard" xml:space="preserve">
+    <value>Створити документ для запису в журналі</value>
+  </data>
+  <data name="CreateLink" xml:space="preserve">
+    <value>Створити посилання</value>
+  </data>
+  <data name="CreateMasterArticle" xml:space="preserve">
+    <value>Створити основний артикул</value>
+  </data>
+  <data name="CreateMaterialsIncomeDocument" xml:space="preserve">
+    <value>Вх. док. матеріалів</value>
+  </data>
+  <data name="CreateMaterialsIncomeDocumentWizard" xml:space="preserve">
+    <value>Майстер створення</value>
+  </data>
+  <data name="CreateMissedCustomers" xml:space="preserve">
+    <value>Створити відсутніх клієнтів</value>
+  </data>
+  <data name="CreateMissedVendors" xml:space="preserve">
+    <value>Створити відсутніх постачальників</value>
+  </data>
+  <data name="CreateNewItem" xml:space="preserve">
+    <value>Створити новий елемент</value>
+  </data>
+  <data name="CreateNewItemInGroup" xml:space="preserve">
+    <value>Створити новий об'єкт</value>
+  </data>
+  <data name="CreateOperationTemplateWizard" xml:space="preserve">
+    <value>Майстер створення шаблону операції</value>
+  </data>
+  <data name="CreateOperationTemplateWizard_Number" xml:space="preserve">
+    <value>Номер шаблона</value>
+  </data>
+  <data name="CreateOperationTemplateWizard_OperationName" xml:space="preserve">
+    <value>І'мя шаблона</value>
+  </data>
+  <data name="CreateOperationWizard" xml:space="preserve">
+    <value>Майстер створення операції</value>
+  </data>
+  <data name="CreateOrgUnitWizard" xml:space="preserve">
+    <value>Майстер створення організаційної одиниці</value>
+  </data>
+  <data name="CreateOutgoingInvoiceDocument" xml:space="preserve">
+    <value>Створити документ витрат рахунку</value>
+  </data>
+  <data name="CreateOutgoInvoiceDocumentWizard" xml:space="preserve">
+    <value>Майстер створення</value>
+  </data>
+  <data name="CreateOutgoInvoiceForProjectDocumentWizard" xml:space="preserve">
+    <value>Створити документ витрат рахунку для проекта</value>
+  </data>
+  <data name="CreatePaymentToVendorDocumentWizard" xml:space="preserve">
+    <value>Майстер створення</value>
+  </data>
+  <data name="CreatePickUpFromStockDocument" xml:space="preserve">
+    <value>Взяти матеріали</value>
+  </data>
+  <data name="CreatePickUpFromStockDocumentWizard" xml:space="preserve">
+    <value>Майстер створення</value>
+  </data>
+  <data name="CreatePrefix" xml:space="preserve">
+    <value>Створити префікс</value>
+  </data>
+  <data name="CreateProjectLineWizard" xml:space="preserve">
+    <value>Майстер створення позиції</value>
+  </data>
+  <data name="CreateProjectWizard" xml:space="preserve">
+    <value>Майстер створення проекта</value>
+  </data>
+  <data name="CreatePurchase" xml:space="preserve">
+    <value>Створити покупку</value>
+  </data>
+  <data name="CreatePurchaseProjectWizard" xml:space="preserve">
+    <value>Майстер створення проекту покупок</value>
+  </data>
+  <data name="CreatePutToStockDocumentWizard" xml:space="preserve">
+    <value>Майстер створення документу</value>
+  </data>
+  <data name="CreateQuickCustomerPaymentDocumentWizard" xml:space="preserve">
+    <value>Майстер створення документу</value>
+  </data>
+  <data name="CreateQuickPaymentToVendorDocumentWizard" xml:space="preserve">
+    <value>Створити документ швидкої проплати постачальнику</value>
+  </data>
+  <data name="CreateSendToSubcontractorDocument" xml:space="preserve">
+    <value>Документ для відправки</value>
+  </data>
+  <data name="CreateSendToSubcontractorDocumentWizard" xml:space="preserve">
+    <value>Майстер створення документу</value>
+  </data>
+  <data name="CreateSpecifiedCode" xml:space="preserve">
+    <value>Створити з зазначеним кодом</value>
+  </data>
+  <data name="CreateSpreadsheet" xml:space="preserve">
+    <value>Створити электронну таблицю</value>
+  </data>
+  <data name="CreateSubProject" xml:space="preserve">
+    <value>Створити під-проект</value>
+  </data>
+  <data name="CreateTenantWizard" xml:space="preserve">
+    <value>Майстер створення теннанта</value>
+  </data>
+  <data name="CreateTextDocument" xml:space="preserve">
+    <value>Створити текстовий документ</value>
+  </data>
+  <data name="CreateVatReturnDocumentWizard" xml:space="preserve">
+    <value>Майстер створення документу</value>
+  </data>
+  <data name="CreateVendorArticleWizard" xml:space="preserve">
+    <value>Майстер створення артикула продавця</value>
+  </data>
+  <data name="CreateWorkflowItem" xml:space="preserve">
+    <value>Створити документ</value>
+  </data>
+  <data name="CreateWorkflowItemsForMultipleObjects" xml:space="preserve">
+    <value>Створити робочий процес для багатьох обєктів</value>
+  </data>
+  <data name="CreateWorkflowItemWizard" xml:space="preserve">
+    <value>Майстер створення об'єкта</value>
+  </data>
+  <data name="CreateWorkflowsForMultipleObjects" xml:space="preserve">
+    <value>Створити документообіг для багатьох обєктів</value>
+  </data>
+  <data name="CreateWorkOrderMaterialWizard" xml:space="preserve">
+    <value>Майстер створення матеріалу для наряду на роботу</value>
+  </data>
+  <data name="CreateWorkOrders" xml:space="preserve">
+    <value>Створити наряд на роботу</value>
+  </data>
+  <data name="CreateWorkOrdersWizard" xml:space="preserve">
+    <value>Майстер створення наряду на роботу</value>
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>Кредит</value>
+  </data>
+  <data name="CreditInvoiceNumber" xml:space="preserve">
+    <value>Створити номер рах.-фактури</value>
+  </data>
+  <data name="CreditLimit" xml:space="preserve">
+    <value>Кредитний ліміт</value>
+  </data>
+  <data name="CreditNote" xml:space="preserve">
+    <value>Примітка кредиту</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Культура</value>
+  </data>
+  <data name="Cultures" xml:space="preserve">
+    <value>Культури</value>
+  </data>
+  <data name="Currencies" xml:space="preserve">
+    <value>Валюти</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Валюта</value>
+  </data>
+  <data name="CurrencyRate" xml:space="preserve">
+    <value>Курс валюти</value>
+  </data>
+  <data name="CurrentAssets" xml:space="preserve">
+    <value>Оборотні активи</value>
+  </data>
+  <data name="Curve" xml:space="preserve">
+    <value>Крива</value>
+  </data>
+  <data name="Custom" xml:space="preserve">
+    <value>Користувацький</value>
+  </data>
+  <data name="CustomDeliveryAddress" xml:space="preserve">
+    <value>Користувацька адреса доставки</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>Клієнт</value>
+  </data>
+  <data name="CustomerAccount" xml:space="preserve">
+    <value>Обл. запис клієнта</value>
+  </data>
+  <data name="CustomerCandidate" xml:space="preserve">
+    <value>Потенційний клієнт</value>
+  </data>
+  <data name="CustomerCandidates" xml:space="preserve">
+    <value>Потенційні клієнти</value>
+  </data>
+  <data name="CustomerFrom" xml:space="preserve">
+    <value>Клієнт від</value>
+  </data>
+  <data name="CustomerPayment" xml:space="preserve">
+    <value>Оплата клієнта</value>
+  </data>
+  <data name="CustomerPaymentDocument" xml:space="preserve">
+    <value>Документ оплати клієнта</value>
+  </data>
+  <data name="CustomerPosition" xml:space="preserve">
+    <value>Позиція</value>
+  </data>
+  <data name="CustomerPurchaseOrderNumber" xml:space="preserve">
+    <value>Номер наряду купівлі клієнта</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>Клієнти</value>
+  </data>
+  <data name="CustomersAndVendorReports" xml:space="preserve">
+    <value>Звіти клієнтів і продавців</value>
+  </data>
+  <data name="CustomerSelfServicePortal" xml:space="preserve">
+    <value>Портал самообслуговування клієнтів</value>
+  </data>
+  <data name="CustomerServices" xml:space="preserve">
+    <value>Послуги клієнтів</value>
+  </data>
+  <data name="CustomerServiceTickets" xml:space="preserve">
+    <value>Тікети послуги клієнтів</value>
+  </data>
+  <data name="CustomerSupport" xml:space="preserve">
+    <value>Підтримка замовників</value>
+  </data>
+  <data name="CustomerTo" xml:space="preserve">
+    <value>Клієнт до</value>
+  </data>
+  <data name="CustomFields" xml:space="preserve">
+    <value>Додаткові властивості</value>
+  </data>
+  <data name="CustomFieldsDescr" xml:space="preserve">
+    <value>Додатткові поля для артикулів, організаційних одиниць, користувачів та позицій</value>
+  </data>
+  <data name="CustomInvoiceAddress" xml:space="preserve">
+    <value>Адреса рахунку дебітора</value>
+  </data>
+  <data name="Customization" xml:space="preserve">
+    <value>Кастомізація</value>
+  </data>
+  <data name="CustomizationFormColumnHint" xml:space="preserve">
+    <value>Підказка</value>
+  </data>
+  <data name="Customize" xml:space="preserve">
+    <value>Налаштувати</value>
+  </data>
+  <data name="CustomProjects" xml:space="preserve">
+    <value>Проекти користувача</value>
+  </data>
+  <data name="CustomProjectState" xml:space="preserve">
+    <value>Стан</value>
+  </data>
+  <data name="Database" xml:space="preserve">
+    <value>База даних</value>
+  </data>
+  <data name="DatabaseBackup" xml:space="preserve">
+    <value>Резервна копія бази</value>
+  </data>
+  <data name="DatabaseBackups" xml:space="preserve">
+    <value>Резервні копії баз</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="DateFrom" xml:space="preserve">
+    <value>Дата з</value>
+  </data>
+  <data name="DateTo" xml:space="preserve">
+    <value>Дата по</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Дні</value>
+  </data>
+  <data name="Dayss" xml:space="preserve">
+    <value>день(дні)</value>
+  </data>
+  <data name="DeadlineDate" xml:space="preserve">
+    <value>Кінцева дата</value>
+  </data>
+  <data name="Debit" xml:space="preserve">
+    <value>Дебет</value>
+  </data>
+  <data name="DebitAccount" xml:space="preserve">
+    <value>Рахунок дебету</value>
+  </data>
+  <data name="Decline" xml:space="preserve">
+    <value>Відхилити</value>
+  </data>
+  <data name="Decompose" xml:space="preserve">
+    <value>Декомпозиція</value>
+  </data>
+  <data name="DefaultProjectDocuments" xml:space="preserve">
+    <value>Документи проект у за замовчуванням</value>
+  </data>
+  <data name="DefaultStock" xml:space="preserve">
+    <value>Стандартний запас</value>
+  </data>
+  <data name="DefaultTaxCode" xml:space="preserve">
+    <value>Податковий код за замовчуванням</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="DeleteAddress" xml:space="preserve">
+    <value>Видалити адресу</value>
+  </data>
+  <data name="DeleteBatches" xml:space="preserve">
+    <value>Видалити пакети</value>
+  </data>
+  <data name="DeleteFromGroup" xml:space="preserve">
+    <value>Видалити з групи</value>
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>Доставка</value>
+  </data>
+  <data name="DeliveryAddress" xml:space="preserve">
+    <value>Адреса доставки</value>
+  </data>
+  <data name="DeliveryDate" xml:space="preserve">
+    <value>Дата доставки</value>
+  </data>
+  <data name="DeliveryDocument" xml:space="preserve">
+    <value>Документ доставки</value>
+  </data>
+  <data name="DeliveryMethod" xml:space="preserve">
+    <value>Метод доставки</value>
+  </data>
+  <data name="DeliveryMethods" xml:space="preserve">
+    <value>Методи доставки</value>
+  </data>
+  <data name="DeliveryTerms" xml:space="preserve">
+    <value>Умови доставки</value>
+  </data>
+  <data name="Density" xml:space="preserve">
+    <value>Щільність</value>
+  </data>
+  <data name="DensityUnit" xml:space="preserve">
+    <value>кг/м3</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Підрозділ</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>Підрозділи</value>
+  </data>
+  <data name="Dependencies" xml:space="preserve">
+    <value>Залежності</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Опис</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Властивості</value>
+  </data>
+  <data name="Development" xml:space="preserve">
+    <value>Розробка</value>
+  </data>
+  <data name="DevelopmentProject" xml:space="preserve">
+    <value>Проект розробки</value>
+  </data>
+  <data name="DevelopmentProjects" xml:space="preserve">
+    <value>Проекти розробки</value>
+  </data>
+  <data name="DevelopmentReports" xml:space="preserve">
+    <value>Звіти розробки</value>
+  </data>
+  <data name="Deviation" xml:space="preserve">
+    <value>Відхилення</value>
+  </data>
+  <data name="DeviationProjectCreationWizard" xml:space="preserve">
+    <value>Майстер створення проекту відхилення</value>
+  </data>
+  <data name="Deviations" xml:space="preserve">
+    <value>Відхилення</value>
+    <comment>Відхилення</comment>
+  </data>
+  <data name="Diagram" xml:space="preserve">
+    <value>Діаграма</value>
+  </data>
+  <data name="DiagramActions" xml:space="preserve">
+    <value>Дії з об'єктами</value>
+  </data>
+  <data name="DiagramDocument" xml:space="preserve">
+    <value>Редагування діаграми</value>
+  </data>
+  <data name="DiagramGrid" xml:space="preserve">
+    <value>Сітка</value>
+  </data>
+  <data name="Diameter" xml:space="preserve">
+    <value>Діаметр</value>
+  </data>
+  <data name="DiameterUnit" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="Difference" xml:space="preserve">
+    <value>Різниця</value>
+  </data>
+  <data name="Dimension" xml:space="preserve">
+    <value>Вимір</value>
+  </data>
+  <data name="DirectInvoice" xml:space="preserve">
+    <value>Пряма проплата</value>
+  </data>
+  <data name="DirectInvoiceDocument" xml:space="preserve">
+    <value>Документ прямої проплата</value>
+  </data>
+  <data name="Discard" xml:space="preserve">
+    <value>Відхилити</value>
+  </data>
+  <data name="DiscardProject" xml:space="preserve">
+    <value>Відмовитись від проекту</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Знижка</value>
+  </data>
+  <data name="DisplayMainCurrency" xml:space="preserve">
+    <value>Головна валюта</value>
+  </data>
+  <data name="DisplayProjectCurrency" xml:space="preserve">
+    <value>Валюта проекту</value>
+  </data>
+  <data name="Distribution" xml:space="preserve">
+    <value>Розподілення</value>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Документ</value>
+  </data>
+  <data name="DocumentAccountDetailPeriods" xml:space="preserve">
+    <value>Періоди для облікових записів документа</value>
+  </data>
+  <data name="DocumentAccountDetails" xml:space="preserve">
+    <value>Облікові записи в рядку документа</value>
+  </data>
+  <data name="DocumentAccountJour" xml:space="preserve">
+    <value>Облік журнал для документа</value>
+  </data>
+  <data name="DocumentAccountSplitRules" xml:space="preserve">
+    <value>Правила розділення для облікових записів документа</value>
+  </data>
+  <data name="DocumentAccountSplitRuleTypes" xml:space="preserve">
+    <value>Типи правил розділення для облікових записів документа</value>
+  </data>
+  <data name="DocumentDetails" xml:space="preserve">
+    <value>Деталі документу</value>
+  </data>
+  <data name="DocumentHeader" xml:space="preserve">
+    <value>Заголовок документу</value>
+  </data>
+  <data name="DocumentInventoryJour" xml:space="preserve">
+    <value>Інвентаризація журнал документів</value>
+  </data>
+  <data name="DocumentLines" xml:space="preserve">
+    <value>Лінії документу</value>
+  </data>
+  <data name="DocumentLineWorkflow" xml:space="preserve">
+    <value>Робоций процес документу</value>
+  </data>
+  <data name="DocumentLotDetails" xml:space="preserve">
+    <value>Партії в рядку документа</value>
+  </data>
+  <data name="DocumentNumber" xml:space="preserve">
+    <value>Номер документу</value>
+  </data>
+  <data name="DocumentNumberFrom" xml:space="preserve">
+    <value>Номер документу з</value>
+  </data>
+  <data name="DocumentNumberTo" xml:space="preserve">
+    <value>Номер документу по</value>
+  </data>
+  <data name="DocumentRelated" xml:space="preserve">
+    <value>Пов'язані документи</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Документи</value>
+  </data>
+  <data name="DocumentTemplates" xml:space="preserve">
+    <value>Шаблони документу</value>
+  </data>
+  <data name="DocumentTemplatesSelection" xml:space="preserve">
+    <value>Вибір шаблону документа</value>
+  </data>
+  <data name="DocumentTypeFilter" xml:space="preserve">
+    <value>Фільтр типу документу</value>
+  </data>
+  <data name="DocumentTypes" xml:space="preserve">
+    <value>Типи документів</value>
+  </data>
+  <data name="DocumentWorkflow" xml:space="preserve">
+    <value>Робочий процес документу</value>
+  </data>
+  <data name="DoubleArrow" xml:space="preserve">
+    <value>Подвійна стрілка</value>
+  </data>
+  <data name="DoubleStrikethrough" xml:space="preserve">
+    <value>Двічі закреслений</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Вниз</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>Чернетка</value>
+  </data>
+  <data name="DrawingWorkflowItems" xml:space="preserve">
+    <value>Малювання предметів документообігу</value>
+  </data>
+  <data name="Due" xml:space="preserve">
+    <value>Точно</value>
+  </data>
+  <data name="DueDate" xml:space="preserve">
+    <value>Термін оплати</value>
+  </data>
+  <data name="DuplicateProject" xml:space="preserve">
+    <value>Дублювати проект</value>
+  </data>
+  <data name="DuplicateReport" xml:space="preserve">
+    <value>Копіювати звіт</value>
+  </data>
+  <data name="DynamicCurve" xml:space="preserve">
+    <value>Дінамічна крива</value>
+  </data>
+  <data name="DynamicHV" xml:space="preserve">
+    <value>Дінмічний HV</value>
+  </data>
+  <data name="DynamicPolyline" xml:space="preserve">
+    <value>Дінамічна полілінія</value>
+  </data>
+  <data name="EarliestDate" xml:space="preserve">
+    <value>Найраніша дата</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Редагувати</value>
+  </data>
+  <data name="Edition" xml:space="preserve">
+    <value>Редагування</value>
+  </data>
+  <data name="EditMode" xml:space="preserve">
+    <value>Режим редагування</value>
+  </data>
+  <data name="EditNote" xml:space="preserve">
+    <value>Редагувати примітку</value>
+  </data>
+  <data name="EditOperationWizard" xml:space="preserve">
+    <value>Майстер редагування операції</value>
+  </data>
+  <data name="EditReport" xml:space="preserve">
+    <value>Конструктор звіту</value>
+  </data>
+  <data name="EditRuleTypes" xml:space="preserve">
+    <value>Редагувати правило</value>
+  </data>
+  <data name="EditScriptsLine" xml:space="preserve">
+    <value>Скрипти</value>
+  </data>
+  <data name="EditTimeRecordWizard" xml:space="preserve">
+    <value>Майстер редагування запису часу</value>
+  </data>
+  <data name="EditVariableTableWizard" xml:space="preserve">
+    <value>Редагувати таблицю змінних</value>
+  </data>
+  <data name="EditVariableWizard" xml:space="preserve">
+    <value>Майстер редагування змінної</value>
+  </data>
+  <data name="Effects" xml:space="preserve">
+    <value>Ефекти</value>
+  </data>
+  <data name="Elearning" xml:space="preserve">
+    <value>Електронне навчання</value>
+  </data>
+  <data name="Ellipse" xml:space="preserve">
+    <value>Еліпс</value>
+  </data>
+  <data name="EllipticalArc" xml:space="preserve">
+    <value>Еліптична дуга</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Електронний лист</value>
+  </data>
+  <data name="EmailAccounts" xml:space="preserve">
+    <value>Акаунти електронного листа</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Адреса</value>
+  </data>
+  <data name="EmailDefaultReport" xml:space="preserve">
+    <value>Звіт електронного листа за замовчуванням</value>
+  </data>
+  <data name="EmailFiles" xml:space="preserve">
+    <value>Файли електронного листа</value>
+  </data>
+  <data name="EmailFrom" xml:space="preserve">
+    <value>Пошта від</value>
+  </data>
+  <data name="Emails" xml:space="preserve">
+    <value>Електронні скриньки</value>
+  </data>
+  <data name="EmailTo" xml:space="preserve">
+    <value>Пошта до</value>
+  </data>
+  <data name="EMcommitteeMeetings" xml:space="preserve">
+    <value>Засідання комітетів ВД</value>
+  </data>
+  <data name="EmControls" xml:space="preserve">
+    <value>Контролі ВД</value>
+  </data>
+  <data name="EMdocuments" xml:space="preserve">
+    <value>Документи ВД</value>
+  </data>
+  <data name="EmMeetings" xml:space="preserve">
+    <value>Зустрічі ВД</value>
+  </data>
+  <data name="EMPlans" xml:space="preserve">
+    <value>EM плани</value>
+  </data>
+  <data name="EmptyList" xml:space="preserve">
+    <value>Порожній список</value>
+  </data>
+  <data name="EndArrowheadStyle" xml:space="preserve">
+    <value>Кінець стрілок</value>
+  </data>
+  <data name="EndWork" xml:space="preserve">
+    <value>Закінчити роботу</value>
+  </data>
+  <data name="Enterprise" xml:space="preserve">
+    <value>Підприємство</value>
+  </data>
+  <data name="Equipment" xml:space="preserve">
+    <value>Обладнання</value>
+  </data>
+  <data name="EquipmentCostPerHour" xml:space="preserve">
+    <value>Вартість обладнання за годину</value>
+  </data>
+  <data name="EquipmentPricePerHour" xml:space="preserve">
+    <value>Ціна обладнання за годину</value>
+  </data>
+  <data name="Equipments" xml:space="preserve">
+    <value>Обладнання</value>
+  </data>
+  <data name="Erm" xml:space="preserve">
+    <value>Модель сутність-зв'язок</value>
+  </data>
+  <data name="Evaluating" xml:space="preserve">
+    <value>Оцінка</value>
+  </data>
+  <data name="Exclude" xml:space="preserve">
+    <value>Виключити</value>
+  </data>
+  <data name="ExcludeFolder" xml:space="preserve">
+    <value>Виключити папку</value>
+  </data>
+  <data name="ExcludeFromGroup" xml:space="preserve">
+    <value>Виключити з групи</value>
+  </data>
+  <data name="ExcludeSelection" xml:space="preserve">
+    <value>Виключити вибрані</value>
+  </data>
+  <data name="Execute" xml:space="preserve">
+    <value>Виконати</value>
+  </data>
+  <data name="ExecutiveManagement" xml:space="preserve">
+    <value>Виконавча дирекція</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Вихід</value>
+  </data>
+  <data name="Expenses" xml:space="preserve">
+    <value>Витрати</value>
+  </data>
+  <data name="Expires" xml:space="preserve">
+    <value>Закінчує дію</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Експорт</value>
+  </data>
+  <data name="ExportLog" xml:space="preserve">
+    <value>Лог експорту</value>
+  </data>
+  <data name="ExportToFile" xml:space="preserve">
+    <value>Експортувати до файлу</value>
+  </data>
+  <data name="ExportWizard" xml:space="preserve">
+    <value>Експорт</value>
+  </data>
+  <data name="ExtraTimeRecords" xml:space="preserve">
+    <value>Записи додаткового часу</value>
+  </data>
+  <data name="ExtraTime" xml:space="preserve">
+    <value>Додатковий час</value>
+  </data>
+  <data name="Factor" xml:space="preserve">
+    <value>Фактор</value>
+  </data>
+  <data name="Factor1" xml:space="preserve">
+    <value>Фактор</value>
+  </data>
+  <data name="Factor2" xml:space="preserve">
+    <value>Фактор</value>
+  </data>
+  <data name="Factor3" xml:space="preserve">
+    <value>Фактор</value>
+  </data>
+  <data name="Factor4" xml:space="preserve">
+    <value>Фактор</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Факс</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="FileDescription" xml:space="preserve">
+    <value>Опис файлу</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>Ім'я файлу</value>
+  </data>
+  <data name="FileOperations" xml:space="preserve">
+    <value>Операції файлу</value>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>Шлях до файлу</value>
+  </data>
+  <data name="Fill" xml:space="preserve">
+    <value>Заповнити</value>
+  </data>
+  <data name="FilledRectangle" xml:space="preserve">
+    <value>Заповнений прямок-к</value>
+  </data>
+  <data name="FillShiftPlanWizard" xml:space="preserve">
+    <value>Майстер заповнення змін</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Фільтр</value>
+  </data>
+  <data name="FilterColon" xml:space="preserve">
+    <value>Фільтр:</value>
+  </data>
+  <data name="FilterEditor" xml:space="preserve">
+    <value>Керування фільтром</value>
+  </data>
+  <data name="FinalDocumentationGeneration" xml:space="preserve">
+    <value>Генерація фінальної документації</value>
+  </data>
+  <data name="FinalDocumentationGenerationWizard" xml:space="preserve">
+    <value>Майстер генерації фінальної документації</value>
+  </data>
+  <data name="Find" xml:space="preserve">
+    <value>Пошук</value>
+  </data>
+  <data name="FindFilterShow" xml:space="preserve">
+    <value>Показати фільтр</value>
+  </data>
+  <data name="FindInvoice" xml:space="preserve">
+    <value>Пошук рах.-фактури</value>
+  </data>
+  <data name="FindNext" xml:space="preserve">
+    <value>Знайти далі</value>
+  </data>
+  <data name="FindWholeWord" xml:space="preserve">
+    <value>Знайти цілу фразу</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="FitToPage" xml:space="preserve">
+    <value>Підігнати під сторінку</value>
+  </data>
+  <data name="FitToWidth" xml:space="preserve">
+    <value>Підігнати під ширину</value>
+  </data>
+  <data name="FixedAssets" xml:space="preserve">
+    <value>Фіксовані активи</value>
+  </data>
+  <data name="FixedCost" xml:space="preserve">
+    <value>Фіксована вартість</value>
+  </data>
+  <data name="FixedPrice" xml:space="preserve">
+    <value>Фіксована ціна</value>
+  </data>
+  <data name="FlipHorizontal" xml:space="preserve">
+    <value>Ляснути горизонтально</value>
+  </data>
+  <data name="FlipVertical" xml:space="preserve">
+    <value>Ляснути вертикально</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="FontAlignment" xml:space="preserve">
+    <value>Вирівнювання тексту</value>
+  </data>
+  <data name="FontBold" xml:space="preserve">
+    <value>Жирний</value>
+  </data>
+  <data name="FontColor" xml:space="preserve">
+    <value>Колір</value>
+  </data>
+  <data name="FontDialog" xml:space="preserve">
+    <value>Стиль шрифта</value>
+  </data>
+  <data name="FontItalic" xml:space="preserve">
+    <value>Наклонний</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Розмір</value>
+  </data>
+  <data name="FontStyle" xml:space="preserve">
+    <value>Стиль</value>
+  </data>
+  <data name="FontUnderline" xml:space="preserve">
+    <value>Підкреслення</value>
+  </data>
+  <data name="ForApprovement" xml:space="preserve">
+    <value>Для підтверження</value>
+  </data>
+  <data name="Format" xml:space="preserve">
+    <value>Формат</value>
+  </data>
+  <data name="ForProject" xml:space="preserve">
+    <value>Для проекту</value>
+  </data>
+  <data name="ForSeveralWO" xml:space="preserve">
+    <value>Для декількох нарядів по роботі</value>
+  </data>
+  <data name="ForStock" xml:space="preserve">
+    <value>Для запасів</value>
+  </data>
+  <data name="Freight" xml:space="preserve">
+    <value>Вантажний</value>
+  </data>
+  <data name="FrmAbout" xml:space="preserve">
+    <value>Про програму</value>
+  </data>
+  <data name="FrmAskParameters" xml:space="preserve">
+    <value>Введіть параметри для розрахунку</value>
+  </data>
+  <data name="FrmChangePassword" xml:space="preserve">
+    <value>Зміна паролю</value>
+  </data>
+  <data name="FrmLogon" xml:space="preserve">
+    <value>Вхід у Зігма</value>
+  </data>
+  <data name="FrmMain" xml:space="preserve">
+    <value>Зігма</value>
+  </data>
+  <data name="FrmRichEditFind" xml:space="preserve">
+    <value>Пошук та заміна</value>
+  </data>
+  <data name="FrmRichEditFont" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="FrmRichEditPasteSpecial" xml:space="preserve">
+    <value>Спеціальна вставка</value>
+  </data>
+  <data name="FrmSelectionGroup" xml:space="preserve">
+    <value>Вибір з групи</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>З</value>
+  </data>
+  <data name="FromDate" xml:space="preserve">
+    <value>Дата від</value>
+  </data>
+  <data name="FromScratch" xml:space="preserve">
+    <value>З чернетки</value>
+  </data>
+  <data name="FromTemplate" xml:space="preserve">
+    <value>З шаблону</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Повне ім'я</value>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>Загальні налаштування</value>
+  </data>
+  <data name="GenerateBatches" xml:space="preserve">
+    <value>Генерація партій</value>
+  </data>
+  <data name="GenerateBatchesWizard" xml:space="preserve">
+    <value>Майстер генерації партій</value>
+  </data>
+  <data name="GenerateDocument" xml:space="preserve">
+    <value>Генерувати документ</value>
+  </data>
+  <data name="GenerateDocumentWizard" xml:space="preserve">
+    <value>Створення документа</value>
+  </data>
+  <data name="GenerateForYear" xml:space="preserve">
+    <value>Згенерувати на рік</value>
+  </data>
+  <data name="GenerateProject" xml:space="preserve">
+    <value>Генерувати проект</value>
+  </data>
+  <data name="GlobalCostToPricePercent" xml:space="preserve">
+    <value>Загальний процент вартості до ціни</value>
+  </data>
+  <data name="Grabilla" xml:space="preserve">
+    <value>Грабіла</value>
+  </data>
+  <data name="Grid" xml:space="preserve">
+    <value>Таблиця</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Групувати</value>
+  </data>
+  <data name="Grouping" xml:space="preserve">
+    <value>Групування</value>
+  </data>
+  <data name="GroupPanelClearGrouping" xml:space="preserve">
+    <value>Очистити групування</value>
+  </data>
+  <data name="GroupPanelFullCollapse" xml:space="preserve">
+    <value>Згорнути</value>
+  </data>
+  <data name="GroupPanelFullExpand" xml:space="preserve">
+    <value>Розгорнути</value>
+  </data>
+  <data name="GroupPanelShow" xml:space="preserve">
+    <value>Показати панель груп</value>
+  </data>
+  <data name="GroupPanelText" xml:space="preserve">
+    <value>Текст панелі груп</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Групи</value>
+  </data>
+  <data name="GroupsOptions" xml:space="preserve">
+    <value>Опції груп</value>
+  </data>
+  <data name="GroupsPanelMode" xml:space="preserve">
+    <value>Показати панель груп</value>
+  </data>
+  <data name="Guidelines" xml:space="preserve">
+    <value>Допоміжні лінії</value>
+  </data>
+  <data name="HandleAsProcedure" xml:space="preserve">
+    <value>Обробити як процедуру</value>
+  </data>
+  <data name="HandleAsTask" xml:space="preserve">
+    <value>Обробити як завдання</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Висота</value>
+  </data>
+  <data name="HeightInMm" xml:space="preserve">
+    <value>Висота (мм)</value>
+  </data>
+  <data name="HeightUnit" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Допомога</value>
+  </data>
+  <data name="HelpDesk" xml:space="preserve">
+    <value>Допомога</value>
+  </data>
+  <data name="HelpLanguage" xml:space="preserve">
+    <value>Мова допомоги</value>
+  </data>
+  <data name="Hidden" xml:space="preserve">
+    <value>Прихований</value>
+  </data>
+  <data name="HideGroupsPanel" xml:space="preserve">
+    <value>Сховати</value>
+  </data>
+  <data name="HMS" xml:space="preserve">
+    <value>HMS</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Додому</value>
+  </data>
+  <data name="HomePage" xml:space="preserve">
+    <value>На головну</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Години</value>
+  </data>
+  <data name="HRM" xml:space="preserve">
+    <value>Людські ресурси</value>
+  </data>
+  <data name="HrmHumanResources" xml:space="preserve">
+    <value>Людські ресурси</value>
+  </data>
+  <data name="HSdeviation" xml:space="preserve">
+    <value>Відхилення</value>
+  </data>
+  <data name="HSE" xml:space="preserve">
+    <value>Здоровя і безпека</value>
+  </data>
+  <data name="HseHealthAndSafety" xml:space="preserve">
+    <value>Здоровя і безпека</value>
+  </data>
+  <data name="HtmlView" xml:space="preserve">
+    <value>Html перегляд</value>
+  </data>
+  <data name="ImageViewer" xml:space="preserve">
+    <value>Перегляд картинок</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Імпорт</value>
+  </data>
+  <data name="ImportAndExport" xml:space="preserve">
+    <value>Імпорт та Експорт</value>
+  </data>
+  <data name="ImportArticlesWizard" xml:space="preserve">
+    <value>Імпорт артикулів</value>
+  </data>
+  <data name="ImportFromFile" xml:space="preserve">
+    <value>Імпорт з файлу</value>
+  </data>
+  <data name="ImportImage" xml:space="preserve">
+    <value>Імпорт картинки</value>
+  </data>
+  <data name="ImportImageWorkflow" xml:space="preserve">
+    <value>Картинка док-обігу</value>
+  </data>
+  <data name="ImportLog" xml:space="preserve">
+    <value>Лог імпорту</value>
+  </data>
+  <data name="ImportNewOnly" xml:space="preserve">
+    <value>Імпортувати тількі нові</value>
+  </data>
+  <data name="ImportOcrTransactions" xml:space="preserve">
+    <value>Імпорт OCR транзакцій</value>
+  </data>
+  <data name="ImportOcrTransactionsWizard" xml:space="preserve">
+    <value>Майстер імпорту OCR транзакцій</value>
+  </data>
+  <data name="ImportOrgUnitsWizard" xml:space="preserve">
+    <value>Імпорт орг. одиниць</value>
+  </data>
+  <data name="ImportWizard" xml:space="preserve">
+    <value>Імпорт</value>
+  </data>
+  <data name="IncludeBudgetFields" xml:space="preserve">
+    <value>Включати поля бюджету</value>
+  </data>
+  <data name="IncludePaymentBeforeToday" xml:space="preserve">
+    <value>Включити оплату до сьогодні</value>
+  </data>
+  <data name="IncludePreviousPeriodWithDifference" xml:space="preserve">
+    <value>Включати попередній період з відмінностями</value>
+  </data>
+  <data name="IncludePreviousYearData" xml:space="preserve">
+    <value>Включати дані попереднього року</value>
+  </data>
+  <data name="Income" xml:space="preserve">
+    <value>Дохід</value>
+  </data>
+  <data name="IncomeInvoice" xml:space="preserve">
+    <value>Дохід рахунок</value>
+  </data>
+  <data name="IncomeInvoiceDocument" xml:space="preserve">
+    <value>Документ доходу рахунку</value>
+  </data>
+  <data name="IncomeInvoiceDocuments" xml:space="preserve">
+    <value>Дохід рахунок</value>
+  </data>
+  <data name="IncomeInvoicePurchase" xml:space="preserve">
+    <value>Купівля доходу рахунку</value>
+  </data>
+  <data name="IncomeInvoicePurchaseDocument" xml:space="preserve">
+    <value>Документ купівлі доходу рахунку</value>
+  </data>
+  <data name="IncomeInvoices" xml:space="preserve">
+    <value>Дохід рахунки</value>
+  </data>
+  <data name="IncomeWorkflowItems" xml:space="preserve">
+    <value>Документообіг доходів</value>
+  </data>
+  <data name="IncomingMoneyDocuments" xml:space="preserve">
+    <value>Вхідні кошти</value>
+  </data>
+  <data name="InitialSetupWizard" xml:space="preserve">
+    <value>Майстер початкового налаштування</value>
+  </data>
+  <data name="InProcess" xml:space="preserve">
+    <value>В процесі</value>
+  </data>
+  <data name="Insert" xml:space="preserve">
+    <value>Вставити</value>
+  </data>
+  <data name="InsertAfterCurrent" xml:space="preserve">
+    <value>вставити після вибраного</value>
+  </data>
+  <data name="InsertBeforeCurrent" xml:space="preserve">
+    <value>вставити перед вибраним</value>
+  </data>
+  <data name="InsertFirstChild" xml:space="preserve">
+    <value>вставити першим нащадком</value>
+  </data>
+  <data name="Install" xml:space="preserve">
+    <value>Встановити</value>
+  </data>
+  <data name="IntangibleAssets" xml:space="preserve">
+    <value>Нематеріальні активи</value>
+  </data>
+  <data name="InteractivityStyle" xml:space="preserve">
+    <value>Інтерактивність</value>
+  </data>
+  <data name="InternalProject" xml:space="preserve">
+    <value>Внутрішній проект</value>
+  </data>
+  <data name="InternalProjects" xml:space="preserve">
+    <value>Внутрішні проекти</value>
+  </data>
+  <data name="IntersectionMode" xml:space="preserve">
+    <value>Перетин</value>
+  </data>
+  <data name="IntervalProjects" xml:space="preserve">
+    <value>Інтервальні проекти</value>
+  </data>
+  <data name="IntervalRules" xml:space="preserve">
+    <value>Правила інтервалу</value>
+  </data>
+  <data name="IntervalType" xml:space="preserve">
+    <value>Тип інтервала</value>
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>Запаси</value>
+  </data>
+  <data name="InventoryDocuments" xml:space="preserve">
+    <value>Документи інвентаризації</value>
+  </data>
+  <data name="InventoryJour" xml:space="preserve">
+    <value>Журнал інвентаризації</value>
+  </data>
+  <data name="InventoryJournal" xml:space="preserve">
+    <value>Журнал інвентаризації</value>
+  </data>
+  <data name="InvoiceAddress" xml:space="preserve">
+    <value>Адреса інвентаризації</value>
+  </data>
+  <data name="InvoiceAmount" xml:space="preserve">
+    <value>Сума рахунку-фактури</value>
+  </data>
+  <data name="InvoiceCustomerServices" xml:space="preserve">
+    <value>Рахунок-фактура з обслуговування клієнтів</value>
+  </data>
+  <data name="InvoiceDate" xml:space="preserve">
+    <value>Дата рахунку-фактури</value>
+  </data>
+  <data name="InvoiceGroupType" xml:space="preserve">
+    <value>Тип рахунку-фактури групи</value>
+  </data>
+  <data name="InvoiceList" xml:space="preserve">
+    <value>Список рахунків-фактур</value>
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>Номер рахунку-фактури</value>
+  </data>
+  <data name="InvoiceOwner" xml:space="preserve">
+    <value>Власник рахунку-фактури</value>
+  </data>
+  <data name="InvoicePaymentType" xml:space="preserve">
+    <value>Тип  платежу рахунку-фактури</value>
+  </data>
+  <data name="InvoicesGroupType" xml:space="preserve">
+    <value>Тип рахунків-фактур груп</value>
+  </data>
+  <data name="InWorkOperationChecklistTask" xml:space="preserve">
+    <value>Контрольний список операцій</value>
+  </data>
+  <data name="InWorkOperationChecklistTasks" xml:space="preserve">
+    <value>Контроль операцій</value>
+  </data>
+  <data name="InWorkWorkOrders" xml:space="preserve">
+    <value>Робочі виробничі наряди</value>
+  </data>
+  <data name="IsClosed" xml:space="preserve">
+    <value>Закритий</value>
+  </data>
+  <data name="IsComplete" xml:space="preserve">
+    <value>Завершений</value>
+  </data>
+  <data name="IsFailed" xml:space="preserve">
+    <value>Не вдалося</value>
+  </data>
+  <data name="IsSkipped" xml:space="preserve">
+    <value>Пропущений</value>
+  </data>
+  <data name="ItemsSelection" xml:space="preserve">
+    <value>Вибір елементів</value>
+  </data>
+  <data name="ItemSubtype" xml:space="preserve">
+    <value>Під-тип елемента</value>
+  </data>
+  <data name="Journal" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
+  <data name="JournalAccounting" xml:space="preserve">
+    <value>Журнал обліку</value>
+  </data>
+  <data name="JournalEntry" xml:space="preserve">
+    <value>Запис у журналі</value>
+  </data>
+  <data name="JournalEntryDocument" xml:space="preserve">
+    <value>Документ запису у журналі</value>
+  </data>
+  <data name="JournalEntryDocuments" xml:space="preserve">
+    <value>Запис в журналі</value>
+  </data>
+  <data name="KeepPricesIn" xml:space="preserve">
+    <value>Тримати прайси в</value>
+  </data>
+  <data name="Keys" xml:space="preserve">
+    <value>Ключі</value>
+  </data>
+  <data name="KidInvoiceNumber" xml:space="preserve">
+    <value>KID/Номер рахунку-фактури</value>
+  </data>
+  <data name="KidNumber" xml:space="preserve">
+    <value>Номер KID</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+  <data name="LanguageUI" xml:space="preserve">
+    <value>Мова інтерфейсу</value>
+  </data>
+  <data name="LastOperation" xml:space="preserve">
+    <value>остання операція</value>
+  </data>
+  <data name="LastPrintedReports" xml:space="preserve">
+    <value>Останній надрукований звіт</value>
+  </data>
+  <data name="Layout" xml:space="preserve">
+    <value>Розташування</value>
+  </data>
+  <data name="LayoutShapes" xml:space="preserve">
+    <value>Форми розташування</value>
+  </data>
+  <data name="LeadProjects" xml:space="preserve">
+    <value>Ведучі проекти</value>
+  </data>
+  <data name="LeadTime" xml:space="preserve">
+    <value>Термін</value>
+  </data>
+  <data name="Learning" xml:space="preserve">
+    <value>Навчання</value>
+  </data>
+  <data name="LearningArticles" xml:space="preserve">
+    <value>Артикули для навчання</value>
+  </data>
+  <data name="Ledgers" xml:space="preserve">
+    <value>Бухгалтерські книги</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Довжина</value>
+  </data>
+  <data name="LengthInMm" xml:space="preserve">
+    <value>Довжина(мм)</value>
+  </data>
+  <data name="LengthUnit" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Рівень</value>
+  </data>
+  <data name="License" xml:space="preserve">
+    <value>Ліцензія</value>
+  </data>
+  <data name="LicenseDates" xml:space="preserve">
+    <value>Ліцензія</value>
+  </data>
+  <data name="LicenseManagement" xml:space="preserve">
+    <value>Керування ліцензіями</value>
+  </data>
+  <data name="LicenseUsers" xml:space="preserve">
+    <value>Користувачі ліцензії</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Лінія</value>
+  </data>
+  <data name="LinesHeight" xml:space="preserve">
+    <value>Висота ліній</value>
+  </data>
+  <data name="LineType" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="LinkedToOwnerWorkflowItems" xml:space="preserve">
+    <value>Звязаний документообіг</value>
+  </data>
+  <data name="LinkedToProjectWorkflowItems" xml:space="preserve">
+    <value>Загальний документообіг</value>
+  </data>
+  <data name="LocalizedLabel" xml:space="preserve">
+    <value>Локалізований текст</value>
+  </data>
+  <data name="LocationLot" xml:space="preserve">
+    <value>Розташування</value>
+  </data>
+  <data name="LoggedOnUser" xml:space="preserve">
+    <value>Користувач</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Логін</value>
+  </data>
+  <data name="LogOn" xml:space="preserve">
+    <value>Вхід</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>Вийти</value>
+  </data>
+  <data name="Lots" xml:space="preserve">
+    <value>Лоти</value>
+  </data>
+  <data name="LotWorkflow" xml:space="preserve">
+    <value>Елемент документообігу для лота</value>
+  </data>
+  <data name="LowValue" xml:space="preserve">
+    <value>Нижнє значення</value>
+  </data>
+  <data name="Machine" xml:space="preserve">
+    <value>Машина</value>
+  </data>
+  <data name="MainMenu" xml:space="preserve">
+    <value>Меню</value>
+  </data>
+  <data name="Maintenance" xml:space="preserve">
+    <value>Підтримка</value>
+  </data>
+  <data name="MakeSameHeight" xml:space="preserve">
+    <value>Зробити висоту однаковою</value>
+  </data>
+  <data name="MakeSameSize" xml:space="preserve">
+    <value>Зробити розмір однаковим</value>
+  </data>
+  <data name="MakeSameWidth" xml:space="preserve">
+    <value>Зробити ширину однаковою</value>
+  </data>
+  <data name="ManageHelp" xml:space="preserve">
+    <value>Допомога адміністратора</value>
+  </data>
+  <data name="ManageReports" xml:space="preserve">
+    <value>Налаштування звітів</value>
+  </data>
+  <data name="ManualSetup" xml:space="preserve">
+    <value>Ручне налаштування</value>
+  </data>
+  <data name="Margin" xml:space="preserve">
+    <value>Запас</value>
+  </data>
+  <data name="MarginUnit" xml:space="preserve">
+    <value>Запас(мм)</value>
+  </data>
+  <data name="MarkComplete" xml:space="preserve">
+    <value>Позначити виконання</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>Маркетинг</value>
+  </data>
+  <data name="MarketingAndLeads" xml:space="preserve">
+    <value>Маркетинг і купівля</value>
+  </data>
+  <data name="MarketingAndPromotions" xml:space="preserve">
+    <value>Маркетинг та просування</value>
+  </data>
+  <data name="MarketingManagement" xml:space="preserve">
+    <value>Керування маркетингом</value>
+  </data>
+  <data name="MatchCase" xml:space="preserve">
+    <value>Перевіряти регістр</value>
+  </data>
+  <data name="MaterialCostToPricePercent" xml:space="preserve">
+    <value>Процент вартості до ціни</value>
+  </data>
+  <data name="MaterialLots" xml:space="preserve">
+    <value>Лоти матеріала</value>
+  </data>
+  <data name="Materials" xml:space="preserve">
+    <value>Матеріали</value>
+  </data>
+  <data name="MaterialsArriving" xml:space="preserve">
+    <value>Матеріали, що надходять</value>
+  </data>
+  <data name="MaterialsIncome" xml:space="preserve">
+    <value>Дохід матеріалів</value>
+  </data>
+  <data name="MaterialsIncomeDocument" xml:space="preserve">
+    <value>Документ доходів матеріалів</value>
+  </data>
+  <data name="MeasurementLogSystem" xml:space="preserve">
+    <value>Система вимірювання</value>
+  </data>
+  <data name="MeasurementUnit" xml:space="preserve">
+    <value>Одиниця виміру</value>
+  </data>
+  <data name="MeasurementUnits" xml:space="preserve">
+    <value>Одиниці виміру</value>
+  </data>
+  <data name="MediaFile" xml:space="preserve">
+    <value>Медіа-файл</value>
+  </data>
+  <data name="Meeting" xml:space="preserve">
+    <value>Зустріч</value>
+  </data>
+  <data name="MeetingDateTimeFrom" xml:space="preserve">
+    <value>Дата/час початку зустрічі</value>
+  </data>
+  <data name="MeetingDateTimeTo" xml:space="preserve">
+    <value>Дата/час закінчення зустрічі</value>
+  </data>
+  <data name="MeetingName" xml:space="preserve">
+    <value>Назва зустрічі</value>
+  </data>
+  <data name="Meetings" xml:space="preserve">
+    <value>Зустрічі</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Повідомлення</value>
+  </data>
+  <data name="Milestones" xml:space="preserve">
+    <value>Віхи</value>
+  </data>
+  <data name="MinPurchaseQuantity" xml:space="preserve">
+    <value>Мінімальна кількість для купівлі</value>
+  </data>
+  <data name="MinQuantityOnStock" xml:space="preserve">
+    <value>Мінімальна кількість в запасі</value>
+  </data>
+  <data name="MinQuantityOnStocks" xml:space="preserve">
+    <value>Запаси для регулювання кількості</value>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>Різне</value>
+  </data>
+  <data name="Miscellaneous" xml:space="preserve">
+    <value>Різне</value>
+  </data>
+  <data name="MissingDocuments" xml:space="preserve">
+    <value>Документи яких не вистачає</value>
+  </data>
+  <data name="MobilePhone" xml:space="preserve">
+    <value>Мобільний тел.</value>
+  </data>
+  <data name="MobilePhoneRegistrationMode" xml:space="preserve">
+    <value>Режим реєстрації мобільного тел.</value>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>Режим</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>Модифікація</value>
+  </data>
+  <data name="Months" xml:space="preserve">
+    <value>Місяці</value>
+  </data>
+  <data name="Monthss" xml:space="preserve">
+    <value>місяць(ці)</value>
+  </data>
+  <data name="MoveEquipment" xml:space="preserve">
+    <value>Переміщення обладнання</value>
+  </data>
+  <data name="MoveMaterials" xml:space="preserve">
+    <value>Переміщення матеріалів</value>
+  </data>
+  <data name="Movement" xml:space="preserve">
+    <value>Переміщення</value>
+  </data>
+  <data name="MovementDocument" xml:space="preserve">
+    <value>Документ переміщень</value>
+  </data>
+  <data name="MyDocuments" xml:space="preserve">
+    <value>Мої документи</value>
+  </data>
+  <data name="MyEmailAccounts" xml:space="preserve">
+    <value>Мої акаунти електронної пошти</value>
+  </data>
+  <data name="MyWorkflowItems" xml:space="preserve">
+    <value>Мій документообіг</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Ім'я</value>
+  </data>
+  <data name="NameOrgUnit" xml:space="preserve">
+    <value>Ім'я</value>
+  </data>
+  <data name="Navigation" xml:space="preserve">
+    <value>Навігація</value>
+  </data>
+  <data name="NetPrice" xml:space="preserve">
+    <value>Чиста ціна</value>
+  </data>
+  <data name="NewChapter" xml:space="preserve">
+    <value>Новий розділ</value>
+  </data>
+  <data name="NewGroup" xml:space="preserve">
+    <value>Додати групу</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Новий пароль</value>
+  </data>
+  <data name="NewPeriod" xml:space="preserve">
+    <value>Новий період</value>
+  </data>
+  <data name="NewPriceList" xml:space="preserve">
+    <value>Новий прайс лист</value>
+  </data>
+  <data name="NewPriceListPeriod" xml:space="preserve">
+    <value>Новий період</value>
+  </data>
+  <data name="NewPurchaseProjectState" xml:space="preserve">
+    <value>Стани для нових купівельних проектів</value>
+  </data>
+  <data name="NewSubGroup" xml:space="preserve">
+    <value>Нова дочірня група</value>
+  </data>
+  <data name="NewSubPeriod" xml:space="preserve">
+    <value>Новий субперіод</value>
+  </data>
+  <data name="NextEvents" xml:space="preserve">
+    <value>Наступні події</value>
+  </data>
+  <data name="NextPage" xml:space="preserve">
+    <value>Наст. сторінка</value>
+  </data>
+  <data name="NextUnit" xml:space="preserve">
+    <value>Змінити одиницю</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Ні</value>
+  </data>
+  <data name="Node" xml:space="preserve">
+    <value>Вузол</value>
+  </data>
+  <data name="NoNeedToApprove" xml:space="preserve">
+    <value>Затвердження не потр.</value>
+  </data>
+  <data name="NonSalary" xml:space="preserve">
+    <value>Незарплатний</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Примітка</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Примітки</value>
+  </data>
+  <data name="NotInGroup" xml:space="preserve">
+    <value>Не в групі</value>
+  </data>
+  <data name="NotInGroupMode" xml:space="preserve">
+    <value>Не в групі</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Номер</value>
+  </data>
+  <data name="Office" xml:space="preserve">
+    <value>Офіс</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>Старий пароль</value>
+  </data>
+  <data name="OnlyOutgoingMailServer" xml:space="preserve">
+    <value>Тількі вихідні сервери пошти</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Відкрити</value>
+  </data>
+  <data name="OpenedForMergeProjects" xml:space="preserve">
+    <value>Відкриті для об'єднання</value>
+  </data>
+  <data name="OpenPeriod" xml:space="preserve">
+    <value>Відкрити</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>Операція</value>
+  </data>
+  <data name="OperationChecklist" xml:space="preserve">
+    <value>Чекліст</value>
+  </data>
+  <data name="OperationChecklistTask" xml:space="preserve">
+    <value>Контрольний список операцій</value>
+  </data>
+  <data name="OperationChecklistTasks" xml:space="preserve">
+    <value>Контроль операцій</value>
+  </data>
+  <data name="OperationChecklistTaskTemplate" xml:space="preserve">
+    <value>Контрольний список операцій</value>
+  </data>
+  <data name="OperationChecklistTaskTemplates" xml:space="preserve">
+    <value>Контроль операцій</value>
+  </data>
+  <data name="OperationName" xml:space="preserve">
+    <value>Назва операції</value>
+  </data>
+  <data name="OperationNote" xml:space="preserve">
+    <value>Коментар до операції</value>
+  </data>
+  <data name="OperationRouting" xml:space="preserve">
+    <value>Послідовність операцій</value>
+  </data>
+  <data name="OperationRoutings" xml:space="preserve">
+    <value>Послідовності операцій</value>
+  </data>
+  <data name="Operations" xml:space="preserve">
+    <value>Операції</value>
+  </data>
+  <data name="OperationTemplateNote" xml:space="preserve">
+    <value>Коментар до операції</value>
+  </data>
+  <data name="OperationTemplates" xml:space="preserve">
+    <value>Шаблони операцій</value>
+  </data>
+  <data name="Operator" xml:space="preserve">
+    <value>Оператор</value>
+  </data>
+  <data name="OperatorCostPerHour" xml:space="preserve">
+    <value>Вартість оператора за годину</value>
+  </data>
+  <data name="OperatorFactor" xml:space="preserve">
+    <value>Фактор оператора, %</value>
+  </data>
+  <data name="OperatorPricePerHour" xml:space="preserve">
+    <value>Ціна оператора за годину</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Опції</value>
+  </data>
+  <data name="OrderAndServiceProduction" xml:space="preserve">
+    <value>Замовлення та обслуговування виробництва</value>
+  </data>
+  <data name="Orders" xml:space="preserve">
+    <value>Закази</value>
+  </data>
+  <data name="OrganizationName" xml:space="preserve">
+    <value>Назва організації</value>
+  </data>
+  <data name="OrganizationNumber" xml:space="preserve">
+    <value>Номер організації</value>
+  </data>
+  <data name="OrganizationUnits" xml:space="preserve">
+    <value>Організаційні одиниці</value>
+  </data>
+  <data name="OrgUnitAddress" xml:space="preserve">
+    <value>Список адрес організаційної одиниці</value>
+  </data>
+  <data name="OrgUnitAddresses" xml:space="preserve">
+    <value>Адреси організаційної одиниці</value>
+  </data>
+  <data name="OrgUnitContactPersons" xml:space="preserve">
+    <value>Контактні особи</value>
+  </data>
+  <data name="OrgUnitDefaultVendor" xml:space="preserve">
+    <value>Продавець за замовчуванням</value>
+  </data>
+  <data name="OrgUnitGroups" xml:space="preserve">
+    <value>Групи організаційних одиниць</value>
+  </data>
+  <data name="OrgUnitsWithoutGroup" xml:space="preserve">
+    <value>Організаційні одиниці без групи</value>
+  </data>
+  <data name="OrgUnitType" xml:space="preserve">
+    <value>Тип організаційної одиниці</value>
+  </data>
+  <data name="OrgUnitWizard" xml:space="preserve">
+    <value>Майстер організаційної одиниці</value>
+  </data>
+  <data name="OrgUnitWorkflow" xml:space="preserve">
+    <value>Документообіг організаційної одиниці</value>
+  </data>
+  <data name="OriginalAmount" xml:space="preserve">
+    <value>Оригінальна кількість</value>
+  </data>
+  <data name="OtherProjects" xml:space="preserve">
+    <value>Інші проекти</value>
+  </data>
+  <data name="Outgo" xml:space="preserve">
+    <value>Витрата</value>
+  </data>
+  <data name="OutgoDocument" xml:space="preserve">
+    <value>Документ витрат</value>
+  </data>
+  <data name="OutgoingInvoiceDocuments" xml:space="preserve">
+    <value>Вихідний рахунок-фактура</value>
+  </data>
+  <data name="OutgoInvoice" xml:space="preserve">
+    <value>Вихідний рахунок-фактура</value>
+  </data>
+  <data name="OutgoInvoiceDocument" xml:space="preserve">
+    <value>Вихідний рахунок-фактура</value>
+  </data>
+  <data name="OutgoInvoiceProject" xml:space="preserve">
+    <value>Рахунок витрат для проекта</value>
+  </data>
+  <data name="OutgoInvoiceProjectDocument" xml:space="preserve">
+    <value>Документ рахунку витрат для проекта</value>
+  </data>
+  <data name="Overdue" xml:space="preserve">
+    <value>Прострочений</value>
+  </data>
+  <data name="OverdueTasks" xml:space="preserve">
+    <value>Прострочені завдання</value>
+  </data>
+  <data name="Overlap" xml:space="preserve">
+    <value>Перекриття</value>
+  </data>
+  <data name="Owners" xml:space="preserve">
+    <value>Власники</value>
+  </data>
+  <data name="PanTool" xml:space="preserve">
+    <value>Рука</value>
+  </data>
+  <data name="Paragraph" xml:space="preserve">
+    <value>Параграф</value>
+  </data>
+  <data name="ParagraphAlignmentBottom" xml:space="preserve">
+    <value>По низу</value>
+  </data>
+  <data name="ParagraphAlignmentCenter" xml:space="preserve">
+    <value>По центру</value>
+  </data>
+  <data name="ParagraphAlignmentLeft" xml:space="preserve">
+    <value>Вліво</value>
+  </data>
+  <data name="ParagraphAlignmentMiddle" xml:space="preserve">
+    <value>По вертикалі</value>
+  </data>
+  <data name="ParagraphAlignmentRight" xml:space="preserve">
+    <value>Вправо</value>
+  </data>
+  <data name="ParagraphAlignmentTop" xml:space="preserve">
+    <value>По верху</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>Параметри</value>
+  </data>
+  <data name="ParentProject" xml:space="preserve">
+    <value>Батьківський проект</value>
+  </data>
+  <data name="Partner" xml:space="preserve">
+    <value>Партнер</value>
+  </data>
+  <data name="Partners" xml:space="preserve">
+    <value>Партнери</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Вставити</value>
+  </data>
+  <data name="PasteAs" xml:space="preserve">
+    <value>Вставити як</value>
+  </data>
+  <data name="PasteFromClipboard" xml:space="preserve">
+    <value>Вставити</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Пауза</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Оплата</value>
+  </data>
+  <data name="PaymentTerms" xml:space="preserve">
+    <value>Умови платежу</value>
+  </data>
+  <data name="PaymentToVendor" xml:space="preserve">
+    <value>Платіж продавцю</value>
+  </data>
+  <data name="PaymentToVendorDocument" xml:space="preserve">
+    <value>Документ платежа продавцю</value>
+  </data>
+  <data name="PdfEditor" xml:space="preserve">
+    <value>Редагування pdf</value>
+  </data>
+  <data name="PdfViewer" xml:space="preserve">
+    <value>Переглядач PDF</value>
+  </data>
+  <data name="PercentOfCompletion" xml:space="preserve">
+    <value>Процент виконання</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Період</value>
+  </data>
+  <data name="Periods" xml:space="preserve">
+    <value>Періоди</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Права доступу</value>
+  </data>
+  <data name="Personal" xml:space="preserve">
+    <value>Власний</value>
+  </data>
+  <data name="PersonalProjects" xml:space="preserve">
+    <value>Власні проекти</value>
+  </data>
+  <data name="Persons" xml:space="preserve">
+    <value>Персони</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="PhoneCall" xml:space="preserve">
+    <value>Телефонна розмова</value>
+  </data>
+  <data name="Physical" xml:space="preserve">
+    <value>Фізичний</value>
+  </data>
+  <data name="PickCustomMeterialWizard" xml:space="preserve">
+    <value>Майстер отримання матеріалів</value>
+  </data>
+  <data name="PickedMaterials" xml:space="preserve">
+    <value>Підібрані матеріали</value>
+  </data>
+  <data name="PickEquipment" xml:space="preserve">
+    <value>Підібрати спорядження</value>
+  </data>
+  <data name="PickMaterials" xml:space="preserve">
+    <value>Підібрані матеріали</value>
+  </data>
+  <data name="PickUpFromStock" xml:space="preserve">
+    <value>Отримати з запасу</value>
+  </data>
+  <data name="PickUpFromStockDocument" xml:space="preserve">
+    <value>Документ отримання з запасу</value>
+  </data>
+  <data name="PlannerUsers" xml:space="preserve">
+    <value>Користувачі планера</value>
+  </data>
+  <data name="PlanOperationTo" xml:space="preserve">
+    <value>План операції до</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Програти</value>
+  </data>
+  <data name="Polygon" xml:space="preserve">
+    <value>Полігон</value>
+  </data>
+  <data name="Polyline" xml:space="preserve">
+    <value>Полілінія</value>
+  </data>
+  <data name="Ports" xml:space="preserve">
+    <value>Порти</value>
+  </data>
+  <data name="Positions" xml:space="preserve">
+    <value>Позиції</value>
+  </data>
+  <data name="Post" xml:space="preserve">
+    <value>Послати</value>
+  </data>
+  <data name="PostAddress" xml:space="preserve">
+    <value>Поштова адреса</value>
+  </data>
+  <data name="PostAndClose" xml:space="preserve">
+    <value>Послати і закрити</value>
+  </data>
+  <data name="PostAndNew" xml:space="preserve">
+    <value>Послати і новий</value>
+  </data>
+  <data name="PostAndPrint" xml:space="preserve">
+    <value>Послати &gt;
+Друк</value>
+  </data>
+  <data name="PostAndSelectReport" xml:space="preserve">
+    <value>Послати &gt;
+Вибрати звіт</value>
+  </data>
+  <data name="PostIndex" xml:space="preserve">
+    <value>Поштовий індекс</value>
+  </data>
+  <data name="PostIndexes" xml:space="preserve">
+    <value>Поштові індекси</value>
+  </data>
+  <data name="PostLoadTime" xml:space="preserve">
+    <value>Час після завантаження</value>
+  </data>
+  <data name="Prefix" xml:space="preserve">
+    <value>Префікс</value>
+  </data>
+  <data name="PrefixDescription" xml:space="preserve">
+    <value>Опис префіксу</value>
+  </data>
+  <data name="PrefixType" xml:space="preserve">
+    <value>Тип префіксу</value>
+  </data>
+  <data name="Preset" xml:space="preserve">
+    <value>Передвстановлено</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Перегляд</value>
+  </data>
+  <data name="PrevPage" xml:space="preserve">
+    <value>Попер. сторінка</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Ціна</value>
+  </data>
+  <data name="PriceFromPricelist" xml:space="preserve">
+    <value>Ціна з прайс-листа</value>
+  </data>
+  <data name="PriceList" xml:space="preserve">
+    <value>Прайс-лист</value>
+  </data>
+  <data name="PriceListArticles" xml:space="preserve">
+    <value>Прайс-листи</value>
+  </data>
+  <data name="PriceLists" xml:space="preserve">
+    <value>Налаштування прайс-листів</value>
+  </data>
+  <data name="PricePerHour" xml:space="preserve">
+    <value>Ціна за годину</value>
+  </data>
+  <data name="Prices" xml:space="preserve">
+    <value>Ціни</value>
+  </data>
+  <data name="PriceType" xml:space="preserve">
+    <value>Тип ціни</value>
+  </data>
+  <data name="PrintDefaultReport" xml:space="preserve">
+    <value>Друкувати звіт за замовчуванням</value>
+  </data>
+  <data name="PrintLabels" xml:space="preserve">
+    <value>Друк міток</value>
+  </data>
+  <data name="PrintLabelsWizard" xml:space="preserve">
+    <value>Друк міток</value>
+  </data>
+  <data name="Private" xml:space="preserve">
+    <value>Приват</value>
+  </data>
+  <data name="Procedure" xml:space="preserve">
+    <value>Процедура</value>
+  </data>
+  <data name="Procedures" xml:space="preserve">
+    <value>Процедури</value>
+  </data>
+  <data name="Produced" xml:space="preserve">
+    <value>Виготовлено</value>
+  </data>
+  <data name="ProducedBefore" xml:space="preserve">
+    <value>Виготовлено до цього</value>
+  </data>
+  <data name="ProductForProject" xml:space="preserve">
+    <value>Продукт проекту</value>
+  </data>
+  <data name="ProductForStock" xml:space="preserve">
+    <value>Продукт запасу</value>
+  </data>
+  <data name="Production" xml:space="preserve">
+    <value>Виробництво</value>
+  </data>
+  <data name="ProductionSchedulerArticle" xml:space="preserve">
+    <value>Артикул</value>
+  </data>
+  <data name="ProductionSchedulerAutoSchedule" xml:space="preserve">
+    <value>Авто-планування</value>
+  </data>
+  <data name="ProductionSchedulerByProject" xml:space="preserve">
+    <value>За проектом</value>
+  </data>
+  <data name="ProductionSchedulerByResource" xml:space="preserve">
+    <value>За ресурсом</value>
+  </data>
+  <data name="ProductionSchedulerCreateLink" xml:space="preserve">
+    <value>Створити посилання</value>
+  </data>
+  <data name="ProductionSchedulerDays" xml:space="preserve">
+    <value>Дні</value>
+  </data>
+  <data name="ProductionSchedulerDue" xml:space="preserve">
+    <value>Зобов'язаний</value>
+  </data>
+  <data name="ProductionSchedulerHours" xml:space="preserve">
+    <value>Години</value>
+  </data>
+  <data name="ProductionSchedulerLevel" xml:space="preserve">
+    <value>Рівень</value>
+  </data>
+  <data name="ProductionSchedulerLinesHeight" xml:space="preserve">
+    <value>Висота рядків</value>
+  </data>
+  <data name="ProductionSchedulerMonths" xml:space="preserve">
+    <value>Місяці</value>
+  </data>
+  <data name="ProductionSchedulerNode" xml:space="preserve">
+    <value>Вузол</value>
+  </data>
+  <data name="ProductionSchedulerOverdue" xml:space="preserve">
+    <value>Прострочені</value>
+  </data>
+  <data name="ProductionSchedulerSchedule" xml:space="preserve">
+    <value>Планування</value>
+  </data>
+  <data name="ProductionSchedulerStart" xml:space="preserve">
+    <value>Початок</value>
+  </data>
+  <data name="ProductionSchedulerStop" xml:space="preserve">
+    <value>Кінець</value>
+  </data>
+  <data name="ProductionSchedulerTimeLineScale" xml:space="preserve">
+    <value>Масштаб часу</value>
+  </data>
+  <data name="ProductionSchedulerViewLinks" xml:space="preserve">
+    <value>Перегляд посиланнь</value>
+  </data>
+  <data name="ProductionSchedulerWeeks" xml:space="preserve">
+    <value>Тижні</value>
+  </data>
+  <data name="ProductLots" xml:space="preserve">
+    <value>Лоти продукта</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Проект</value>
+  </data>
+  <data name="ProjectAssemblyTree" xml:space="preserve">
+    <value>Збірка проекту</value>
+  </data>
+  <data name="ProjectChecklist" xml:space="preserve">
+    <value>Контроль проекту</value>
+  </data>
+  <data name="ProjectChecklistTasks" xml:space="preserve">
+    <value>Контрольний список проекту</value>
+  </data>
+  <data name="ProjectChecklistTaskSelection" xml:space="preserve">
+    <value>Вибір контрольного списку проекту</value>
+  </data>
+  <data name="ProjectChecklistTaskTemplates" xml:space="preserve">
+    <value>Шаблони контрольного списку проекту</value>
+  </data>
+  <data name="ProjectCostToPricePercent" xml:space="preserve">
+    <value>Процент вартості до ціни в проекті</value>
+  </data>
+  <data name="ProjectCustomType" xml:space="preserve">
+    <value>Тип проекту</value>
+  </data>
+  <data name="ProjectDocuments" xml:space="preserve">
+    <value>Документи проекту</value>
+  </data>
+  <data name="ProjectGroups" xml:space="preserve">
+    <value>Групи проектів</value>
+  </data>
+  <data name="ProjectGroupStatistics" xml:space="preserve">
+    <value>Статистика групи проекту</value>
+  </data>
+  <data name="ProjectLine" xml:space="preserve">
+    <value>Рядки проекта</value>
+  </data>
+  <data name="ProjectLineAskQuantityWizard" xml:space="preserve">
+    <value>Спитати майстер кількості для лінії проекту</value>
+  </data>
+  <data name="ProjectLineAssemblies" xml:space="preserve">
+    <value>Збірки рядків проекта</value>
+  </data>
+  <data name="ProjectLines" xml:space="preserve">
+    <value>Лінія проекту</value>
+  </data>
+  <data name="ProjectLinesForArticle" xml:space="preserve">
+    <value>Рядки проекта для артикула</value>
+  </data>
+  <data name="ProjectLinesFromStratch" xml:space="preserve">
+    <value>Лінія проекту з нуля</value>
+  </data>
+  <data name="ProjectManager" xml:space="preserve">
+    <value>Менеджер проекту</value>
+  </data>
+  <data name="ProjectMaterials" xml:space="preserve">
+    <value>Матеріали проекту</value>
+  </data>
+  <data name="ProjectNumber" xml:space="preserve">
+    <value>Номер проекту</value>
+  </data>
+  <data name="ProjectOrWorkOrderNumber" xml:space="preserve">
+    <value>Номер проекту/наряду</value>
+  </data>
+  <data name="ProjectOrWorkOrderNumberPart" xml:space="preserve">
+    <value>Номер проекта чи наряду</value>
+  </data>
+  <data name="ProjectProperties" xml:space="preserve">
+    <value>Властивості проекту</value>
+  </data>
+  <data name="ProjectRelated" xml:space="preserve">
+    <value>Зв'язані проекти</value>
+  </data>
+  <data name="Projects" xml:space="preserve">
+    <value>Проекти</value>
+  </data>
+  <data name="ProjectSettings" xml:space="preserve">
+    <value>Налаштування проекту</value>
+  </data>
+  <data name="ProjectsForGeneration" xml:space="preserve">
+    <value>Проекти для генерації</value>
+  </data>
+  <data name="ProjectState" xml:space="preserve">
+    <value>Стан</value>
+  </data>
+  <data name="ProjectStates" xml:space="preserve">
+    <value>Стани проекту</value>
+  </data>
+  <data name="ProjectSubtype" xml:space="preserve">
+    <value>Підтип</value>
+  </data>
+  <data name="ProjectSubtypes" xml:space="preserve">
+    <value>Підтипи проекту</value>
+  </data>
+  <data name="ProjectsWithoutGroup" xml:space="preserve">
+    <value>Проекти без групи</value>
+  </data>
+  <data name="ProjectTeamUserRefList" xml:space="preserve">
+    <value>Командні користувачі</value>
+  </data>
+  <data name="ProjectTeamUsers" xml:space="preserve">
+    <value>Командні користувачі проекту</value>
+  </data>
+  <data name="ProjectTemplates" xml:space="preserve">
+    <value>Шаблони проекту</value>
+  </data>
+  <data name="ProjectType" xml:space="preserve">
+    <value>Тип проекту</value>
+  </data>
+  <data name="ProjectTypes" xml:space="preserve">
+    <value>Типи проекті</value>
+  </data>
+  <data name="ProjectViewProductionScheduler" xml:space="preserve">
+    <value>Планувальник проекту</value>
+  </data>
+  <data name="ProjectWorkflow" xml:space="preserve">
+    <value>Документообіг проекту</value>
+  </data>
+  <data name="ProjectWorkOrderIncomeNumber" xml:space="preserve">
+    <value>Номер проекту/наряду/доходу</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Властивості</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Закупка</value>
+  </data>
+  <data name="PurchaseDocument" xml:space="preserve">
+    <value>Документ закупок</value>
+  </data>
+  <data name="PurchaseIncome" xml:space="preserve">
+    <value>Купівля дохід</value>
+  </data>
+  <data name="PurchaseIncomeDocument" xml:space="preserve">
+    <value>Документ купівлі доходу</value>
+  </data>
+  <data name="PurchaseProject" xml:space="preserve">
+    <value>Проект купівлі</value>
+  </data>
+  <data name="PurchaseProjects" xml:space="preserve">
+    <value>Проекти купівлі</value>
+  </data>
+  <data name="PurchaseReports" xml:space="preserve">
+    <value>Звіти купівлі</value>
+  </data>
+  <data name="Purchases" xml:space="preserve">
+    <value>Закупівлі</value>
+  </data>
+  <data name="PurchaseUnit" xml:space="preserve">
+    <value>Одиниця купівлі</value>
+  </data>
+  <data name="PutEquipmentBackToStock" xml:space="preserve">
+    <value>Покласти спорядження назад до запасів</value>
+  </data>
+  <data name="PutFinishedProductsToStock" xml:space="preserve">
+    <value>Покласти готові продукти дл запасів</value>
+  </data>
+  <data name="PutMaterialsBackToStock" xml:space="preserve">
+    <value>Покласти матеріали до запасів</value>
+  </data>
+  <data name="PutMaterialsToStock" xml:space="preserve">
+    <value>Матеріали до складу</value>
+  </data>
+  <data name="PutToStock" xml:space="preserve">
+    <value>Покласти до запасів</value>
+  </data>
+  <data name="PutToStockDocument" xml:space="preserve">
+    <value>Покласти документ до запасів</value>
+  </data>
+  <data name="QAdeviation" xml:space="preserve">
+    <value>QA відхилення</value>
+  </data>
+  <data name="QArequirements" xml:space="preserve">
+    <value>QA потреби</value>
+  </data>
+  <data name="QMimprovements" xml:space="preserve">
+    <value>QA вдосконалення</value>
+  </data>
+  <data name="QMlinks" xml:space="preserve">
+    <value>QA звязки</value>
+  </data>
+  <data name="QMmanuals" xml:space="preserve">
+    <value>QA керівництва</value>
+  </data>
+  <data name="QMprocedures" xml:space="preserve">
+    <value>QA процедури</value>
+  </data>
+  <data name="QMriskAreas" xml:space="preserve">
+    <value>QA зони ризику</value>
+  </data>
+  <data name="Qualities" xml:space="preserve">
+    <value>Якості</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Якість</value>
+  </data>
+  <data name="QualityManagement" xml:space="preserve">
+    <value>Керування якістю</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Кількість</value>
+  </data>
+  <data name="QuantityDiscountProfile" xml:space="preserve">
+    <value>Профіль знижки по кількості</value>
+  </data>
+  <data name="QuantityDiscountRules" xml:space="preserve">
+    <value>Правило знижки</value>
+  </data>
+  <data name="QuantityInPieces" xml:space="preserve">
+    <value>Кількість(шт)</value>
+  </data>
+  <data name="QuantityManual" xml:space="preserve">
+    <value>Вказано вручну</value>
+  </data>
+  <data name="QuantityType" xml:space="preserve">
+    <value>Тип кількості</value>
+  </data>
+  <data name="QuantityWizardL" xml:space="preserve">
+    <value>Майстер довжини * кількість</value>
+  </data>
+  <data name="QuantityWizardLW" xml:space="preserve">
+    <value>Майстер довжини * ширину * кількість</value>
+  </data>
+  <data name="QuantityWizardLWH" xml:space="preserve">
+    <value>Майстер довжини * ширину * висоту * кількість</value>
+  </data>
+  <data name="QuickNote" xml:space="preserve">
+    <value>Швидка примітка</value>
+  </data>
+  <data name="QuickNoteCreationWizard" xml:space="preserve">
+    <value>Майстер створення швидкої примітки</value>
+  </data>
+  <data name="QuickStart" xml:space="preserve">
+    <value>Швидкий старт</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Курс</value>
+  </data>
+  <data name="RearrangePositionWizard" xml:space="preserve">
+    <value>Майстер зміни позицій</value>
+  </data>
+  <data name="Rebuild" xml:space="preserve">
+    <value>Перебудувати</value>
+  </data>
+  <data name="Rectangle" xml:space="preserve">
+    <value>Прямок-к</value>
+  </data>
+  <data name="Regarding" xml:space="preserve">
+    <value>Стосовно</value>
+  </data>
+  <data name="Regex" xml:space="preserve">
+    <value>Регулярний вираз</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Район</value>
+  </data>
+  <data name="RegisterHoursWizard" xml:space="preserve">
+    <value>Майстер реєстрації годин</value>
+  </data>
+  <data name="Registering" xml:space="preserve">
+    <value>Реєструючий</value>
+  </data>
+  <data name="RegisterProducesItemsWizard" xml:space="preserve">
+    <value>Майстер реєстрування виготовлених елементів</value>
+  </data>
+  <data name="RegisterProjectNonSalaryHours" xml:space="preserve">
+    <value>Реєструвати незарплатні години</value>
+  </data>
+  <data name="RegisterProjectSalaryHours" xml:space="preserve">
+    <value>Реєструвати зарплатні години</value>
+  </data>
+  <data name="RegistrationDate" xml:space="preserve">
+    <value>Дата реєстрації</value>
+  </data>
+  <data name="RegistrationModuleForWorkers" xml:space="preserve">
+    <value>Реєстраційний модуль для працівників</value>
+  </data>
+  <data name="RelatedDocuments" xml:space="preserve">
+    <value>Залежні документи</value>
+  </data>
+  <data name="RelatedProjects" xml:space="preserve">
+    <value>Залежні проекти</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="RemoveAccountsFromGroup" xml:space="preserve">
+    <value>Видалити обліковий(і) запис(и) з групи</value>
+  </data>
+  <data name="RemoveArticlesFromCategory" xml:space="preserve">
+    <value>Видалити артикул(и) з категорії</value>
+  </data>
+  <data name="RemoveColumn" xml:space="preserve">
+    <value>Видалити колонку</value>
+  </data>
+  <data name="RemoveFilterFromFilterPage" xml:space="preserve">
+    <value>Видалити фільтр</value>
+  </data>
+  <data name="RentalAssetManagement" xml:space="preserve">
+    <value>Керування орендними активами</value>
+  </data>
+  <data name="RentalAssets" xml:space="preserve">
+    <value>Орендні активи</value>
+  </data>
+  <data name="RentalProjects" xml:space="preserve">
+    <value>Орендні проекти</value>
+  </data>
+  <data name="RentalPurchase" xml:space="preserve">
+    <value>Орендні купівлі</value>
+  </data>
+  <data name="RentalPurchaseProjects" xml:space="preserve">
+    <value>Орендні купівельні проекти</value>
+  </data>
+  <data name="RentalSales" xml:space="preserve">
+    <value>Орендні продажі</value>
+  </data>
+  <data name="RentalSalesProjects" xml:space="preserve">
+    <value>Орендні продажні проекти</value>
+  </data>
+  <data name="ReorderChapters" xml:space="preserve">
+    <value>Реорганізувати розділи</value>
+  </data>
+  <data name="RepeatEach" xml:space="preserve">
+    <value>Повторити для кожного</value>
+  </data>
+  <data name="Repeating" xml:space="preserve">
+    <value>Повторення</value>
+  </data>
+  <data name="RepeatingInvoice" xml:space="preserve">
+    <value>Повторні доходи</value>
+  </data>
+  <data name="RepeatingInvoiceProjects" xml:space="preserve">
+    <value>Проекти повторних доходів</value>
+  </data>
+  <data name="RepeatingProjects" xml:space="preserve">
+    <value>Повторювані проекти</value>
+  </data>
+  <data name="RepeatingService" xml:space="preserve">
+    <value>Повторювані послуги</value>
+  </data>
+  <data name="RepeatingServiceProjects" xml:space="preserve">
+    <value>Проекти повторюваних послуг</value>
+  </data>
+  <data name="Replace" xml:space="preserve">
+    <value>Заміна</value>
+  </data>
+  <data name="ReplaceAll" xml:space="preserve">
+    <value>Замінити все</value>
+  </data>
+  <data name="ReplaceNext" xml:space="preserve">
+    <value>Замінити далі</value>
+  </data>
+  <data name="ReplaceWith" xml:space="preserve">
+    <value>змінити на</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Звіт</value>
+  </data>
+  <data name="ReportActions" xml:space="preserve">
+    <value>Дії репорту</value>
+  </data>
+  <data name="ReportAgeDistributedBalance" xml:space="preserve">
+    <value>Звіт розподілення балансу</value>
+  </data>
+  <data name="ReportBalance" xml:space="preserve">
+    <value>Звіт по балансу</value>
+  </data>
+  <data name="ReportCustomersAndVendor" xml:space="preserve">
+    <value>Звіт клієнтів і продавців</value>
+  </data>
+  <data name="ReportCustomersAndVendorInvoices" xml:space="preserve">
+    <value>Звіт рахунків-фактур клієнтів і продавців</value>
+  </data>
+  <data name="ReportCustomersAndVendorInvoicesWithPayments" xml:space="preserve">
+    <value>Звіт рахунків-фактуп клієнтів і продавців з оплатами</value>
+  </data>
+  <data name="ReportCustomersAndVendorSummary" xml:space="preserve">
+    <value>Підсумковий звіт клієнтів і продавців</value>
+  </data>
+  <data name="ReportDesigner" xml:space="preserve">
+    <value>Конструктор звіту</value>
+  </data>
+  <data name="ReportDetailedBudget" xml:space="preserve">
+    <value>Деталізований бюджетний звіт</value>
+  </data>
+  <data name="ReportExpectedDistributedBalance" xml:space="preserve">
+    <value>Звіт по очікуваному розподілу бюджету</value>
+  </data>
+  <data name="ReportJournalEntries" xml:space="preserve">
+    <value>Звіт журналів записів</value>
+  </data>
+  <data name="ReportLedger" xml:space="preserve">
+    <value>Реєстр</value>
+  </data>
+  <data name="ReportLocalizedStrings" xml:space="preserve">
+    <value>Локалізовані рядки для звіту</value>
+  </data>
+  <data name="ReportLocalizedStringTypes" xml:space="preserve">
+    <value>Типи локалізованих рядків для звіту</value>
+  </data>
+  <data name="ReportMovement" xml:space="preserve">
+    <value>Звіт переміщень</value>
+  </data>
+  <data name="ReportOperatingResult" xml:space="preserve">
+    <value>Звіт</value>
+  </data>
+  <data name="ReportProfitAndLossStatement" xml:space="preserve">
+    <value>Звіт прибутків і втрат</value>
+  </data>
+  <data name="ReportReceivableAccountsByCustomers" xml:space="preserve">
+    <value>Звіт дебіторської заборгованості</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Звіти</value>
+  </data>
+  <data name="ReportStrings" xml:space="preserve">
+    <value>Налаштування звітів</value>
+  </data>
+  <data name="ReportYearsBudget" xml:space="preserve">
+    <value>Звіт по річному бюджету</value>
+  </data>
+  <data name="RequestForVendorPrices" xml:space="preserve">
+    <value>Запит по цінах продавця</value>
+  </data>
+  <data name="RequestForVendorPricesWizard" xml:space="preserve">
+    <value>Майстер запиту по цінах продавця</value>
+  </data>
+  <data name="RequiredDocumentation" xml:space="preserve">
+    <value>Необхідна документація</value>
+  </data>
+  <data name="RequirementsAndProcedures" xml:space="preserve">
+    <value>Потреби і процедури</value>
+  </data>
+  <data name="ResetLayouts" xml:space="preserve">
+    <value>Скинути макети</value>
+  </data>
+  <data name="ResourceGroup" xml:space="preserve">
+    <value>Група ресурсів</value>
+  </data>
+  <data name="ResourceGroupsManagment" xml:space="preserve">
+    <value>Групи ресурсів</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Ресурси</value>
+  </data>
+  <data name="ResourceWizard" xml:space="preserve">
+    <value>Майстер ресурсів</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Перезавантажити</value>
+  </data>
+  <data name="Rests" xml:space="preserve">
+    <value>Залишки</value>
+  </data>
+  <data name="RestsByLot" xml:space="preserve">
+    <value>Залишки по партіях</value>
+  </data>
+  <data name="RestsByLotDescr" xml:space="preserve">
+    <value>Переглянути залишки по кожній партії на складі і в проектах</value>
+  </data>
+  <data name="RestsDescr" xml:space="preserve">
+    <value>Переглянути залишки артикулів на складі і в проектах</value>
+  </data>
+  <data name="RetypeNewPassword" xml:space="preserve">
+    <value>Підтвердження паролю</value>
+  </data>
+  <data name="RichEditor" xml:space="preserve">
+    <value>Редагування тексту</value>
+  </data>
+  <data name="Rights" xml:space="preserve">
+    <value>© Zigma360 AS 2025 Усі права захищені</value>
+  </data>
+  <data name="Risk" xml:space="preserve">
+    <value>Ризик</value>
+  </data>
+  <data name="Rollback" xml:space="preserve">
+    <value>Відкат</value>
+  </data>
+  <data name="RotateLeft" xml:space="preserve">
+    <value>Повернути вліво</value>
+  </data>
+  <data name="RotateRight" xml:space="preserve">
+    <value>Повернути вправо</value>
+  </data>
+  <data name="Rulers" xml:space="preserve">
+    <value>Лінійки</value>
+  </data>
+  <data name="Rules" xml:space="preserve">
+    <value>Правила</value>
+  </data>
+  <data name="RuleTypeFilter" xml:space="preserve">
+    <value>Фільтр типу правил</value>
+  </data>
+  <data name="Salary" xml:space="preserve">
+    <value>Зарплатний</value>
+  </data>
+  <data name="SalaryCodes" xml:space="preserve">
+    <value>Коди зарплат</value>
+  </data>
+  <data name="SalaryRule" xml:space="preserve">
+    <value>Правило зарплати</value>
+  </data>
+  <data name="SalaryRulePeriods" xml:space="preserve">
+    <value>Періоди</value>
+  </data>
+  <data name="SalaryRules" xml:space="preserve">
+    <value>Правила зарплат</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Продажі</value>
+  </data>
+  <data name="SalesAndCostBudget" xml:space="preserve">
+    <value>Продажі та кошторисна вартість</value>
+  </data>
+  <data name="SalesBudget" xml:space="preserve">
+    <value>План по реалізації</value>
+  </data>
+  <data name="SalesManager" xml:space="preserve">
+    <value>Менеджер продаж</value>
+  </data>
+  <data name="SalesProject" xml:space="preserve">
+    <value>Проект продажу</value>
+  </data>
+  <data name="SalesProjects" xml:space="preserve">
+    <value>Проекти продажу</value>
+  </data>
+  <data name="SalesReports" xml:space="preserve">
+    <value>Звіти продажу</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Зберегти як...</value>
+  </data>
+  <data name="SavePassword" xml:space="preserve">
+    <value>Зберегти пароль</value>
+  </data>
+  <data name="Schedule" xml:space="preserve">
+    <value>Планувати</value>
+  </data>
+  <data name="Scheduler" xml:space="preserve">
+    <value>Планер</value>
+  </data>
+  <data name="SchedulerView" xml:space="preserve">
+    <value>Вигляд планера</value>
+  </data>
+  <data name="Scripts" xml:space="preserve">
+    <value>Скрипти</value>
+  </data>
+  <data name="ScriptSchedulerSettings" xml:space="preserve">
+    <value>Налаштування планувальника</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Шукати</value>
+  </data>
+  <data name="SearchAll" xml:space="preserve">
+    <value>усюди</value>
+  </data>
+  <data name="SearchArticle" xml:space="preserve">
+    <value>Шукати артикул</value>
+  </data>
+  <data name="SearchDown" xml:space="preserve">
+    <value>униз</value>
+  </data>
+  <data name="SearchObject" xml:space="preserve">
+    <value>Пошук об'єктів</value>
+    <comment>Пошук об'єктів</comment>
+  </data>
+  <data name="SearchObjectsWizard" xml:space="preserve">
+    <value>Пошук об'єктів</value>
+    <comment>Пошук об'єктів</comment>
+  </data>
+  <data name="SearchUp" xml:space="preserve">
+    <value>догори</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Вибрати</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Вибрати все</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Вибрати файл</value>
+  </data>
+  <data name="Selection" xml:space="preserve">
+    <value>Зроби вибір</value>
+  </data>
+  <data name="SelectionGroup" xml:space="preserve">
+    <value>Група вибору</value>
+  </data>
+  <data name="SelectLoggedOnUser" xml:space="preserve">
+    <value>Вибрати залогіненого користувача</value>
+  </data>
+  <data name="SelectMachine" xml:space="preserve">
+    <value>Вибрати машину</value>
+  </data>
+  <data name="SelectMonthWizard" xml:space="preserve">
+    <value>Майстер вибору місяця</value>
+  </data>
+  <data name="SelectNone" xml:space="preserve">
+    <value>Нічого не вибрати</value>
+  </data>
+  <data name="SelectProjectDocument" xml:space="preserve">
+    <value>Вибрати документ проекту</value>
+  </data>
+  <data name="SelectProjectDocumentsForProjectLinesWizard" xml:space="preserve">
+    <value>Вибрати документи проекту для ліній проекту</value>
+  </data>
+  <data name="SelectProjectLines" xml:space="preserve">
+    <value>Вибрати рядки проекта</value>
+  </data>
+  <data name="SelectReportForEmail" xml:space="preserve">
+    <value>Відправити вибраний звіт на електронну пошту</value>
+  </data>
+  <data name="SelectReportForPrint" xml:space="preserve">
+    <value>Вибрати звіт для друку</value>
+  </data>
+  <data name="SelectResource" xml:space="preserve">
+    <value>Вибрати ресурс</value>
+  </data>
+  <data name="SelectTeam" xml:space="preserve">
+    <value>Вибрати команду</value>
+  </data>
+  <data name="SelectUser" xml:space="preserve">
+    <value>Вибрати користувача</value>
+  </data>
+  <data name="SelectWorker" xml:space="preserve">
+    <value>Вибрати працівника</value>
+  </data>
+  <data name="SelectWorkflowItem" xml:space="preserve">
+    <value>Вибрати елемент документообігу</value>
+  </data>
+  <data name="SelectWorkOrderByDate" xml:space="preserve">
+    <value>Вибрати по даті</value>
+  </data>
+  <data name="SelectWorkOrderByNumber" xml:space="preserve">
+    <value>Вибрати по номеру</value>
+  </data>
+  <data name="SelectWorkOrders" xml:space="preserve">
+    <value>Вибрати наряди по роботі</value>
+  </data>
+  <data name="SelectWorkOrdersByDateWizard" xml:space="preserve">
+    <value>Майстер вибору нарядів по даті</value>
+  </data>
+  <data name="SelectWorkOrdersByNumberWizard" xml:space="preserve">
+    <value>Майстер вибору нарядів по номеру</value>
+  </data>
+  <data name="SelectWorkOrderWizard" xml:space="preserve">
+    <value>Майстер вибору нарядів</value>
+  </data>
+  <data name="SendBackward" xml:space="preserve">
+    <value>Перенести далі</value>
+  </data>
+  <data name="SendNow" xml:space="preserve">
+    <value>Відправити зараз</value>
+  </data>
+  <data name="SendToBack" xml:space="preserve">
+    <value>Перенести назад</value>
+  </data>
+  <data name="SendToSubcontractor" xml:space="preserve">
+    <value>Відправити до субпідрядника</value>
+  </data>
+  <data name="SendToSubcontractorDocument" xml:space="preserve">
+    <value>Відправити до документа субпідрядника</value>
+  </data>
+  <data name="SeparatorType" xml:space="preserve">
+    <value>Тип розділювача</value>
+  </data>
+  <data name="Sequence" xml:space="preserve">
+    <value>Послідовність</value>
+  </data>
+  <data name="SerialNumber" xml:space="preserve">
+    <value>Серійний номер</value>
+  </data>
+  <data name="SerialNumberDefinitions" xml:space="preserve">
+    <value>Означення серійних номерів</value>
+  </data>
+  <data name="SerialNumberDefsForArticles" xml:space="preserve">
+    <value>Серійний номер для артикулів</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="ServerVersion" xml:space="preserve">
+    <value>Сервер {0} версії</value>
+  </data>
+  <data name="ServiceLine" xml:space="preserve">
+    <value>Сервісна лінія</value>
+  </data>
+  <data name="SetActive" xml:space="preserve">
+    <value>Зробити активним</value>
+  </data>
+  <data name="SetDefault" xml:space="preserve">
+    <value>Встановити за замовчуванням</value>
+  </data>
+  <data name="SetFinished" xml:space="preserve">
+    <value>Завершити</value>
+  </data>
+  <data name="SetLedgerAsGeneral" xml:space="preserve">
+    <value>Зробити загальним</value>
+  </data>
+  <data name="SetNotActive" xml:space="preserve">
+    <value>Зробити неактивним</value>
+  </data>
+  <data name="SetPricelistAsGeneral" xml:space="preserve">
+    <value>Зробити загальним</value>
+  </data>
+  <data name="SetTaskCompletion" xml:space="preserve">
+    <value>Проставити виконання завдання</value>
+  </data>
+  <data name="Setup" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="SetUpIntervalWizard" xml:space="preserve">
+    <value>Настроїти інтервал</value>
+  </data>
+  <data name="SetYearBudget" xml:space="preserve">
+    <value>Вказати річний бюджет</value>
+  </data>
+  <data name="Shadow" xml:space="preserve">
+    <value>Тінь</value>
+  </data>
+  <data name="Shadows" xml:space="preserve">
+    <value>Тіні</value>
+  </data>
+  <data name="ShapeFormat" xml:space="preserve">
+    <value>Формат форм</value>
+  </data>
+  <data name="Shapes" xml:space="preserve">
+    <value>Форми</value>
+  </data>
+  <data name="ShiftPlans" xml:space="preserve">
+    <value>Плани змін</value>
+  </data>
+  <data name="Shifts" xml:space="preserve">
+    <value>Зміни</value>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>Коротке ім'я</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Показування</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Показати все</value>
+  </data>
+  <data name="ShowAllChildren" xml:space="preserve">
+    <value>Показувати об'єкти з дочірніх груп</value>
+  </data>
+  <data name="ShowAllPeriods" xml:space="preserve">
+    <value>Показувати всі періоди</value>
+  </data>
+  <data name="ShowClosedPositions" xml:space="preserve">
+    <value>Показати закриті позиції</value>
+  </data>
+  <data name="ShowEqual" xml:space="preserve">
+    <value>Показати рівні</value>
+  </data>
+  <data name="ShowGroupsPanel" xml:space="preserve">
+    <value>Показати</value>
+  </data>
+  <data name="ShowNotActive" xml:space="preserve">
+    <value>Показати неактивні</value>
+  </data>
+  <data name="ShowPastPeriods" xml:space="preserve">
+    <value>Показати минулі періоди</value>
+  </data>
+  <data name="ShowWorkOrderReport" xml:space="preserve">
+    <value>Показати звіт наряду</value>
+  </data>
+  <data name="Simple" xml:space="preserve">
+    <value>Простий проект</value>
+  </data>
+  <data name="SizeToGrid" xml:space="preserve">
+    <value>Розмір до сітки</value>
+  </data>
+  <data name="SkypeCall" xml:space="preserve">
+    <value>Розмова через Skype</value>
+  </data>
+  <data name="Sms" xml:space="preserve">
+    <value>Sms</value>
+  </data>
+  <data name="Snap" xml:space="preserve">
+    <value>Прив'язка</value>
+  </data>
+  <data name="SnapRotation" xml:space="preserve">
+    <value>Поворот</value>
+  </data>
+  <data name="SnapToGrid" xml:space="preserve">
+    <value>До сітки</value>
+  </data>
+  <data name="SnapToGuidelines" xml:space="preserve">
+    <value>До допом. ліній</value>
+  </data>
+  <data name="SnapToRulers" xml:space="preserve">
+    <value>До лінійок</value>
+  </data>
+  <data name="SortAscending" xml:space="preserve">
+    <value>За зростанням</value>
+  </data>
+  <data name="SortByCustomerNumber" xml:space="preserve">
+    <value>Сортувати по номеру клієнта</value>
+  </data>
+  <data name="SortByInvoiceNumber" xml:space="preserve">
+    <value>Сортувати по номеру рахунку-фактури</value>
+  </data>
+  <data name="SortDescending" xml:space="preserve">
+    <value>За спаданням</value>
+  </data>
+  <data name="SpacingHDecrease" xml:space="preserve">
+    <value>Зменшити гор. відстані</value>
+  </data>
+  <data name="SpacingHEqual" xml:space="preserve">
+    <value>Гор. відстані однакові</value>
+  </data>
+  <data name="SpacingHIncrease" xml:space="preserve">
+    <value>Збільшити гор. відстані</value>
+  </data>
+  <data name="SpacingHRemove" xml:space="preserve">
+    <value>Прибрати гор. відстані</value>
+  </data>
+  <data name="SpacingVDecrease" xml:space="preserve">
+    <value>Зменшити верт. відстані</value>
+  </data>
+  <data name="SpacingVEqual" xml:space="preserve">
+    <value>Верт. відстані однакові</value>
+  </data>
+  <data name="SpacingVIncrease" xml:space="preserve">
+    <value>Збільшити верт. відстані</value>
+  </data>
+  <data name="SpacingVRemove" xml:space="preserve">
+    <value>Прибрати верт. відстані</value>
+  </data>
+  <data name="SpecificationList" xml:space="preserve">
+    <value>Специфікація</value>
+  </data>
+  <data name="SplitEnd" xml:space="preserve">
+    <value>Розділити завершення</value>
+  </data>
+  <data name="SplitLotsWizard" xml:space="preserve">
+    <value>Майстер розбивки лота</value>
+  </data>
+  <data name="SplitTimeRecordByOperation" xml:space="preserve">
+    <value>Розділити запис часу операцією</value>
+  </data>
+  <data name="SplitTimeRecordByOperations" xml:space="preserve">
+    <value>Розділити запис часу операціями</value>
+  </data>
+  <data name="SpreadsheetEditor" xml:space="preserve">
+    <value>Редагування таблиці</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Почати</value>
+  </data>
+  <data name="StartArrowheadStyle" xml:space="preserve">
+    <value>Початок стрілок</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Дата старту</value>
+  </data>
+  <data name="StartOperationNotInList" xml:space="preserve">
+    <value>Стартова операція відсутня в списку</value>
+  </data>
+  <data name="StartOperationNotInListWizard" xml:space="preserve">
+    <value>Майстер - Стартова операція відсутня в списку</value>
+  </data>
+  <data name="StartOperationTimeRegistrationWizard" xml:space="preserve">
+    <value>Майстер старту реєстрації часу</value>
+  </data>
+  <data name="StartSame" xml:space="preserve">
+    <value>Почати теж саме</value>
+  </data>
+  <data name="StartSelected" xml:space="preserve">
+    <value>Почати вибраний</value>
+  </data>
+  <data name="StartTimeRegistration" xml:space="preserve">
+    <value>Почати реєстрацію часу</value>
+  </data>
+  <data name="StartTimeRegistrationByProjectWizard" xml:space="preserve">
+    <value>Почати реєстрацію часу по проекту</value>
+  </data>
+  <data name="StartWork" xml:space="preserve">
+    <value>Почати працювати</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Стан</value>
+  </data>
+  <data name="States" xml:space="preserve">
+    <value>Стани</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="StepThreeFirstHorizontal" xml:space="preserve">
+    <value>З боку в бік</value>
+  </data>
+  <data name="StepThreeFirstVertical" xml:space="preserve">
+    <value>Верх та низ</value>
+  </data>
+  <data name="StepTwoFirstHorizontal" xml:space="preserve">
+    <value>Від боку до верху або низу</value>
+  </data>
+  <data name="StepTwoFirstVertical" xml:space="preserve">
+    <value>Верх/Низ до боку</value>
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>Склад</value>
+  </data>
+  <data name="StockFrom" xml:space="preserve">
+    <value>Склад з</value>
+  </data>
+  <data name="StockIntervalProduction" xml:space="preserve">
+    <value>Інтервал виробництво</value>
+  </data>
+  <data name="StockProduction" xml:space="preserve">
+    <value>Стокова продукція</value>
+  </data>
+  <data name="Stocks" xml:space="preserve">
+    <value>Склади</value>
+  </data>
+  <data name="StockTo" xml:space="preserve">
+    <value>Склад до</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Зупинити</value>
+  </data>
+  <data name="StopWork" xml:space="preserve">
+    <value>Зупинити роботу</value>
+  </data>
+  <data name="Strikethrough" xml:space="preserve">
+    <value>Закреслений</value>
+  </data>
+  <data name="Subcontractor" xml:space="preserve">
+    <value>Субпідрядник</value>
+  </data>
+  <data name="Subcontractors" xml:space="preserve">
+    <value>Субпідрядники</value>
+  </data>
+  <data name="SubcontractorStatus" xml:space="preserve">
+    <value>Стан субпідрядника</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Субєкт</value>
+  </data>
+  <data name="Subscript" xml:space="preserve">
+    <value>Нижній індекс</value>
+  </data>
+  <data name="SubscriptionHistory" xml:space="preserve">
+    <value>Історія підписок</value>
+  </data>
+  <data name="Subtype" xml:space="preserve">
+    <value>Підтип</value>
+  </data>
+  <data name="Subtypes" xml:space="preserve">
+    <value>Підтипи</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Підсумок</value>
+  </data>
+  <data name="SummaryKeys" xml:space="preserve">
+    <value>Ключі підсумку</value>
+  </data>
+  <data name="ProjectSummaryWorkflow" xml:space="preserve">
+    <value>Сумарний документообіг проекту</value>
+  </data>
+  <data name="Superscript" xml:space="preserve">
+    <value>Верхній індекс</value>
+  </data>
+  <data name="SupplierDeals" xml:space="preserve">
+    <value>Угоди постачальника</value>
+  </data>
+  <data name="SwitchUser" xml:space="preserve">
+    <value>Змінити користувача</value>
+  </data>
+  <data name="SyncAll" xml:space="preserve">
+    <value>Синхронізувати всі</value>
+  </data>
+  <data name="SyncFolder" xml:space="preserve">
+    <value>Синхронізувати папку</value>
+  </data>
+  <data name="SyncSelected" xml:space="preserve">
+    <value>Синхронізувати вибрані</value>
+  </data>
+  <data name="SystemPreferences" xml:space="preserve">
+    <value>Системні налаштування</value>
+  </data>
+  <data name="SystemPreferencesTyped" xml:space="preserve">
+    <value>Системні налаштування</value>
+  </data>
+  <data name="Tabs" xml:space="preserve">
+    <value>Закладки</value>
+  </data>
+  <data name="Task" xml:space="preserve">
+    <value>Задача</value>
+  </data>
+  <data name="TaskCompletionWizard" xml:space="preserve">
+    <value>Майстер завершення завдання</value>
+  </data>
+  <data name="TaskMenu" xml:space="preserve">
+    <value>Меню задач</value>
+  </data>
+  <data name="TaskOperation" xml:space="preserve">
+    <value>Завдання/Операція</value>
+  </data>
+  <data name="TaskPane" xml:space="preserve">
+    <value>Панель задач</value>
+  </data>
+  <data name="TaskPlanner" xml:space="preserve">
+    <value>Планувальник задач</value>
+  </data>
+  <data name="Tasks" xml:space="preserve">
+    <value>Задачі</value>
+  </data>
+  <data name="TaxCode" xml:space="preserve">
+    <value>Код мита</value>
+  </data>
+  <data name="TaxCodes" xml:space="preserve">
+    <value>Податкові кодекси</value>
+  </data>
+  <data name="Taxes" xml:space="preserve">
+    <value>Податки</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>Команда</value>
+  </data>
+  <data name="TeamTask" xml:space="preserve">
+    <value>Завдання для команди</value>
+  </data>
+  <data name="TeamUsers" xml:space="preserve">
+    <value>Користувачі команди</value>
+  </data>
+  <data name="TechnicalDeviation" xml:space="preserve">
+    <value>Технічне відхилення</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Шаблон</value>
+  </data>
+  <data name="TemporaryProductionPlanner" xml:space="preserve">
+    <value>Планер тимчасової продукції</value>
+  </data>
+  <data name="Tenants" xml:space="preserve">
+    <value>Тенанти</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Тест</value>
+  </data>
+  <data name="TestSelectionDialogs" xml:space="preserve">
+    <value>Тест діалогів вибору</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="TimeBegin" xml:space="preserve">
+    <value>Дата початку</value>
+  </data>
+  <data name="TimeEnd" xml:space="preserve">
+    <value>Дата кінця</value>
+  </data>
+  <data name="TimeLineScale" xml:space="preserve">
+    <value>Шкала лінії часу</value>
+  </data>
+  <data name="TimeRecords" xml:space="preserve">
+    <value>Записи часу</value>
+  </data>
+  <data name="TimeRecordsForTodayWizard" xml:space="preserve">
+    <value>Майстер записів часу на сьогодні</value>
+  </data>
+  <data name="TimeRegistration" xml:space="preserve">
+    <value>Реєстрація часу</value>
+  </data>
+  <data name="TimeRegistrationProjects" xml:space="preserve">
+    <value>Реєстрація часу проектів</value>
+  </data>
+  <data name="TimeRegistrationSetup" xml:space="preserve">
+    <value>Налаштування реєстрації часу</value>
+  </data>
+  <data name="TimeReport" xml:space="preserve">
+    <value>Звіт про час</value>
+  </data>
+  <data name="TimeTrackingSummary" xml:space="preserve">
+    <value>Підсумок часу стеження</value>
+  </data>
+  <data name="TimingResource" xml:space="preserve">
+    <value>Часовий ресурс</value>
+  </data>
+  <data name="TimingResourceGroup" xml:space="preserve">
+    <value>Група для часового ресурсу</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>До</value>
+  </data>
+  <data name="ToApproval" xml:space="preserve">
+    <value>На затвердження</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Сьогодні</value>
+  </data>
+  <data name="Tool" xml:space="preserve">
+    <value>Інструмент</value>
+  </data>
+  <data name="ToolMovement" xml:space="preserve">
+    <value>Переміщення інструменту</value>
+  </data>
+  <data name="ToolMovementDocument" xml:space="preserve">
+    <value>Документ переміщення документу</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Інструменти</value>
+  </data>
+  <data name="ToolsCostPerHour" xml:space="preserve">
+    <value>Вартість інструменту за годину</value>
+  </data>
+  <data name="ToolsPricePerHour" xml:space="preserve">
+    <value>Ціна інструменту за годину</value>
+  </data>
+  <data name="ToState" xml:space="preserve">
+    <value>До стану</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Загалом</value>
+  </data>
+  <data name="TotalAmount" xml:space="preserve">
+    <value>Сумарна кількість</value>
+  </data>
+  <data name="TotalBreak" xml:space="preserve">
+    <value>Загалом-переривання</value>
+  </data>
+  <data name="TotalQuantityOfProducts" xml:space="preserve">
+    <value>Сумарна кількість продуктів</value>
+  </data>
+  <data name="Traceability" xml:space="preserve">
+    <value>Простежуваність</value>
+  </data>
+  <data name="Tracking" xml:space="preserve">
+    <value>Відслідковування</value>
+  </data>
+  <data name="Transform" xml:space="preserve">
+    <value>Трансформація</value>
+  </data>
+  <data name="Tree" xml:space="preserve">
+    <value>Дерево</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="UnassignedWorkflowItems" xml:space="preserve">
+    <value>Непризначені об'єкти процеса</value>
+  </data>
+  <data name="Undefined" xml:space="preserve">
+    <value>Невизначені</value>
+  </data>
+  <data name="UnderlineColor" xml:space="preserve">
+    <value>Колір підкреслення</value>
+  </data>
+  <data name="UnderlineStyle" xml:space="preserve">
+    <value>Стиль підкреслення</value>
+  </data>
+  <data name="UnderlineWordsOnly" xml:space="preserve">
+    <value>Підкреслювати тільки слова</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Відмінити</value>
+  </data>
+  <data name="Ungroup" xml:space="preserve">
+    <value>Розгрупувати</value>
+  </data>
+  <data name="Uninstall" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="UnionMode" xml:space="preserve">
+    <value>Об'єднання</value>
+  </data>
+  <data name="Units" xml:space="preserve">
+    <value>Одиниці виміру</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>Відкріпити</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Вверх</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Оновити</value>
+  </data>
+  <data name="UpdateCosts" xml:space="preserve">
+    <value>Оновити вартості</value>
+  </data>
+  <data name="UpdatePriceListPrice" xml:space="preserve">
+    <value>Оновити прайс-лист</value>
+  </data>
+  <data name="UpdateSubscription" xml:space="preserve">
+    <value>Оновити ліцензію</value>
+  </data>
+  <data name="UploadFileToWorkflowWizard" xml:space="preserve">
+    <value>Майстер завантаження файлів</value>
+  </data>
+  <data name="UploadFolderToWorkflowWizard" xml:space="preserve">
+    <value>Майстер завантаження папок</value>
+  </data>
+  <data name="UseAccrual" xml:space="preserve">
+    <value>Використати нарахування</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Користувач</value>
+  </data>
+  <data name="UserAssignedWorkflowItems" xml:space="preserve">
+    <value>Мій документообіг</value>
+  </data>
+  <data name="UserDefined" xml:space="preserve">
+    <value>Визначене користувачем</value>
+  </data>
+  <data name="UserEmailAccounts" xml:space="preserve">
+    <value>Електронні адреси користувачів</value>
+  </data>
+  <data name="UserGroupsManagment" xml:space="preserve">
+    <value>Групи користувачів</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Ім'я користувача</value>
+  </data>
+  <data name="UserRefList" xml:space="preserve">
+    <value>Список користувачів</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Користувачі</value>
+  </data>
+  <data name="UsersManagment" xml:space="preserve">
+    <value>Користувачі</value>
+  </data>
+  <data name="UserWizard" xml:space="preserve">
+    <value>Майстер користувача</value>
+  </data>
+  <data name="UserWorkflow" xml:space="preserve">
+    <value>Документообіг користувача</value>
+  </data>
+  <data name="UsesForArticles" xml:space="preserve">
+    <value>Використовується для артикулів</value>
+  </data>
+  <data name="UsesForCustomers" xml:space="preserve">
+    <value>Використовується для клієнтів</value>
+  </data>
+  <data name="UseTemplate" xml:space="preserve">
+    <value>Використовувати шаблон</value>
+  </data>
+  <data name="Vat" xml:space="preserve">
+    <value>ПДВ</value>
+  </data>
+  <data name="VatCode" xml:space="preserve">
+    <value>Код ПДВ</value>
+  </data>
+  <data name="VatReturn" xml:space="preserve">
+    <value>Декларація з ПДВ</value>
+  </data>
+  <data name="VatReturnDocument" xml:space="preserve">
+    <value>Документ декларації ПДВ</value>
+  </data>
+  <data name="VatReturnDocuments" xml:space="preserve">
+    <value>Декларація з ПДВ</value>
+  </data>
+  <data name="VatReturnPeriods" xml:space="preserve">
+    <value>Періоди декларації з ПДВ</value>
+  </data>
+  <data name="Vendor" xml:space="preserve">
+    <value>Постачальник</value>
+  </data>
+  <data name="VendorAccount" xml:space="preserve">
+    <value>Обл. запис продавця</value>
+  </data>
+  <data name="VendorArticle" xml:space="preserve">
+    <value>Артикул продавця</value>
+  </data>
+  <data name="VendorArticleName" xml:space="preserve">
+    <value>Назва артикула постачальника</value>
+  </data>
+  <data name="VendorArticles" xml:space="preserve">
+    <value>Артикули постачальника</value>
+  </data>
+  <data name="VendorCandidate" xml:space="preserve">
+    <value>Потенційний продавець</value>
+  </data>
+  <data name="VendorCandidates" xml:space="preserve">
+    <value>Потенційні продавці</value>
+  </data>
+  <data name="VendorFrom" xml:space="preserve">
+    <value>Продавець з</value>
+  </data>
+  <data name="VendorNotInvoiceAccount" xml:space="preserve">
+    <value>Не фактура-рахунок</value>
+  </data>
+  <data name="VendorNotInvoicedAccount" xml:space="preserve">
+    <value>Не рахунок-фактура продавця</value>
+  </data>
+  <data name="Vendors" xml:space="preserve">
+    <value>Постачальники</value>
+  </data>
+  <data name="VendorsDescr" xml:space="preserve">
+    <value>Склад покупців</value>
+  </data>
+  <data name="VendorTo" xml:space="preserve">
+    <value>Продавець до</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Версія</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Вигляд</value>
+  </data>
+  <data name="ViewArticles" xml:space="preserve">
+    <value>Показати артикули</value>
+  </data>
+  <data name="ViewAssembly" xml:space="preserve">
+    <value>Показати збірку</value>
+  </data>
+  <data name="ViewBatchCompound" xml:space="preserve">
+    <value>Пакетне з'єднання</value>
+  </data>
+  <data name="ViewCompanyDetails" xml:space="preserve">
+    <value>Деталі компанії</value>
+  </data>
+  <data name="ViewDocument" xml:space="preserve">
+    <value>Перегляд документу</value>
+  </data>
+  <data name="ViewDocumentDetails" xml:space="preserve">
+    <value>Показати лінії документу</value>
+  </data>
+  <data name="ViewInNewThread" xml:space="preserve">
+    <value>Показати в новому потоці</value>
+  </data>
+  <data name="ViewLayout" xml:space="preserve">
+    <value>Вигляд документа</value>
+  </data>
+  <data name="ViewLayoutFit" xml:space="preserve">
+    <value>Підігнати</value>
+  </data>
+  <data name="ViewLayoutNormal" xml:space="preserve">
+    <value>Нормально</value>
+  </data>
+  <data name="ViewLayoutStretch" xml:space="preserve">
+    <value>Підігнати під розиір</value>
+  </data>
+  <data name="ViewLayoutStretchToHeight" xml:space="preserve">
+    <value>Підігнати до висоти</value>
+  </data>
+  <data name="ViewLayoutStretchToWidth" xml:space="preserve">
+    <value>Підігнати до ширини</value>
+  </data>
+  <data name="ViewLinks" xml:space="preserve">
+    <value>Показати звязки</value>
+  </data>
+  <data name="ViewLog" xml:space="preserve">
+    <value>Перегляд лога</value>
+  </data>
+  <data name="ViewNotReceived" xml:space="preserve">
+    <value>Не отримані</value>
+  </data>
+  <data name="ViewNotSent" xml:space="preserve">
+    <value>Не відправлені</value>
+  </data>
+  <data name="ViewOnlyMyProjects" xml:space="preserve">
+    <value>Тільки мої проекти</value>
+  </data>
+  <data name="ViewOrgUnits" xml:space="preserve">
+    <value>Показати організаційні одиниці</value>
+  </data>
+  <data name="ViewProductionScheduler" xml:space="preserve">
+    <value>Показати планер</value>
+  </data>
+  <data name="ViewProject" xml:space="preserve">
+    <value>Показати проект</value>
+  </data>
+  <data name="ViewProjectLines" xml:space="preserve">
+    <value>Лінії проекту</value>
+  </data>
+  <data name="ViewProjectLots" xml:space="preserve">
+    <value>Показати лоти проекта</value>
+  </data>
+  <data name="ViewReport" xml:space="preserve">
+    <value>Попередній перегляд звіта</value>
+  </data>
+  <data name="ViewSubcontractorStatus" xml:space="preserve">
+    <value>Стан відправки/отримання субпідряднику</value>
+  </data>
+  <data name="VisitAddress" xml:space="preserve">
+    <value>Адреса для візиту</value>
+  </data>
+  <data name="Wait" xml:space="preserve">
+    <value>Зачекайте</value>
+  </data>
+  <data name="WaitingForApprovement" xml:space="preserve">
+    <value>Очікування на затвердження</value>
+  </data>
+  <data name="Warehouse" xml:space="preserve">
+    <value>Склад</value>
+  </data>
+  <data name="WasteInPercent" xml:space="preserve">
+    <value>Процент втрат</value>
+  </data>
+  <data name="WebAddress" xml:space="preserve">
+    <value>Веб адреса</value>
+  </data>
+  <data name="WebShop" xml:space="preserve">
+    <value>Веб магазин</value>
+  </data>
+  <data name="Weeks" xml:space="preserve">
+    <value>Тижні</value>
+  </data>
+  <data name="Weekss" xml:space="preserve">
+    <value>тиждень(ні)</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Вага</value>
+  </data>
+  <data name="WeightUnit" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Ласкаво просимо</value>
+  </data>
+  <data name="WeldingLogSystem" xml:space="preserve">
+    <value>Система зварювання</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Ширина</value>
+  </data>
+  <data name="WidthInMm" xml:space="preserve">
+    <value>Ширина(мм)</value>
+  </data>
+  <data name="WidthUnit" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="Wizard" xml:space="preserve">
+    <value>Запуск майстра</value>
+  </data>
+  <data name="WizardBack" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="WizardNext" xml:space="preserve">
+    <value>Вперед</value>
+  </data>
+  <data name="Worker" xml:space="preserve">
+    <value>Робітник</value>
+  </data>
+  <data name="WorkerEquipment" xml:space="preserve">
+    <value>Робітник/спорядження</value>
+  </data>
+  <data name="WorkerWorkspace" xml:space="preserve">
+    <value>Робоче місце працівника</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Документообіг</value>
+  </data>
+  <data name="WorkflowFilesSync" xml:space="preserve">
+    <value>Синхронізація файлів</value>
+  </data>
+  <data name="WorkflowItemComments" xml:space="preserve">
+    <value>Коментарі</value>
+  </data>
+  <data name="WorkflowItemNote" xml:space="preserve">
+    <value>Нотатка процесу</value>
+  </data>
+  <data name="WorkflowItems" xml:space="preserve">
+    <value>Об'єкти процеса</value>
+  </data>
+  <data name="WorkflowItemsForMilestone" xml:space="preserve">
+    <value>Етапні елементи документообігу</value>
+  </data>
+  <data name="WorkflowItemsProcedures" xml:space="preserve">
+    <value>Процедури</value>
+  </data>
+  <data name="WorkflowItemsRelated" xml:space="preserve">
+    <value>Залежності документообігу</value>
+  </data>
+  <data name="WorkflowItemsSelection" xml:space="preserve">
+    <value>Вибрані об'єкти процеса</value>
+  </data>
+  <data name="WorkflowItemSubtypes" xml:space="preserve">
+    <value>Підтипи об'єктів</value>
+  </data>
+  <data name="Workflows" xml:space="preserve">
+    <value>Документообіг</value>
+  </data>
+  <data name="WorkingTeam" xml:space="preserve">
+    <value>Робоча команда</value>
+  </data>
+  <data name="WorkList" xml:space="preserve">
+    <value>Список задач</value>
+  </data>
+  <data name="WorkMeasurementUnits" xml:space="preserve">
+    <value>Робочі одиниці виміру</value>
+  </data>
+  <data name="WorkOrder" xml:space="preserve">
+    <value>Виробничий наряд</value>
+  </data>
+  <data name="WorkOrderAssemblyTree" xml:space="preserve">
+    <value>Збірка по наряду</value>
+  </data>
+  <data name="WorkOrderChecklistTasks" xml:space="preserve">
+    <value>Контрольний список наряду</value>
+  </data>
+  <data name="WorkOrderChecklistTaskTemplates" xml:space="preserve">
+    <value>Шаблони контрольного списку наряду</value>
+  </data>
+  <data name="WorkOrderMaterials" xml:space="preserve">
+    <value>Матеріали робочого завдання</value>
+  </data>
+  <data name="WorkOrderNodes" xml:space="preserve">
+    <value>Завдання для вузла</value>
+  </data>
+  <data name="WorkOrderOperations" xml:space="preserve">
+    <value>Операції робочого завдання</value>
+  </data>
+  <data name="WorkOrderOperationSelection" xml:space="preserve">
+    <value>Вибір операції</value>
+  </data>
+  <data name="WorkOrders" xml:space="preserve">
+    <value>Виробничі наряди</value>
+  </data>
+  <data name="WorkOrderWorkflow" xml:space="preserve">
+    <value>Документообіг наряду</value>
+  </data>
+  <data name="WorkResource" xml:space="preserve">
+    <value>Робочий ресурс</value>
+  </data>
+  <data name="WorkSettings" xml:space="preserve">
+    <value>Робочі налаштування</value>
+  </data>
+  <data name="WorkTime" xml:space="preserve">
+    <value>Робочий чаc</value>
+  </data>
+  <data name="Wreck" xml:space="preserve">
+    <value>Брак</value>
+  </data>
+  <data name="WreckBefore" xml:space="preserve">
+    <value>Брак до</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Так</value>
+  </data>
+  <data name="ZigmaPlanner" xml:space="preserve">
+    <value>Планер Зігма 360</value>
+  </data>
+  <data name="Zoom" xml:space="preserve">
+    <value>Масштабування</value>
+  </data>
+  <data name="ZoomIn" xml:space="preserve">
+    <value>Наблизити</value>
+  </data>
+  <data name="ZoomOut" xml:space="preserve">
+    <value>Віддалити</value>
+  </data>
+  <data name="ZOrder" xml:space="preserve">
+    <value>Z-порядок</value>
+  </data>
+  <data name="CrossMidnight" xml:space="preserve">
+    <value>Через північ</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>Назва компанії</value>
+  </data>
+  <data name="NextApprover" xml:space="preserve">
+    <value>Наст. затверджувач</value>
+    <comment>Наст. затверджувач</comment>
+  </data>
+  <data name="Log" xml:space="preserve">
+    <value>Лог</value>
+  </data>
+  <data name="Auto" xml:space="preserve">
+    <value>Автоматично</value>
+  </data>
+  <data name="JournalEntryImportSetup" xml:space="preserve">
+    <value>Налашт. імпорту записів журнала</value>
+  </data>
+  <data name="PostAndShow" xml:space="preserve">
+    <value>Послати &gt;
+Показати</value>
+  </data>
+  <data name="ChangePriority" xml:space="preserve">
+    <value>Змінити пріорітет</value>
+  </data>
+  <data name="Compilance" xml:space="preserve">
+    <value>Дотримання</value>
+  </data>
+  <data name="RegisterHoursForProjectLine" xml:space="preserve">
+    <value>Реєструвати години для лінії</value>
+  </data>
+  <data name="RegisterWorkForWorkOrder" xml:space="preserve">
+    <value>Записати час для наряду</value>
+  </data>
+  <data name="BatchTimeRegistration" xml:space="preserve">
+    <value>Реєстрація часу партією</value>
+  </data>
+  <data name="SalaryCode" xml:space="preserve">
+    <value>Код зарплати</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ReplaceArticleInAssemblyLinesWizard" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+</root>

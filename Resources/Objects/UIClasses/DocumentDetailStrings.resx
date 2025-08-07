@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountJournalLine" xml:space="preserve">
+    <value>Invoice journal line</value>
+  </data>
+  <data name="AdditionalPrice" xml:space="preserve">
+    <value>Additional price</value>
+  </data>
+  <data name="Article" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="ArticleCode" xml:space="preserve">
+    <value>Article code</value>
+  </data>
+  <data name="ArticleJoinCode" xml:space="preserve">
+    <value>Joined article code</value>
+  </data>
+  <data name="ArticleJoinName" xml:space="preserve">
+    <value>Joined article name</value>
+  </data>
+  <data name="BasicPrice" xml:space="preserve">
+    <value>Basic price</value>
+  </data>
+  <data name="ComplianceCount" xml:space="preserve">
+    <value>Compliance count</value>
+  </data>
+  <data name="ComplianceScoreAverage" xml:space="preserve">
+    <value>Compliance average score</value>
+  </data>
+  <data name="ComplianceScoreAverageColor" xml:space="preserve">
+    <value>Compliance average score color</value>
+  </data>
+  <data name="ComplianceScoreMin" xml:space="preserve">
+    <value>Compliance min score</value>
+  </data>
+  <data name="ComplianceScoreMinColor" xml:space="preserve">
+    <value>Compliance min score color</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="Cost_Currency" xml:space="preserve">
+    <value>Cost in currency</value>
+  </data>
+  <data name="CostSum" xml:space="preserve">
+    <value>Sum cost</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="DocumentDetail_Other" xml:space="preserve">
+    <value>Document line reference</value>
+  </data>
+  <data name="DocumentNumber" xml:space="preserve">
+    <value>Document number</value>
+  </data>
+  <data name="FreightSum" xml:space="preserve">
+    <value>Freight sum</value>
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>Invoice no</value>
+  </data>
+  <data name="MaterialType" xml:space="preserve">
+    <value>Material type</value>
+  </data>
+  <data name="MeasurementUnit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="OperationDate" xml:space="preserve">
+    <value>Document date</value>
+  </data>
+  <data name="OrgUnit_DefaultProductStock" xml:space="preserve">
+    <value>Default product stock</value>
+  </data>
+  <data name="OrgUnit_DefaultStock" xml:space="preserve">
+    <value>Default material stock</value>
+  </data>
+  <data name="OrgUnit_FixedStock" xml:space="preserve">
+    <value>Fixed stock</value>
+  </data>
+  <data name="Pos" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="Price_Currency" xml:space="preserve">
+    <value>Price in currency</value>
+  </data>
+  <data name="PriceSum" xml:space="preserve">
+    <value>Sum price</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="Project_Owner" xml:space="preserve">
+    <value>Owner project</value>
+  </data>
+  <data name="ProjectLine" xml:space="preserve">
+    <value>Project line</value>
+  </data>
+  <data name="ProjectLine_Owner" xml:space="preserve">
+    <value>Owner project line</value>
+  </data>
+  <data name="ProjectNumber" xml:space="preserve">
+    <value>Project number</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantity real</value>
+  </data>
+  <data name="Quantity_Return" xml:space="preserve">
+    <value>Quantity return</value>
+  </data>
+  <data name="QuantityOutgoingInvoice" xml:space="preserve">
+    <value>Quantity outgoing invoice</value>
+  </data>
+  <data name="QuantityQuarantine" xml:space="preserve">
+    <value>Quantity quarantine</value>
+  </data>
+  <data name="QuantityWant" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="RiskCount" xml:space="preserve">
+    <value>Risk count</value>
+  </data>
+  <data name="RiskScoreAverage" xml:space="preserve">
+    <value>Risk average score</value>
+  </data>
+  <data name="RiskScoreAverageColor" xml:space="preserve">
+    <value>Risk average score color</value>
+  </data>
+  <data name="RiskScoreMax" xml:space="preserve">
+    <value>Risk max score</value>
+  </data>
+  <data name="RiskScoreMaxColor" xml:space="preserve">
+    <value>Risk max score color</value>
+  </data>
+  <data name="SAFTCodeList" xml:space="preserve">
+    <value>SAF-T code</value>
+  </data>
+  <data name="SubType" xml:space="preserve">
+    <value>Sub type</value>
+  </data>
+  <data name="SumCredit" xml:space="preserve">
+    <value>Sum credit</value>
+  </data>
+  <data name="SumDebit" xml:space="preserve">
+    <value>Sum debit</value>
+  </data>
+  <data name="SumPrice" xml:space="preserve">
+    <value>Total sum excl. VAT</value>
+  </data>
+  <data name="SumPrice_Currency" xml:space="preserve">
+    <value>Total sum excl. VAT in currency</value>
+  </data>
+  <data name="SumPriceWithTax" xml:space="preserve">
+    <value>Total sum with VAT</value>
+  </data>
+  <data name="SumPriceWithTax_Currency" xml:space="preserve">
+    <value>Total sum with VAT in currency</value>
+  </data>
+  <data name="SumTax" xml:space="preserve">
+    <value>Total VAT</value>
+  </data>
+  <data name="SumTax_Currency" xml:space="preserve">
+    <value>Total VAT in currency</value>
+  </data>
+  <data name="SumTaxCredit" xml:space="preserve">
+    <value>Sum VAT credit</value>
+  </data>
+  <data name="SumTaxDebit" xml:space="preserve">
+    <value>Sum VAT debit</value>
+  </data>
+  <data name="SumTaxReturnBasis" xml:space="preserve">
+    <value>Sum basis</value>
+  </data>
+  <data name="SumTaxReturnVat" xml:space="preserve">
+    <value>Sum VAT</value>
+  </data>
+  <data name="TaxCode" xml:space="preserve">
+    <value>VAT code</value>
+  </data>
+  <data name="VendorArticle" xml:space="preserve">
+    <value>Vendor article</value>
+  </data>
+  <data name="VendorArticleCode" xml:space="preserve">
+    <value>Vendor article code</value>
+  </data>
+  <data name="WorkOrder" xml:space="preserve">
+    <value>Work order</value>
+  </data>
+  <data name="WorkOrderMaterial" xml:space="preserve">
+    <value>Work order material</value>
+  </data>
+  <data name="WorkOrderNode" xml:space="preserve">
+    <value>Work order node</value>
+  </data>
+  <data name="EmailCount" xml:space="preserve">
+    <value>Email count</value>
+  </data>
+  <data name="FileCount" xml:space="preserve">
+    <value>File count</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="CurrencyRate" xml:space="preserve">
+    <value>Currency rate</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="OrgUnit_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="PONumber" xml:space="preserve">
+    <value>PO number</value>
+  </data>
+  <data name="Project_PO" xml:space="preserve">
+    <value>Purchase Order (PO)</value>
+  </data>
+  <data name="KIDNumber" xml:space="preserve">
+    <value>KID number</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Location_Hint" xml:space="preserve">
+    <value>Filter location for lot automatic selection</value>
+  </data>
+  <data name="CustomerArticleCode" xml:space="preserve">
+    <value>Customer's article number</value>
+  </data>
+  <data name="VatSpecification" xml:space="preserve">
+    <value>VAT Specification</value>
+  </data>
+  <data name="QualityControl" xml:space="preserve">
+    <value>Quality control</value>
+  </data>
+  <data name="Cost_Alternative" xml:space="preserve">
+    <value>Cost for alternative unit</value>
+  </data>
+  <data name="MeasurementUnit_Alternative" xml:space="preserve">
+    <value>Alternative unit</value>
+  </data>
+  <data name="Quantity_Alternative" xml:space="preserve">
+    <value>Quantity in alternative unit</value>
+  </data>
+  <data name="Account_Credit" xml:space="preserve">
+    <value>Account credit</value>
+  </data>
+  <data name="Account_Debit" xml:space="preserve">
+    <value>Account debit</value>
+  </data>
+</root>

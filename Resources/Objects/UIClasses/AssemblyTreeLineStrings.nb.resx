@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Article" xml:space="preserve">
+    <value>Artikkel</value>
+  </data>
+  <data name="ArticleAdditionalDescription" xml:space="preserve">
+    <value>Tilleggsbeskrivelse artikkel</value>
+  </data>
+  <data name="ArticleCode" xml:space="preserve">
+    <value>Artikkelnr.</value>
+  </data>
+  <data name="ArticleDescription" xml:space="preserve">
+    <value>Beskrivelse artikkel</value>
+  </data>
+  <data name="ArticleJoinCode" xml:space="preserve">
+    <value>Artikkelnr (eget+lev.)</value>
+  </data>
+  <data name="ArticleJoinName" xml:space="preserve">
+    <value>Artikkelnavn (eget+lev.)</value>
+  </data>
+  <data name="ArticleParent" xml:space="preserve">
+    <value>Overordnet kalkyle</value>
+  </data>
+  <data name="ArticleType" xml:space="preserve">
+    <value>Artikkeltype</value>
+  </data>
+  <data name="AssemblyPriceType" xml:space="preserve">
+    <value>Pristype for kalkyle</value>
+  </data>
+  <data name="AssemblyTreeType" xml:space="preserve">
+    <value>Kalkyle strukturtype</value>
+  </data>
+  <data name="CostMaterial" xml:space="preserve">
+    <value>Materialkost</value>
+  </data>
+  <data name="CostToPricePercent" xml:space="preserve">
+    <value>Overstyrt påslag materialer</value>
+  </data>
+  <data name="CostTotal" xml:space="preserve">
+    <value>Kost total</value>
+  </data>
+  <data name="CostWork" xml:space="preserve">
+    <value>Arbeidskost</value>
+  </data>
+  <data name="Density" xml:space="preserve">
+    <value>Tetthet, kg/m3</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="Diameter" xml:space="preserve">
+    <value>Diameter, mm</value>
+  </data>
+  <data name="Dimension" xml:space="preserve">
+    <value>Dimensjon</value>
+  </data>
+  <data name="ExpandState" xml:space="preserve">
+    <value>Åpen/lukket visning</value>
+  </data>
+  <data name="FixedCost" xml:space="preserve">
+    <value>Overstyrt materialkost</value>
+  </data>
+  <data name="FixedPrice" xml:space="preserve">
+    <value>Overstyrt pris</value>
+  </data>
+  <data name="GroupInWorkOrderType" xml:space="preserve">
+    <value>Group in work order type</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Høyde</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="IsNoteExists" xml:space="preserve">
+    <value>Notat</value>
+  </data>
+  <data name="IsSubAssembly" xml:space="preserve">
+    <value>Underkalkyle</value>
+  </data>
+  <data name="KeyChangePricePercent" xml:space="preserve">
+    <value>Prisendring</value>
+  </data>
+  <data name="KeyDB" xml:space="preserve">
+    <value>DB</value>
+  </data>
+  <data name="KeyDBForHour" xml:space="preserve">
+    <value>DB per time</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Lengde</value>
+  </data>
+  <data name="MaterialType" xml:space="preserve">
+    <value>Materialtype</value>
+  </data>
+  <data name="MeasurementUnit" xml:space="preserve">
+    <value>Enhet</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="NodeType" xml:space="preserve">
+    <value>Avsnittstype</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Notat</value>
+  </data>
+  <data name="NotePlainText" xml:space="preserve">
+    <value>Notatinnhold</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Valgfritt posisjon</value>
+  </data>
+  <data name="OrgUnit_Vendor" xml:space="preserve">
+    <value>Leverandør</value>
+  </data>
+  <data name="ParentRef" xml:space="preserve">
+    <value>Overordnet kalkyle</value>
+  </data>
+  <data name="Pos" xml:space="preserve">
+    <value>Posisjon</value>
+  </data>
+  <data name="PriceBasic" xml:space="preserve">
+    <value>Basispris</value>
+  </data>
+  <data name="PriceDefault" xml:space="preserve">
+    <value>Standardpris</value>
+  </data>
+  <data name="PriceListPrice" xml:space="preserve">
+    <value>Prislistepris</value>
+  </data>
+  <data name="PriceTotal" xml:space="preserve">
+    <value>Bruttopris</value>
+  </data>
+  <data name="PriceTotalWithoutWork" xml:space="preserve">
+    <value>Pris ekskl. arbeid</value>
+  </data>
+  <data name="PriceWork" xml:space="preserve">
+    <value>Pris arbeid</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Prosjekt</value>
+  </data>
+  <data name="ProjectLine" xml:space="preserve">
+    <value>Prosjektlinje</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Kvalitet</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Antall enheter pr stk.</value>
+  </data>
+  <data name="QuantityArrived" xml:space="preserve">
+    <value>Antall mottatt</value>
+  </data>
+  <data name="QuantityDelivered" xml:space="preserve">
+    <value>Antall levert</value>
+  </data>
+  <data name="QuantityLock" xml:space="preserve">
+    <value>Lås mengde</value>
+  </data>
+  <data name="QuantityOne" xml:space="preserve">
+    <value>Mengde en</value>
+  </data>
+  <data name="QuantityPieces" xml:space="preserve">
+    <value>Antall stk</value>
+  </data>
+  <data name="QuantityPiecesTotal" xml:space="preserve">
+    <value>Totalt antall stk</value>
+  </data>
+  <data name="QuantityProduced" xml:space="preserve">
+    <value>Antall produsert</value>
+  </data>
+  <data name="QuantityPurchased" xml:space="preserve">
+    <value>Antall bestilt</value>
+  </data>
+  <data name="QuantityTotal" xml:space="preserve">
+    <value>Totalt antall enheter</value>
+  </data>
+  <data name="ScriptDownwards" xml:space="preserve">
+    <value>Scripting nedover</value>
+  </data>
+  <data name="ScriptParameters" xml:space="preserve">
+    <value>Script parametre</value>
+  </data>
+  <data name="ScriptUpwards" xml:space="preserve">
+    <value>Scripting oppover</value>
+  </data>
+  <data name="SubWorkOrder" xml:space="preserve">
+    <value>Sub-arbeidsordre</value>
+  </data>
+  <data name="SubWorkOrderNumber" xml:space="preserve">
+    <value>Sub-arbeidsordrenr.</value>
+  </data>
+  <data name="SumCost" xml:space="preserve">
+    <value>Sum kost, totalt</value>
+  </data>
+  <data name="SumCostMaterial" xml:space="preserve">
+    <value>Sum materialkost</value>
+  </data>
+  <data name="SumCostWork" xml:space="preserve">
+    <value>Sum arbeidskost</value>
+  </data>
+  <data name="SumPrice" xml:space="preserve">
+    <value>Sum pris, totalt</value>
+  </data>
+  <data name="SumPriceWithoutWork" xml:space="preserve">
+    <value>Sum pris ekskl. arbeid</value>
+  </data>
+  <data name="SumPriceWork" xml:space="preserve">
+    <value>Sum pris arbeid</value>
+  </data>
+  <data name="UsedCostToPricePercent" xml:space="preserve">
+    <value>Påslag materialer</value>
+  </data>
+  <data name="VendorArticle" xml:space="preserve">
+    <value>Leverandørartikkel</value>
+  </data>
+  <data name="VendorArticleCode" xml:space="preserve">
+    <value>Artikkelnr leverandør</value>
+  </data>
+  <data name="VendorArticleDescription" xml:space="preserve">
+    <value>Beskrivelse lev.artikkel</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Vekt</value>
+  </data>
+  <data name="WeightTotal" xml:space="preserve">
+    <value>Totalvekt</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Bredde</value>
+  </data>
+  <data name="WorkHours" xml:space="preserve">
+    <value>Antall timer</value>
+  </data>
+  <data name="WorkHoursEach" xml:space="preserve">
+    <value>Timer per stk</value>
+  </data>
+  <data name="WorkOrder" xml:space="preserve">
+    <value>Arbeidsordre</value>
+  </data>
+  <data name="WorkOrder_Sub" xml:space="preserve">
+    <value>Subarbeidsordre</value>
+  </data>
+  <data name="SumCostPerKg" xml:space="preserve">
+    <value>Sum kost per kg, totalt</value>
+  </data>
+  <data name="SumPricePerKg" xml:space="preserve">
+    <value>Sum pris per kg, totalt</value>
+  </data>
+  <data name="KeyCostToPrice" xml:space="preserve">
+    <value>DB/kost</value>
+  </data>
+  <data name="KeyDG" xml:space="preserve">
+    <value>DG</value>
+  </data>
+  <data name="PriceFromArticle" xml:space="preserve">
+    <value>Artikkelpris</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Rabatt</value>
+  </data>
+  <data name="PriceWithDiscount" xml:space="preserve">
+    <value>Nettopris</value>
+  </data>
+  <data name="SumPriceWithDiscount" xml:space="preserve">
+    <value>Sum pris med rabatt, totalt</value>
+  </data>
+  <data name="KeySumCostWorkForHour" xml:space="preserve">
+    <value>Arbeidskost per time</value>
+  </data>
+  <data name="KeySumPriceWorkForHour" xml:space="preserve">
+    <value>Arbeidspris per time</value>
+  </data>
+  <data name="KeyWorkDB" xml:space="preserve">
+    <value>DB arbeid</value>
+  </data>
+  <data name="KeyWorkDBPerHour" xml:space="preserve">
+    <value>DB arbeid per time</value>
+  </data>
+  <data name="KeyWorkDG" xml:space="preserve">
+    <value>DG arbeid</value>
+  </data>
+  <data name="QuantityType" xml:space="preserve">
+    <value>Mengdetype</value>
+  </data>
+  <data name="FixedWeight" xml:space="preserve">
+    <value>Overstyrt vekt, kg</value>
+  </data>
+  <data name="IsCustomCreated" xml:space="preserve">
+    <value>Lagt til</value>
+  </data>
+  <data name="CostMaterial_Hint" xml:space="preserve">
+    <value>Materialkost per enhet</value>
+  </data>
+  <data name="CostTotal_Hint" xml:space="preserve">
+    <value>Sum kost (arbeid+materialer) per enhet</value>
+  </data>
+  <data name="CostWork_Hint" xml:space="preserve">
+    <value>Arbeidskost per enhet</value>
+  </data>
+  <data name="FixedCost_Hint" xml:space="preserve">
+    <value>Overstyrt materialkost per enhet</value>
+  </data>
+  <data name="FixedPrice_Hint" xml:space="preserve">
+    <value>Overstyrt pris per enhet</value>
+  </data>
+  <data name="PriceBasic_Hint" xml:space="preserve">
+    <value>Basispris per enhet</value>
+  </data>
+  <data name="PriceDefault_Hint" xml:space="preserve">
+    <value>Standardpris per enhet</value>
+  </data>
+  <data name="PriceListPrice_Hint" xml:space="preserve">
+    <value>Prislistepris per enhet</value>
+  </data>
+  <data name="PriceTotalWithoutWork_Hint" xml:space="preserve">
+    <value>Pris ekskl. arbeid per enhet</value>
+  </data>
+  <data name="PriceTotal_Hint" xml:space="preserve">
+    <value>Bruttopris per enhet</value>
+  </data>
+  <data name="PriceWork_Hint" xml:space="preserve">
+    <value>Pris arbeid per enhet</value>
+  </data>
+  <data name="SumCostMaterial_Hint" xml:space="preserve">
+    <value>Summert materialkost</value>
+  </data>
+  <data name="SumCostWork_Hint" xml:space="preserve">
+    <value>Summert fra arbeidsoperasjoner</value>
+  </data>
+  <data name="SumCost_Hint" xml:space="preserve">
+    <value>Sum kost, totalt (arbeid+materialer)</value>
+  </data>
+  <data name="KeyDB_Hint" xml:space="preserve">
+    <value>Dekningsbidrag</value>
+  </data>
+  <data name="KeyDG_Hint" xml:space="preserve">
+    <value>Dekningsgrad</value>
+  </data>
+  <data name="CustomerArticleCode" xml:space="preserve">
+    <value>Kundens artikkelnr</value>
+  </data>
+  <data name="CustomerLocation" xml:space="preserve">
+    <value>Kundens lokasjon</value>
+  </data>
+  <data name="CustomerPosition" xml:space="preserve">
+    <value>PO-line</value>
+  </data>
+  <data name="FixedKeyDG" xml:space="preserve">
+    <value>Overstyrt DG, %</value>
+  </data>
+  <data name="ParentNode" xml:space="preserve">
+    <value>Overordnet node</value>
+  </data>
+  <data name="SumCostPerProduct" xml:space="preserve">
+    <value>Sum kost per produkt, totalt</value>
+  </data>
+  <data name="SumPricePerProduct" xml:space="preserve">
+    <value>Sum pris per produkt, totalt</value>
+  </data>
+  <data name="IsCut" xml:space="preserve">
+    <value>Kuttet</value>
+  </data>
+  <data name="EmissionFromArticle" xml:space="preserve">
+    <value>Utslipp fra artikkel, kgCO2e</value>
+  </data>
+</root>

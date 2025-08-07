@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_Credit" xml:space="preserve">
+    <value>Рахунок кредита</value>
+  </data>
+  <data name="Account_Debit" xml:space="preserve">
+    <value>Рахунок дебета</value>
+  </data>
+  <data name="Account_Inventory" xml:space="preserve">
+    <value>Рахунок запасів</value>
+  </data>
+  <data name="Account_Purchase" xml:space="preserve">
+    <value>Рахунок покупок</value>
+  </data>
+  <data name="Account_Sales" xml:space="preserve">
+    <value>Рахунок продаж</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="CultureName" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+  <data name="CustomerNumber" xml:space="preserve">
+    <value>Код клієнта</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Знижка</value>
+  </data>
+  <data name="InvoiceGroupType" xml:space="preserve">
+    <value>Як групувати рахунки</value>
+  </data>
+  <data name="IsCustomer" xml:space="preserve">
+    <value>Клієнт</value>
+  </data>
+  <data name="IsCustomerCandidate" xml:space="preserve">
+    <value>Потенційний клієнт</value>
+  </data>
+  <data name="IsStock" xml:space="preserve">
+    <value>Склад</value>
+  </data>
+  <data name="IsPartner" xml:space="preserve">
+    <value>Партнер</value>
+  </data>
+  <data name="IsVendor" xml:space="preserve">
+    <value>Чи постачальник</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Назва</value>
+  </data>
+  <data name="OrgUnitAddress_Delivery" xml:space="preserve">
+    <value>Адреса для доставки</value>
+  </data>
+  <data name="OrgUnitAddress_Invoice" xml:space="preserve">
+    <value>Адреса для рахунку</value>
+  </data>
+  <data name="OrgUnitAddress_Main" xml:space="preserve">
+    <value>Головна адреса</value>
+  </data>
+  <data name="OrgUnit_InvoiceOwner" xml:space="preserve">
+    <value>Власник рахунку</value>
+  </data>
+  <data name="OrgUnit_Parent" xml:space="preserve">
+    <value>Приналежність</value>
+  </data>
+  <data name="PostIndex" xml:space="preserve">
+    <value>Поштовий індекс</value>
+  </data>
+  <data name="PriceList" xml:space="preserve">
+    <value>Прайс лист</value>
+  </data>
+  <data name="VendorNumber" xml:space="preserve">
+    <value>Код постачальника</value>
+  </data>
+  <data name="TaxCode_Purchase" xml:space="preserve">
+    <value>Податковий кодекс покупок</value>
+  </data>
+  <data name="TaxCode_Sales" xml:space="preserve">
+    <value>Податковий кодекс продаж</value>
+  </data>
+  <data name="IsVendorCandidate" xml:space="preserve">
+    <value>Чи потенціальний постачальник</value>
+  </data>
+  <data name="BankName" xml:space="preserve">
+    <value>Назва банку</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Країна</value>
+  </data>
+  <data name="Iban" xml:space="preserve">
+    <value>IBAN код</value>
+  </data>
+  <data name="SwiftCode" xml:space="preserve">
+    <value>Швидкий код</value>
+  </data>
+  <data name="OrganizationNumber" xml:space="preserve">
+    <value>Код організації</value>
+  </data>
+  <data name="Account_Customer" xml:space="preserve">
+    <value>Рахунок клієнта</value>
+  </data>
+  <data name="Account_NotInvoicedVendor" xml:space="preserve">
+    <value>Рахунок постачальника..</value>
+  </data>
+  <data name="Account_Purchase_InRegion" xml:space="preserve">
+    <value>Рахунок покупок в регіоні</value>
+  </data>
+  <data name="Account_Purchase_OutRegion" xml:space="preserve">
+    <value>Рахунок покупок поза регіоном</value>
+  </data>
+  <data name="Account_Sales_InRegion" xml:space="preserve">
+    <value>Рахунок продаж в регіоні</value>
+  </data>
+  <data name="Account_Sales_OutRegion" xml:space="preserve">
+    <value>Рахунок продаж поза регіоном</value>
+  </data>
+  <data name="Account_Vendor" xml:space="preserve">
+    <value>Рахунок постачальника</value>
+  </data>
+  <data name="BankNumber" xml:space="preserve">
+    <value>Номер банку</value>
+  </data>
+  <data name="CreditLimit" xml:space="preserve">
+    <value>Кредитний ліміт</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Культура</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Валюта</value>
+  </data>
+  <data name="DateCreated" xml:space="preserve">
+    <value>Дата створення</value>
+  </data>
+  <data name="DeliveryMethod" xml:space="preserve">
+    <value>Метод доставки</value>
+  </data>
+  <data name="DeliveryTerms" xml:space="preserve">
+    <value>Умови доставки</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Електронна пошта</value>
+  </data>
+  <data name="Email_Bcc" xml:space="preserve">
+    <value>ВСС</value>
+  </data>
+  <data name="Email_Cc" xml:space="preserve">
+    <value>СС</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>Дата закінчення ліцензії</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Факс</value>
+  </data>
+  <data name="FixedExpirationDate" xml:space="preserve">
+    <value>Фіксована дата закінчення ліцензії</value>
+  </data>
+  <data name="FreightPercent" xml:space="preserve">
+    <value>Процент вантажу</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Ід</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>Активний</value>
+  </data>
+  <data name="IsLeadProvider" xml:space="preserve">
+    <value>Лід провайдео</value>
+  </data>
+  <data name="IsNoteExists" xml:space="preserve">
+    <value>Замітка існує</value>
+  </data>
+  <data name="IsSubcontractor" xml:space="preserve">
+    <value>Субпідрядник</value>
+  </data>
+  <data name="IsUsesParent" xml:space="preserve">
+    <value>Деревовидний</value>
+  </data>
+  <data name="MobilePhone" xml:space="preserve">
+    <value>Мобільний</value>
+  </data>
+  <data name="NotePlainText" xml:space="preserve">
+    <value>Текст замітки</value>
+  </data>
+  <data name="OrgUnit_DefaultStock" xml:space="preserve">
+    <value>Склад за замовчуванням</value>
+  </data>
+  <data name="OrgUnitAddress_Post" xml:space="preserve">
+    <value>Адреса відправки</value>
+  </data>
+  <data name="OrgUnitAddress_Visit" xml:space="preserve">
+    <value>Адреса зустрічі</value>
+  </data>
+  <data name="OrgUnitContact_Default" xml:space="preserve">
+    <value>Контакт за замовчуванням</value>
+  </data>
+  <data name="OrgUnitRegionType" xml:space="preserve">
+    <value>Тип регіону</value>
+  </data>
+  <data name="OrgUnitUser_Responsible" xml:space="preserve">
+    <value>Відповідальний</value>
+  </data>
+  <data name="ParentId" xml:space="preserve">
+    <value>Ід батька</value>
+  </data>
+  <data name="PaymentTerms" xml:space="preserve">
+    <value>Умови оплати</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="SerialNumberDefinition" xml:space="preserve">
+    <value>Означення серійного номера</value>
+  </data>
+  <data name="TaxCode_Purchase_InRegion" xml:space="preserve">
+    <value>Купівля в регіоні</value>
+  </data>
+  <data name="TaxCode_Purchase_OutRegion" xml:space="preserve">
+    <value>Купівля поза регіоном</value>
+  </data>
+  <data name="TaxCode_Sales_InRegion" xml:space="preserve">
+    <value>Продажі в регіоні</value>
+  </data>
+  <data name="TaxCode_Sales_OutRegion" xml:space="preserve">
+    <value>Продажі поза регіоном</value>
+  </data>
+  <data name="WebAddress" xml:space="preserve">
+    <value>Веб адреса</value>
+  </data>
+</root>

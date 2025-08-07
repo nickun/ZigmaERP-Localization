@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Article" xml:space="preserve">
+    <value>Artikkel</value>
+  </data>
+  <data name="ArticleCode" xml:space="preserve">
+    <value>Artikkelnr.</value>
+  </data>
+  <data name="ArticleJoinCode" xml:space="preserve">
+    <value>Artikkelnr (eget+lev.)</value>
+  </data>
+  <data name="ArticleJoinName" xml:space="preserve">
+    <value>Artikkelnavn (eget+lev.)</value>
+  </data>
+  <data name="ArticleName" xml:space="preserve">
+    <value>Artikkelnavn</value>
+  </data>
+  <data name="ArticleNumber" xml:space="preserve">
+    <value>Artikkelnr.</value>
+  </data>
+  <data name="CertificateNumber" xml:space="preserve">
+    <value>Sertifikat</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Kost</value>
+  </data>
+  <data name="Cost_Alternative" xml:space="preserve">
+    <value>Kost for alternativ enhet</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Lokasjon</value>
+  </data>
+  <data name="Lot" xml:space="preserve">
+    <value>Parti/lot</value>
+  </data>
+  <data name="MeasurementUnit" xml:space="preserve">
+    <value>Enhet</value>
+  </data>
+  <data name="MeasurementUnit_Alternative" xml:space="preserve">
+    <value>Alternativ enhet</value>
+  </data>
+  <data name="OrgUnit_Stock" xml:space="preserve">
+    <value>Lagernavn</value>
+  </data>
+  <data name="Project_Stock" xml:space="preserve">
+    <value>Prosjektlager</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Antall</value>
+  </data>
+  <data name="Quantity_Alternative" xml:space="preserve">
+    <value>Antall i alternativ enhet</value>
+  </data>
+  <data name="QuantityLock" xml:space="preserve">
+    <value>Kvantumssperre</value>
+  </data>
+  <data name="SerialNumber" xml:space="preserve">
+    <value>Serienummer</value>
+  </data>
+  <data name="SerialNumber_Customer" xml:space="preserve">
+    <value>Kundens serienummer</value>
+  </data>
+  <data name="Sum" xml:space="preserve">
+    <value>Sum kost</value>
+  </data>
+  <data name="VendorArticle" xml:space="preserve">
+    <value>Leverandørartikkel</value>
+  </data>
+  <data name="VendorArticleCode" xml:space="preserve">
+    <value>Artikkelnr leverandør</value>
+  </data>
+  <data name="VendorArticleName" xml:space="preserve">
+    <value>Lev. artikkelnavn</value>
+  </data>
+  <data name="ArticleType" xml:space="preserve">
+    <value>Artikkeltype</value>
+  </data>
+  <data name="IsDefaultArticleLot" xml:space="preserve">
+    <value>Standard artikkel parti/lot</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>Utløpsdato</value>
+  </data>
+  <data name="NewCost" xml:space="preserve">
+    <value>Ny kost</value>
+  </data>
+  <data name="NewQuantity" xml:space="preserve">
+    <value>Nytt antall</value>
+  </data>
+  <data name="InvoiceCost" xml:space="preserve">
+    <value>Faktura kost</value>
+  </data>
+  <data name="InvoiceCostSum" xml:space="preserve">
+    <value>Sum faktura kost</value>
+  </data>
+  <data name="BarCodeString" xml:space="preserve">
+    <value>Strekkode</value>
+  </data>
+  <data name="NewLocation" xml:space="preserve">
+    <value>Ny lokasjon</value>
+  </data>
+  <data name="OrgUnit_Department" xml:space="preserve">
+    <value>Artikkelavdeling</value>
+  </data>
+  <data name="ReservedFor" xml:space="preserve">
+    <value>Reservert for</value>
+  </data>
+  <data name="NewQuantity_Alternative" xml:space="preserve">
+    <value>Nytt antall i alternativ enhet</value>
+  </data>
+</root>

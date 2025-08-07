@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Article" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="CostFromArticle" xml:space="preserve">
+    <value>Cost from article</value>
+  </data>
+  <data name="CostFromArticle_Currency" xml:space="preserve">
+    <value>Cost from article (currency)</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="JoinArticleCode" xml:space="preserve">
+    <value>Joined article code</value>
+  </data>
+  <data name="JoinArticleName" xml:space="preserve">
+    <value>Joined article name</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NetPrice" xml:space="preserve">
+    <value>Net price</value>
+  </data>
+  <data name="NetPrice_Currency" xml:space="preserve">
+    <value>Net price (currency)</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="Price_Currency" xml:space="preserve">
+    <value>Price (currency)</value>
+  </data>
+  <data name="PriceFromArticle" xml:space="preserve">
+    <value>Price from article</value>
+  </data>
+  <data name="PriceFromArticle_Currency" xml:space="preserve">
+    <value>Price from article (currency)</value>
+  </data>
+  <data name="PriceList" xml:space="preserve">
+    <value>Price list</value>
+  </data>
+  <data name="PriceListType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="QuantityDiscountCategory1_Discount" xml:space="preserve">
+    <value>Discount for category 1</value>
+  </data>
+  <data name="QuantityDiscountCategory1_NetPrice" xml:space="preserve">
+    <value>Net price category 1</value>
+  </data>
+  <data name="QuantityDiscountCategory1_NetPrice_Currency" xml:space="preserve">
+    <value>Net price category 1 (currency)</value>
+  </data>
+  <data name="QuantityDiscountCategory1_Price" xml:space="preserve">
+    <value>Price category 1</value>
+  </data>
+  <data name="QuantityDiscountCategory1_Price_Currency" xml:space="preserve">
+    <value>Price category 1 (currency)</value>
+  </data>
+  <data name="QuantityDiscountCategory2_Discount" xml:space="preserve">
+    <value>Discount for category 2</value>
+  </data>
+  <data name="QuantityDiscountCategory2_NetPrice" xml:space="preserve">
+    <value>Net price category 2</value>
+  </data>
+  <data name="QuantityDiscountCategory2_NetPrice_Currency" xml:space="preserve">
+    <value>Net price category 2 (currency)</value>
+  </data>
+  <data name="QuantityDiscountCategory2_Price" xml:space="preserve">
+    <value>Price category 2</value>
+  </data>
+  <data name="QuantityDiscountCategory2_Price_Currency" xml:space="preserve">
+    <value>Price category 2 (currency)</value>
+  </data>
+  <data name="QuantityDiscountCategory3_Discount" xml:space="preserve">
+    <value>Discount for category 3</value>
+  </data>
+  <data name="QuantityDiscountCategory3_NetPrice" xml:space="preserve">
+    <value>Net price category 3</value>
+  </data>
+  <data name="QuantityDiscountCategory3_NetPrice_Currency" xml:space="preserve">
+    <value>Net price category 3 (currency)</value>
+  </data>
+  <data name="QuantityDiscountCategory3_Price" xml:space="preserve">
+    <value>Price category 3</value>
+  </data>
+  <data name="QuantityDiscountCategory3_Price_Currency" xml:space="preserve">
+    <value>Price category 3 (currency)</value>
+  </data>
+  <data name="QuantityDiscountCategory4_Discount" xml:space="preserve">
+    <value>Discount for category 4</value>
+  </data>
+  <data name="QuantityDiscountCategory4_NetPrice" xml:space="preserve">
+    <value>Net price category 4</value>
+  </data>
+  <data name="QuantityDiscountCategory4_NetPrice_Currency" xml:space="preserve">
+    <value>Net price category 4 (currency)</value>
+  </data>
+  <data name="QuantityDiscountCategory4_Price" xml:space="preserve">
+    <value>Price category 4</value>
+  </data>
+  <data name="QuantityDiscountCategory4_Price_Currency" xml:space="preserve">
+    <value>Price category 4 (currency)</value>
+  </data>
+  <data name="QuantityDiscountCategory5_Discount" xml:space="preserve">
+    <value>Discount for category 5</value>
+  </data>
+  <data name="QuantityDiscountCategory5_NetPrice" xml:space="preserve">
+    <value>Net price category 5</value>
+  </data>
+  <data name="QuantityDiscountCategory5_NetPrice_Currency" xml:space="preserve">
+    <value>Net price category 5 (currency)</value>
+  </data>
+  <data name="QuantityDiscountCategory5_Price" xml:space="preserve">
+    <value>Price category 5</value>
+  </data>
+  <data name="QuantityDiscountCategory5_Price_Currency" xml:space="preserve">
+    <value>Price category 5 (currency)</value>
+  </data>
+  <data name="VendorArticle" xml:space="preserve">
+    <value>Vendor article</value>
+  </data>
+  <data name="KeyDB" xml:space="preserve">
+    <value>DB</value>
+  </data>
+  <data name="KeyDG" xml:space="preserve">
+    <value>DG, %</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Article description</value>
+  </data>
+  <data name="MeasurementUnit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="CurrencyRate" xml:space="preserve">
+    <value>Currency rate</value>
+  </data>
+  <data name="OrgUnit" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="Weight_Hint" xml:space="preserve">
+    <value>The higher number - the higher priority</value>
+  </data>
+  <data name="DateBegin" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="DateEnd" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="UseForArticlePriceListPrice" xml:space="preserve">
+    <value>Update article price</value>
+  </data>
+  <data name="UseForArticlePriceListPrice_Hint" xml:space="preserve">
+    <value>Prices from the price list are updating "Price list price" of corresponding articles</value>
+  </data>
+  <data name="UseActualPrice" xml:space="preserve">
+    <value>Use price from article</value>
+  </data>
+  <data name="CostToPricePercent" xml:space="preserve">
+    <value>Markup percent</value>
+  </data>
+  <data name="QuantityDiscountCategory1_Quantity" xml:space="preserve">
+    <value>Quantity for category 1</value>
+  </data>
+  <data name="QuantityDiscountCategory2_Quantity" xml:space="preserve">
+    <value>Quantity for category 2</value>
+  </data>
+  <data name="QuantityDiscountCategory3_Quantity" xml:space="preserve">
+    <value>Quantity for category 3</value>
+  </data>
+  <data name="QuantityDiscountCategory4_Quantity" xml:space="preserve">
+    <value>Quantity for category 4</value>
+  </data>
+  <data name="QuantityDiscountCategory5_Quantity" xml:space="preserve">
+    <value>Quantity for category 5</value>
+  </data>
+  <data name="QuantityDiscount_UseAdvancedCalculation" xml:space="preserve">
+    <value>Use advanced calculation</value>
+  </data>
+  <data name="Price_MainUnit" xml:space="preserve">
+    <value>Price in main unit</value>
+  </data>
+  <data name="Price_MainUnit_Currency" xml:space="preserve">
+    <value>Price in main unit (currency)</value>
+  </data>
+  <data name="MeasurementUnit_Main" xml:space="preserve">
+    <value>Main unit</value>
+  </data>
+  <data name="CustomerArticleCode" xml:space="preserve">
+    <value>Customer's article number</value>
+  </data>
+  <data name="CustomerArticleName" xml:space="preserve">
+    <value>Customer's article name</value>
+  </data>
+  <data name="ReferenceField1" xml:space="preserve">
+    <value>Multi choice field 1</value>
+  </data>
+  <data name="ReferenceField2" xml:space="preserve">
+    <value>Multi choice field 2</value>
+  </data>
+  <data name="ReferenceField3" xml:space="preserve">
+    <value>Multi choice field 3</value>
+  </data>
+  <data name="StringField1" xml:space="preserve">
+    <value>String field 1</value>
+  </data>
+  <data name="StringField10" xml:space="preserve">
+    <value>String field 10</value>
+  </data>
+  <data name="StringField2" xml:space="preserve">
+    <value>String field 2</value>
+  </data>
+  <data name="StringField3" xml:space="preserve">
+    <value>String field 3</value>
+  </data>
+  <data name="StringField4" xml:space="preserve">
+    <value>String field 4</value>
+  </data>
+  <data name="StringField5" xml:space="preserve">
+    <value>String field 5</value>
+  </data>
+  <data name="StringField6" xml:space="preserve">
+    <value>String field 6</value>
+  </data>
+  <data name="StringField7" xml:space="preserve">
+    <value>String field 7</value>
+  </data>
+  <data name="StringField8" xml:space="preserve">
+    <value>String field 8</value>
+  </data>
+  <data name="StringField9" xml:space="preserve">
+    <value>String field 9</value>
+  </data>
+</root>

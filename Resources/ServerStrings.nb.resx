@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountAccrualIsnotSpecifiedForAccountLineNumber" xml:space="preserve">
+    <value>Periodiseringskonto er ikke spesifisert for regnskaps linjenummer {0}</value>
+  </data>
+  <data name="AccountCreditIsnotSpecifiedForAccountLineNumber" xml:space="preserve">
+    <value>Kreditkonto er ikke spesifisert for linje nr {0}</value>
+  </data>
+  <data name="AccountDebitIsnotSpecifiedForAccountLineNumber" xml:space="preserve">
+    <value>Debetkonto er ikke spesifisert for linje nr {0}</value>
+  </data>
+  <data name="AvailableQuantityLessThanNeeded" xml:space="preserve">
+    <value>Tilgjengelig mengde er mindre enn behovet</value>
+  </data>
+  <data name="CannotInsertDuplicateKeyValue" xml:space="preserve">
+    <value>Kan ikke legge inn dupliseringsnøkkel verdi ({0})</value>
+  </data>
+  <data name="CantAddUserWithExistingName" xml:space="preserve">
+    <value>Kan ikke legge til bruker hvor navnet finnes fra før</value>
+  </data>
+  <data name="CantAddUserWithExistingNumber" xml:space="preserve">
+    <value>Kan ikke legge til bruker hvor nummer finnes fra før</value>
+  </data>
+  <data name="CantChangeProjectState" xml:space="preserve">
+    <value>Kan ikke endre prosjektstatus</value>
+  </data>
+  <data name="CantDeleteAccountWithBalance" xml:space="preserve">
+    <value>Account can't be removed as has a balance</value>
+  </data>
+  <data name="CantDeleteItem" xml:space="preserve">
+    <value>Kan ikke slette element</value>
+  </data>
+  <data name="CantDeleteOperationsUsesInTimeRecords" xml:space="preserve">
+    <value>Kan ikke slette operasjoner!\r\nOperasjonen er brukt i timeregistrering</value>
+  </data>
+  <data name="CantFindOUWithNumber" xml:space="preserve">
+    <value>Kan ikke finne kontakt med dette nummeret</value>
+  </data>
+  <data name="CantRemoveObjectObjectUsesInTimeRecords" xml:space="preserve">
+    <value>Kan ikke fjerne objektt!\r\nObjektet er brukt i timeregistrering</value>
+  </data>
+  <data name="CantSaveAccountWithExistingCode" xml:space="preserve">
+    <value>Can't save account with existing code</value>
+  </data>
+  <data name="CantSaveItem" xml:space="preserve">
+    <value>Kan ikke lagre element</value>
+  </data>
+  <data name="CantSaveObjectAllChildrenMustBeClosed" xml:space="preserve">
+    <value>Kan ikke lagre object!\r\nAlle underprosjekt å være lukket</value>
+  </data>
+  <data name="CantSaveObjectNotClosedDeviationsExistsForThisProject" xml:space="preserve">
+    <value>Kan ikke lagre objekt!\r\nDet finnes avvik som ikke er lukket på dette prosjektet eller tilhørende</value>
+  </data>
+  <data name="CantSaveOrgUnitAddress" xml:space="preserve">
+    <value>Kan ikke lagre adresse</value>
+  </data>
+  <data name="CantSavePostIndex" xml:space="preserve">
+    <value>Kan ikke lagre postnr</value>
+  </data>
+  <data name="CantSaveSubscription" xml:space="preserve">
+    <value>Kan ikke lagre abonnement!</value>
+  </data>
+  <data name="CantSaveUserWithExistingName" xml:space="preserve">
+    <value>Kan ikke lagre bruker - navnet finnes fra før</value>
+  </data>
+  <data name="CantSaveUserWithExistingNumber" xml:space="preserve">
+    <value>Kan ikke lagre nummer - nummeret finnes fra før</value>
+  </data>
+  <data name="CantUpdateArticlePriceListPrice" xml:space="preserve">
+    <value>Kan ikke oppdatere prisliste pris</value>
+  </data>
+  <data name="CustomerMustBeSpecified" xml:space="preserve">
+    <value>Kunde må være spesifisert!</value>
+  </data>
+  <data name="DatabaseCreationIsNotAllowed" xml:space="preserve">
+    <value>Ikke tillatt å opprette database</value>
+  </data>
+  <data name="DayCommentForThisDateAlreadyExists" xml:space="preserve">
+    <value>Dagskommentar finnes allerede for denne dagen!</value>
+  </data>
+  <data name="DBCreationError" xml:space="preserve">
+    <value>Feil ved opprettelse av database. \r\n {0}</value>
+  </data>
+  <data name="DebitAndCreditDoNotMatch" xml:space="preserve">
+    <value>Debet og kredit matcher ikke</value>
+  </data>
+  <data name="DeviationTaskCantBeClosedDirectly" xml:space="preserve">
+    <value>Avviket kan ikke lukkes direkte!\r\nOppgaven lukkes når avviksprosjektet er lukket. Avviket kan lukkes når prosjektet er håndtert.</value>
+  </data>
+  <data name="DocumentDate" xml:space="preserve">
+    <value>Dokument: {0}\r\nDato: {1}</value>
+  </data>
+  <data name="DocumentDetailsMustHaveRefToIIJournalLine" xml:space="preserve">
+    <value>Dokumentdetaljer må ha referanse til 'Innkommende faktura' journallinje!</value>
+  </data>
+  <data name="DocumentDetailsMustHaveRefToOIJournalLine" xml:space="preserve">
+    <value>Dokumentdetaljer må ha referanse til 'Utgående faktura' journallinje!</value>
+  </data>
+  <data name="DocumentFromTo" xml:space="preserve">
+    <value>Dokument: {0}\r\nFra: {1}, Til: {2}</value>
+  </data>
+  <data name="Exception" xml:space="preserve">
+    <value>Et feil har oppstått: {0}</value>
+  </data>
+  <data name="FollowingUnitsOfVANotSpecified" xml:space="preserve">
+    <value>Følgende enheter av leverandørartikler er ikke spesifisert i artikkel: {0}</value>
+  </data>
+  <data name="GlobalGovermentPaymentAccountIsNotSpecified" xml:space="preserve">
+    <value>Oppgjørskonto mva er ikke speisifisert i systeminnstilligene.</value>
+  </data>
+  <data name="IncorrectPeriod" xml:space="preserve">
+    <value>Feil periode</value>
+  </data>
+  <data name="NoLandingPageWithThisId" xml:space="preserve">
+    <value>Ingen landingsside med denne id</value>
+  </data>
+  <data name="NoProjectWithThisId" xml:space="preserve">
+    <value>Ingen prosjekt med denne id!</value>
+  </data>
+  <data name="NotEnoughRestsDocument" xml:space="preserve">
+    <value>Ikke nok på lager. Dokument: {0}</value>
+  </data>
+  <data name="NotEnoughRestsLot" xml:space="preserve">
+    <value>Ikke nok på lager for lot'en: {0}</value>
+  </data>
+  <data name="NoUserWithThisName" xml:space="preserve">
+    <value>Ingen bruker med dette navnet!</value>
+  </data>
+  <data name="OneOfDocLineDoesntHaveAccountingLine" xml:space="preserve">
+    <value>En av dokumentlinjene mangler kontolinjer</value>
+  </data>
+  <data name="ProjectDoesntExists" xml:space="preserve">
+    <value>Prosjektet finnes ikke!</value>
+  </data>
+  <data name="ServerError" xml:space="preserve">
+    <value>Serverfeil\r\n{0}</value>
+  </data>
+  <data name="SomeFieldsAreNotCorrectlyInitialized" xml:space="preserve">
+    <value>Noen felt er ikke korrekt initialisert</value>
+  </data>
+  <data name="StockMustBeSpecifiedForDocumentProjects" xml:space="preserve">
+    <value>Et lager må være spesifisert for dokumentet (prosjekter).</value>
+  </data>
+  <data name="TimingResourceOrTimingResourceGroupRequired" xml:space="preserve">
+    <value>Tidsressurs eller tidsressursgruppe er påkrevd!</value>
+  </data>
+  <data name="TimingResourceShouldBeInTimingResourceGroup" xml:space="preserve">
+    <value>Tidsressurs bør være i tidsressursgruppe. Operasjon: {0}</value>
+  </data>
+  <data name="TimingResourceShouldBeInTimingResourceGroupOperation" xml:space="preserve">
+    <value>Tidsressurs bør være i tidsressursgruppe. Operasjon: {0}</value>
+  </data>
+  <data name="TimingResourceShouldBeInTimingResourceGroupOperationTemplate" xml:space="preserve">
+    <value>Tidsressurs bør være i tidsressursgruppe. Operasjonsmal: {0}</value>
+  </data>
+  <data name="UnableToCreateAccountAccountCodeCannotBeZero" xml:space="preserve">
+    <value>Kan ikke opprette kontot!\r\nKontokode kan ikke være null.</value>
+  </data>
+  <data name="UnableToDeleteDocument" xml:space="preserve">
+    <value>Kan ikke slette bilagsdokumentet</value>
+  </data>
+  <data name="UnableToDeleteDocumentAccountDetail" xml:space="preserve">
+    <value>Kan ikke slette kontodetaljer i bilagsdokument</value>
+  </data>
+  <data name="UnableToDeleteDocumentIsLocked" xml:space="preserve">
+    <value>Kan ikke slette bilagsdokument. Dokumentet er låst.</value>
+  </data>
+  <data name="UnableToDeleteDocumentLine" xml:space="preserve">
+    <value>Kan ikke slette dokumentlinje</value>
+  </data>
+  <data name="UnableToDeleteDocumentLotDetail" xml:space="preserve">
+    <value>Kan ikke slette dokumentets lotdetaljer</value>
+  </data>
+  <data name="UnableToDeleteProjectDependentDocuments" xml:space="preserve">
+    <value>Kan ikke slette prosjektet. Avhengige dokumenter: {0}</value>
+  </data>
+  <data name="UnableToDeleteProjectDependentTimeRecords" xml:space="preserve">
+    <value>Kan ikke slette prosjekt {0}.\r\nDet er brukt i timeregistrering</value>
+  </data>
+  <data name="UnableToDeleteProjectDependentWorkOrders" xml:space="preserve">
+    <value>Kan ikke slette prosjektet. Avhengig av arbeidsordre: {0}</value>
+  </data>
+  <data name="UnableToDeleteProjectLineDependentDocuments" xml:space="preserve">
+    <value>Kan ikke slette prosjektlinjen! Avhengige dokumenter: {0}</value>
+  </data>
+  <data name="UnableToDeleteTheDocumentLineDependentDocuments" xml:space="preserve">
+    <value>Kan ikke slette dokumentlinje '{0}'. Avhengige dokumenter: {1}</value>
+  </data>
+  <data name="UnableToDeleteTheLotDependentDocuments" xml:space="preserve">
+    <value>Kan ikke slette lot '{0}'. Avhengige dokumenter: {1}</value>
+  </data>
+  <data name="UnableToDeleteTheRecords" xml:space="preserve">
+    <value>Kan ikke slette registreringen fordi den er brukt i en annen tabell.</value>
+  </data>
+  <data name="UnableToDeleteWorkOrderDependentTimeRecords" xml:space="preserve">
+    <value>Kan ikke slette arbeidsordre {0}.\r\nDen er brukt i timeregistrering</value>
+  </data>
+  <data name="UnableToInitializeCompanyOUNumberDoesntExists" xml:space="preserve">
+    <value>Kan ikke initiere firma!\r\nOrganisasjonsnr finnes ikke i Zigma360.</value>
+  </data>
+  <data name="UnableToPostTheDocument" xml:space="preserve">
+    <value>Kan ikke postere bilaget.</value>
+  </data>
+  <data name="UnableToReadGeneralSettingCustomersAccountNotDefined" xml:space="preserve">
+    <value>Kan ikke lese generelle instillinger!\r\nKundekonto er ikke definert.</value>
+  </data>
+  <data name="UnableToReadGeneralSettingsGeneralLedgerNotDefined" xml:space="preserve">
+    <value>Bruker e-post konto må høre til en bruker.</value>
+  </data>
+  <data name="UnableToReadGeneralSettingsNotDefined" xml:space="preserve">
+    <value>Kan ikke lese generelle innstillinger!\r\nSysteminnstillinger er ikke definert</value>
+  </data>
+  <data name="UnableToReadGeneralSettingsSubLedgerForCustomersNotDefined" xml:space="preserve">
+    <value>Kan ikke lese generelle innstillinger!\r\nKundereskontro i systemoppsettet er ikke definert</value>
+  </data>
+  <data name="UnableToReadGeneralSettingsSubLedgerForVendorsNotDefined" xml:space="preserve">
+    <value>Kan ikke lese generelle innstillinger!\r\nLeverandørkonto er ikke spesifisert i systemoppsettet</value>
+  </data>
+  <data name="UnableToReadGeneralSettingsVendorsAccountNotDefined" xml:space="preserve">
+    <value>Kan ikke lese generelle instillinger!\r\nHovedbokskonto leverandørgjeld i systemoppsettet er ikke definert.</value>
+  </data>
+  <data name="UnableToReadgeneralSettingsWFPrefixNotDefined" xml:space="preserve">
+    <value>Kan ikke lese generelle innstillinger!\r\nWorkflow-prefiks er ikke definert i systemoppsettet</value>
+  </data>
+  <data name="UnableToRemoveItemCantRemoveBuiltInProjectType" xml:space="preserve">
+    <value>Kan ikke fjerne element!\r\nDu kan ikke fjerne innebygd prosjekttype.</value>
+  </data>
+  <data name="UnableToRemoveItemYouCannotRemoveBuiltInProjectState" xml:space="preserve">
+    <value>Kan ikke fjerne element!\r\nDu kan ikke fjerne innebygd prosjektfase.</value>
+  </data>
+  <data name="UnableToRemoveItemYouCantRemoveBuildtInProjectSubtype" xml:space="preserve">
+    <value>Kan ikke slette element!\r\nDu kan ikke fjerne innebygd prosjekt subtype.</value>
+  </data>
+  <data name="UnableToRollbackTheDocumentDependent" xml:space="preserve">
+    <value>Det er ikke mulig å tilbakeføre dokumentet '{0}'.\r\nDet finnes tilhørende dokumenter: {1}</value>
+  </data>
+  <data name="UnableToSaveDuplicateFileToDB" xml:space="preserve">
+    <value>Kan ikke lagre duplikatfil i databasen!\r\nFilen {0} finnes allerede</value>
+  </data>
+  <data name="UnitDoesntSpecifiedForArticle" xml:space="preserve">
+    <value>Enhet"{0}"er ikke spesifisert for artikkel "{1}"</value>
+  </data>
+  <data name="UserEmailAccountHasToBeOwnedByUser" xml:space="preserve">
+    <value>Bruker e-mail må tilhøre bruker.</value>
+  </data>
+  <data name="VatPeriodIsAlreadyClosed" xml:space="preserve">
+    <value>Momsperioden er allerede lukket: {0}</value>
+  </data>
+  <data name="VendorMustBeSpecified" xml:space="preserve">
+    <value>Leverandør må være spesifisert!</value>
+  </data>
+  <data name="VendorShouldBeSpecified" xml:space="preserve">
+    <value>Leverandør må være spesifisert!</value>
+  </data>
+  <data name="WorkOrderIsNotInDraftStatus" xml:space="preserve">
+    <value>Arbeidsordren er ikke i Utkast-status</value>
+  </data>
+  <data name="WorkOrderIsNotSpecified" xml:space="preserve">
+    <value>Arbeidsordre er ikke spesifisert</value>
+  </data>
+  <data name="WrongTotalCreditSum" xml:space="preserve">
+    <value>Feil total kreditsum, skal være {0}</value>
+  </data>
+  <data name="WrongTotalCreditSumShouldBe" xml:space="preserve">
+    <value>Feil total kreditsum ({0}), bør være {1}</value>
+  </data>
+  <data name="WrongTotalDebitSum" xml:space="preserve">
+    <value>Feil total debetsum, skal være {0}</value>
+  </data>
+  <data name="WrongTotalDebitSumShouldBe" xml:space="preserve">
+    <value>Feil total debet sum ({0}), bør være {1}</value>
+  </data>
+  <data name="WrongTotalQuantityOfLotsShouldBe" xml:space="preserve">
+    <value>Feil total mengde av lot (lotter), skal være {0}</value>
+  </data>
+  <data name="YouCanNotChangeDocumentDocumentHasJournalLinesAndState" xml:space="preserve">
+    <value>Du kan ikke endre dokumentet. Dokumentet har journallinjer og status: {0}\r\nDataene kan være ødelagte.</value>
+  </data>
+  <data name="YouCannotChangeDocumentState" xml:space="preserve">
+    <value>Transaksjonsdokument kan ikke endres. Dens status er {0}</value>
+  </data>
+  <data name="YouCannotChangeReadyForWorkProjectLine" xml:space="preserve">
+    <value>Du kan ikke endre klargjort for arbeid på prosjektlinja!</value>
+  </data>
+  <data name="YouCantAddNewArticleHere" xml:space="preserve">
+    <value>Du kan ikke legge til ny artikkel her!</value>
+  </data>
+  <data name="YouCantAddNewInworkMaterialInThisWay" xml:space="preserve">
+    <value>Du kan ikke legge til 'I arbeid' materiale på denne måten!</value>
+  </data>
+  <data name="YouCantAddNewInWorkOperationInThisWay" xml:space="preserve">
+    <value>Du kan ikke legge til arbeidsoperasjon på denne måten!</value>
+  </data>
+  <data name="YouCantAddNewLotInThisWay" xml:space="preserve">
+    <value>Du kan ikke legge til ny lot på denne måten!</value>
+  </data>
+  <data name="YouCantAddNewVendorArticleHere" xml:space="preserve">
+    <value>Du kan ikke legge til ny leverandørartikkel her!</value>
+  </data>
+  <data name="YouCantUseAnyDocumentLinesWithoutToolArticle" xml:space="preserve">
+    <value>Du kan ikke bruke dokumentlinjer uten 'Maskinverktøy' artikkel</value>
+  </data>
+  <data name="YouHaveBeenWorkingWithStaleDataBecauseAnotherUserModified" xml:space="preserve">
+    <value>Du har arbeidet med 'gamle' data siden en annen bruker arbeider med de samme! Oppdater dataene og prøv igjen.</value>
+  </data>
+  <data name="YouMustSpecifyAccrualPeriod" xml:space="preserve">
+    <value>Du må spesifisere periodiseringsperioder!</value>
+  </data>
+  <data name="NameShouldBeEntered" xml:space="preserve">
+    <value>Du bør legge inn navn!</value>
+  </data>
+  <data name="UnableToDeleteRemittanceDependentDocuments" xml:space="preserve">
+    <value>Kan ikke slette remittering. Avhengige dokumenter: {0}</value>
+  </data>
+  <data name="DocumentDetailsAreNotSpecified" xml:space="preserve">
+    <value>Dokumentdetaljer er ikke angitt</value>
+  </data>
+  <data name="UnableToDeleteBankAccountNumberDependentDocuments" xml:space="preserve">
+    <value>Kan ikke slette bankontonr. '{0}'. Avhengige dokumenter: {1}</value>
+  </data>
+  <data name="UnableToMakeCorrectionWithoutAnArticle" xml:space="preserve">
+    <value>Ikke mulig å korrigere uten en artikkel (Linje {0})</value>
+  </data>
+  <data name="DocumentIsCreated" xml:space="preserve">
+    <value>Dokument er opprettet</value>
+  </data>
+  <data name="PurchaseProjectIsCreated" xml:space="preserve">
+    <value>Innkjøpsprosjekt er opprettet</value>
+  </data>
+  <data name="WorkOrderIsCreated" xml:space="preserve">
+    <value>Arbeidsordre er opprettet</value>
+  </data>
+  <data name="PeriodIsAlreadyClosed" xml:space="preserve">
+    <value>Perioden er allerede lukket: {0}</value>
+  </data>
+  <data name="MandatoryFileForPost" xml:space="preserve">
+    <value>En workflow fil er nødvendig for posting</value>
+  </data>
+  <data name="TheProjectIsAlreadyAssigned" xml:space="preserve">
+    <value>Prosjektet er allerede tildelt</value>
+  </data>
+  <data name="UnableToChangeArticleTypeAsHasAssembly" xml:space="preserve">
+    <value>Artikkel type kan ikke endres fordi artikkelen har en kalkyle.</value>
+  </data>
+  <data name="UnableToChangeArticleTypeAsIsUsedInAssembly" xml:space="preserve">
+    <value>Artikkel type kan ikke endres fordi artikkelen er brukt i en kalkyle.</value>
+  </data>
+  <data name="UnableToDeleteArticleIsUsedInAssembly" xml:space="preserve">
+    <value>Artikkelen kan ikke slettes fordi den er brukt i en kalkyle.</value>
+  </data>
+  <data name="DepartmentNumbersExceedAllowedLength" xml:space="preserve">
+    <value>Avdelingsnummer overskredet tillatt lengde: {0}</value>
+  </data>
+  <data name="NoEntriesForExport" xml:space="preserve">
+    <value>Det er ingen data for eksport</value>
+  </data>
+  <data name="NotUniqueDepartmentNumbers" xml:space="preserve">
+    <value>Ikke unike avdelingsnummer: {0}</value>
+  </data>
+  <data name="NotUniqueResourceNumbers" xml:space="preserve">
+    <value>Ikke unikt ressursnummer: {0}</value>
+  </data>
+  <data name="NotUniqueSalaryCodes" xml:space="preserve">
+    <value>Ikke unike lønnskoder: {0}</value>
+  </data>
+  <data name="NumDepartmentsWithoutNumber" xml:space="preserve">
+    <value>{0} avdeling(er) bør ha et tildelt nummer.</value>
+  </data>
+  <data name="NumResourcesWithoutNumber" xml:space="preserve">
+    <value>{0} ressurs(er) bør ha et tildelt nummer.</value>
+  </data>
+  <data name="NumSalaryCodesWithoutNumber" xml:space="preserve">
+    <value>{0} lønnskode(r) bør ha et tildelt nummer.</value>
+  </data>
+  <data name="ResourceNumbersExceedAllowedLength" xml:space="preserve">
+    <value>Ressursnumrene overskredet tillatt lengde: {0}</value>
+  </data>
+  <data name="SalaryCodesExceedAllowedLength" xml:space="preserve">
+    <value>Lønnskoder overskredet tillatt lengde: {0}</value>
+  </data>
+  <data name="VendorAccountDoesNotMatchVendor" xml:space="preserve">
+    <value>Leverandørkontoen samsvarer ikke med leverandøren.</value>
+  </data>
+  <data name="CustomerAccountDoesNotMatchCustomer" xml:space="preserve">
+    <value>Kundekontoen samsvarer ikke med kunden</value>
+  </data>
+  <data name="CantModifyTimeRecordPeriodIsLocked" xml:space="preserve">
+    <value>Timeregistrering eller tidsadministrasjon er låst for denne datoen.</value>
+  </data>
+  <data name="CantDeleteApprovedTimeRecord" xml:space="preserve">
+    <value>Sletting av godkjente timeregistreringer er ikke tillatt</value>
+  </data>
+  <data name="CantModifyApprovedTimeRecord" xml:space="preserve">
+    <value>Redigering av godkjente timeregistreringer er ikke tillatt</value>
+  </data>
+  <data name="CantSaveOverlappedTimeRecord" xml:space="preserve">
+    <value>Lagring av en overlappende timeregistrering er ikke tillatt</value>
+  </data>
+  <data name="WorkflowSubtypeRequired" xml:space="preserve">
+    <value>Workflow subtype(r) er påkrevd.</value>
+  </data>
+  <data name="OrganizationIsNotFound" xml:space="preserve">
+    <value>Firmaet '{0} ({1})' ble ikke funnet</value>
+  </data>
+  <data name="MeasurementUnitExportCodeIsNotSpecified" xml:space="preserve">
+    <value>UN/ECE-enhetskoden er ikke spesifisert for '{0}'</value>
+  </data>
+  <data name="MeasurementUnitForExportCodeIsNotFound" xml:space="preserve">
+    <value>Enheten ble ikke funnet for UN/ECE-koden '{0}'</value>
+  </data>
+  <data name="AgreementIdIsNotSpecified" xml:space="preserve">
+    <value>Avtale ID er ikke spesifisert i oppsett remittering.</value>
+  </data>
+  <data name="BankAccountNumberIsNotSpecified" xml:space="preserve">
+    <value>Bankkontonr. er ikke spesifisert.</value>
+  </data>
+  <data name="BankAccountOfSomeLinesIsNotSpecified" xml:space="preserve">
+    <value>Bankkontonr er ikke spesifisert for linje(r).</value>
+  </data>
+  <data name="CompanyOfSomeLinesIsNotSpecified" xml:space="preserve">
+    <value>Firma er ikke spesifisert for linje(r).</value>
+  </data>
+  <data name="DataSenderIdIsNotSpecified" xml:space="preserve">
+    <value>Dataavsender ID er ikke spesifisert i oppsett remittering.</value>
+  </data>
+  <data name="DueDateOfSomeLinesIsEarlierThanToday" xml:space="preserve">
+    <value>Forfallsdato for linje(r) er tidligere enn dagens dato.</value>
+  </data>
+  <data name="NoneOfDocumentDetailsIsDefined" xml:space="preserve">
+    <value>Ingen av dokumentdetaljene er spesifisert.</value>
+  </data>
+  <data name="OutputFileNameIsNotSpecified" xml:space="preserve">
+    <value>Utgående filnavn er ikke spesifisert.</value>
+  </data>
+  <data name="OutputFolderIsNotSpecified" xml:space="preserve">
+    <value>Utgående mappe er ikke spesifisert.</value>
+  </data>
+  <data name="RemittanceSetupIsNotSpecified" xml:space="preserve">
+    <value>Oppsett remittering er ikke valgt.</value>
+  </data>
+  <data name="CantApplyAllChanges" xml:space="preserve">
+    <value>Du jobber med foreldede data. Endringene kan ikke lagres.</value>
+  </data>
+  <data name="CantApplyChanges" xml:space="preserve">
+    <value>Du jobber med foreldede data. Endringene kan ikke lagres.</value>
+  </data>
+  <data name="YouCantChangeMainMeasurementUnitRestsExist" xml:space="preserve">
+    <value>Du kan ikke endre hovedenhet fordi artikkelen har lagermengde</value>
+  </data>
+  <data name="YouCantChangeMeasurementUnitUsedInAssembly" xml:space="preserve">
+    <value>Du kan ikke endre enhet som er brukt i kalkylelinjer</value>
+  </data>
+  <data name="YouCantChangeMeasurementUnitUsedInInventory" xml:space="preserve">
+    <value>Du kan ikke endre enhet som er brukt i lagertransaksjoner</value>
+  </data>
+  <data name="YouCantChangeMeasurementUnitUsedInPriceLists" xml:space="preserve">
+    <value>Du kan ikke endre enhet som er brukt i prisliste pris</value>
+  </data>
+  <data name="NoInvoicesForFactoring" xml:space="preserve">
+    <value>Det er ingen fakturaer for faktoring</value>
+  </data>
+  <data name="OperationIsNotSpecified" xml:space="preserve">
+    <value>Operasjon er ikke spesifisert</value>
+  </data>
+  <data name="DateIsNotSpecified" xml:space="preserve">
+    <value>Dato er ikke spesifisert</value>
+  </data>
+  <data name="PeriodIsNotSpecified" xml:space="preserve">
+    <value>Periode er ikke spesifisert</value>
+  </data>
+  <data name="ApprovalChangedMessageTemplate" xml:space="preserve">
+    <value>Ny godkjenningsstatus "{0}" for {1}</value>
+  </data>
+  <data name="ApprovalNewMessageTemplate" xml:space="preserve">
+    <value>For godkjenning: {0}</value>
+  </data>
+  <data name="EmailFailMessageTemplate" xml:space="preserve">
+    <value>Kunne ikke sende e-post til {0} ({1})\r\n{2}</value>
+  </data>
+  <data name="EmailNewMessageTemplate" xml:space="preserve">
+    <value>Ny e-post fra {0} ({1})</value>
+  </data>
+  <data name="ObjectAssignedMessageTemplate" xml:space="preserve">
+    <value>Objektet '{0}' har blitt tildelt til "{1}"</value>
+  </data>
+  <data name="ObjectChangedMessageTemplate" xml:space="preserve">
+    <value>Objekt er endret eller slettet: {0}</value>
+  </data>
+  <data name="TaskNewMessageTemplate" xml:space="preserve">
+    <value>Fikk en oppgave: {0}</value>
+  </data>
+  <data name="ConfirmRemoveShiftPlanForItem" xml:space="preserve">
+    <value>Vil du fjerne skiftplanen for den valgte perioden for '{0}' ressursen?</value>
+  </data>
+  <data name="ConfirmRemoveShiftPlanForItems" xml:space="preserve">
+    <value>Vil du fjerne skiftplanen for den valgte perioden for {0} ressurser?</value>
+  </data>
+  <data name="MultiRemoveShiftPlanConfirmationText" xml:space="preserve">
+    <value>Bekreft antall ressurser du vil fjerne skiftplanen for (eks. {0})</value>
+  </data>
+  <data name="WorkflowSubtypeForSaftExportRequired" xml:space="preserve">
+    <value>Workflow subtype for SAF-T-eksport kreves.</value>
+  </data>
+  <data name="ArticleLocalization_ArticleMissed" xml:space="preserve">
+    <value>Artikkel er ikke spesifisert</value>
+  </data>
+  <data name="ArticleLocalization_CultureAndCompanyAreNull" xml:space="preserve">
+    <value>Både kultur og firma er ikke spesifisert</value>
+  </data>
+  <data name="ArticleLocalization_DuplicatedCompany" xml:space="preserve">
+    <value>Lokalisering for denne firmaen finnes allerede</value>
+  </data>
+  <data name="ArticleLocalization_DuplicatedCulture" xml:space="preserve">
+    <value>Lokalisering for denne kulturen finnes allerede</value>
+  </data>
+  <data name="ArticleDiscountGroupIsNotSpecified" xml:space="preserve">
+    <value>Artikkelrabattgruppe er ikke spesifisert.</value>
+  </data>
+  <data name="UnableToDeleteArticleDiscountGroupsIsAssignedToArticles" xml:space="preserve">
+    <value>Kan ikke slette grupper som er tilordnet artikler</value>
+  </data>
+  <data name="UnableToDeleteArticleDiscountGroupsIsAssignedToOrgUnits" xml:space="preserve">
+    <value>Kan ikke slette grupper som er tilordnet firmaer</value>
+  </data>
+  <data name="ContactOfOrganizationIsNotSpecified" xml:space="preserve">
+    <value>Organisasjonens kontaktperson er ikke spesifisert</value>
+  </data>
+  <data name="OrgUnitDiscountGroupIsNotSpecified" xml:space="preserve">
+    <value>Firmarabattgruppe er ikke spesifisert.</value>
+  </data>
+  <data name="CantStartTimeRegistrationForFinishedOperation" xml:space="preserve">
+    <value>Kan ikke starte tidsregistrering for ferdig operasjon</value>
+  </data>
+  <data name="CantStartTimeRegistrationForFinishedProject" xml:space="preserve">
+    <value>Kan ikke starte tidsregistrering for ferdig prosjekt</value>
+  </data>
+  <data name="CantStartTimeRegistrationForFinishedProjectLine" xml:space="preserve">
+    <value>Kan ikke starte tidsregistrering for ferdig prosjektlinje</value>
+  </data>
+  <data name="CantStartTimeRegistrationForFinishedWorkOrder" xml:space="preserve">
+    <value>Kan ikke starte tidsregistrering for ferdig arbeidsordre</value>
+  </data>
+  <data name="CantStartTimeRegistrationForFinishedTask" xml:space="preserve">
+    <value>Kan ikke starte tidsregistrering for ferdig oppgave</value>
+  </data>
+  <data name="NumberShouldBeEntered" xml:space="preserve">
+    <value>Du bør legge inn nummer!</value>
+  </data>
+  <data name="CantPutProducedLotsOnStock" xml:space="preserve">
+    <value>Kan ikke legge produserte partier på lager</value>
+  </data>
+  <data name="AccountDoesNotExist" xml:space="preserve">
+    <value>Kontoen {0} eksisterer ikke</value>
+  </data>
+  <data name="IdentityProviderIsInUse" xml:space="preserve">
+    <value>Denne identitetsleverandøren er i bruk og kan ikke slettes.</value>
+  </data>
+  <data name="UnableToDeleteArticleIsUsedInLots" xml:space="preserve">
+    <value>Artikkelen kan ikke slettes fordi den er brukt i partier/lot</value>
+  </data>
+  <data name="UnableToChangeShift" xml:space="preserve">
+    <value>Kan ikke endre skiftet</value>
+  </data>
+  <data name="DepartmentDoesNotExist" xml:space="preserve">
+    <value>Avdeling med nummeret {0} eksisterer ikke</value>
+  </data>
+  <data name="NoPermissionToPerformTheOperation" xml:space="preserve">
+    <value>Ingen tillatelse til å utføre operasjonen</value>
+  </data>
+  <data name="LotsAreNotSpecifiedForTheLine" xml:space="preserve">
+    <value>Lot/partier er ikke spesifisert for dokumentlinjen '{0}'</value>
+  </data>
+  <data name="RoundingAccountIsNotDefined" xml:space="preserve">
+    <value>Øreavrundingskonto er ikke definert i systeminnstillinger</value>
+  </data>
+  <data name="NoPermissionForBatchTimeRegistration" xml:space="preserve">
+    <value>Ingen tillatelse til å ettermelde tid for periode</value>
+  </data>
+  <data name="NoPermissionForFutureBatchTimeRegistration" xml:space="preserve">
+    <value>Ingen tillatelse til fremtidig tidsregistrering</value>
+  </data>
+</root>

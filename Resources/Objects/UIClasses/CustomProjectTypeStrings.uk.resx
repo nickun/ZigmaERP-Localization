@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnalysisTab" xml:space="preserve">
+    <value>Аналіз</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="DocumentsTab" xml:space="preserve">
+    <value>Документи</value>
+  </data>
+  <data name="FromStockTab" xml:space="preserve">
+    <value>From stock</value>
+  </data>
+  <data name="HoursTab" xml:space="preserve">
+    <value>Години</value>
+  </data>
+  <data name="IsBuiltIn" xml:space="preserve">
+    <value>Вбудований тип</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Опис</value>
+  </data>
+  <data name="ProjectLinesTab" xml:space="preserve">
+    <value>Project lines</value>
+  </data>
+  <data name="ProjectNumber" xml:space="preserve">
+    <value>Початковий номер проекта</value>
+  </data>
+  <data name="ProjectNumberPrefix" xml:space="preserve">
+    <value>Префікс номера проекта</value>
+  </data>
+  <data name="ProjectWorkflowTab" xml:space="preserve">
+    <value>Project workflow</value>
+  </data>
+  <data name="PurchaseLinesTab" xml:space="preserve">
+    <value>Purchase lines</value>
+  </data>
+  <data name="VisibleTabs" xml:space="preserve">
+    <value>Visible tabs</value>
+  </data>
+  <data name="WorkOrdersTab" xml:space="preserve">
+    <value>Work orders</value>
+  </data>
+  <data name="AssemblyTreeTab" xml:space="preserve">
+    <value>Вкладка збірки</value>
+  </data>
+  <data name="CanCloseWithOpenedSubprojects" xml:space="preserve">
+    <value>Можна закривати з відкритими підпроектами</value>
+  </data>
+  <data name="CanInvoice" xml:space="preserve">
+    <value>Можна</value>
+  </data>
+  <data name="CompanySelectionType" xml:space="preserve">
+    <value>Тип вибору компанії</value>
+  </data>
+  <data name="DefaultForIsArrived" xml:space="preserve">
+    <value>За замовчуванням чи прибуло</value>
+  </data>
+  <data name="DefaultForIsDelivered" xml:space="preserve">
+    <value>За замовчуванням чи доставлено</value>
+  </data>
+  <data name="DefaultForIsFinished" xml:space="preserve">
+    <value>За замовчуванням чи завершено</value>
+  </data>
+  <data name="DefaultForIsIncomeInvoiced" xml:space="preserve">
+    <value>За замовчуванням чи рахунок-фактура на прибуток</value>
+  </data>
+  <data name="DefaultForIsOutgoingInvoiced" xml:space="preserve">
+    <value>За замовчуванням чи рахунок-фактура на витрати</value>
+  </data>
+  <data name="DefaultForIsPurchased" xml:space="preserve">
+    <value>За замовчуванням чи куплено</value>
+  </data>
+  <data name="DefaultForIsSentToSubcontractor" xml:space="preserve">
+    <value>За замовчуванням чи відправити до субпідпорядника</value>
+  </data>
+  <data name="DeliveryTab" xml:space="preserve">
+    <value>Вкладка доставки</value>
+  </data>
+  <data name="IsSetFinishedWizardEnabled" xml:space="preserve">
+    <value>Майстер завершення активний</value>
+  </data>
+  <data name="OutgoingInvoicesTab" xml:space="preserve">
+    <value>Вкладка рахунку-фактур на витрати</value>
+  </data>
+  <data name="PickedMaterialsTab" xml:space="preserve">
+    <value>Вкладка отриманих матеріалів</value>
+  </data>
+  <data name="SchedulerTab" xml:space="preserve">
+    <value>Вкладка планера</value>
+  </data>
+  <data name="ShowSalesPrice" xml:space="preserve">
+    <value>Показувати ціну продаж</value>
+  </data>
+  <data name="UseCostToPricePercent" xml:space="preserve">
+    <value>Використовувати процент вартості до ціни</value>
+  </data>
+</root>

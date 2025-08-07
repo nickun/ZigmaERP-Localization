@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountNameExample" xml:space="preserve">
+    <value>Eksempel: Ellen's account for mail.com</value>
+  </data>
+  <data name="ArticleWizardPage1Name" xml:space="preserve">
+    <value>Fyll ut feltene nedenfor.</value>
+  </data>
+  <data name="ArticleWizardPage2Vendor" xml:space="preserve">
+    <value>Leverandørinformasjon.</value>
+  </data>
+  <data name="ArticleWizardPage3Physical" xml:space="preserve">
+    <value>Fysisk oppsett</value>
+  </data>
+  <data name="ArticleWizardPage4Stock" xml:space="preserve">
+    <value>Oppsett lager</value>
+  </data>
+  <data name="ArticleWizardPage5Price" xml:space="preserve">
+    <value>Prisinformasjon</value>
+  </data>
+  <data name="ArticleWizardPage6Custom" xml:space="preserve">
+    <value>Egendefinerte felt</value>
+  </data>
+  <data name="ArticleWizardUnableCreatePrefix" xml:space="preserve">
+    <value>Får ikke opprettet prefiks. Et slikt prefiks eksisterer allerede.</value>
+  </data>
+  <data name="BankPaymentCustomerInvoiceWizardPage" xml:space="preserve">
+    <value>Innbetaling faktura</value>
+  </data>
+  <data name="BankPaymentIncomeMoneyWizardPage" xml:space="preserve">
+    <value>Registrer innbetaling bank</value>
+  </data>
+  <data name="BankPaymentSpendMoneyWizardPage" xml:space="preserve">
+    <value>Registrer utbetaling bank</value>
+  </data>
+  <data name="BankPaymentVendorInvoiceWizardPage" xml:space="preserve">
+    <value>Utbetaling leverandør</value>
+  </data>
+  <data name="BeginRentDate" xml:space="preserve">
+    <value>Startdato for utleie</value>
+  </data>
+  <data name="ColumnSettingsWillBeApplied" xml:space="preserve">
+    <value>Kolonneoppsett vil bli kopiert til  {0} bruker(e)</value>
+  </data>
+  <data name="CompletionPageFinish" xml:space="preserve">
+    <value>Du har fullført veiviseren</value>
+  </data>
+  <data name="CompletionPageProceedText" xml:space="preserve">
+    <value>For å lukke veiviseren, klikk Ferdig</value>
+  </data>
+  <data name="CompletionPageTitle" xml:space="preserve">
+    <value>Fullfører veiviseren</value>
+  </data>
+  <data name="Configuring" xml:space="preserve">
+    <value>Konfigurering</value>
+  </data>
+  <data name="ContactPersonWizardPageFirst" xml:space="preserve">
+    <value>Opplysninger kontaktperson</value>
+  </data>
+  <data name="CopyKeepAllOwners" xml:space="preserve">
+    <value>Kopier - behold alle eiere</value>
+  </data>
+  <data name="CopyKeepTheCurrentOwner" xml:space="preserve">
+    <value>Kopier - behold tilhørende eier</value>
+  </data>
+  <data name="CreateContactPersons" xml:space="preserve">
+    <value>Legg inn kontaktperson</value>
+  </data>
+  <data name="CreateDocumentFromWorkflowItem" xml:space="preserve">
+    <value>Opprett dokument</value>
+  </data>
+  <data name="CreateOneMore" xml:space="preserve">
+    <value>Legg til</value>
+  </data>
+  <data name="CreateOperationTemplateWizardPageEquipment" xml:space="preserve">
+    <value>Egenskaper maskin</value>
+  </data>
+  <data name="CreateOperationTemplateWizardPageName" xml:space="preserve">
+    <value>Navn og hovedressurs</value>
+  </data>
+  <data name="CreateOperationTemplateWizardPageWorker" xml:space="preserve">
+    <value>Oppsett ansatt</value>
+  </data>
+  <data name="CreateOperationWizardPageStarting" xml:space="preserve">
+    <value>Velg mal og opprett operasjon</value>
+  </data>
+  <data name="CreateProjectWizardPageCustomer" xml:space="preserve">
+    <value>Leverandør/kunde informasjon</value>
+  </data>
+  <data name="CreateProjectWizardPageDelivery" xml:space="preserve">
+    <value>Levering</value>
+  </data>
+  <data name="CreateProjectWizardPageGeneral" xml:space="preserve">
+    <value>Generelle egenskaper</value>
+  </data>
+  <data name="CreateProjectWizardPagePayment" xml:space="preserve">
+    <value>Betaling</value>
+  </data>
+  <data name="CreatePurchaseProjectWizardPurchaseMaterials" xml:space="preserve">
+    <value>Bestill materialer</value>
+  </data>
+  <data name="EmailAddressExample" xml:space="preserve">
+    <value>Eksempel: ellen@mail.com</value>
+  </data>
+  <data name="EndRentDate" xml:space="preserve">
+    <value>Sluttdato for utleie</value>
+  </data>
+  <data name="FillShiftPlanWizardPage" xml:space="preserve">
+    <value>Fyll ut skriftplan</value>
+  </data>
+  <data name="FinalDocumentationGenerationWizardDocsSelection" xml:space="preserve">
+    <value>Dokumentasjonsvalg</value>
+  </data>
+  <data name="FinalDocumentationGenerationWizardDocTitle" xml:space="preserve">
+    <value>Dokumenttittel</value>
+  </data>
+  <data name="FinalDocumentationGenerationWizardProjectLineSelection" xml:space="preserve">
+    <value>Valg prosjektlinje</value>
+  </data>
+  <data name="IncomeInvoiceWizardPage" xml:space="preserve">
+    <value>Inngående faktura</value>
+  </data>
+  <data name="MoveRemoveFromCurrentOwner" xml:space="preserve">
+    <value>Flytt - fjern fra tilhørende eier</value>
+  </data>
+  <data name="MoveRemoveFromPreviousOwners" xml:space="preserve">
+    <value>Flytt - fjern tidligere eiere</value>
+  </data>
+  <data name="OrgUnitWizardAutoAccountError" xml:space="preserve">
+    <value>Du har valgt en mulighet til å automatisk opprette konto.{0}men kontokoden kan ikke bli oppretta innen{0}satt av ORG_ACCOUNT_CODE_MIN and ORG_ACCOUNT_CODE_MAX oppsett.{0}{0}Du vil bli ført til en side hvor du kan foreta et annet valg.</value>
+  </data>
+  <data name="OrgUnitWizardPageAccounts" xml:space="preserve">
+    <value>Velg passende verdier for kontoene.</value>
+  </data>
+  <data name="OrgunitWizardPageAddresses" xml:space="preserve">
+    <value>Adresser</value>
+  </data>
+  <data name="OrgunitWizardPageContactInformation" xml:space="preserve">
+    <value>Kontaktinformasjon</value>
+  </data>
+  <data name="OrgunitWizardPageCustom" xml:space="preserve">
+    <value>Valgrfrie felt</value>
+  </data>
+  <data name="OrgunitWizardPageCustomerProperties" xml:space="preserve">
+    <value>Kundeopplysninger</value>
+  </data>
+  <data name="OrgunitWizardPageDeliveryPayment" xml:space="preserve">
+    <value>Levering og betaling</value>
+  </data>
+  <data name="OrgUnitWizardPageFirst" xml:space="preserve">
+    <value>Fyll ut feltene nedenfor</value>
+  </data>
+  <data name="OrgunitWizardPageOrgunitType" xml:space="preserve">
+    <value>Organisasjonsenhet</value>
+  </data>
+  <data name="OrgUnitWizardPageRoles" xml:space="preserve">
+    <value>Hvilken rolle har kontakten?</value>
+  </data>
+  <data name="OrgUnitWizardPageTaxCodes" xml:space="preserve">
+    <value>Spesifiser mva</value>
+  </data>
+  <data name="OrgunitWizardPageVendorProperties" xml:space="preserve">
+    <value>Leverandøropplysninger</value>
+  </data>
+  <data name="OutgoInvoiceWizardPage" xml:space="preserve">
+    <value>Utgående faktura</value>
+  </data>
+  <data name="ProjectLineWizardCustomFields" xml:space="preserve">
+    <value>Valgfrie felt</value>
+  </data>
+  <data name="ProjectLineWizardLineType" xml:space="preserve">
+    <value>Linjetype og mengde</value>
+  </data>
+  <data name="ProjectLineWizardPrice" xml:space="preserve">
+    <value>Pris</value>
+  </data>
+  <data name="ProjectLineWizardProjectLinePosition" xml:space="preserve">
+    <value>Posisjon prosjektlinje</value>
+  </data>
+  <data name="ProjectLineWizardProjectLineType" xml:space="preserve">
+    <value>Linje type prosjekt</value>
+  </data>
+  <data name="ProjectLineWizardSelectArticle" xml:space="preserve">
+    <value>Velg artikkel</value>
+  </data>
+  <data name="Resource" xml:space="preserve">
+    <value>Ressurs</value>
+  </data>
+  <data name="StartOperationTimeRegistrationWizardProjectPage" xml:space="preserve">
+    <value>Velg prosjekt</value>
+  </data>
+  <data name="StartOperationTimeRegistrationWizardWorkOrderPage" xml:space="preserve">
+    <value>Velg operasjon</value>
+  </data>
+  <data name="StepCounter" xml:space="preserve">
+    <value>Trinn {0} av {1}</value>
+  </data>
+  <data name="StopCurrentOperation" xml:space="preserve">
+    <value>Stopp aktiv operasjon</value>
+  </data>
+  <data name="UnableCreatePrefixIsNotSpecified" xml:space="preserve">
+    <value>Kan ikke opprette prefiks. Artikkelprefix er ikke spesifisert.</value>
+  </data>
+  <data name="UploadFileWizardChooseOption" xml:space="preserve">
+    <value>Velg</value>
+  </data>
+  <data name="UploadFileWizardFileAlreadyExists" xml:space="preserve">
+    <value>Filen finnes allerede på serveren! {0} Vennligst velg en annen.</value>
+  </data>
+  <data name="UploadFileWizardFileProperties" xml:space="preserve">
+    <value>Filegenskaper</value>
+  </data>
+  <data name="UploadFolderWizardFolderContent" xml:space="preserve">
+    <value>Mappeinnhold</value>
+  </data>
+  <data name="UploadFolderWizardFolderProperties" xml:space="preserve">
+    <value>Mappe</value>
+  </data>
+  <data name="UserWizardPageCustom" xml:space="preserve">
+    <value>Valgfrie felt</value>
+  </data>
+  <data name="UserWizardPageEmails" xml:space="preserve">
+    <value>Spesifiser e-post</value>
+  </data>
+  <data name="UserWizardPageFirst" xml:space="preserve">
+    <value>Fyll ut feltene nedenfor.</value>
+  </data>
+  <data name="UserWizardPageOrgUnit" xml:space="preserve">
+    <value>Velg data knytta til organisasjonsenheten.</value>
+  </data>
+  <data name="VendorArticleWizardProperties" xml:space="preserve">
+    <value>Leverandørartikler</value>
+  </data>
+  <data name="Watermark" xml:space="preserve">
+    <value>Vannmerke</value>
+  </data>
+  <data name="WeAreCompletingSetupWait" xml:space="preserve">
+    <value>Vi fullfører oppsettet for din konto. Dette kan ta noen minutter.</value>
+  </data>
+  <data name="WelcomePageIntro" xml:space="preserve">
+    <value>Denne veiviseren forenkler implementeringen av komplekse oppgaver ved å guide deg gjennom enkle trinn.</value>
+  </data>
+  <data name="WelcomePageProceedText" xml:space="preserve">
+    <value>For å fortsette, klikk Neste</value>
+  </data>
+  <data name="WelcomePageTitle" xml:space="preserve">
+    <value>Velkommen til veiviseren</value>
+  </data>
+  <data name="FileHasBeenAlreadyHandled" xml:space="preserve">
+    <value>Filen har allerede blitt behandlet.</value>
+  </data>
+  <data name="FileSucessfullyAnalyzed" xml:space="preserve">
+    <value>Filen har blitt analysert.</value>
+  </data>
+  <data name="ThereAreAlreadyPaidTransactions" xml:space="preserve">
+    <value>Det har blitt funnet {0} allerede betalte transaksjoner.</value>
+  </data>
+  <data name="ThereAreUnrecognizedTransactions" xml:space="preserve">
+    <value>Det har blitt oppdaget {0} uidentifiserte transaksjoner.</value>
+  </data>
+  <data name="WorkOrderQuantityWillBeChangedFromTo" xml:space="preserve">
+    <value>Antal arbeidsordrer blir endret fra {0} til {1} {2}</value>
+  </data>
+  <data name="InvoiceNumberIsAlreadyRedistered" xml:space="preserve">
+    <value>Fakturanummeret er allerede registrert.</value>
+  </data>
+  <data name="NotEnoughStockRests" xml:space="preserve">
+    <value>Mangel på lagermengde</value>
+  </data>
+  <data name="TheDocumentWasRemoved" xml:space="preserve">
+    <value>Dokumentet ble slettet.</value>
+  </data>
+  <data name="ThePostingOfDocumentFailed" xml:space="preserve">
+    <value>Postering av dokument mislyktes.</value>
+  </data>
+  <data name="NotAllTheProductsWereProduced" xml:space="preserve">
+    <value>Ikke alle produktene ble produsert</value>
+  </data>
+  <data name="IsTooEarlyToCreateReminder" xml:space="preserve">
+    <value>Purring på faktura(er) '{0}' bør ikke opprettes nå.</value>
+  </data>
+  <data name="RemindingIsDisabledForTheCustomer" xml:space="preserve">
+    <value>Purringer er deaktivert for kunden.</value>
+  </data>
+  <data name="SomeOfInvoicesAreStoppedForRemindingMultiple" xml:space="preserve">
+    <value>Purring på fakturaer {0} er stoppet.</value>
+  </data>
+  <data name="SomeOfInvoicesAreStoppedForRemindingSingle" xml:space="preserve">
+    <value>Purring på faktura {0} er stoppet.</value>
+  </data>
+  <data name="TransactionsAlreadyRegisteredWillBeUpdated" xml:space="preserve">
+    <value>Transaksjoner for perioden '{0}' har allerede blitt registrert og vil bli oppdatert</value>
+  </data>
+  <data name="ContainerCreationAsic" xml:space="preserve">
+    <value>Sikker beholder opprettelse</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Feil</value>
+  </data>
+  <data name="IdentificationSsn" xml:space="preserve">
+    <value>Identitetsnummer (NIN)</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>På vent</value>
+  </data>
+  <data name="Skipped" xml:space="preserve">
+    <value>Utelatt</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Suksess</value>
+  </data>
+  <data name="AuthenticationError" xml:space="preserve">
+    <value>Autentiseringsfeil</value>
+  </data>
+  <data name="EnterpriseCertificateLoading" xml:space="preserve">
+    <value>Virksomhetssertifikat mottagelse</value>
+  </data>
+  <data name="ApprovedBy" xml:space="preserve">
+    <value>Godkjent av</value>
+  </data>
+  <data name="NumberOfOperationsSelected" xml:space="preserve">
+    <value>operasjon(er) er valgt</value>
+  </data>
+  <data name="NumberOfWorkOrdersSelected" xml:space="preserve">
+    <value>arbeidsordre(r) er valgt</value>
+  </data>
+  <data name="NumberOfOperationsAlreadyAssigned" xml:space="preserve">
+    <value>operasjon(er) er allerede tilordnet</value>
+  </data>
+  <data name="NumberOfWorkOrdersAlreadyAssigned" xml:space="preserve">
+    <value>arbeidsordre(r) er allerede tilordnet</value>
+  </data>
+  <data name="InformationLimitDataResult" xml:space="preserve">
+    <value>&lt;b&gt;Informasjon:&lt;/b&gt; Visning av søkeresultat er begrenset til {0} linjer</value>
+  </data>
+  <data name="StopCurrentOperationFormatName" xml:space="preserve">
+    <value>Stopp {0}</value>
+  </data>
+  <data name="ThereIsNothingToPickUp" xml:space="preserve">
+    <value>Det er ingenting å plukke</value>
+  </data>
+  <data name="LotShouldBeSpecified" xml:space="preserve">
+    <value>Lot/partier bør spesifiseres</value>
+  </data>
+  <data name="NameAlreadyExistConfirmation" xml:space="preserve">
+    <value>Angitte navnet finnes allerede for {0}, vil du beholde det?</value>
+  </data>
+  <data name="UploadFileWizardReportProperties" xml:space="preserve">
+    <value>Rapport</value>
+  </data>
+  <data name="OperationsAndSpecificationListsRemoveWarning" xml:space="preserve">
+    <value>Operasjoner og spesifikasjonslister for materialer vil bli fjernet</value>
+  </data>
+  <data name="SelectOneAricleToChangeArticleType" xml:space="preserve">
+    <value>Fjerning av kalkyler for mange artikler er ikke tillatt. Velg kun én artikkel</value>
+  </data>
+  <data name="ProblemHasFeasibleSolution" xml:space="preserve">
+    <value>Problemet har en gjennomførbar løsning.</value>
+  </data>
+  <data name="ProblemNotSolved" xml:space="preserve">
+    <value>Problemet har ikke en optimal løsning.</value>
+  </data>
+  <data name="CreateProjectWizardArticleHasNoVendor" xml:space="preserve">
+    <value>Valgt gruppeartikkel har ingen leverandørartikler tilordnet</value>
+  </data>
+  <data name="ReplaceArticleAssemblyConfirmation" xml:space="preserve">
+    <value>Eksisterende artikkelkalkyle vil bli fjernet permanent!</value>
+  </data>
+  <data name="ReplaceArticleAssemblyPrompt" xml:space="preserve">
+    <value>Velg artikler for kalkyle oppdatering:</value>
+  </data>
+</root>

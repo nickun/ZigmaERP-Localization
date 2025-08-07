@@ -1,0 +1,830 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CantDeleteFromServer" xml:space="preserve">
+    <value>Неможливо видалити '{0}' з сервера</value>
+  </data>
+  <data name="CantRunScript" xml:space="preserve">
+    <value>Неможливо виконати обраний скрипт!</value>
+  </data>
+  <data name="CircularReference" xml:space="preserve">
+    <value>Об'єкт не було додано. Причиною може бути зациклення посилань.</value>
+  </data>
+  <data name="ClosingWait" xml:space="preserve">
+    <value>Завершення работи ...</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Підтвердження</value>
+  </data>
+  <data name="ConfirmDeleteFromGroup" xml:space="preserve">
+    <value>Ви впевнені, що хочете видалити обрані об'єкти з групи?</value>
+  </data>
+  <data name="ConfirmDeleteSelectedItems" xml:space="preserve">
+    <value>Ви впевнені, що хочете видалити {0} обраних об'єктів?</value>
+  </data>
+  <data name="ConfirmGenerateOrgUnitNumber" xml:space="preserve">
+    <value>Ви впевнені, що хочете згенерувати новий номер?</value>
+  </data>
+  <data name="ConfirmSetAsDefault" xml:space="preserve">
+    <value>Ви впевнені, що хочете зробити об'єкт '{0}' як об'єкт за умовчанням?</value>
+  </data>
+  <data name="ConfirmSetAsGeneral" xml:space="preserve">
+    <value>Ви впевнені, що хочете зробити об'єкт '{0}' загальним?</value>
+  </data>
+  <data name="ConnectErrorMessage" xml:space="preserve">
+    <value>Помилка зв'язку з сервером:
+
+{0}
+
+Натисніть "OK" для підключення до серверу або "Cancel" щоб залишитися на сторінці</value>
+  </data>
+  <data name="DeletingWait" xml:space="preserve">
+    <value>Видалення...</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Помилка</value>
+  </data>
+  <data name="FatalErrorMessage" xml:space="preserve">
+    <value>Непередбачувана помилка у програмі
+
+Натисніть "OK" для виходу з програми, "Restart" для перезапуску програми або "Cancel", щоб залишитися на сторінці</value>
+  </data>
+  <data name="GeneratePeriodsFailed" xml:space="preserve">
+    <value>Не вдалося сформувати періоди протягом зазначеного року ({0}).{1}Переконайтеся в тому, що періоди в цьому році не були створені раніше.</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Довідка</value>
+  </data>
+  <data name="InvalidDirectoryPath" xml:space="preserve">
+    <value>Невірний шлях!</value>
+  </data>
+  <data name="InvalidFolderName" xml:space="preserve">
+    <value>Невірне ім'я папки!</value>
+  </data>
+  <data name="LoadingWait" xml:space="preserve">
+    <value>Отримуються дані ...</value>
+  </data>
+  <data name="LocalSyncFolderNotFound" xml:space="preserve">
+    <value>Відсутня локальна папка, яка б відповідала папці на сервері. Бажаєте її вказати?</value>
+  </data>
+  <data name="MustSelectItem" xml:space="preserve">
+    <value>Необхідно вибрати значення для даного поля</value>
+  </data>
+  <data name="PasswordChanged" xml:space="preserve">
+    <value>Пароль успішно змінено</value>
+  </data>
+  <data name="PleaseEnterOrSelectValue" xml:space="preserve">
+    <value>Будь ласка введіть або виберіть значення</value>
+  </data>
+  <data name="PleaseEnterValidEmail" xml:space="preserve">
+    <value>Будь ласка введіть вірну електронну адресу(и)</value>
+  </data>
+  <data name="PleaseEnterValue" xml:space="preserve">
+    <value>Будь ласка введіть значення</value>
+  </data>
+  <data name="PostingDocument" xml:space="preserve">
+    <value>Проводка документу</value>
+  </data>
+  <data name="PostingError" xml:space="preserve">
+    <value>Помилка проведення</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Запитання</value>
+  </data>
+  <data name="QuestionRowDelete" xml:space="preserve">
+    <value>Ви дійсно бажаєте видалити рядок?</value>
+  </data>
+  <data name="RequestingServerData" xml:space="preserve">
+    <value>Запит даних з сервера...</value>
+  </data>
+  <data name="SavingWait" xml:space="preserve">
+    <value>Зберігання...</value>
+  </data>
+  <data name="SelectCommonDictionaryValue" xml:space="preserve">
+    <value>Виберіть значення з загального словника</value>
+  </data>
+  <data name="SpecifyCustomerAccount" xml:space="preserve">
+    <value>Помилка: обліковий запис клієнта не вказаний</value>
+  </data>
+  <data name="SpecifyCustomerNumber" xml:space="preserve">
+    <value>Помилка: номер клієнта не вказаний</value>
+  </data>
+  <data name="SpecifyCustomersAccount" xml:space="preserve">
+    <value>Помилка: обліковий запис клієнтів не вказаний в налаштуваннях системи</value>
+  </data>
+  <data name="SpecifyGeneralLedger" xml:space="preserve">
+    <value>Помилка: головна книга не вибрана в налаштуваннях системи</value>
+  </data>
+  <data name="SpecifyVendorAccount" xml:space="preserve">
+    <value>Помилка: обліковий запис постачальника не вказаний</value>
+  </data>
+  <data name="SpecifyVendorNumber" xml:space="preserve">
+    <value>Помилка: номер постачальника не вказаний</value>
+  </data>
+  <data name="SpecifyVendorsAccount" xml:space="preserve">
+    <value>Помилка: обліковий запис постачальників не вказаний в налаштуваннях системи</value>
+  </data>
+  <data name="Wait" xml:space="preserve">
+    <value>Зачекайте, будь ласка</value>
+  </data>
+  <data name="WantToMerge" xml:space="preserve">
+    <value>Для постачальника '{0}' існують проекти, що відкриті для об'єднання.{1}Ви можете об'єднати проект з вже існуючим або створити новий. Бажаєте об'єднати?</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Попередження</value>
+  </data>
+  <data name="WrongOldPassword" xml:space="preserve">
+    <value>Помилково введено існуючий пароль</value>
+  </data>
+  <data name="WrongUserOrPassword" xml:space="preserve">
+    <value>Помилковий користувач або пароль</value>
+  </data>
+  <data name="NoReportExistsForControl" xml:space="preserve">
+    <value>Звіти відсутні для цієї сторинки</value>
+  </data>
+  <data name="WrongReportData" xml:space="preserve">
+    <value>Звіт містить помилкові дані</value>
+  </data>
+  <data name="DateNotSpecified" xml:space="preserve">
+    <value>(не вказано)</value>
+  </data>
+  <data name="ConfirmCloseAutocalc" xml:space="preserve">
+    <value>Ви впевнені, що хочете вийти з AutoCalc?</value>
+  </data>
+  <data name="ExcelFileIsEmpty" xml:space="preserve">
+    <value>Файл Microsoft Excel пустий</value>
+  </data>
+  <data name="BusinessProcessShapes" xml:space="preserve">
+    <value>Бізнес-процес</value>
+  </data>
+  <data name="ElectricalSymbolsShapes" xml:space="preserve">
+    <value>Електичні символи</value>
+  </data>
+  <data name="FlowChartingShapes" xml:space="preserve">
+    <value>Складання блок-схем</value>
+  </data>
+  <data name="Process" xml:space="preserve">
+    <value>Процес</value>
+  </data>
+  <data name="TimeForToday" xml:space="preserve">
+    <value>Часу сьогодні: </value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>Обл. запис</value>
+  </data>
+  <data name="AddedToWorkList" xml:space="preserve">
+    <value>Добавлений до списку робіт</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="AllArticles" xml:space="preserve">
+    <value>*Всі артикули</value>
+  </data>
+  <data name="AllSubtypes" xml:space="preserve">
+    <value>Всі підтипи</value>
+  </data>
+  <data name="AppIsNotRunning" xml:space="preserve">
+    <value>Додаток Зігма 360° не запущений</value>
+  </data>
+  <data name="Article" xml:space="preserve">
+    <value>Артикул</value>
+  </data>
+  <data name="ArticlesWithoutGroup" xml:space="preserve">
+    <value>*Артикули без групи</value>
+  </data>
+  <data name="AssemblyTreeLine" xml:space="preserve">
+    <value>Рядок дерева збірки</value>
+  </data>
+  <data name="BankPaymentSpendMoney" xml:space="preserve">
+    <value>Проведені гроші в банківській оплаті</value>
+  </data>
+  <data name="Batch" xml:space="preserve">
+    <value>Пакет</value>
+  </data>
+  <data name="CancelingWait" xml:space="preserve">
+    <value>Скасування ...</value>
+  </data>
+  <data name="CantChangeProjectCurrencyIfFinishedLinesExist" xml:space="preserve">
+    <value>Не можна змінити валюту проекта, якщо кілька його рядків у завершеному стані.</value>
+  </data>
+  <data name="CantCloseProjectWorkOrderInDraft" xml:space="preserve">
+    <value>Неможливо закрити проект якщо деякі виробничі наряди в режимі чернетки</value>
+  </data>
+  <data name="CantDeleteLoggedResource" xml:space="preserve">
+    <value>Не можна видалити залогінений ресурс</value>
+  </data>
+  <data name="CantRemoveArticleThatUsesInAssemblies" xml:space="preserve">
+    <value>Не можна видалити артикул, якій використовується в збірках!</value>
+  </data>
+  <data name="CantRemoveVendorArticleThatUsesInAssemblies1" xml:space="preserve">
+    <value>Не можна видалити артикул постачальника, який використовуэться в збірках!</value>
+  </data>
+  <data name="CantSaveItem" xml:space="preserve">
+    <value>Неможливо зберегти об'єкт!</value>
+  </data>
+  <data name="CantSaveProjectAssembly" xml:space="preserve">
+    <value>Неможливо зберегти збірку проекта</value>
+  </data>
+  <data name="CantSaveWorkOrderAssembly" xml:space="preserve">
+    <value>Неможливо зберегти збірку виробничого наряду</value>
+  </data>
+  <data name="CantUseDisabledArticle" xml:space="preserve">
+    <value>Неможливо використовувати заблоковані артикули</value>
+  </data>
+  <data name="ConfirmChangesSave" xml:space="preserve">
+    <value>Ви хочете зберегти зміни?</value>
+  </data>
+  <data name="ConfirmDeleteSelectedItem" xml:space="preserve">
+    <value>Ви впевнені, що ви хочете видалити 1 вибраний елемент, '{0}'? {1}</value>
+  </data>
+  <data name="ConfirmExcludeFromGroup" xml:space="preserve">
+    <value>Ви дійсно хочете виключити з групи вибрані елемент(и)?</value>
+  </data>
+  <data name="ConfirmImport" xml:space="preserve">
+    <value>Ваші дані для імпорту в некоректному порядку. Ви дійсно хочете зробити це?</value>
+  </data>
+  <data name="ConfirmOverwriteLocalCopyWorkflowFile" xml:space="preserve">
+    <value>Раніше відкритий файл не відправлений на сервер.
+Ви дійсно бажаєте перезаписати його?</value>
+  </data>
+  <data name="ConfirmProjectCantBeClosed" xml:space="preserve">
+    <value>Проект не затверджено. Ви все ще хочете закрити проект?</value>
+  </data>
+  <data name="ConfirmProjectClose" xml:space="preserve">
+    <value>Ви дійсно хочете закрити проект {0} ?</value>
+  </data>
+  <data name="ConfirmProjectDiscard" xml:space="preserve">
+    <value>Не всі рядки проекта завершені. Ви все одно хочете закрити проект?</value>
+  </data>
+  <data name="ConfirmRunningTask" xml:space="preserve">
+    <value>У вас є запущене завдання! Ви все одно хочете вийти?</value>
+  </data>
+  <data name="ConfirmSkipGeneration" xml:space="preserve">
+    <value>Ви дійсно бажаєто пропустити створення проекта? Всі попереддні проекти також будуть пропущені.</value>
+  </data>
+  <data name="ConfirmUpdateClient" xml:space="preserve">
+    <value>Версія клієнта не сумісна з версією сервера.
+Бажаєте завантажити і запустити оновлення?</value>
+  </data>
+  <data name="ContactAlreadyExist" xml:space="preserve">
+    <value>Цей контакт вже існує для цієї орг. одиниці</value>
+  </data>
+  <data name="CreateNew" xml:space="preserve">
+    <value>Створити новий: </value>
+  </data>
+  <data name="DeleteArticleConfirmationText" xml:space="preserve">
+    <value>Зараз артикул буде видалено</value>
+  </data>
+  <data name="DeleteDocumentConfirmationText" xml:space="preserve">
+    <value>Зараз ви видалите увесь документ.
+(для видалення рядка документа, спочатку відкрийте документ)</value>
+  </data>
+  <data name="DeleteProjectConfirmationText" xml:space="preserve">
+    <value>Зараз ви видалете УВЕСЬ проект.
+(для видалення рядка проекта, відкрийте спочатку рядки проекта)</value>
+  </data>
+  <data name="DirectoryNotFoundError" xml:space="preserve">
+    <value>Папка не знайдена ({0})</value>
+  </data>
+  <data name="DiscardYourChanges" xml:space="preserve">
+    <value>Скасувати ваші зміни</value>
+  </data>
+  <data name="DocumentDetail" xml:space="preserve">
+    <value>Рядок документа</value>
+  </data>
+  <data name="DocumentForSpecifiedPeriodAlreadyExists" xml:space="preserve">
+    <value>Документ для вказаного періоду вже існує</value>
+  </data>
+  <data name="DocumentHeader" xml:space="preserve">
+    <value>Документ</value>
+  </data>
+  <data name="DocumentsTabItem" xml:space="preserve">
+    <value>Документи</value>
+  </data>
+  <data name="DoYouReallyWantToChangeStateFromFinished" xml:space="preserve">
+    <value>Ви дійсно бажаєте змінити стан з завершеного?</value>
+  </data>
+  <data name="DoYouWantToChangeProperty" xml:space="preserve">
+    <value>Ви дійсно бажаєте змінити &lt;PropName&gt;?</value>
+  </data>
+  <data name="DuplicateVendorInVendorArticles" xml:space="preserve">
+    <value>Артикул постачальника від цього вендора вже існує в списку. Спочатку видаліть його</value>
+  </data>
+  <data name="ErrorAlreadyExistsDocumentWithSameSubtype" xml:space="preserve">
+    <value>Вже існує документ з таким же підтипом!</value>
+  </data>
+  <data name="ErrorBreakMustBeInTimePeriod" xml:space="preserve">
+    <value>Переривання має бути всередені періода часу</value>
+  </data>
+  <data name="ErrorBreakNotSpecified" xml:space="preserve">
+    <value>Не вказано переривання</value>
+  </data>
+  <data name="ErrorBreaksMustBeInDifferentPeriods" xml:space="preserve">
+    <value>Переривання мають бути в ріних періодах</value>
+  </data>
+  <data name="ErrorCantConvertToPdf" xml:space="preserve">
+    <value>Неможливо конвертувати в Pdf</value>
+  </data>
+  <data name="ErrorPeriodNotSpecified" xml:space="preserve">
+    <value>Не вказаний період часу</value>
+  </data>
+  <data name="ErrorRangesIntersect" xml:space="preserve">
+    <value>Інтервали перетинаються</value>
+  </data>
+  <data name="ErrorThereAreNoWorkOrdersInProject" xml:space="preserve">
+    <value>Немає виробничих нарядів в проекті</value>
+  </data>
+  <data name="ErrorWrongArticleCode" xml:space="preserve">
+    <value>Невірний код артикула</value>
+  </data>
+  <data name="ErrorWrongDocumentNumber" xml:space="preserve">
+    <value>Невірний номер документа</value>
+  </data>
+  <data name="ErrorWrongProjectNumber" xml:space="preserve">
+    <value>Невірний номер проекта</value>
+  </data>
+  <data name="ExcelNotInstalled" xml:space="preserve">
+    <value>Не знайдена жодна версія Microsoft Excel</value>
+  </data>
+  <data name="ExportException" xml:space="preserve">
+    <value>Виключенн експорту</value>
+  </data>
+  <data name="Exporting" xml:space="preserve">
+    <value>Експортування</value>
+  </data>
+  <data name="FileExistsInDb" xml:space="preserve">
+    <value>Файл вже існує в базі</value>
+  </data>
+  <data name="FooterCountFormat" xml:space="preserve">
+    <value>Кількість: {0}</value>
+  </data>
+  <data name="GrabillaNotFound" xml:space="preserve">
+    <value>Схоже Грабіла не встановлена. Чи не хочете ви встановити її?</value>
+  </data>
+  <data name="ImportException" xml:space="preserve">
+    <value>Виключення імпорту</value>
+  </data>
+  <data name="Importing" xml:space="preserve">
+    <value>Імпортування...</value>
+  </data>
+  <data name="InvalidFileName" xml:space="preserve">
+    <value>Недопустиме ім'я файла</value>
+  </data>
+  <data name="InvalidFilePath" xml:space="preserve">
+    <value>Недопустимий шлях до файла!</value>
+  </data>
+  <data name="InvalidInteger" xml:space="preserve">
+    <value>Недопустиме число!</value>
+  </data>
+  <data name="InvalidValue" xml:space="preserve">
+    <value>Недопустиме значення!</value>
+  </data>
+  <data name="InvoicingLinesForThisPeriodAlreadyExists" xml:space="preserve">
+    <value>Рядки рахунку фактури для цього періоду вже існують</value>
+  </data>
+  <data name="InWorkAssemblyTreeLine" xml:space="preserve">
+    <value>Рядок робочого дерева збірки</value>
+  </data>
+  <data name="InWorkOperation" xml:space="preserve">
+    <value>Робоча операція</value>
+  </data>
+  <data name="InWorkOperationChecklistTask" xml:space="preserve">
+    <value>Завдання контрольного списку робочої операції</value>
+  </data>
+  <data name="LastTimeYouWorkedWithDocumentModified" xml:space="preserve">
+    <value>Останній час, коли ви працювали з документом {0} ви не відправили його в робочий процес.</value>
+  </data>
+  <data name="LicenseError" xml:space="preserve">
+    <value>Помилка ліцензії: {0}</value>
+  </data>
+  <data name="LicenseExpiresError" xml:space="preserve">
+    <value>Ліцензія прострочиться через {0} днів. Зв'яжіться з адміністратором будь-ласка</value>
+  </data>
+  <data name="LicenseIsExpiredError" xml:space="preserve">
+    <value>Ліцензія прострочена. Зв'яжіться з адміністратором будь-ласка</value>
+  </data>
+  <data name="LocalCopyOfFileHaveModification" xml:space="preserve">
+    <value>Локальна копія цього файлу має зміни. Чи не хочете ви відкрити локальний файл?</value>
+  </data>
+  <data name="Lot" xml:space="preserve">
+    <value>Лот</value>
+  </data>
+  <data name="MultiDeleteConfirmationText" xml:space="preserve">
+    <value>Підтвердіть кількість елементів, які ви хочете видалити (ex. {0})</value>
+  </data>
+  <data name="NameAlreadyExistConfirmation" xml:space="preserve">
+    <value>Введене ім'я вже існує для {0}, продовжити з ним?</value>
+  </data>
+  <data name="NewDocument" xml:space="preserve">
+    <value>{0} документ {1}</value>
+  </data>
+  <data name="NewPurchaseProject" xml:space="preserve">
+    <value>Новий проект купівлі</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Ні</value>
+  </data>
+  <data name="NotAssignedArticles" xml:space="preserve">
+    <value>*Не назначені артикули</value>
+  </data>
+  <data name="NotCerrectAnswer" xml:space="preserve">
+    <value>Відповідь неправильна!</value>
+  </data>
+  <data name="NotCompletedChecklistTaskPresent" xml:space="preserve">
+    <value>Існує не завершене завдання контрольного списку завдання</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Примітка</value>
+  </data>
+  <data name="NoVendorSpecifiedForProject" xml:space="preserve">
+    <value>Помилка: Для проекта не вказаний постачальник</value>
+  </data>
+  <data name="NowYouWillDeleteCompanyIncludingDetails" xml:space="preserve">
+    <value>Зараз буде видаене і'мя компанії та всі її деталі. Ви впевнені?</value>
+  </data>
+  <data name="NotAListBox" xml:space="preserve">
+    <value>Не список! Використовуйте інше правило валідації!</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>Операція</value>
+  </data>
+  <data name="OperationChecklistTaskTemplate" xml:space="preserve">
+    <value>Шаблон завдання контрольного списку операції</value>
+  </data>
+  <data name="OperationTemplate" xml:space="preserve">
+    <value>Шаблон операції</value>
+  </data>
+  <data name="OrganizationNotDefined" xml:space="preserve">
+    <value>Невідома організація</value>
+  </data>
+  <data name="OrgUnit" xml:space="preserve">
+    <value>Орг. одиниця</value>
+  </data>
+  <data name="OutgoingInvoice" xml:space="preserve">
+    <value>Вихідний рахунок-фактура</value>
+  </data>
+  <data name="OutOfRange" xml:space="preserve">
+    <value>Значення поза межами!</value>
+  </data>
+  <data name="PasswordAndConfirmationDoesNotMatch" xml:space="preserve">
+    <value>Пароль та підтвердження пароля не співпадають</value>
+  </data>
+  <data name="PleaseEnterCorrectValue" xml:space="preserve">
+    <value>Будь-ласка, введіть коректне значення</value>
+  </data>
+  <data name="PleaseEnterGreaterZero" xml:space="preserve">
+    <value>Будь-ласка, введіть додатнє число</value>
+  </data>
+  <data name="PleaseEnterUniqueArticleCodeValue" xml:space="preserve">
+    <value>Будь-ласка, введіть унікальне значення коду артикула</value>
+  </data>
+  <data name="PleaseEnterValidSingleEmail" xml:space="preserve">
+    <value>Будь-ласка, введіть коректну адресу email</value>
+  </data>
+  <data name="PleaseEnterZeroOrGreaterZero" xml:space="preserve">
+    <value>Будь-ласка, введіть невід'ємне число</value>
+  </data>
+  <data name="PleaseRestartZigmaForAppliyngLicenseSettings" xml:space="preserve">
+    <value>Будь-ласка, перезавантажте Зігму 360 для застосування налаштуваннь ліцензії.</value>
+  </data>
+  <data name="PleaseSelectAction" xml:space="preserve">
+    <value>Будь-ласка, виберіть дію:</value>
+  </data>
+  <data name="PleaseSelectExistingObject" xml:space="preserve">
+    <value>Цей об'єкт видалений з бази! Виберіть будь ласка існуючий об'єкт.</value>
+  </data>
+  <data name="Preparing" xml:space="preserve">
+    <value>Підготовка</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Проект</value>
+  </data>
+  <data name="ProjectAssemblyTreeLine" xml:space="preserve">
+    <value>Рядок дерева збірки проекта</value>
+  </data>
+  <data name="ProjectChecklistTask" xml:space="preserve">
+    <value>Завдання контрольного списку проекта</value>
+  </data>
+  <data name="ProjectCheckListTasks" xml:space="preserve">
+    <value>Список завданнь контрольного списку проекта</value>
+  </data>
+  <data name="ProjectChecklistTaskTemplate" xml:space="preserve">
+    <value>Шаблон завдання контрольного списку проекта</value>
+  </data>
+  <data name="ProjectLine" xml:space="preserve">
+    <value>Рядок проекта</value>
+  </data>
+  <data name="ProjectLinesForArticle" xml:space="preserve">
+    <value>Рядки проекта для артикула</value>
+  </data>
+  <data name="ProjectLineWorkflow" xml:space="preserve">
+    <value>Робочий процес рядка проекта</value>
+  </data>
+  <data name="ProjectNumberPrefixNotSpecified" xml:space="preserve">
+    <value>Не вказано префікс номера проекта</value>
+  </data>
+  <data name="ProjectOperation" xml:space="preserve">
+    <value>Операція проекта</value>
+  </data>
+  <data name="ProjectsNotFound" xml:space="preserve">
+    <value>Проект не знайдено</value>
+  </data>
+  <data name="PurchaseFrom" xml:space="preserve">
+    <value>Куплено у</value>
+  </data>
+  <data name="PurchaseLines" xml:space="preserve">
+    <value>Рядки покупки</value>
+  </data>
+  <data name="RebuildingDocument" xml:space="preserve">
+    <value>Перестворення документа...</value>
+  </data>
+  <data name="RecipientAddressesAreNotDefined" xml:space="preserve">
+    <value>Не визначені адреси отримувачів</value>
+  </data>
+  <data name="RelatedProjects" xml:space="preserve">
+    <value>Пов'язані проекти</value>
+  </data>
+  <data name="RequestForVendorPrices" xml:space="preserve">
+    <value>Запит прайсів постачальника</value>
+  </data>
+  <data name="RollbackDocumentConfirmationText" xml:space="preserve">
+    <value>Зараз ви відкатите документ.
+(всі рядки журнала будуть видалені)</value>
+  </data>
+  <data name="RollingBackDocument" xml:space="preserve">
+    <value>Відкат ...</value>
+  </data>
+  <data name="SaveYourChanges" xml:space="preserve">
+    <value>Зберегти ваші зміни</value>
+  </data>
+  <data name="SaveYourChangesAsANewFile" xml:space="preserve">
+    <value>Зберегти ваші зміни як новий файл</value>
+  </data>
+  <data name="SavingLicense" xml:space="preserve">
+    <value>Збереження ліцензії...</value>
+  </data>
+  <data name="ShouldBeZero" xml:space="preserve">
+    <value>Має бути нуль</value>
+  </data>
+  <data name="SpecificationListTypeWillBeChanged" xml:space="preserve">
+    <value>Тип списка спеціяікацій буде змінено! Продовжити?</value>
+  </data>
+  <data name="SpecifyCustomersSubledger" xml:space="preserve">
+    <value>Помилка: Книга для клієнтів не вказана в системних настройках</value>
+  </data>
+  <data name="SpecifyVendorNotInvoiceAccount" xml:space="preserve">
+    <value>Помилка: Не рахунок-фактура для постачальника не вказана</value>
+  </data>
+  <data name="SpecifyVendorsSubledger" xml:space="preserve">
+    <value>Помилка: Книга для постачальників не вказана в системних настройках</value>
+  </data>
+  <data name="StartingApp" xml:space="preserve">
+    <value>Входження в Зігма 360° ...</value>
+  </data>
+  <data name="SummaryForLineMaterials" xml:space="preserve">
+    <value>Зведення для рядка - матеріали</value>
+  </data>
+  <data name="SummaryForLineOperations" xml:space="preserve">
+    <value>зведення для рядка - операції</value>
+  </data>
+  <data name="TargetProjectTypeNotSpecified" xml:space="preserve">
+    <value>Не вказано цільовий тип проекта для поточного проекта.</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Шаблон</value>
+  </data>
+  <data name="TenantAlreadyExist" xml:space="preserve">
+    <value>База вже існує</value>
+  </data>
+  <data name="TheArticleDontUseLatestDrawing" xml:space="preserve">
+    <value>Артикул не використовує найостанніший малюнок. Ви дійсно хочете скористатися ним?</value>
+  </data>
+  <data name="TheCurrentUserDoesNotHaveAnyEmails" xml:space="preserve">
+    <value>Поточний користувач не має жодної email адреси</value>
+  </data>
+  <data name="ThereIsANewRevisionOfThisFileInWorkflow" xml:space="preserve">
+    <value>Існує нова ревізія цього файлу в робочому процесі, тому ви не можете зберегти зміни в оригінальний документ, замість цього, створіть новий файл.</value>
+  </data>
+  <data name="ThisWillDeleteFilesPermanently" xml:space="preserve">
+    <value>Це видалить файли назавжди. Ви дійсно хочете продовжити?</value>
+  </data>
+  <data name="TimeMustBeGreater" xml:space="preserve">
+    <value>Час має бути більшим</value>
+  </data>
+  <data name="UnableCreateCustomProjectTypeWithDuplicatePrefix" xml:space="preserve">
+    <value>Неможливво створити індивідуальний тип проекта вручну. Індивідуальний тип проекта з таким же номером префікса вже існує.</value>
+  </data>
+  <data name="UpdateArticlePriceListPrice" xml:space="preserve">
+    <value>Онвлення прайсів артикула</value>
+  </data>
+  <data name="UpdatingLicense" xml:space="preserve">
+    <value>Оновлення ліцензії...</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Користувач</value>
+  </data>
+  <data name="UserIsNotLoggedOn" xml:space="preserve">
+    <value>Користувач не залогінений</value>
+  </data>
+  <data name="UsersWithoutGroup" xml:space="preserve">
+    <value>Користувачі без групи</value>
+  </data>
+  <data name="UserWithSameNameAlreadyExists" xml:space="preserve">
+    <value>Користувач з таким же ім'ям вже існує</value>
+  </data>
+  <data name="ViewActualFile" xml:space="preserve">
+    <value>Перегляд актуального файла</value>
+  </data>
+  <data name="ViewHistoryFile" xml:space="preserve">
+    <value>Перегляд файлу історії</value>
+  </data>
+  <data name="ViewOriginalFile" xml:space="preserve">
+    <value>Перегляд оригінального файлу</value>
+  </data>
+  <data name="ViewYourFile" xml:space="preserve">
+    <value>Перегляд вашого файлу</value>
+  </data>
+  <data name="WokflowItemUsedBySystem" xml:space="preserve">
+    <value>Елемент робочого процесу, що використовується системою, не може бути видалений</value>
+  </data>
+  <data name="WorkflowItemNumber" xml:space="preserve">
+    <value>Номер елемента робочого процесу</value>
+  </data>
+  <data name="WorkOrder" xml:space="preserve">
+    <value>Виробн. наряд</value>
+  </data>
+  <data name="WorkOrderChecklistTask" xml:space="preserve">
+    <value>Завдання контрольного списку виробничого наряду</value>
+  </data>
+  <data name="WorkOrderChecklistTaskTemplate" xml:space="preserve">
+    <value>Шаблон завдання контрольного списку виробничого наряду</value>
+  </data>
+  <data name="WorkOrderOperation" xml:space="preserve">
+    <value>Операція виробничого наряду</value>
+  </data>
+  <data name="WrongSerialNumberDefinitionFormat" xml:space="preserve">
+    <value>Невірний формат</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Так</value>
+  </data>
+  <data name="WorkOrderAssemblyTreeLine" xml:space="preserve">
+    <value>Рядок дерева збірки виробничого наряду</value>
+  </data>
+  <data name="PreparingReport" xml:space="preserve">
+    <value>Підготовка звіту ...</value>
+  </data>
+  <data name="CantStartOperation" xml:space="preserve">
+    <value>Неможливо розпочати операцію!!</value>
+  </data>
+  <data name="Blank" xml:space="preserve">
+    <value>Пусто</value>
+  </data>
+  <data name="NotBlank" xml:space="preserve">
+    <value>Не пусто</value>
+  </data>
+  <data name="ConfirmUpdateDeliveryDateForPL" xml:space="preserve">
+    <value>Оновити кінцеву дату для усіх рядків проекту?</value>
+  </data>
+  <data name="UndoPdfPageChanges" xml:space="preserve">
+    <value>Будь-які зміни на цій сторінці будуть скинуті.
+Ви впевнені, що хочете продовжити?</value>
+  </data>
+  <data name="IsNotAnImage" xml:space="preserve">
+    <value>'{0}' не є зображенням або його формат не підтримується</value>
+  </data>
+  <data name="HostIsInvalidOrUnavailable" xml:space="preserve">
+    <value>Хост '{0}'
+є недійсним або недоступний</value>
+  </data>
+  <data name="WatermarkNotAppliedException" xml:space="preserve">
+    <value>Водяний знак не застосовувався</value>
+  </data>
+  <data name="ErrorTheClientIsNotRegistered" xml:space="preserve">
+    <value>Клієнт не зареєстрований!</value>
+    <comment>Клієнт не зареєстрований!</comment>
+  </data>
+  <data name="ConfirmUpdateClientHotFix" xml:space="preserve">
+    <value>Бажаєте завантажити та запустити останнє оновлення?</value>
+  </data>
+  <data name="ThisBarcodeTypeIsNotSupported" xml:space="preserve">
+    <value>Цей тип штрих-коду не підтримується</value>
+  </data>
+</root>

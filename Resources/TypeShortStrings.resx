@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="AccountGroup" xml:space="preserve">
+    <value>Account group</value>
+  </data>
+  <data name="AccountingResultReportSetting" xml:space="preserve">
+    <value>Report settings</value>
+  </data>
+  <data name="AccountingResultReportType" xml:space="preserve">
+    <value>Report type</value>
+  </data>
+  <data name="AccountObjectKey" xml:space="preserve">
+    <value>Account key</value>
+  </data>
+  <data name="AccountObjectKeyGroup" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="AccountObjectKeyLinkOther" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="AccountStandardGroup" xml:space="preserve">
+    <value>Standard group</value>
+  </data>
+  <data name="ApproverDataItem" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="Article" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="ArticleAccountCategory" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="ArticleDetail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="ArticleDiscountGroup" xml:space="preserve">
+    <value>Discount group</value>
+  </data>
+  <data name="ArticleDiscountGroupOrgUnitLink" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="ArticleGroup" xml:space="preserve">
+    <value>Article group</value>
+  </data>
+  <data name="ArticleLocalization" xml:space="preserve">
+    <value>Localization</value>
+  </data>
+  <data name="ArticleMinQuantityOnStock" xml:space="preserve">
+    <value>Min quantity</value>
+  </data>
+  <data name="ArticlePrefix" xml:space="preserve">
+    <value>Article prefix</value>
+  </data>
+  <data name="AssemblyTreeLine" xml:space="preserve">
+    <value>Assembly line</value>
+  </data>
+  <data name="BankAccountNumber" xml:space="preserve">
+    <value>Bank account</value>
+  </data>
+  <data name="Batch" xml:space="preserve">
+    <value>Batch</value>
+  </data>
+  <data name="BatchLot" xml:space="preserve">
+    <value>Batch item</value>
+  </data>
+  <data name="ContactPersonGroup" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="ControlHelpUrl" xml:space="preserve">
+    <value>Manage help</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="CustomProjectState" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="CustomProjectStateGroup" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="CustomProjectSubtype" xml:space="preserve">
+    <value>Project subtype</value>
+  </data>
+  <data name="CustomProjectType" xml:space="preserve">
+    <value>Project type</value>
+  </data>
+  <data name="CustomReferenceType" xml:space="preserve">
+    <value>Choice type</value>
+  </data>
+  <data name="CustomReferenceValue" xml:space="preserve">
+    <value>Alternative</value>
+  </data>
+  <data name="DatabaseBackupFileInfo" xml:space="preserve">
+    <value>Database backup</value>
+  </data>
+  <data name="DayComment" xml:space="preserve">
+    <value>Day comment</value>
+  </data>
+  <data name="DefaultProjectDocument" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="DeliveryMethod" xml:space="preserve">
+    <value>Delivery method</value>
+  </data>
+  <data name="DeliveryOverrunReportInterval" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="DeliveryTerms" xml:space="preserve">
+    <value>Delivery term</value>
+  </data>
+  <data name="DictionaryLine" xml:space="preserve">
+    <value>Line</value>
+  </data>
+  <data name="DocumentAccountDetail" xml:space="preserve">
+    <value>Account detail</value>
+  </data>
+  <data name="DocumentAccountSplitRule" xml:space="preserve">
+    <value>Split rule</value>
+  </data>
+  <data name="DocumentAccountSplitRuleType" xml:space="preserve">
+    <value>Split rule type</value>
+  </data>
+  <data name="DocumentDetail" xml:space="preserve">
+    <value>Document line</value>
+  </data>
+  <data name="DocumentHeader" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="DocumentLotDetail" xml:space="preserve">
+    <value>Lot detail</value>
+  </data>
+  <data name="DocumentReminderDetail" xml:space="preserve">
+    <value>Line</value>
+  </data>
+  <data name="DocumentRemittanceDetail" xml:space="preserve">
+    <value>Line</value>
+  </data>
+  <data name="DocumentTemplate" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="DocumentType" xml:space="preserve">
+    <value>Document type</value>
+  </data>
+  <data name="EditCommonDictionaryLine" xml:space="preserve">
+    <value>Entry</value>
+  </data>
+  <data name="EhfTransferSetup" xml:space="preserve">
+    <value>EHF settings</value>
+  </data>
+  <data name="HumanResourceGroup" xml:space="preserve">
+    <value>HRM group</value>
+  </data>
+  <data name="ImportAndExport" xml:space="preserve">
+    <value>Entry</value>
+  </data>
+  <data name="InWorkAssemblyTreeLine" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="InWorkOperation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="InWorkOperationChecklistTask" xml:space="preserve">
+    <value>Checklist entry</value>
+  </data>
+  <data name="JournalEntryImportSetup" xml:space="preserve">
+    <value>Import settings</value>
+  </data>
+  <data name="Ledger" xml:space="preserve">
+    <value>Ledger</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Lot" xml:space="preserve">
+    <value>Lot</value>
+  </data>
+  <data name="LotDetail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="Measurement" xml:space="preserve">
+    <value>Measurement</value>
+  </data>
+  <data name="MeasurementLog" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="MeasurementLogLine" xml:space="preserve">
+    <value>Log line</value>
+  </data>
+  <data name="MeasurementLogTemplate" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="MeasurementLogTemplateLine" xml:space="preserve">
+    <value>Template line</value>
+  </data>
+  <data name="MeasurementType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="MeasurementUnit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="MenuCustomizationItem" xml:space="preserve">
+    <value>Menu item</value>
+  </data>
+  <data name="MenuProfile" xml:space="preserve">
+    <value>Menu profile</value>
+  </data>
+  <data name="Milestone" xml:space="preserve">
+    <value>Milestone</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="NotificationSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="NotificationTrackedObject" xml:space="preserve">
+    <value>Subscription</value>
+  </data>
+  <data name="OAuthContextLog" xml:space="preserve">
+    <value>Log entry</value>
+  </data>
+  <data name="OAuthProviderSetup" xml:space="preserve">
+    <value>Provider</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="OperationChecklistTaskTemplate" xml:space="preserve">
+    <value>Checklist entry</value>
+  </data>
+  <data name="OperationProducedJournal" xml:space="preserve">
+    <value>Journal entry</value>
+  </data>
+  <data name="OperationTemplate" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="OrgUnit" xml:space="preserve">
+    <value>Org unit</value>
+  </data>
+  <data name="OrgUnitAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="OrgUnitDiscountGroup" xml:space="preserve">
+    <value>Discount group</value>
+  </data>
+  <data name="OrgUnitGroup" xml:space="preserve">
+    <value>Org unit group</value>
+  </data>
+  <data name="OutgoingInvoiceExportSetup" xml:space="preserve">
+    <value>Export settings</value>
+  </data>
+  <data name="PaymentTerms" xml:space="preserve">
+    <value>Payment term</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="Permission" xml:space="preserve">
+    <value>Permission</value>
+  </data>
+  <data name="PluginShedulerSetting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="PostIndex" xml:space="preserve">
+    <value>Post index</value>
+  </data>
+  <data name="PriceList" xml:space="preserve">
+    <value>Price list</value>
+  </data>
+  <data name="PriceListArticle" xml:space="preserve">
+    <value>Entry</value>
+  </data>
+  <data name="PriceResponse" xml:space="preserve">
+    <value>Price response</value>
+  </data>
+  <data name="ProducedJournal" xml:space="preserve">
+    <value>Journal entry</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="ProjectAssemblyTreeLine" xml:space="preserve">
+    <value>Assembly line</value>
+  </data>
+  <data name="ProjectChecklistTask" xml:space="preserve">
+    <value>Checklist entry</value>
+  </data>
+  <data name="ProjectChecklistTaskTemplate" xml:space="preserve">
+    <value>Checklist entry</value>
+  </data>
+  <data name="ProjectDetail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="ProjectDocument" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="ProjectGroup" xml:space="preserve">
+    <value>Project group</value>
+  </data>
+  <data name="ProjectLine" xml:space="preserve">
+    <value>Project line</value>
+  </data>
+  <data name="ProjectLineDetail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="ProjectOperation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="ProjectSpecificationListRow" xml:space="preserve">
+    <value>Specification</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="ReminderSetup" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="RemittanceSetup" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="ReportLocalizedString" xml:space="preserve">
+    <value>Report string</value>
+  </data>
+  <data name="ReportLocalizedStringType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="ReportTemplate" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="ReportTemplateGroup" xml:space="preserve">
+    <value>Report group</value>
+  </data>
+  <data name="ResourceGroup" xml:space="preserve">
+    <value>Resource group</value>
+  </data>
+  <data name="SalaryCode" xml:space="preserve">
+    <value>Salary code</value>
+  </data>
+  <data name="SalaryExportSetup" xml:space="preserve">
+    <value>Export settings</value>
+  </data>
+  <data name="SalaryPeriod" xml:space="preserve">
+    <value>Salary period</value>
+  </data>
+  <data name="SalaryPeriodType" xml:space="preserve">
+    <value>Period type</value>
+  </data>
+  <data name="SalaryTimeRecordSummary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="ScanList" xml:space="preserve">
+    <value>Scan list item</value>
+  </data>
+  <data name="Script" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="ScriptSchedulerSetting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="SerialNumberDefinition" xml:space="preserve">
+    <value>Rule</value>
+  </data>
+  <data name="SerialNumberDefinitionArticle" xml:space="preserve">
+    <value>Article rule</value>
+  </data>
+  <data name="SettingsTyped" xml:space="preserve">
+    <value>Preference</value>
+  </data>
+  <data name="Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="ShiftPlan" xml:space="preserve">
+    <value>Shift plan</value>
+  </data>
+  <data name="SpecificationListRow" xml:space="preserve">
+    <value>Specification</value>
+  </data>
+  <data name="Subscription" xml:space="preserve">
+    <value>Subscription</value>
+  </data>
+  <data name="SupportUserCertificate" xml:space="preserve">
+    <value>Certificate</value>
+  </data>
+  <data name="SystemKey" xml:space="preserve">
+    <value>System key</value>
+  </data>
+  <data name="TaskStatusDataType" xml:space="preserve">
+    <value>Task status</value>
+  </data>
+  <data name="Tax" xml:space="preserve">
+    <value>Vat rate</value>
+  </data>
+  <data name="TaxCode" xml:space="preserve">
+    <value>Vat code</value>
+  </data>
+  <data name="TeamCapacity" xml:space="preserve">
+    <value>Team capacity</value>
+  </data>
+  <data name="Tenant" xml:space="preserve">
+    <value>Tenant</value>
+  </data>
+  <data name="TimeRecord" xml:space="preserve">
+    <value>Time record</value>
+  </data>
+  <data name="Tolerance" xml:space="preserve">
+    <value>Tolerance</value>
+  </data>
+  <data name="ToleranceGroup" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="ToleranceRange" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Resource</value>
+  </data>
+  <data name="UserDefinedStringFieldSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="UserEmailAccount" xml:space="preserve">
+    <value>Email account</value>
+  </data>
+  <data name="UserGroup" xml:space="preserve">
+    <value>User group</value>
+  </data>
+  <data name="UserSalaryCode" xml:space="preserve">
+    <value>Price for code</value>
+  </data>
+  <data name="VatReturnPeriod" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="VatReturnSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="VatSpecification" xml:space="preserve">
+    <value>Specification</value>
+  </data>
+  <data name="VendorArticle" xml:space="preserve">
+    <value>Vendor article</value>
+  </data>
+  <data name="VisitorLog" xml:space="preserve">
+    <value>Visitor log</value>
+  </data>
+  <data name="Watermark" xml:space="preserve">
+    <value>Watermark</value>
+  </data>
+  <data name="Webhook" xml:space="preserve">
+    <value>Webhook</value>
+  </data>
+  <data name="WorkflowEdiItem" xml:space="preserve">
+    <value>Workflow item</value>
+  </data>
+  <data name="WorkflowFile" xml:space="preserve">
+    <value>Export file</value>
+  </data>
+  <data name="WorkflowItem" xml:space="preserve">
+    <value>Workflow item</value>
+  </data>
+  <data name="WorkflowItemGroup" xml:space="preserve">
+    <value>Workflow group</value>
+  </data>
+  <data name="WorkflowItemsBackupAction" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="WorkflowItemSubtype" xml:space="preserve">
+    <value>Subtype</value>
+  </data>
+  <data name="WorkflowItemSubtypeGroup" xml:space="preserve">
+    <value>Subtype group</value>
+  </data>
+  <data name="WorkflowItemTypeDataItem" xml:space="preserve">
+    <value>Workflow type</value>
+  </data>
+  <data name="WorkOrder" xml:space="preserve">
+    <value>Work order</value>
+  </data>
+  <data name="WorkOrderChecklistTask" xml:space="preserve">
+    <value>Checklist entry</value>
+  </data>
+  <data name="WorkOrderChecklistTaskTemplate" xml:space="preserve">
+    <value>Checklist entry</value>
+  </data>
+  <data name="WorkOrderOperation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="WorkOrderSpecificationListRow" xml:space="preserve">
+    <value>Specification</value>
+  </data>
+  <data name="WorkPackage" xml:space="preserve">
+    <value>Work package</value>
+  </data>
+  <data name="WorkPackageDetail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="WorkPackageOperation" xml:space="preserve">
+    <value>Operation line</value>
+  </data>
+  <data name="WorkPackageWorkOrder" xml:space="preserve">
+    <value>Work order line</value>
+  </data>
+  <data name="YearBudget" xml:space="preserve">
+    <value>Budget</value>
+  </data>
+</root>

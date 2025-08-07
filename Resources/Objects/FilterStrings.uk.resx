@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DateFrom" xml:space="preserve">
+    <value>Початкова дата</value>
+  </data>
+  <data name="DateTo" xml:space="preserve">
+    <value>Кінцева дата</value>
+  </data>
+  <data name="Filtering" xml:space="preserve">
+    <value>Фільтрація</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>Рахунок</value>
+  </data>
+  <data name="AccountFrom" xml:space="preserve">
+    <value>Рахунок з</value>
+  </data>
+  <data name="AccountKeys" xml:space="preserve">
+    <value>Рахунки</value>
+  </data>
+  <data name="AccountTo" xml:space="preserve">
+    <value>Рахунок до</value>
+  </data>
+  <data name="AllAccounts" xml:space="preserve">
+    <value>Всі рахунки</value>
+  </data>
+  <data name="AllDocuments" xml:space="preserve">
+    <value>Всі документи</value>
+  </data>
+  <data name="Article" xml:space="preserve">
+    <value>Артикул</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Компанія</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Підрозділ</value>
+  </data>
+  <data name="DocumentFrom" xml:space="preserve">
+    <value>Документ з</value>
+  </data>
+  <data name="DocumentTo" xml:space="preserve">
+    <value>Документ до</value>
+  </data>
+  <data name="FinancialYear" xml:space="preserve">
+    <value>Фінансовий рік</value>
+  </data>
+  <data name="FromYear" xml:space="preserve">
+    <value>З року</value>
+  </data>
+  <data name="ItemSubtype" xml:space="preserve">
+    <value>Підтип</value>
+  </data>
+  <data name="MonthFrom" xml:space="preserve">
+    <value>Місяць з</value>
+  </data>
+  <data name="MonthTo" xml:space="preserve">
+    <value>Місяць до</value>
+  </data>
+  <data name="OnlyActive" xml:space="preserve">
+    <value>Тільки активні</value>
+  </data>
+  <data name="OnlyMyProjects" xml:space="preserve">
+    <value>Тільки мої проекти</value>
+  </data>
+  <data name="OrgUnit" xml:space="preserve">
+    <value>Організаційна одиниця</value>
+  </data>
+  <data name="OrgUnit_Stock" xml:space="preserve">
+    <value>Запас</value>
+  </data>
+  <data name="OrgUnitDepartmentType" xml:space="preserve">
+    <value>Тип підрозділа</value>
+  </data>
+  <data name="OrgUnitGroup" xml:space="preserve">
+    <value>Група організаційної одиниці</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Власник</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Проект</value>
+  </data>
+  <data name="Project_Stock" xml:space="preserve">
+    <value>Запас</value>
+  </data>
+  <data name="ProjectType" xml:space="preserve">
+    <value>Тип проекта</value>
+  </data>
+  <data name="SpecificationListType" xml:space="preserve">
+    <value>Тип списку специфікацій</value>
+  </data>
+  <data name="Subtype" xml:space="preserve">
+    <value>Підтип</value>
+  </data>
+  <data name="ToYear" xml:space="preserve">
+    <value>До року</value>
+  </data>
+  <data name="VendorArticle" xml:space="preserve">
+    <value>Артикул постачальника</value>
+  </data>
+  <data name="WorkerEquipment" xml:space="preserve">
+    <value>Робітник/обраднання</value>
+  </data>
+  <data name="WorkerMachine" xml:space="preserve">
+    <value>Робітник/машина</value>
+  </data>
+  <data name="IncludePreviousYearData" xml:space="preserve">
+    <value>Включати дані попереднього року</value>
+  </data>
+  <data name="IncludeBudgetFields" xml:space="preserve">
+    <value>Включати поля бюджету</value>
+  </data>
+  <data name="IncludePreviousPeriodWithDifference" xml:space="preserve">
+    <value>Включати попередній період з відмінностями</value>
+  </data>
+  <data name="DocumentNumberFrom" xml:space="preserve">
+    <value>Номер документу з</value>
+  </data>
+  <data name="DocumentNumberTo" xml:space="preserve">
+    <value>Номер документу по</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Показати все</value>
+  </data>
+  <data name="InvoicePaymentType" xml:space="preserve">
+    <value>Тип  платежу рахунку-фактури</value>
+  </data>
+  <data name="OrgUnitType" xml:space="preserve">
+    <value>Тип організаційної одиниці</value>
+  </data>
+  <data name="IncludePaymentBeforeToday" xml:space="preserve">
+    <value>Включити оплату до сьогодні</value>
+  </data>
+  <data name="SortByInvoiceNumber" xml:space="preserve">
+    <value>Сортувати по номеру рахунку-фактури</value>
+  </data>
+  <data name="SortByCustomerNumber" xml:space="preserve">
+    <value>Сортувати по номеру клієнта</value>
+  </data>
+</root>

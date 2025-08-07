@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AgreementId" xml:space="preserve">
+    <value>Agreement ID</value>
+  </data>
+  <data name="BankNumber" xml:space="preserve">
+    <value>Bank Account No. (old)</value>
+  </data>
+  <data name="DataSenderId" xml:space="preserve">
+    <value>Data Sender ID</value>
+  </data>
+  <data name="FileNameFormat" xml:space="preserve">
+    <value>File name format</value>
+  </data>
+  <data name="FileNameFormat_Hint" xml:space="preserve">
+    <value>Next macros can be used in the format string:
+{0} – Current date, ex: {0:yyyyMMdd-HHmmssFFF}
+{1} – Agreement ID
+{2} – Number from Remittance transaction, ex: {2:d4}
+{3} – Customer ID
+{4} – Organization number
+{5} – Daily counter (begins with 1 and adds 1 for each file transfer within each calendar day)</value>
+  </data>
+  <data name="FileNameFormatPreview" xml:space="preserve">
+    <value>File name preview</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="InPathUri" xml:space="preserve">
+    <value>In Path URI</value>
+  </data>
+  <data name="RptPathUri" xml:space="preserve">
+    <value>Rpt Path URI</value>
+  </data>
+  <data name="OutPathUri" xml:space="preserve">
+    <value>Out Path URI</value>
+  </data>
+  <data name="Protocol" xml:space="preserve">
+    <value>Protocol</value>
+  </data>
+  <data name="RemittanceType" xml:space="preserve">
+    <value>Remittance type</value>
+  </data>
+  <data name="WorkflowSubtype" xml:space="preserve">
+    <value>Workflow subtype</value>
+  </data>
+  <data name="AgreementId_Hint" xml:space="preserve">
+    <value>Unique identification of Corporate Cash Management agreement with the bank.</value>
+  </data>
+  <data name="CustomerId" xml:space="preserve">
+    <value>Customer ID</value>
+  </data>
+  <data name="CustomerId_Hint" xml:space="preserve">
+    <value>Customer identification (optional). It provided by the bank.</value>
+  </data>
+  <data name="BankAccountNumber" xml:space="preserve">
+    <value>Bank Account No.</value>
+  </data>
+  <data name="InAuthKeyRef" xml:space="preserve">
+    <value>In Auth key</value>
+  </data>
+  <data name="InLogin" xml:space="preserve">
+    <value>In Login</value>
+  </data>
+  <data name="InPassword" xml:space="preserve">
+    <value>In Password</value>
+  </data>
+  <data name="InPathUri_Hint" xml:space="preserve">
+    <value>Path URI for import payments</value>
+  </data>
+  <data name="InTransferMethod" xml:space="preserve">
+    <value>In Transfer method</value>
+  </data>
+  <data name="InTransferMethod_Hint" xml:space="preserve">
+    <value>Transfer method for import payments</value>
+  </data>
+  <data name="OutAuthKeyRef" xml:space="preserve">
+    <value>Out Auth key</value>
+  </data>
+  <data name="OutLogin" xml:space="preserve">
+    <value>Out Login</value>
+  </data>
+  <data name="OutPassword" xml:space="preserve">
+    <value>Out Password</value>
+  </data>
+  <data name="OutPathUri_Hint" xml:space="preserve">
+    <value>Path URI for export</value>
+  </data>
+  <data name="OutTransferMethod" xml:space="preserve">
+    <value>Out Transfer method</value>
+  </data>
+  <data name="OutTransferMethod_Hint" xml:space="preserve">
+    <value>Transfer method for export</value>
+  </data>
+  <data name="RptAuthKeyRef" xml:space="preserve">
+    <value>Rpt Auth key</value>
+  </data>
+  <data name="RptLogin" xml:space="preserve">
+    <value>Rpt Login</value>
+  </data>
+  <data name="RptPassword" xml:space="preserve">
+    <value>Rpt Password</value>
+  </data>
+  <data name="RptPathUri_Hint" xml:space="preserve">
+    <value>Path URI for import remittance errors</value>
+  </data>
+  <data name="RptTransferMethod" xml:space="preserve">
+    <value>Rpt Transfer method</value>
+  </data>
+  <data name="RptTransferMethod_Hint" xml:space="preserve">
+    <value>Transfer method for import remittance errors</value>
+  </data>
+  <data name="InDeleteAfterImport" xml:space="preserve">
+    <value>Delete after import payments</value>
+  </data>
+  <data name="RptDeleteAfterImport" xml:space="preserve">
+    <value>Delete after import remittance errors</value>
+  </data>
+  <data name="IsDisabled" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="ApproverIdentification1" xml:space="preserve">
+    <value>Approver 1 identification</value>
+  </data>
+  <data name="ApproverIdentification1_Hint" xml:space="preserve">
+    <value>National Identity Number of first approver</value>
+  </data>
+  <data name="ApproverIdentification2" xml:space="preserve">
+    <value>Approver 2 identification</value>
+  </data>
+  <data name="ApproverIdentification2_Hint" xml:space="preserve">
+    <value>National Identity Number of second approver</value>
+  </data>
+  <data name="ContainerFileNameFormat" xml:space="preserve">
+    <value>File name format for Secure container</value>
+  </data>
+  <data name="ContainerFileNameFormatPreview" xml:space="preserve">
+    <value>File name format preview for Secure container</value>
+  </data>
+  <data name="ContainerFileNameFormat_Hint" xml:space="preserve">
+    <value>Next macros can be used in the format string:
+{0} – Current date, ex: {0:yyyyMMdd-HHmmssFFF}
+{1} – Agreement ID
+{2} – Number from Remittance transaction, ex: {2:d4}
+{3} – Customer ID
+{4} – Organization number
+{5} – Daily counter (begins with 1 and adds 1 for each file transfer within each calendar day)</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Creation date</value>
+  </data>
+  <data name="LastEditDate" xml:space="preserve">
+    <value>Last edited date</value>
+  </data>
+  <data name="OAuthProviderSetup" xml:space="preserve">
+    <value>OpenID Connect Identity provider</value>
+  </data>
+  <data name="SignAuthKeyRef" xml:space="preserve">
+    <value>Signing enterprise certificate</value>
+  </data>
+  <data name="User_Approver1" xml:space="preserve">
+    <value>Approver 1</value>
+  </data>
+  <data name="User_Approver2" xml:space="preserve">
+    <value>Approver 2</value>
+  </data>
+  <data name="User_Author" xml:space="preserve">
+    <value>Created by</value>
+  </data>
+  <data name="User_LastEdit" xml:space="preserve">
+    <value>Last edited by</value>
+  </data>
+  <data name="ApproverIdentification10" xml:space="preserve">
+    <value>Approver 10 identification</value>
+  </data>
+  <data name="ApproverIdentification3" xml:space="preserve">
+    <value>Approver 3 identification</value>
+  </data>
+  <data name="ApproverIdentification4" xml:space="preserve">
+    <value>Approver 4 identification</value>
+  </data>
+  <data name="ApproverIdentification5" xml:space="preserve">
+    <value>Approver 5 identification</value>
+  </data>
+  <data name="ApproverIdentification6" xml:space="preserve">
+    <value>Approver 6 identification</value>
+  </data>
+  <data name="ApproverIdentification7" xml:space="preserve">
+    <value>Approver 7 identification</value>
+  </data>
+  <data name="ApproverIdentification8" xml:space="preserve">
+    <value>Approver 8 identification</value>
+  </data>
+  <data name="ApproverIdentification9" xml:space="preserve">
+    <value>Approver 9 identification</value>
+  </data>
+  <data name="User_Approver10" xml:space="preserve">
+    <value>Approver 10</value>
+  </data>
+  <data name="User_Approver3" xml:space="preserve">
+    <value>Approver 3</value>
+  </data>
+  <data name="User_Approver4" xml:space="preserve">
+    <value>Approver 4</value>
+  </data>
+  <data name="User_Approver5" xml:space="preserve">
+    <value>Approver 5</value>
+  </data>
+  <data name="User_Approver6" xml:space="preserve">
+    <value>Approver 6</value>
+  </data>
+  <data name="User_Approver7" xml:space="preserve">
+    <value>Approver 7</value>
+  </data>
+  <data name="User_Approver8" xml:space="preserve">
+    <value>Approver 8</value>
+  </data>
+  <data name="User_Approver9" xml:space="preserve">
+    <value>Approver 9</value>
+  </data>
+  <data name="InFileNameFilter" xml:space="preserve">
+    <value>In File name Filter</value>
+  </data>
+  <data name="RptFileNameFilter" xml:space="preserve">
+    <value>Rpt File name Filter</value>
+  </data>
+  <data name="InFileNameFilter_Hint" xml:space="preserve">
+    <value>A substring that incoming file names have to contain</value>
+  </data>
+  <data name="RptFileNameFilter_Hint" xml:space="preserve">
+    <value>A substring that incoming file names have to contain</value>
+  </data>
+  <data name="ContainerType" xml:space="preserve">
+    <value>Secure container type</value>
+  </data>
+</root>

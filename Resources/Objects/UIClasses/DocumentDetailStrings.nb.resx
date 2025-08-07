@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountJournalLine" xml:space="preserve">
+    <value>Fakturalinje</value>
+  </data>
+  <data name="AdditionalPrice" xml:space="preserve">
+    <value>Tilleggspris</value>
+  </data>
+  <data name="Article" xml:space="preserve">
+    <value>Artikkel</value>
+  </data>
+  <data name="ArticleCode" xml:space="preserve">
+    <value>Artikkelnr.</value>
+  </data>
+  <data name="ArticleJoinCode" xml:space="preserve">
+    <value>Artikkelnr (eget+lev.)</value>
+  </data>
+  <data name="ArticleJoinName" xml:space="preserve">
+    <value>Artikkelnavn (eget+lev.)</value>
+  </data>
+  <data name="BasicPrice" xml:space="preserve">
+    <value>Basispris</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Kost</value>
+  </data>
+  <data name="Cost_Currency" xml:space="preserve">
+    <value>Kost i valuta</value>
+  </data>
+  <data name="CostSum" xml:space="preserve">
+    <value>Sum kost</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Rabatt</value>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="DocumentDetail_Other" xml:space="preserve">
+    <value>Referanse dok.linje</value>
+  </data>
+  <data name="DocumentNumber" xml:space="preserve">
+    <value>Dokumentnr</value>
+  </data>
+  <data name="FreightSum" xml:space="preserve">
+    <value>Sum frakt</value>
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>Fakturanr.</value>
+  </data>
+  <data name="MaterialType" xml:space="preserve">
+    <value>Materialtype</value>
+  </data>
+  <data name="MeasurementUnit" xml:space="preserve">
+    <value>Enhet</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="OperationDate" xml:space="preserve">
+    <value>Bokføringsdato</value>
+  </data>
+  <data name="OrgUnit_DefaultProductStock" xml:space="preserve">
+    <value>Standard produktlager</value>
+  </data>
+  <data name="OrgUnit_DefaultStock" xml:space="preserve">
+    <value>Standard materiallager</value>
+  </data>
+  <data name="Pos" xml:space="preserve">
+    <value>Posisjon</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Pris</value>
+  </data>
+  <data name="Price_Currency" xml:space="preserve">
+    <value>Pris i valuta</value>
+  </data>
+  <data name="PriceSum" xml:space="preserve">
+    <value>Sum pris</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Prosjekt</value>
+  </data>
+  <data name="Project_Owner" xml:space="preserve">
+    <value>Eier prosjekt</value>
+  </data>
+  <data name="ProjectLine" xml:space="preserve">
+    <value>Prosjektlinje</value>
+  </data>
+  <data name="ProjectLine_Owner" xml:space="preserve">
+    <value>Eier prosjektlinje</value>
+  </data>
+  <data name="ProjectNumber" xml:space="preserve">
+    <value>Prosjektnummer</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Faktisk antall</value>
+  </data>
+  <data name="Quantity_Return" xml:space="preserve">
+    <value>Returnert mengde</value>
+  </data>
+  <data name="QuantityOutgoingInvoice" xml:space="preserve">
+    <value>Antall utgående faktura</value>
+  </data>
+  <data name="QuantityQuarantine" xml:space="preserve">
+    <value>Karantene antall</value>
+  </data>
+  <data name="QuantityWant" xml:space="preserve">
+    <value>Antall</value>
+  </data>
+  <data name="SAFTCodeList" xml:space="preserve">
+    <value>SAF-T kode</value>
+  </data>
+  <data name="SubType" xml:space="preserve">
+    <value>Subtype</value>
+  </data>
+  <data name="SumCredit" xml:space="preserve">
+    <value>Sum kredit</value>
+  </data>
+  <data name="SumDebit" xml:space="preserve">
+    <value>Sum debet</value>
+  </data>
+  <data name="SumPrice" xml:space="preserve">
+    <value>Totalsum eks. mva</value>
+  </data>
+  <data name="SumPrice_Currency" xml:space="preserve">
+    <value>Totalsum eks. mva i valuta</value>
+  </data>
+  <data name="SumPriceWithTax" xml:space="preserve">
+    <value>Totalsum inkl. mva</value>
+  </data>
+  <data name="SumPriceWithTax_Currency" xml:space="preserve">
+    <value>Totalsum inkl. mva i valuta</value>
+  </data>
+  <data name="SumTax" xml:space="preserve">
+    <value>Total mva</value>
+  </data>
+  <data name="SumTax_Currency" xml:space="preserve">
+    <value>Total mva i valuta</value>
+  </data>
+  <data name="SumTaxCredit" xml:space="preserve">
+    <value>Sum mva kredit</value>
+  </data>
+  <data name="SumTaxDebit" xml:space="preserve">
+    <value>Sum mva debet</value>
+  </data>
+  <data name="SumTaxReturnBasis" xml:space="preserve">
+    <value>Sum basis</value>
+  </data>
+  <data name="SumTaxReturnVat" xml:space="preserve">
+    <value>Sum mva</value>
+  </data>
+  <data name="TaxCode" xml:space="preserve">
+    <value>Mva-kode</value>
+  </data>
+  <data name="VendorArticle" xml:space="preserve">
+    <value>Innkjøpsartikkel</value>
+  </data>
+  <data name="VendorArticleCode" xml:space="preserve">
+    <value>Artikkelnr leverandør</value>
+  </data>
+  <data name="WorkOrder" xml:space="preserve">
+    <value>Arbeidsordre</value>
+  </data>
+  <data name="WorkOrderMaterial" xml:space="preserve">
+    <value>Arbeidsordre materiale</value>
+  </data>
+  <data name="WorkOrderNode" xml:space="preserve">
+    <value>Arbeidsordre node</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="CurrencyRate" xml:space="preserve">
+    <value>Valutakurs</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="OrgUnit_Department" xml:space="preserve">
+    <value>Avdeling</value>
+  </data>
+  <data name="PONumber" xml:space="preserve">
+    <value>PO nummer</value>
+  </data>
+  <data name="Project_PO" xml:space="preserve">
+    <value>Bestilling (PO)</value>
+  </data>
+  <data name="KIDNumber" xml:space="preserve">
+    <value>KID nummer</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Lokasjon</value>
+  </data>
+  <data name="OrgUnit_FixedStock" xml:space="preserve">
+    <value>Overstyrt lager</value>
+  </data>
+  <data name="CustomerArticleCode" xml:space="preserve">
+    <value>Kundens artikkelnr</value>
+  </data>
+  <data name="VatSpecification" xml:space="preserve">
+    <value>Mva-spesifikasjon</value>
+  </data>
+  <data name="QualityControl" xml:space="preserve">
+    <value>Kvalitetskontroll</value>
+  </data>
+  <data name="Cost_Alternative" xml:space="preserve">
+    <value>Kost for alternativ enhet</value>
+  </data>
+  <data name="MeasurementUnit_Alternative" xml:space="preserve">
+    <value>Alternativ enhet</value>
+  </data>
+  <data name="Quantity_Alternative" xml:space="preserve">
+    <value>Antall i alternativ enhet</value>
+  </data>
+  <data name="Account_Credit" xml:space="preserve">
+    <value>Konto kredit</value>
+  </data>
+  <data name="Account_Debit" xml:space="preserve">
+    <value>Konto debet</value>
+  </data>
+</root>

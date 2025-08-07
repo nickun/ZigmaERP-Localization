@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="AccountGroup" xml:space="preserve">
+    <value>Kontogruppe</value>
+  </data>
+  <data name="AccountingResultReportSetting" xml:space="preserve">
+    <value>Avanserte resultat rapportinnstilling</value>
+  </data>
+  <data name="AccountingResultReportType" xml:space="preserve">
+    <value>Avansert resultatrapporttype</value>
+  </data>
+  <data name="AccountObjectKey" xml:space="preserve">
+    <value>Kontonøkkel</value>
+  </data>
+  <data name="AccountObjectKeyGroup" xml:space="preserve">
+    <value>Konto nøkkelgruppe</value>
+  </data>
+  <data name="AccountObjectKeyLinkOther" xml:space="preserve">
+    <value>Konto nøkkellink</value>
+  </data>
+  <data name="AccountStandardGroup" xml:space="preserve">
+    <value>Standard kontogruppe</value>
+  </data>
+  <data name="ApproverDataItem" xml:space="preserve">
+    <value>Godkjennelse</value>
+  </data>
+  <data name="Article" xml:space="preserve">
+    <value>Artikkel</value>
+  </data>
+  <data name="ArticleAccountCategory" xml:space="preserve">
+    <value>Kontokategori artikkel</value>
+  </data>
+  <data name="ArticleDetail" xml:space="preserve">
+    <value>Artikkeldetalj</value>
+  </data>
+  <data name="ArticleDiscountGroup" xml:space="preserve">
+    <value>Artikkelrabattgruppe</value>
+  </data>
+  <data name="ArticleDiscountGroupOrgUnitLink" xml:space="preserve">
+    <value>Firmarelaterte artikkelrabatt</value>
+  </data>
+  <data name="ArticleGroup" xml:space="preserve">
+    <value>Artikkelgruppe</value>
+  </data>
+  <data name="ArticleLocalization" xml:space="preserve">
+    <value>Artikkellokalisering</value>
+  </data>
+  <data name="ArticleMinQuantityOnStock" xml:space="preserve">
+    <value>Minimum lagermengde</value>
+  </data>
+  <data name="ArticlePrefix" xml:space="preserve">
+    <value>Prefiks vare</value>
+  </data>
+  <data name="AssemblyTreeLine" xml:space="preserve">
+    <value>Kalkyle linje</value>
+  </data>
+  <data name="BankAccountNumber" xml:space="preserve">
+    <value>Bankkonto</value>
+  </data>
+  <data name="Batch" xml:space="preserve">
+    <value>Parti</value>
+  </data>
+  <data name="BatchLot" xml:space="preserve">
+    <value>Sporingslistekomponent</value>
+  </data>
+  <data name="ContactPersonGroup" xml:space="preserve">
+    <value>Kontakpersongruppe</value>
+  </data>
+  <data name="ControlHelpUrl" xml:space="preserve">
+    <value>Administrér hjelp</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="CustomProjectState" xml:space="preserve">
+    <value>Fase</value>
+  </data>
+  <data name="CustomProjectStateGroup" xml:space="preserve">
+    <value>Prosjekt fasegruppe</value>
+  </data>
+  <data name="CustomProjectSubtype" xml:space="preserve">
+    <value>Prosjekt subtype</value>
+  </data>
+  <data name="CustomProjectType" xml:space="preserve">
+    <value>Prosjekttype</value>
+  </data>
+  <data name="CustomReferenceType" xml:space="preserve">
+    <value>Oppslagstype</value>
+  </data>
+  <data name="CustomReferenceValue" xml:space="preserve">
+    <value>Alternativ</value>
+  </data>
+  <data name="DatabaseBackupFileInfo" xml:space="preserve">
+    <value>Database back up</value>
+  </data>
+  <data name="DayComment" xml:space="preserve">
+    <value>Dagskommentar</value>
+  </data>
+  <data name="DefaultProjectDocument" xml:space="preserve">
+    <value>Standard prosjektdokument</value>
+  </data>
+  <data name="DeliveryMethod" xml:space="preserve">
+    <value>Leveringsmåte</value>
+  </data>
+  <data name="DeliveryOverrunReportInterval" xml:space="preserve">
+    <value>Leveringsoverskridelse intervall</value>
+  </data>
+  <data name="DeliveryTerms" xml:space="preserve">
+    <value>Leveringsbetingelse</value>
+  </data>
+  <data name="DocumentAccountDetail" xml:space="preserve">
+    <value>Dokument kontodetalj</value>
+  </data>
+  <data name="DocumentAccountSplitRule" xml:space="preserve">
+    <value>Regel fordelingsbilag</value>
+  </data>
+  <data name="DocumentAccountSplitRuleType" xml:space="preserve">
+    <value>Regel fordelingsbilagstype</value>
+  </data>
+  <data name="DocumentDetail" xml:space="preserve">
+    <value>Dokumentlinje</value>
+  </data>
+  <data name="DocumentHeader" xml:space="preserve">
+    <value>Dokument (nr)</value>
+  </data>
+  <data name="DocumentLotDetail" xml:space="preserve">
+    <value>Detalj lot/parti</value>
+  </data>
+  <data name="DocumentReminderDetail" xml:space="preserve">
+    <value>Purring</value>
+  </data>
+  <data name="DocumentRemittanceDetail" xml:space="preserve">
+    <value>Remittering dokument</value>
+  </data>
+  <data name="DocumentTemplate" xml:space="preserve">
+    <value>Dokumentmal</value>
+  </data>
+  <data name="DocumentType" xml:space="preserve">
+    <value>Dokumenttype</value>
+  </data>
+  <data name="EditCommonDictionaryLine" xml:space="preserve">
+    <value>Scripting</value>
+  </data>
+  <data name="EhfTransferSetup" xml:space="preserve">
+    <value>EHF innstilling</value>
+  </data>
+  <data name="HumanResourceGroup" xml:space="preserve">
+    <value>Personalgruppe</value>
+  </data>
+  <data name="ImportAndExport" xml:space="preserve">
+    <value>Import og eksport</value>
+  </data>
+  <data name="InWorkAssemblyTreeLine" xml:space="preserve">
+    <value>Material arbeidsordre</value>
+  </data>
+  <data name="InWorkOperation" xml:space="preserve">
+    <value>Operasjon</value>
+  </data>
+  <data name="InWorkOperationChecklistTask" xml:space="preserve">
+    <value>Sjekkliste operasjonselement</value>
+  </data>
+  <data name="JournalEntryImportSetup" xml:space="preserve">
+    <value>Oppsett annen bilagsregistrering import</value>
+  </data>
+  <data name="Ledger" xml:space="preserve">
+    <value>Hovedbok</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Lokasjon</value>
+  </data>
+  <data name="Lot" xml:space="preserve">
+    <value>Lot/parti</value>
+  </data>
+  <data name="LotDetail" xml:space="preserve">
+    <value>Detalj lot/parti</value>
+  </data>
+  <data name="Measurement" xml:space="preserve">
+    <value>Måling</value>
+  </data>
+  <data name="MeasurementLog" xml:space="preserve">
+    <value>Målebrev</value>
+  </data>
+  <data name="MeasurementLogLine" xml:space="preserve">
+    <value>Målebrev detalj</value>
+  </data>
+  <data name="MeasurementLogTemplate" xml:space="preserve">
+    <value>Målebrev mal</value>
+  </data>
+  <data name="MeasurementLogTemplateLine" xml:space="preserve">
+    <value>Målebrev mal detalj</value>
+  </data>
+  <data name="MeasurementType" xml:space="preserve">
+    <value>Målingstype</value>
+  </data>
+  <data name="MeasurementUnit" xml:space="preserve">
+    <value>Enhet</value>
+  </data>
+  <data name="MenuCustomizationItem" xml:space="preserve">
+    <value>Menyelement</value>
+  </data>
+  <data name="MenuProfile" xml:space="preserve">
+    <value>Menyprofil</value>
+  </data>
+  <data name="Milestone" xml:space="preserve">
+    <value>Milepæl</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Varsel</value>
+  </data>
+  <data name="NotificationSettings" xml:space="preserve">
+    <value>Varslingsinnstilling</value>
+  </data>
+  <data name="NotificationTrackedObject" xml:space="preserve">
+    <value>Objektendring abonnement</value>
+  </data>
+  <data name="OAuthContextLog" xml:space="preserve">
+    <value>BankID autentiseringsloggoppføring</value>
+  </data>
+  <data name="OAuthProviderSetup" xml:space="preserve">
+    <value>BankID identitetsleverandør</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>Operasjon</value>
+  </data>
+  <data name="OperationChecklistTaskTemplate" xml:space="preserve">
+    <value>Sjekkliste operasjonselement</value>
+  </data>
+  <data name="OperationProducedJournal" xml:space="preserve">
+    <value>Operasjon produksjonsjournaloppføring</value>
+  </data>
+  <data name="OperationTemplate" xml:space="preserve">
+    <value>Operasjonsmal</value>
+  </data>
+  <data name="OrgUnit" xml:space="preserve">
+    <value>Firma</value>
+  </data>
+  <data name="OrgUnitAddress" xml:space="preserve">
+    <value>Adresse kunde/lev.</value>
+  </data>
+  <data name="OrgUnitDiscountGroup" xml:space="preserve">
+    <value>Firmarabattgruppe</value>
+  </data>
+  <data name="OrgUnitGroup" xml:space="preserve">
+    <value>Kontaktgruppe</value>
+  </data>
+  <data name="OutgoingInvoiceExportSetup" xml:space="preserve">
+    <value>Utgående fakturaeksportinnstilling</value>
+  </data>
+  <data name="PaymentTerms" xml:space="preserve">
+    <value>Betalingsbetingelse</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Periode</value>
+  </data>
+  <data name="Permission" xml:space="preserve">
+    <value>Tilgang</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Stilling</value>
+  </data>
+  <data name="PostIndex" xml:space="preserve">
+    <value>Postnummer</value>
+  </data>
+  <data name="PriceList" xml:space="preserve">
+    <value>Prisliste</value>
+  </data>
+  <data name="PriceListArticle" xml:space="preserve">
+    <value>Prisliste artikkel</value>
+  </data>
+  <data name="PriceResponse" xml:space="preserve">
+    <value>Registrér svar på prisforespørsel</value>
+  </data>
+  <data name="ProducedJournal" xml:space="preserve">
+    <value>Produksjonsjournaloppføring</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Prosjekt</value>
+  </data>
+  <data name="ProjectAssemblyTreeLine" xml:space="preserve">
+    <value>Kalkyle prosjektlinje</value>
+  </data>
+  <data name="ProjectChecklistTask" xml:space="preserve">
+    <value>Sjekkliste for prosjektelement</value>
+  </data>
+  <data name="ProjectChecklistTaskTemplate" xml:space="preserve">
+    <value>Sjekkliste prosjektelement</value>
+  </data>
+  <data name="ProjectDetail" xml:space="preserve">
+    <value>Prosjektdetalj</value>
+  </data>
+  <data name="ProjectDocument" xml:space="preserve">
+    <value>Prosjektdokument</value>
+  </data>
+  <data name="ProjectGroup" xml:space="preserve">
+    <value>Prosjektgruppe</value>
+  </data>
+  <data name="ProjectLine" xml:space="preserve">
+    <value>Prosjektlinje</value>
+  </data>
+  <data name="ProjectLineDetail" xml:space="preserve">
+    <value>Prosjektlinjedetalj</value>
+  </data>
+  <data name="ProjectOperation" xml:space="preserve">
+    <value>Operasjon</value>
+  </data>
+  <data name="ProjectSpecificationListRow" xml:space="preserve">
+    <value>Spesifikasjon</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Kvalitet</value>
+  </data>
+  <data name="ReminderSetup" xml:space="preserve">
+    <value>Oppsett purring</value>
+  </data>
+  <data name="RemittanceSetup" xml:space="preserve">
+    <value>Oppsett remittering</value>
+  </data>
+  <data name="ReportLocalizedString" xml:space="preserve">
+    <value>Språkfelt til rapport</value>
+  </data>
+  <data name="ReportLocalizedStringType" xml:space="preserve">
+    <value>Opprette språkfelt til rapport</value>
+  </data>
+  <data name="ReportTemplate" xml:space="preserve">
+    <value>Rapport</value>
+  </data>
+  <data name="ReportTemplateGroup" xml:space="preserve">
+    <value>Rapport gruppe</value>
+  </data>
+  <data name="ResourceGroup" xml:space="preserve">
+    <value>Ressursgruppe</value>
+  </data>
+  <data name="SalaryCode" xml:space="preserve">
+    <value>Lønnskode</value>
+  </data>
+  <data name="SalaryExportSetup" xml:space="preserve">
+    <value>Lønnseksport innstilling</value>
+  </data>
+  <data name="SalaryPeriod" xml:space="preserve">
+    <value>Lønnsperiode</value>
+  </data>
+  <data name="SalaryPeriodType" xml:space="preserve">
+    <value>Type lønnsperiode</value>
+  </data>
+  <data name="SalaryTimeRecordSummary" xml:space="preserve">
+    <value>Lønnstime sammendrag</value>
+  </data>
+  <data name="ScanList" xml:space="preserve">
+    <value>Skanneliste element</value>
+  </data>
+  <data name="Script" xml:space="preserve">
+    <value>Skript</value>
+  </data>
+  <data name="SerialNumberDefinition" xml:space="preserve">
+    <value>Serienummer genereringsregel</value>
+  </data>
+  <data name="SerialNumberDefinitionArticle" xml:space="preserve">
+    <value>Serienummer for artikkel</value>
+  </data>
+  <data name="SettingsTyped" xml:space="preserve">
+    <value>Systeminnstilling</value>
+  </data>
+  <data name="Shift" xml:space="preserve">
+    <value>Skift</value>
+  </data>
+  <data name="SpecificationListRow" xml:space="preserve">
+    <value>Spesifikasjon</value>
+  </data>
+  <data name="Subscription" xml:space="preserve">
+    <value>Abonnement</value>
+  </data>
+  <data name="SupportUserCertificate" xml:space="preserve">
+    <value>Hjelp bruker sertifikat</value>
+  </data>
+  <data name="SystemKey" xml:space="preserve">
+    <value>Systemnøkkel</value>
+  </data>
+  <data name="TaskStatusDataType" xml:space="preserve">
+    <value>Oppgavestatus</value>
+  </data>
+  <data name="Tax" xml:space="preserve">
+    <value>Mva-sats</value>
+  </data>
+  <data name="TaxCode" xml:space="preserve">
+    <value>Mva-kode</value>
+  </data>
+  <data name="TeamCapacity" xml:space="preserve">
+    <value>Teamkapasitet</value>
+  </data>
+  <data name="Tenant" xml:space="preserve">
+    <value>Zigma360-klient</value>
+  </data>
+  <data name="TimeRecord" xml:space="preserve">
+    <value>Timeregistrering</value>
+  </data>
+  <data name="Tolerance" xml:space="preserve">
+    <value>Toleranse</value>
+  </data>
+  <data name="ToleranceGroup" xml:space="preserve">
+    <value>Toleransegruppe</value>
+  </data>
+  <data name="ToleranceRange" xml:space="preserve">
+    <value>Toleranse serie</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Bruker</value>
+  </data>
+  <data name="UserDefinedStringFieldSettings" xml:space="preserve">
+    <value>Innstilling for valgfritt felt</value>
+  </data>
+  <data name="UserEmailAccount" xml:space="preserve">
+    <value>Bruker e-postkonto</value>
+  </data>
+  <data name="UserGroup" xml:space="preserve">
+    <value>Brukergruppe</value>
+  </data>
+  <data name="UserSalaryCode" xml:space="preserve">
+    <value>Lønnskode bruker</value>
+  </data>
+  <data name="VatReturnPeriod" xml:space="preserve">
+    <value>Mva-periode</value>
+  </data>
+  <data name="VatReturnSettings" xml:space="preserve">
+    <value>Oppsett mva-oppgjør</value>
+  </data>
+  <data name="VatSpecification" xml:space="preserve">
+    <value>Mva-spesifikasjon</value>
+  </data>
+  <data name="VendorArticle" xml:space="preserve">
+    <value>Leverandørartikkel</value>
+  </data>
+  <data name="VisitorLog" xml:space="preserve">
+    <value>Besøkslogg</value>
+  </data>
+  <data name="Watermark" xml:space="preserve">
+    <value>Vannmerke</value>
+  </data>
+  <data name="Webhook" xml:space="preserve">
+    <value>Webhook</value>
+  </data>
+  <data name="WorkflowEdiItem" xml:space="preserve">
+    <value>Dokumentsenter</value>
+  </data>
+  <data name="WorkflowFile" xml:space="preserve">
+    <value>SAF-T eksportfil</value>
+  </data>
+  <data name="WorkflowItem" xml:space="preserve">
+    <value>Workflow-element</value>
+  </data>
+  <data name="WorkflowItemGroup" xml:space="preserve">
+    <value>Workflow-gruppe</value>
+  </data>
+  <data name="WorkflowItemsBackupAction" xml:space="preserve">
+    <value>Back up workflow-fil</value>
+  </data>
+  <data name="WorkflowItemSubtype" xml:space="preserve">
+    <value>Workflow-subtype</value>
+  </data>
+  <data name="WorkflowItemSubtypeGroup" xml:space="preserve">
+    <value>Workflow-subtype gruppe</value>
+  </data>
+  <data name="WorkflowItemTypeDataItem" xml:space="preserve">
+    <value>Workflow-type</value>
+  </data>
+  <data name="WorkOrder" xml:space="preserve">
+    <value>Arbeidsordre</value>
+  </data>
+  <data name="WorkOrderChecklistTask" xml:space="preserve">
+    <value>Sjekkliste arbeidsordre</value>
+  </data>
+  <data name="WorkOrderChecklistTaskTemplate" xml:space="preserve">
+    <value>Sjekkliste arbeidsordre</value>
+  </data>
+  <data name="WorkOrderOperation" xml:space="preserve">
+    <value>Operasjon</value>
+  </data>
+  <data name="WorkOrderSpecificationListRow" xml:space="preserve">
+    <value>Spesifikasjon</value>
+  </data>
+  <data name="WorkPackage" xml:space="preserve">
+    <value>Arbeidspakke</value>
+  </data>
+  <data name="WorkPackageDetail" xml:space="preserve">
+    <value>Arbeidspakkedetalj</value>
+  </data>
+  <data name="WorkPackageOperation" xml:space="preserve">
+    <value>Operasjon til arbeidspakke</value>
+  </data>
+  <data name="WorkPackageWorkOrder" xml:space="preserve">
+    <value>Arbeidsordre til arbeidspakke</value>
+  </data>
+  <data name="YearBudget" xml:space="preserve">
+    <value>Budsjett</value>
+  </data>
+</root>

@@ -1,0 +1,947 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_Agio" xml:space="preserve">
+    <value>Agio account</value>
+  </data>
+  <data name="Account_Bank" xml:space="preserve">
+    <value>Default bank account</value>
+  </data>
+  <data name="Account_Customers" xml:space="preserve">
+    <value>Customer's account in general ledger</value>
+  </data>
+  <data name="Account_DirectPostLevel1" xml:space="preserve">
+    <value>Direct post account level 1</value>
+  </data>
+  <data name="Account_DirectPostLevel2" xml:space="preserve">
+    <value>Direct post account level 2</value>
+  </data>
+  <data name="Account_DirectPostLevel3" xml:space="preserve">
+    <value>Direct post account level 3</value>
+  </data>
+  <data name="Account_DirectPostLevel4" xml:space="preserve">
+    <value>Direct post account level 4</value>
+  </data>
+  <data name="Account_Disagio" xml:space="preserve">
+    <value>Disagio account</value>
+  </data>
+  <data name="Account_GlobalGovernment" xml:space="preserve">
+    <value>Global government payment account</value>
+  </data>
+  <data name="Account_IncomeProduction" xml:space="preserve">
+    <value>Income production account</value>
+  </data>
+  <data name="Account_Purchase" xml:space="preserve">
+    <value>Purchases account</value>
+  </data>
+  <data name="Account_Purchase_InRegion" xml:space="preserve">
+    <value>Purchases inside region account</value>
+  </data>
+  <data name="Account_Purchase_OutRegion" xml:space="preserve">
+    <value>Purchases outside region account</value>
+  </data>
+  <data name="Account_Rounding" xml:space="preserve">
+    <value>Rounding account</value>
+  </data>
+  <data name="Account_Sales" xml:space="preserve">
+    <value>Sales account</value>
+  </data>
+  <data name="Account_Sales_InRegion" xml:space="preserve">
+    <value>Sales inside region account</value>
+  </data>
+  <data name="Account_Sales_OutRegion" xml:space="preserve">
+    <value>Sales outside region account</value>
+  </data>
+  <data name="Account_Sales_OutTaxArea" xml:space="preserve">
+    <value>Sales outside vat area account</value>
+  </data>
+  <data name="Account_StockChanges" xml:space="preserve">
+    <value>Stock changes account</value>
+  </data>
+  <data name="Account_TaxFromAbroad" xml:space="preserve">
+    <value>Outgoing vat account, calculated from abroad</value>
+  </data>
+  <data name="Account_Vendors" xml:space="preserve">
+    <value>Vendor's account in general ledger</value>
+  </data>
+  <data name="Account_VendorsNotInvoiced" xml:space="preserve">
+    <value>Vendor's not invoiced account in general ledger</value>
+  </data>
+  <data name="Account_WIPIncome" xml:space="preserve">
+    <value>WIP income result account</value>
+  </data>
+  <data name="Account_WIPNotInvoiced" xml:space="preserve">
+    <value>WIP not invoiced balance account</value>
+  </data>
+  <data name="Account_WIPStockBalance" xml:space="preserve">
+    <value>WIP stock balance account</value>
+  </data>
+  <data name="Account_WIPStockResult" xml:space="preserve">
+    <value>WIP stock result account</value>
+  </data>
+  <data name="AccountBalanceRangeFrom" xml:space="preserve">
+    <value>Account balance range from</value>
+  </data>
+  <data name="AccountBalanceRangeTo" xml:space="preserve">
+    <value>Account balance range to</value>
+  </data>
+  <data name="AccountIncomeRangeFrom" xml:space="preserve">
+    <value>Account income range from</value>
+  </data>
+  <data name="AccountIncomeRangeTo" xml:space="preserve">
+    <value>Account income range to</value>
+  </data>
+  <data name="AccountMaterialCostRangeFrom" xml:space="preserve">
+    <value>Account material cost range from</value>
+  </data>
+  <data name="AccountMaterialCostRangeTo" xml:space="preserve">
+    <value>Account material cost range to</value>
+  </data>
+  <data name="AccountTaxImportGoodsMax" xml:space="preserve">
+    <value>Import goods account min code</value>
+  </data>
+  <data name="AccountTaxImportGoodsMin" xml:space="preserve">
+    <value>Import goods account max code</value>
+  </data>
+  <data name="AccountTaxImportServicesMax" xml:space="preserve">
+    <value>Import services account max code</value>
+  </data>
+  <data name="AccountTaxImportServicesMin" xml:space="preserve">
+    <value>Import services account min code</value>
+  </data>
+  <data name="AccountTaxIncomeMax" xml:space="preserve">
+    <value>Incoming vat account max code</value>
+  </data>
+  <data name="AccountTaxIncomeMin" xml:space="preserve">
+    <value>Incoming vat account min code</value>
+  </data>
+  <data name="AccountTaxOutgoMax" xml:space="preserve">
+    <value>Outgoing vat account max code</value>
+  </data>
+  <data name="AccountTaxOutgoMin" xml:space="preserve">
+    <value>Outgoing vat account min code</value>
+  </data>
+  <data name="AllowChangeProjectNumber" xml:space="preserve">
+    <value>Allow changing project number</value>
+  </data>
+  <data name="AllTimeIsSalary" xml:space="preserve">
+    <value>All time records are salary</value>
+  </data>
+  <data name="AskWorkflowSubtypesForNonFiles" xml:space="preserve">
+    <value>Ask workflow subtypes for non files</value>
+  </data>
+  <data name="AutoLogOutInterval" xml:space="preserve">
+    <value>Auto log out interval</value>
+  </data>
+  <data name="CheckEmailsIntervalMinutes" xml:space="preserve">
+    <value>Check emails interval in minutes</value>
+  </data>
+  <data name="Counter_CustomerAccountCode" xml:space="preserve">
+    <value>Customer's account code counter</value>
+  </data>
+  <data name="Counter_VendorAccountCode" xml:space="preserve">
+    <value>Vendor's account code counter</value>
+  </data>
+  <data name="Counter_VendorNotInvoicedAccountCode" xml:space="preserve">
+    <value>Vendor's not invoiced account code counter </value>
+  </data>
+  <data name="Counter_WorkflowItemSequenceNumber" xml:space="preserve">
+    <value>Workflow item sequence number counter</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Culture_ForWorkers" xml:space="preserve">
+    <value>Culture for workers</value>
+  </data>
+  <data name="Culture_FromOrganization" xml:space="preserve">
+    <value>Culture of organization</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="DateTimeCustomMask" xml:space="preserve">
+    <value>Custom date format</value>
+  </data>
+  <data name="DateTimeFormat" xml:space="preserve">
+    <value>Date format</value>
+  </data>
+  <data name="DefaultHelpUrl" xml:space="preserve">
+    <value>Default help url</value>
+  </data>
+  <data name="DefaultPageSettings" xml:space="preserve">
+    <value>Default page layout</value>
+  </data>
+  <data name="DeliveryMethod" xml:space="preserve">
+    <value>Default Delivery method</value>
+  </data>
+  <data name="DeliveryTerms" xml:space="preserve">
+    <value>Default Delivery terms</value>
+  </data>
+  <data name="EnableEachPieceForOperations" xml:space="preserve">
+    <value>Enable "Each piece" time setup for operations</value>
+  </data>
+  <data name="EnableEachPieceForOperations_Hint" xml:space="preserve">
+    <value>Works only in operation wizard</value>
+  </data>
+  <data name="EquipmentCostToPricePercent" xml:space="preserve">
+    <value>Markup% resources</value>
+  </data>
+  <data name="ExternalFilesRoot" xml:space="preserve">
+    <value>External files root</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Note default font</value>
+  </data>
+  <data name="GroupsPanelVisibilityMode" xml:space="preserve">
+    <value>Default display mode for group panel</value>
+  </data>
+  <data name="IsBarcodeLogonEnabled" xml:space="preserve">
+    <value>Log on with barcode for workers</value>
+  </data>
+  <data name="IsContactPersonEmailRequired" xml:space="preserve">
+    <value>Email for contact is required</value>
+  </data>
+  <data name="IsEditionOfBuiltInLocalizationStringsAllowed" xml:space="preserve">
+    <value>Allow editing built-in localized strings</value>
+  </data>
+  <data name="IsEditionOfBuiltInReportsAllowed" xml:space="preserve">
+    <value>Allow editing built-in reports</value>
+  </data>
+  <data name="IsGeneral" xml:space="preserve">
+    <value>General settings</value>
+  </data>
+  <data name="IsPickForDraftWOAllowed" xml:space="preserve">
+    <value>Allow picking materials for work order in "Draft"-status</value>
+  </data>
+  <data name="IsProjectContactRequires" xml:space="preserve">
+    <value>Project contact person is required</value>
+  </data>
+  <data name="IsPurchaseForDraftWOAllowed" xml:space="preserve">
+    <value>Allow purchase for draft work order</value>
+  </data>
+  <data name="IsTimeRegistrationForDraftWOAllowed" xml:space="preserve">
+    <value>Allow time registration on work order in "Draft"-status</value>
+  </data>
+  <data name="KidFactoringCustomerId" xml:space="preserve">
+    <value>Fixed factoring customer id</value>
+  </data>
+  <data name="KidNumberOfDigits_CustomerNumber" xml:space="preserve">
+    <value>Number of digits for customer number</value>
+  </data>
+  <data name="KidNumberOfDigits_InvoiceNumber" xml:space="preserve">
+    <value>Number of digits for invoice number</value>
+  </data>
+  <data name="KidNumberOfZeros_AfterInvoiceNumber" xml:space="preserve">
+    <value>Number of 0 after the invoice number</value>
+  </data>
+  <data name="Ledger_General" xml:space="preserve">
+    <value>General ledger</value>
+  </data>
+  <data name="Ledger_SubledgerForCustomers" xml:space="preserve">
+    <value>Subledger for customers</value>
+  </data>
+  <data name="Ledger_SubledgerForVendors" xml:space="preserve">
+    <value>Subledger for vendors</value>
+  </data>
+  <data name="MaterialCostToPricePercent" xml:space="preserve">
+    <value>Markup% materials</value>
+  </data>
+  <data name="MeasurementUnit_AdjustmentTime_Default" xml:space="preserve">
+    <value>Default adjustment time in</value>
+  </data>
+  <data name="MeasurementUnit_LeadTime_Default" xml:space="preserve">
+    <value>Default lead time in</value>
+  </data>
+  <data name="MeasurementUnit_PostLoadTime_Default" xml:space="preserve">
+    <value>Post load time in</value>
+  </data>
+  <data name="MeasurementUnit_Time_Default" xml:space="preserve">
+    <value>Default time in</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Settings name</value>
+  </data>
+  <data name="OrgUnit_DefaultMaterialStock" xml:space="preserve">
+    <value>Default material stock</value>
+  </data>
+  <data name="OrgUnit_DefaultProductStock" xml:space="preserve">
+    <value>Default product stock</value>
+  </data>
+  <data name="OrgUnit_MaintenanceStock" xml:space="preserve">
+    <value>Maintenance stock</value>
+  </data>
+  <data name="OrgUnit_Organization" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="OrgUnit_QuarantineStock" xml:space="preserve">
+    <value>Quarantine stock</value>
+  </data>
+  <data name="OrgUnit_WebShopStock" xml:space="preserve">
+    <value>Stock for Web Shop</value>
+  </data>
+  <data name="PaymentTerms" xml:space="preserve">
+    <value>Payment terms</value>
+  </data>
+  <data name="PercentPrecision" xml:space="preserve">
+    <value>Percent precision</value>
+  </data>
+  <data name="PlannerTimeUnit" xml:space="preserve">
+    <value>Planner time unit</value>
+  </data>
+  <data name="PlanningStrategy" xml:space="preserve">
+    <value>Planning strategy</value>
+  </data>
+  <data name="PriceList_WebShop" xml:space="preserve">
+    <value>Default price list</value>
+  </data>
+  <data name="PricePrecision" xml:space="preserve">
+    <value>Price precision</value>
+  </data>
+  <data name="Project_DefaultForTimeRegistration" xml:space="preserve">
+    <value>Default project for time registration</value>
+  </data>
+  <data name="PutWOToWorkOnCreation" xml:space="preserve">
+    <value>Put WO to work on creation</value>
+  </data>
+  <data name="QuantityPrecision" xml:space="preserve">
+    <value>Quantity precision</value>
+  </data>
+  <data name="RatePrecision" xml:space="preserve">
+    <value>Rate precision</value>
+  </data>
+  <data name="RemittanceEnable" xml:space="preserve">
+    <value>Enable remittance</value>
+  </data>
+  <data name="ReportDefaultFont" xml:space="preserve">
+    <value>Report default font</value>
+  </data>
+  <data name="RoundingLimit" xml:space="preserve">
+    <value>Rounding limit</value>
+  </data>
+  <data name="SalaryCode" xml:space="preserve">
+    <value>Salary code</value>
+  </data>
+  <data name="SalaryPriceToWorkCostPercent" xml:space="preserve">
+    <value>Salary price to work cost percent</value>
+  </data>
+  <data name="SalaryPriceToWorkPricePercent" xml:space="preserve">
+    <value>Salary price to work price percent</value>
+  </data>
+  <data name="SerialNumberDefinition" xml:space="preserve">
+    <value>Serial number generation rule</value>
+  </data>
+  <data name="Shift_Default" xml:space="preserve">
+    <value>Default shift for organization</value>
+  </data>
+  <data name="SkinName" xml:space="preserve">
+    <value>Skin name</value>
+  </data>
+  <data name="SkipDatePageOnWOCreation" xml:space="preserve">
+    <value>Skip asking about date when creating a work order</value>
+  </data>
+  <data name="SkipIntervalAfterShiftEnd" xml:space="preserve">
+    <value>Skip interval after shift end</value>
+  </data>
+  <data name="SkipIntervalBeforeShiftStart" xml:space="preserve">
+    <value>Skip interval before shift start</value>
+  </data>
+  <data name="TaxCode_Purchase" xml:space="preserve">
+    <value>Purchases vat code</value>
+  </data>
+  <data name="TaxCode_Purchase_InRegion" xml:space="preserve">
+    <value>Purchases inside region vat code</value>
+  </data>
+  <data name="TaxCode_Purchase_OutRegion" xml:space="preserve">
+    <value>Purchases outside region vat code</value>
+  </data>
+  <data name="TaxCode_Sales" xml:space="preserve">
+    <value>Sales vat code</value>
+  </data>
+  <data name="TaxCode_Sales_InRegion" xml:space="preserve">
+    <value>Sales inside region vat code</value>
+  </data>
+  <data name="TaxCode_Sales_OutRegion" xml:space="preserve">
+    <value>Sales outside region vat code</value>
+  </data>
+  <data name="TaxCode_Sales_OutTaxArea" xml:space="preserve">
+    <value>Sales outside vat area vat code</value>
+  </data>
+  <data name="TimeCustomMask" xml:space="preserve">
+    <value>Custom time format</value>
+  </data>
+  <data name="TimeFormat" xml:space="preserve">
+    <value>Time format</value>
+  </data>
+  <data name="UpdateCostsOnWorkorderCreation" xml:space="preserve">
+    <value>Update costs when creating a work order</value>
+  </data>
+  <data name="UseCompletionWizardOnStopWork" xml:space="preserve">
+    <value>Use completion wizard on stop work</value>
+  </data>
+  <data name="UseCompletionWizardOnStopWorkForNonTask" xml:space="preserve">
+    <value>Use completion wizard on stop work (for non-tasks)</value>
+  </data>
+  <data name="User_DefaultForDeviation" xml:space="preserve">
+    <value>User default for deviation</value>
+  </data>
+  <data name="WIPPeriodFinished" xml:space="preserve">
+    <value>WIP period finished</value>
+  </data>
+  <data name="WODeadlineDateGap" xml:space="preserve">
+    <value>Work orders deadline extra days</value>
+  </data>
+  <data name="WorkflowItem_Logo" xml:space="preserve">
+    <value>Company logo</value>
+  </data>
+  <data name="WorkflowItemNamePrefix" xml:space="preserve">
+    <value>Workflow item name prefix</value>
+  </data>
+  <data name="Account_ProjectAccounting_Costs" xml:space="preserve">
+    <value>Other costs account for project accounting</value>
+  </data>
+  <data name="Account_ProjectAccounting_Materials" xml:space="preserve">
+    <value>Material costs account for project accounting</value>
+  </data>
+  <data name="Account_ProjectAccounting_Work" xml:space="preserve">
+    <value>Work costs account for project accounting</value>
+  </data>
+  <data name="ProjectAccountingDefaultCost" xml:space="preserve">
+    <value>Default cost for project accounting</value>
+  </data>
+  <data name="Project_TimeBank" xml:space="preserve">
+    <value>Time bank project</value>
+  </data>
+  <data name="TimeRegistrationLockToDate" xml:space="preserve">
+    <value>Time registration closing date</value>
+  </data>
+  <data name="FillFixedPriceForInWorkPL" xml:space="preserve">
+    <value>Fill Fixed price for project lines in "In work"-status</value>
+  </data>
+  <data name="FillFixedPriceForInWorkPL_Hint" xml:space="preserve">
+    <value>If this option is enabled: 
+- FixedPrice will be filled when put a project line to work;
+- Request cost (vendor price) will be updated in "In work" project lines also and can be edited manually</value>
+  </data>
+  <data name="OrgUnit_AssetStock" xml:space="preserve">
+    <value>Asset stock</value>
+  </data>
+  <data name="EhfFtpPwd" xml:space="preserve">
+    <value>FTP password</value>
+  </data>
+  <data name="EhfFtpServer" xml:space="preserve">
+    <value>FTP server</value>
+  </data>
+  <data name="EhfFtpUser" xml:space="preserve">
+    <value>FTP login</value>
+  </data>
+  <data name="SalaryPeriodType" xml:space="preserve">
+    <value>Default salary period type</value>
+  </data>
+  <data name="TimeManagementLockToDate" xml:space="preserve">
+    <value>Time administration closing date</value>
+  </data>
+  <data name="TimeRegistrationLockedDateForUser" xml:space="preserve">
+    <value>Time registration closing date for user</value>
+  </data>
+  <data name="SimpleStock" xml:space="preserve">
+    <value>Simple stock handling</value>
+  </data>
+  <data name="IncludeReturnDateIntoRentPeriod" xml:space="preserve">
+    <value>Include return date into rental period</value>
+  </data>
+  <data name="AutoPickMaterials" xml:space="preserve">
+    <value>Auto pick materials</value>
+  </data>
+  <data name="AutoPickUseCertificateMaterials" xml:space="preserve">
+    <value>Auto pick materials that use certificate / serial</value>
+  </data>
+  <data name="InvoiceNumberFormat" xml:space="preserve">
+    <value>Invoice number format</value>
+  </data>
+  <data name="InvoiceNumberFormatPreview" xml:space="preserve">
+    <value>Invoice number preview</value>
+  </data>
+  <data name="InvoiceNumberFormat_Hint" xml:space="preserve">
+    <value>{0} – Internal format
+{1} – Document number, ex: {1:d4}
+{2} – Document operation date, ex: {2:dd-MM-yy}
+{3} – Current date and time, ex: {3:yyyyMMdd-HHmmss}
+{4} – Organization number, ex: {4:-2} - last two numbers
+{5} – Customer number, ex: {5:2} - first two numbers
+{6} – Customer organization number, ex: {6:2-3} - three numbers from position 2 (zero based index)
+{7} – Document type code, ex: {7:d2}
+{8} – Hash digit for mod10
+{9} – Hash digit for mod11</value>
+  </data>
+  <data name="KidFormat" xml:space="preserve">
+    <value>KID format</value>
+  </data>
+  <data name="KidFormatPreview" xml:space="preserve">
+    <value>KID preview</value>
+  </data>
+  <data name="KidFormat_Hint" xml:space="preserve">
+    <value>{0} – Internal format
+{1} – Document number, ex: {1:d4}
+{2} – Document operation date, ex: {2:ddMMyy}
+{3} – Current date and time, ex: {3:yyyyMMdd_HHmmss}
+{4} – Organization number
+{5} – Customer number
+{6} – Customer organization number
+{7} – Document type code, ex: {7:d2}
+{8} – Hash digit for mod10
+{9} – Hash digit for mod11</value>
+  </data>
+  <data name="IsKidEnabled" xml:space="preserve">
+    <value>KID enabled</value>
+  </data>
+  <data name="AssemblyLineFormatPreview_L" xml:space="preserve">
+    <value>Length format preview</value>
+  </data>
+  <data name="AssemblyLineFormatPreview_LW" xml:space="preserve">
+    <value>Length x Width format preview</value>
+  </data>
+  <data name="AssemblyLineFormatPreview_LWH" xml:space="preserve">
+    <value>Length x Width x Height format preview</value>
+  </data>
+  <data name="AssemblyLineFormatPreview_PCS" xml:space="preserve">
+    <value>Pieces format preview</value>
+  </data>
+  <data name="AssemblyLineFormatPreview_WH" xml:space="preserve">
+    <value>Width x Height format preview</value>
+  </data>
+  <data name="AssemblyLineFormat_L" xml:space="preserve">
+    <value>Length format</value>
+  </data>
+  <data name="AssemblyLineFormat_LW" xml:space="preserve">
+    <value>Length x Width format</value>
+  </data>
+  <data name="AssemblyLineFormat_LWH" xml:space="preserve">
+    <value>Length x Width x Height format</value>
+  </data>
+  <data name="AssemblyLineFormat_LWH_Hint" xml:space="preserve">
+    <value>{0} - Length, m
+{1} - Length, mm
+{2} - Width, m
+{3} - Width, mm
+{4} - Height, m
+{5} - Height, mm</value>
+  </data>
+  <data name="AssemblyLineFormat_LW_Hint" xml:space="preserve">
+    <value>{0} - Length, m
+{1} - Length, mm
+{2} - Width, m
+{3} - Width, mm
+{4} - Height, m
+{5} - Height, mm</value>
+  </data>
+  <data name="AssemblyLineFormat_L_Hint" xml:space="preserve">
+    <value>{0} - Length, m
+{1} - Length, mm
+{2} - Width, m
+{3} - Width, mm
+{4} - Height, m
+{5} - Height, mm</value>
+  </data>
+  <data name="AssemblyLineFormat_PCS" xml:space="preserve">
+    <value>Pieces format</value>
+  </data>
+  <data name="AssemblyLineFormat_PCS_Hint" xml:space="preserve">
+    <value>{0} - Quantity pieces for purchase
+{1} - Description from material line</value>
+  </data>
+  <data name="AssemblyLineFormat_WH" xml:space="preserve">
+    <value>Width x Height format</value>
+  </data>
+  <data name="AssemblyLineFormat_WH_Hint" xml:space="preserve">
+    <value>{0} - Length, m
+{1} - Length, mm
+{2} - Width, m
+{3} - Width, mm
+{4} - Height, m
+{5} - Height, mm</value>
+  </data>
+  <data name="ArticleSelectionControl" xml:space="preserve">
+    <value>Article selection</value>
+  </data>
+  <data name="OrgUnitSelectionControl" xml:space="preserve">
+    <value>OrgUnit selection</value>
+  </data>
+  <data name="ProjectSelectionControl" xml:space="preserve">
+    <value>Project selection</value>
+  </data>
+  <data name="PlannerLimitDays" xml:space="preserve">
+    <value>Planner limit days</value>
+  </data>
+  <data name="PlannerLimitDays_Hint" xml:space="preserve">
+    <value>How many days forward is allowed to use in the planner</value>
+  </data>
+  <data name="Account_Fee" xml:space="preserve">
+    <value>Fee account</value>
+  </data>
+  <data name="Account_Interest" xml:space="preserve">
+    <value>Interest account</value>
+  </data>
+  <data name="DoReminderAccounting" xml:space="preserve">
+    <value>Accounting of fee and interest</value>
+  </data>
+  <data name="NoFeeDays" xml:space="preserve">
+    <value>Overdue days before fee</value>
+  </data>
+  <data name="StringField1" xml:space="preserve">
+    <value>String field 1</value>
+  </data>
+  <data name="StringField10" xml:space="preserve">
+    <value>String field 10</value>
+  </data>
+  <data name="StringField2" xml:space="preserve">
+    <value>String field 2</value>
+  </data>
+  <data name="StringField3" xml:space="preserve">
+    <value>String field 3</value>
+  </data>
+  <data name="StringField4" xml:space="preserve">
+    <value>String field 4</value>
+  </data>
+  <data name="StringField5" xml:space="preserve">
+    <value>String field 5</value>
+  </data>
+  <data name="StringField6" xml:space="preserve">
+    <value>String field 6</value>
+  </data>
+  <data name="StringField7" xml:space="preserve">
+    <value>String field 7</value>
+  </data>
+  <data name="StringField8" xml:space="preserve">
+    <value>String field 8</value>
+  </data>
+  <data name="StringField9" xml:space="preserve">
+    <value>String field 9</value>
+  </data>
+  <data name="SkipIntervalAfterShiftEnd_Hint" xml:space="preserve">
+    <value>Hours and minutes</value>
+  </data>
+  <data name="SkipIntervalBeforeShiftStart_Hint" xml:space="preserve">
+    <value>Hours and minutes</value>
+  </data>
+  <data name="IsBarcodeLogonEnabledForSystemUsers" xml:space="preserve">
+    <value>Log on with barcode for system users</value>
+  </data>
+  <data name="MaterialCostToPricePercent_Hint" xml:space="preserve">
+    <value>Changes affect prices in articles</value>
+  </data>
+  <data name="GroupsPanelVisibilityMode_Hint" xml:space="preserve">
+    <value>This choice is made before a company is going to get started with the system.
+It can be overriden by each user afterwards.</value>
+  </data>
+  <data name="WODeadlineDateGap_Hint" xml:space="preserve">
+    <value>Used for calculation of work order deadline.
+Project line deadline minus Work order deadline extra days will be work order deadline.</value>
+  </data>
+  <data name="WipMarkupPercent" xml:space="preserve">
+    <value>WIP Markup%</value>
+  </data>
+  <data name="Account_BankFactoring" xml:space="preserve">
+    <value>Factoring payments account</value>
+  </data>
+  <data name="OrgUnit_FactoringCompany" xml:space="preserve">
+    <value>Factoring company</value>
+  </data>
+  <data name="UseFactoring_Default" xml:space="preserve">
+    <value>Use factoring by default</value>
+  </data>
+  <data name="ProcessNumberFormat_Operation" xml:space="preserve">
+    <value>Work package nr format (operation)</value>
+  </data>
+  <data name="ProcessNumberFormat_Operation_Preview" xml:space="preserve">
+    <value>Work package nr format preview (operation)</value>
+  </data>
+  <data name="ProcessNumberFormat_WorkOrder" xml:space="preserve">
+    <value>Work package nr format (work order)</value>
+  </data>
+  <data name="ProcessNumberFormat_WorkOrder_Preview" xml:space="preserve">
+    <value>Work package nr format preview (work order)</value>
+  </data>
+  <data name="ProcessNumberFormat_Operation_Hint" xml:space="preserve">
+    <value>{0} – Current date and time, ex: {0:yyyyMMdd_HHmmss}
+{1} – Non-resettable counter, ex: {1:d5}
+{2} – Daily counter
+{3} – Monthly counter
+{4} – Yearly counter
+{5} – Current month (A-L)</value>
+  </data>
+  <data name="ProcessNumberFormat_WorkOrder_Hint" xml:space="preserve">
+    <value>{0} – Current date and time, ex: {0:yyyyMMdd_HHmmss}
+{1} – Non-resettable counter, ex: {1:d5}
+{2} – Daily counter
+{3} – Monthly counter
+{4} – Yearly counter
+{5} – Current month (A-L)</value>
+  </data>
+  <data name="WODeadlineHourToDayFactor" xml:space="preserve">
+    <value>Work orders deadline time convert factor, work hours per day</value>
+  </data>
+  <data name="SuggestEarliestDateOnWOCreation" xml:space="preserve">
+    <value>Suggest earliest date on work order creation</value>
+  </data>
+  <data name="SuggestEarliestDateOnWOCreation_Hint" xml:space="preserve">
+    <value>This affect the date when the production planner is going to schedule a work order</value>
+  </data>
+  <data name="Article_ReferenceField1_Type" xml:space="preserve">
+    <value>Article multi choice field 1</value>
+  </data>
+  <data name="Article_ReferenceField2_Type" xml:space="preserve">
+    <value>Article multi choice field 2</value>
+  </data>
+  <data name="Article_ReferenceField3_Type" xml:space="preserve">
+    <value>Article multi choice field 3</value>
+  </data>
+  <data name="OrgUnit_ReferenceField1_Type" xml:space="preserve">
+    <value>Organization unit multi choice field 1</value>
+  </data>
+  <data name="OrgUnit_ReferenceField2_Type" xml:space="preserve">
+    <value>Organization unit multi choice field 2</value>
+  </data>
+  <data name="OrgUnit_ReferenceField3_Type" xml:space="preserve">
+    <value>Organization unit multi choice field 3</value>
+  </data>
+  <data name="WorkflowItem_ReferenceField1_Type" xml:space="preserve">
+    <value>Workflow item multi choice field 1</value>
+  </data>
+  <data name="WorkflowItem_ReferenceField2_Type" xml:space="preserve">
+    <value>Workflow item multi choice field 2</value>
+  </data>
+  <data name="WorkflowItem_ReferenceField3_Type" xml:space="preserve">
+    <value>Workflow item multi choice field 3</value>
+  </data>
+  <data name="TimeRegistrationUseResourceDepartment" xml:space="preserve">
+    <value>Always fill time record department from resource</value>
+  </data>
+  <data name="DefaultArticleSubWorkOrder" xml:space="preserve">
+    <value>"Sub work order" for new product articles</value>
+  </data>
+  <data name="DefaultArticleSubWorkOrder_Hint" xml:space="preserve">
+    <value>Default - last used</value>
+  </data>
+  <data name="VatReportOutPathUri" xml:space="preserve">
+    <value>VAT report export output folder</value>
+  </data>
+  <data name="DefaultMenuProfile_Users" xml:space="preserve">
+    <value>Default menu profile for users</value>
+  </data>
+  <data name="DefaultMenuProfile_Workers" xml:space="preserve">
+    <value>Default menu profile for workers</value>
+  </data>
+  <data name="VatReportOutPathUri_Hint" xml:space="preserve">
+    <value>Ex: %DESKTOP%/MVA</value>
+  </data>
+  <data name="MandatoryDepartmentForArticles" xml:space="preserve">
+    <value>Mandatory department for articles</value>
+  </data>
+  <data name="MandatoryDepartmentForIncomingInvoices" xml:space="preserve">
+    <value>Mandatory department for incoming invoices</value>
+  </data>
+  <data name="TimeRegistrationUseArticleDepartment" xml:space="preserve">
+    <value>Fill time record department from article</value>
+  </data>
+  <data name="TimeRegistrationUseArticleDepartment_Hint" xml:space="preserve">
+    <value>Can't be used when "Always fill time record department from resource" is enabled </value>
+  </data>
+  <data name="TimeRegistrationShowQuantityInWizards" xml:space="preserve">
+    <value>Show time record quantity in wizards</value>
+  </data>
+  <data name="AllowCustomerAccountCodeOverride" xml:space="preserve">
+    <value>Allow code overriding for new customers</value>
+  </data>
+  <data name="AllowCustomerAccountCodeOverride_Hint" xml:space="preserve">
+    <value>Show code in "Create customer" and "Manage roles" wizards</value>
+  </data>
+  <data name="AllowVendorAccountCodeOverride" xml:space="preserve">
+    <value>Allow code overriding for new vendors</value>
+  </data>
+  <data name="AllowVendorAccountCodeOverride_Hint" xml:space="preserve">
+    <value>Show code in "Create vendor" and "Manage roles" wizards</value>
+  </data>
+  <data name="Script_Assembly" xml:space="preserve">
+    <value>Default script for assembly</value>
+  </data>
+  <data name="Script_ProjectLine" xml:space="preserve">
+    <value>Default script for project line</value>
+  </data>
+  <data name="DrawingReferenceFormat" xml:space="preserve">
+    <value>Drawing reference format</value>
+  </data>
+  <data name="DrawingReferenceFormatPreview" xml:space="preserve">
+    <value>Drawing reference format preview</value>
+  </data>
+  <data name="DrawingReferenceFormat_Hint" xml:space="preserve">
+    <value>{0} – Current date and time, ex: {0:yyyyMMdd_HHmmss}
+{1} – Non-resettable counter, ex: {1:d5}
+{2} – Daily counter
+{3} – Monthly counter
+{4} – Yearly counter</value>
+  </data>
+  <data name="AutoPickForProduced" xml:space="preserve">
+    <value>Auto pick materials for finished products</value>
+  </data>
+  <data name="AutoPickForProduced_Hint" xml:space="preserve">
+    <value>With this option enabled auto pick of work orders materials 
+happens only for produced quantity. 
+With this option disabled all work order materials are picked at once</value>
+  </data>
+  <data name="AutoPickForDeliveredMaterials" xml:space="preserve">
+    <value>Auto pick materials for delivered materials / stock products</value>
+  </data>
+  <data name="AutoPickForDeliveredMaterials_Hint" xml:space="preserve">
+    <value>With this option enabled auto pick of stock materials / stock products
+happens only for delivered quantity. 
+With this option disabled all quantity is picked at once</value>
+  </data>
+  <data name="AutoPickForDeliveredProductsEnabled" xml:space="preserve">
+    <value>Enable auto pick when delivery assembly project lines</value>
+  </data>
+  <data name="AutoPickForDeliveredProductsEnabled_Hint" xml:space="preserve">
+    <value>Disable if auto pick document should not be created on project products delivery. 
+With this option disabled auto pick still works on produced products registration
+or with project lines finishing</value>
+  </data>
+  <data name="FactorDGToWIPMarkupPercent" xml:space="preserve">
+    <value>Factor CR to WIP Markup%</value>
+  </data>
+  <data name="FactorDGToWIPMarkupPercent_Hint" xml:space="preserve">
+    <value>To calculate WIP Markup% from CR in project reports.
+Leave empty to disable</value>
+  </data>
+  <data name="PlannerPrioritizeStartedWO" xml:space="preserve">
+    <value>Prioritize started work orders</value>
+  </data>
+  <data name="DeliveryLotIsMandatory" xml:space="preserve">
+    <value>Mandatory lots for delivery</value>
+  </data>
+  <data name="CurrencyRateAutoUpdate" xml:space="preserve">
+    <value>Currency rate auto update</value>
+  </data>
+  <data name="AutoPickMaterialsWithNegativeQuantity" xml:space="preserve">
+    <value>Auto pick materials with negative quantity</value>
+  </data>
+  <data name="AutoPickMaterialsWithNegativeQuantity_Hint" xml:space="preserve">
+    <value>Materials with negative quantity are going on stock with picking.
+Default article lot is used.</value>
+  </data>
+</root>

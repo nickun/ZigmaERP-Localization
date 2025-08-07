@@ -1,0 +1,2931 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessType_Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="AccessType_Advanced" xml:space="preserve">
+    <value>Avansert</value>
+  </data>
+  <data name="AccessType_Deny" xml:space="preserve">
+    <value>Ingen tilgang</value>
+  </data>
+  <data name="AccessType_Edit" xml:space="preserve">
+    <value>Redigering</value>
+  </data>
+  <data name="AccessType_NotUsed" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="AccessType_View" xml:space="preserve">
+    <value>Visning</value>
+  </data>
+  <data name="AccountType_Credit" xml:space="preserve">
+    <value>Kredit</value>
+  </data>
+  <data name="AccountType_Debit" xml:space="preserve">
+    <value>Debet</value>
+  </data>
+  <data name="AccountType_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="ApproveFilterState_Approved" xml:space="preserve">
+    <value>Godkjent</value>
+  </data>
+  <data name="ApproveFilterState_Declined" xml:space="preserve">
+    <value>Avslått</value>
+  </data>
+  <data name="ApproveFilterState_Need" xml:space="preserve">
+    <value>Nødvendig</value>
+  </data>
+  <data name="ApproveFilterState_Waiting" xml:space="preserve">
+    <value>På vent</value>
+  </data>
+  <data name="ApproveState_Approved" xml:space="preserve">
+    <value>Godkjent</value>
+  </data>
+  <data name="ApproveState_Declined" xml:space="preserve">
+    <value>Avslått</value>
+  </data>
+  <data name="ApproveState_Need" xml:space="preserve">
+    <value>Nødvendig</value>
+  </data>
+  <data name="ApproveState_NotNeed" xml:space="preserve">
+    <value>Ikke nødvendig</value>
+  </data>
+  <data name="ApproveState_Waiting" xml:space="preserve">
+    <value>Venter</value>
+  </data>
+  <data name="ArticleFilterType_All" xml:space="preserve">
+    <value>Alle artikler</value>
+  </data>
+  <data name="ArticleFilterType_AssemblyPart" xml:space="preserve">
+    <value>Kalkylemal</value>
+  </data>
+  <data name="ArticleFilterType_Expenses" xml:space="preserve">
+    <value>Diverse</value>
+  </data>
+  <data name="ArticleFilterType_Feature" xml:space="preserve">
+    <value>Funksjon</value>
+  </data>
+  <data name="ArticleFilterType_ForProject" xml:space="preserve">
+    <value>Prosjektmateriale</value>
+  </data>
+  <data name="ArticleFilterType_ForStock" xml:space="preserve">
+    <value>Lagermateriale</value>
+  </data>
+  <data name="ArticleFilterType_Learning" xml:space="preserve">
+    <value>Opplæring</value>
+  </data>
+  <data name="ArticleFilterType_LowValue" xml:space="preserve">
+    <value>Lavverdi</value>
+  </data>
+  <data name="ArticleFilterType_ProductForProject" xml:space="preserve">
+    <value>Ordreprodukt</value>
+  </data>
+  <data name="ArticleFilterType_ProductForStock" xml:space="preserve">
+    <value>Lagerprodukt</value>
+  </data>
+  <data name="ArticleFilterType_Service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="ArticleFilterType_SubcontractorWork" xml:space="preserve">
+    <value>Arbeid underleverandør</value>
+  </data>
+  <data name="ArticleFilterType_Tool" xml:space="preserve">
+    <value>Maskinverktøy</value>
+  </data>
+  <data name="ArticlePrefixType_CounterOnly" xml:space="preserve">
+    <value>Teller</value>
+  </data>
+  <data name="ArticlePrefixType_Custom" xml:space="preserve">
+    <value>Egendefinert</value>
+  </data>
+  <data name="ArticlePrefixType_Predefined" xml:space="preserve">
+    <value>Forhåndsdefinerte</value>
+  </data>
+  <data name="ArticlePrefixType_UserDefinedPrefix" xml:space="preserve">
+    <value>Brukerdefinert prefiks</value>
+  </data>
+  <data name="ArticleType_AssemblyPart" xml:space="preserve">
+    <value>Hjelpekalkyle</value>
+  </data>
+  <data name="ArticleType_Expenses" xml:space="preserve">
+    <value>Diverse</value>
+  </data>
+  <data name="ArticleType_Feature" xml:space="preserve">
+    <value>Funksjon</value>
+  </data>
+  <data name="ArticleType_ForProject" xml:space="preserve">
+    <value>Prosjektmateriale</value>
+  </data>
+  <data name="ArticleType_ForStock" xml:space="preserve">
+    <value>Lagermateriale</value>
+  </data>
+  <data name="ArticleType_Learning" xml:space="preserve">
+    <value>Opplæring</value>
+  </data>
+  <data name="ArticleType_LowValue" xml:space="preserve">
+    <value>Lavverdi</value>
+  </data>
+  <data name="ArticleType_NotUsed" xml:space="preserve">
+    <value>Ikke i bruk</value>
+  </data>
+  <data name="ArticleType_ProductForProject" xml:space="preserve">
+    <value>Ordreprodukt</value>
+  </data>
+  <data name="ArticleType_ProductForStock" xml:space="preserve">
+    <value>Lagerprodukt</value>
+  </data>
+  <data name="ArticleType_Service" xml:space="preserve">
+    <value>Regningsarbeid</value>
+  </data>
+  <data name="ArticleType_SubcontractorWork" xml:space="preserve">
+    <value>Arbeid underleverandør</value>
+  </data>
+  <data name="ArticleType_Tool" xml:space="preserve">
+    <value>Maskinverktøy</value>
+  </data>
+  <data name="AssemblyPriceType_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="AssemblyPriceType_Basic" xml:space="preserve">
+    <value>Basis</value>
+  </data>
+  <data name="AssemblyPriceType_UseCostToPricePercent" xml:space="preserve">
+    <value>Påslag (%)</value>
+  </data>
+  <data name="AssemblyTreeNodeType_Article" xml:space="preserve">
+    <value>Artikkel</value>
+  </data>
+  <data name="AssemblyTreeNodeType_Assembly" xml:space="preserve">
+    <value>Kalkyle</value>
+  </data>
+  <data name="AssemblyTreeNodeType_Comment" xml:space="preserve">
+    <value>Kommentar node</value>
+  </data>
+  <data name="AssemblyTreeNodeType_Expenses" xml:space="preserve">
+    <value>Diverse</value>
+  </data>
+  <data name="AssemblyTreeNodeType_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="AssemblyTreeNodeType_SelectionGroup" xml:space="preserve">
+    <value>Utvalg</value>
+  </data>
+  <data name="AssemblyTreeNodeType_SpecificationList" xml:space="preserve">
+    <value>Spesifikasjonsliste</value>
+  </data>
+  <data name="AssemblyTreeNodeType_Summary" xml:space="preserve">
+    <value>Summeringslinje</value>
+  </data>
+  <data name="AssemblyTreeNodeType_VendorArticle" xml:space="preserve">
+    <value>Innkjøpsartikkel</value>
+  </data>
+  <data name="AutoCalcExceptionType_AuthenticationFailed" xml:space="preserve">
+    <value>Autentisering feilet</value>
+  </data>
+  <data name="AutoCalcExceptionType_FileAlreadyExists" xml:space="preserve">
+    <value>Filen finnes allerede</value>
+  </data>
+  <data name="AutoCalcExceptionType_GeneralSettingsNotSpecified" xml:space="preserve">
+    <value>Generelle innstillinger er ikke spesifisert</value>
+  </data>
+  <data name="AutoCalcExceptionType_InvalidArgument" xml:space="preserve">
+    <value>Ugyldig verdi</value>
+  </data>
+  <data name="AutoCalcExceptionType_LogicalErrorInData" xml:space="preserve">
+    <value>Logisk feil i data</value>
+  </data>
+  <data name="AutoCalcExceptionType_NoChangesAllowed" xml:space="preserve">
+    <value>Endring ikke tillatt</value>
+  </data>
+  <data name="AutoCalcExceptionType_NotEnoughRests" xml:space="preserve">
+    <value>Ikke nok på lager</value>
+  </data>
+  <data name="AutoCalcExceptionType_NotExistDocument" xml:space="preserve">
+    <value>Dok. eksisterer ikke</value>
+  </data>
+  <data name="AutoCalcExceptionType_PeriodDoesNotExist" xml:space="preserve">
+    <value>Perioden eksisterer ikke</value>
+  </data>
+  <data name="AutoCalcExceptionType_PeriodIsClose" xml:space="preserve">
+    <value>Perioden er avslutta</value>
+  </data>
+  <data name="AutoCalcExceptionType_VersionMismatch" xml:space="preserve">
+    <value>Versjonskonflikt</value>
+  </data>
+  <data name="AutoCalcExceptionType_WrongPostingData" xml:space="preserve">
+    <value>Feil inndata</value>
+  </data>
+  <data name="AutoCalcExceptionType_WrongPostingState" xml:space="preserve">
+    <value>Feil inndata</value>
+  </data>
+  <data name="AutoCalcExceptionType_WrongSettings" xml:space="preserve">
+    <value>Feil i systeminnstillinger eller oppsett</value>
+  </data>
+  <data name="AutoTimeRecordFilterType_All" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="AutoTimeRecordFilterType_WithoutAuto" xml:space="preserve">
+    <value>Skjul auto</value>
+  </data>
+  <data name="CommentFilterType_All" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="CommentFilterType_System" xml:space="preserve">
+    <value>Logg</value>
+  </data>
+  <data name="CommentFilterType_User" xml:space="preserve">
+    <value>Kommentarer</value>
+  </data>
+  <data name="ConfirmStatusType_Confirmed" xml:space="preserve">
+    <value>Bekreftet</value>
+  </data>
+  <data name="ConfirmStatusType_Failed" xml:space="preserve">
+    <value>Avbrutt</value>
+  </data>
+  <data name="ConfirmStatusType_Unconfirmed" xml:space="preserve">
+    <value>Ubekreftet</value>
+  </data>
+  <data name="DatasourceType_Current" xml:space="preserve">
+    <value>Valgt element</value>
+  </data>
+  <data name="DatasourceType_Data" xml:space="preserve">
+    <value>Alle data</value>
+  </data>
+  <data name="DatasourceType_Selected" xml:space="preserve">
+    <value>Utvalg av elementer</value>
+  </data>
+  <data name="DocumentControlState_Controlled" xml:space="preserve">
+    <value>Kontrollert</value>
+  </data>
+  <data name="DocumentControlState_NoNeed" xml:space="preserve">
+    <value>Trenger ikke kontrolleres</value>
+  </data>
+  <data name="DocumentControlState_NotControlled" xml:space="preserve">
+    <value>Ikke kontrollert</value>
+  </data>
+  <data name="DocumentFilterState_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="DocumentFilterState_Draft" xml:space="preserve">
+    <value>Utkast</value>
+  </data>
+  <data name="DocumentFilterState_Posted" xml:space="preserve">
+    <value>Bokført</value>
+  </data>
+  <data name="DocumentKind_AutoPurchase" xml:space="preserve">
+    <value>Auto kjøp</value>
+  </data>
+  <data name="DocumentKind_LowValueItems" xml:space="preserve">
+    <value>Lavverdi</value>
+  </data>
+  <data name="DocumentKind_Materials" xml:space="preserve">
+    <value>Materialer</value>
+  </data>
+  <data name="DocumentKind_NotSpecified" xml:space="preserve">
+    <value>Ikke spesifisert</value>
+  </data>
+  <data name="DocumentState_AccountingPosted" xml:space="preserve">
+    <value>Postert konto</value>
+  </data>
+  <data name="DocumentState_Draft" xml:space="preserve">
+    <value>Utkast</value>
+  </data>
+  <data name="DocumentState_FullPosted" xml:space="preserve">
+    <value>Bokført</value>
+  </data>
+  <data name="DocumentState_InventoryPosted" xml:space="preserve">
+    <value>Postert lager</value>
+  </data>
+  <data name="DocumentSyncStatusType_None" xml:space="preserve">
+    <value>Ikke sendt</value>
+  </data>
+  <data name="DocumentSyncStatusType_Sent" xml:space="preserve">
+    <value>Sendt</value>
+  </data>
+  <data name="EdgeUseType_Exclude" xml:space="preserve">
+    <value>Utelat</value>
+  </data>
+  <data name="EdgeUseType_Include" xml:space="preserve">
+    <value>Inkluder</value>
+  </data>
+  <data name="EdgeUseType_NoLimit" xml:space="preserve">
+    <value>Ingen grense</value>
+  </data>
+  <data name="EnabledFilterType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="EnabledFilterType_EnabledOnly" xml:space="preserve">
+    <value>Aktive</value>
+  </data>
+  <data name="EquipmentType_Machine" xml:space="preserve">
+    <value>Maskin</value>
+  </data>
+  <data name="EquipmentType_Tool" xml:space="preserve">
+    <value>Maskinverktøy</value>
+  </data>
+  <data name="ExpandState_Hidden" xml:space="preserve">
+    <value>Skjult</value>
+  </data>
+  <data name="ExpandState_NotSet" xml:space="preserve">
+    <value>Ikke satt</value>
+  </data>
+  <data name="ExpandState_Visible" xml:space="preserve">
+    <value>Synlig</value>
+  </data>
+  <data name="ExpandState_VisibleNotSum" xml:space="preserve">
+    <value>Utvidet</value>
+  </data>
+  <data name="GroupInWorkOrderType_DoNotGroup" xml:space="preserve">
+    <value>Ikke gruppèr</value>
+  </data>
+  <data name="GroupInWorkOrderType_GroupAll" xml:space="preserve">
+    <value>Grupper alle</value>
+  </data>
+  <data name="GroupInWorkOrderType_SumByPieces" xml:space="preserve">
+    <value>Sum stk</value>
+  </data>
+  <data name="GroupPanelVisibilityMode_AlwaysHide" xml:space="preserve">
+    <value>Alltid av</value>
+  </data>
+  <data name="GroupPanelVisibilityMode_AlwaysShow" xml:space="preserve">
+    <value>Alltid på</value>
+  </data>
+  <data name="GroupPanelVisibilityMode_Automatically" xml:space="preserve">
+    <value>Ingen preferanse</value>
+  </data>
+  <data name="HistoryWorkflowFilterType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="HistoryWorkflowFilterType_NoHistoryFiles" xml:space="preserve">
+    <value>Skjul historikkfiler</value>
+  </data>
+  <data name="ImportAndExportType_Article" xml:space="preserve">
+    <value>Artikler</value>
+  </data>
+  <data name="ImportAndExportType_ArticlesCost" xml:space="preserve">
+    <value>Artikler kost og pris</value>
+  </data>
+  <data name="ImportAndExportType_AssemblyLine" xml:space="preserve">
+    <value>Kalkylelinjer</value>
+  </data>
+  <data name="ImportAndExportType_AssemblyOperation" xml:space="preserve">
+    <value>Operasjoner i kalkyle</value>
+  </data>
+  <data name="ImportAndExportType_ContactPerson" xml:space="preserve">
+    <value>Kontaktpersoner</value>
+  </data>
+  <data name="ImportAndExportType_OperationTemplate" xml:space="preserve">
+    <value>Operasjonsmaler</value>
+  </data>
+  <data name="ImportAndExportType_OrgUnit" xml:space="preserve">
+    <value>Kontakter</value>
+  </data>
+  <data name="ImportAndExportType_PostIndex" xml:space="preserve">
+    <value>Postnr</value>
+  </data>
+  <data name="ImportAndExportType_Project" xml:space="preserve">
+    <value>Prosjekter</value>
+  </data>
+  <data name="ImportAndExportType_Resource" xml:space="preserve">
+    <value>Ressurser</value>
+  </data>
+  <data name="ImportAndExportType_ResourceGroup" xml:space="preserve">
+    <value>Ressursgrupper</value>
+  </data>
+  <data name="ImportAndExportType_VendorArticle" xml:space="preserve">
+    <value>Leverandørartikler</value>
+  </data>
+  <data name="ImportAndExportType_VendorArticlesCost" xml:space="preserve">
+    <value>Kost leverandørartikler</value>
+  </data>
+  <data name="IntervalProjectType_IntervalInvoice" xml:space="preserve">
+    <value>Faktura</value>
+  </data>
+  <data name="IntervalType_Day" xml:space="preserve">
+    <value>Dag</value>
+  </data>
+  <data name="IntervalType_Month" xml:space="preserve">
+    <value>Måned</value>
+  </data>
+  <data name="IntervalType_NotUsed" xml:space="preserve">
+    <value>Ikke i bruk</value>
+  </data>
+  <data name="IntervalType_Week" xml:space="preserve">
+    <value>Uke</value>
+  </data>
+  <data name="InvoiceGroupType_GroupedByCustomer" xml:space="preserve">
+    <value>Gruppert på kunde</value>
+  </data>
+  <data name="InvoiceGroupType_GroupedByOrder" xml:space="preserve">
+    <value>Gruppert på prosjekt</value>
+  </data>
+  <data name="InvoiceGroupType_No" xml:space="preserve">
+    <value>Nei</value>
+  </data>
+  <data name="InvoicePaymentType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="InvoicePaymentType_OpenPositions" xml:space="preserve">
+    <value>Åpne fakturaer</value>
+  </data>
+  <data name="InvoicePaymentType_OverDueInvoices" xml:space="preserve">
+    <value>Forfalte fakturaer</value>
+  </data>
+  <data name="InvoiceStatusType_Default" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="InvoiceStatusType_Paid" xml:space="preserve">
+    <value>Betalt</value>
+  </data>
+  <data name="InvoiceStatusType_Partial" xml:space="preserve">
+    <value>Delvis</value>
+  </data>
+  <data name="InvoiceStatusType_Stopped" xml:space="preserve">
+    <value>Stoppet</value>
+  </data>
+  <data name="InvoiceStatusType_Unpaid" xml:space="preserve">
+    <value>Ubetalt</value>
+  </data>
+  <data name="InvoicingKind_Materials" xml:space="preserve">
+    <value>Materialer</value>
+  </data>
+  <data name="InvoicingKind_NotUsed" xml:space="preserve">
+    <value>Ikke brukt</value>
+  </data>
+  <data name="InvoicingKind_Rent" xml:space="preserve">
+    <value>Utleie</value>
+  </data>
+  <data name="InvoicingKind_Work" xml:space="preserve">
+    <value>Arbeid</value>
+  </data>
+  <data name="ItemOpenness_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="ItemOpenness_Closed" xml:space="preserve">
+    <value>Lukket</value>
+  </data>
+  <data name="ItemOpenness_Open" xml:space="preserve">
+    <value>Åpne</value>
+  </data>
+  <data name="MaterialType_ForProject" xml:space="preserve">
+    <value>Prosjektmateriale</value>
+  </data>
+  <data name="MaterialType_ForStock" xml:space="preserve">
+    <value>Lagermateriale</value>
+  </data>
+  <data name="MaterialType_NotMaterial" xml:space="preserve">
+    <value>Ikke materiale</value>
+  </data>
+  <data name="MeasurementUnitFilterType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="MeasurementUnitFilterType_Amount" xml:space="preserve">
+    <value>Mengde</value>
+  </data>
+  <data name="MeasurementUnitFilterType_Time" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Meter" xml:space="preserve">
+    <value>Meter</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Meter2" xml:space="preserve">
+    <value>Kvadratmeter</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Meter3" xml:space="preserve">
+    <value>Kubikkmeter</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Piece" xml:space="preserve">
+    <value>Stk</value>
+  </data>
+  <data name="MeasurementUnitType_Amount" xml:space="preserve">
+    <value>Mengde</value>
+  </data>
+  <data name="MeasurementUnitType_Time" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="MenuItemAction_Note" xml:space="preserve">
+    <value>Vis notat</value>
+  </data>
+  <data name="MenuItemAction_Workflow" xml:space="preserve">
+    <value>Vis workflow</value>
+  </data>
+  <data name="MenuItemType_File" xml:space="preserve">
+    <value>Fil</value>
+  </data>
+  <data name="MenuItemType_Folder" xml:space="preserve">
+    <value>Mappe</value>
+  </data>
+  <data name="NoteExists_Comment" xml:space="preserve">
+    <value>Kommentarer</value>
+  </data>
+  <data name="NoteExists_No" xml:space="preserve">
+    <value>Nei</value>
+  </data>
+  <data name="NoteExists_Note" xml:space="preserve">
+    <value>Notat</value>
+  </data>
+  <data name="NoteExists_NoteAndComment" xml:space="preserve">
+    <value>Notat og kommentarer</value>
+  </data>
+  <data name="QuantityType_EachPiece" xml:space="preserve">
+    <value>Per stk</value>
+  </data>
+  <data name="QuantityType_EachUnit" xml:space="preserve">
+    <value>Per enhet</value>
+  </data>
+  <data name="QuantityType_Fixed" xml:space="preserve">
+    <value>Fast</value>
+  </data>
+  <data name="OrgUnitAddressType_Delivery" xml:space="preserve">
+    <value>Leveringsadresse</value>
+  </data>
+  <data name="OrgUnitAddressType_Invoice" xml:space="preserve">
+    <value>Fakturaadresse</value>
+  </data>
+  <data name="OrgUnitAddressType_Post" xml:space="preserve">
+    <value>Postadresse</value>
+  </data>
+  <data name="OrgUnitAddressType_Unknown" xml:space="preserve">
+    <value>Vanlig</value>
+  </data>
+  <data name="OrgUnitAddressType_Visit" xml:space="preserve">
+    <value>Besøksadresse</value>
+  </data>
+  <data name="OrgUnitFilterType_Customer" xml:space="preserve">
+    <value>Kunder</value>
+  </data>
+  <data name="OrgUnitFilterType_CustomerCandidate" xml:space="preserve">
+    <value>Potensielle kunder</value>
+  </data>
+  <data name="OrgUnitFilterType_Partner" xml:space="preserve">
+    <value>Partnere</value>
+  </data>
+  <data name="OrgUnitFilterType_Stock" xml:space="preserve">
+    <value>Lagernavn</value>
+  </data>
+  <data name="OrgUnitFilterType_Undefined" xml:space="preserve">
+    <value>Eget firma</value>
+  </data>
+  <data name="OrgUnitFilterType_Vendor" xml:space="preserve">
+    <value>Leverandører</value>
+  </data>
+  <data name="OrgUnitFilterType_VendorCandidate" xml:space="preserve">
+    <value>Potensiell leverandør</value>
+  </data>
+  <data name="OrgUnitRegionType_InsideRegion" xml:space="preserve">
+    <value>Innenfor region</value>
+  </data>
+  <data name="OrgUnitRegionType_Native" xml:space="preserve">
+    <value>Innenlands</value>
+  </data>
+  <data name="OrgUnitRegionType_OutsideRegion" xml:space="preserve">
+    <value>Utenfor region</value>
+  </data>
+  <data name="OrgUnitReportFilterType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="OrgUnitReportFilterType_Customer" xml:space="preserve">
+    <value>Kunder</value>
+  </data>
+  <data name="OrgUnitReportFilterType_Vendor" xml:space="preserve">
+    <value>Leverandører</value>
+  </data>
+  <data name="OrgUnitType_Customer" xml:space="preserve">
+    <value>Kunder</value>
+  </data>
+  <data name="OrgUnitType_CustomerCandidate" xml:space="preserve">
+    <value>Potensiell kunde</value>
+  </data>
+  <data name="OrgUnitType_Department" xml:space="preserve">
+    <value>Avdeling</value>
+  </data>
+  <data name="OrgUnitType_NotUsed" xml:space="preserve">
+    <value>Ikke bruk</value>
+  </data>
+  <data name="OrgUnitType_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="OrgUnitType_Stock" xml:space="preserve">
+    <value>Lagernavn</value>
+  </data>
+  <data name="OrgUnitType_Vendor" xml:space="preserve">
+    <value>Leverandører</value>
+  </data>
+  <data name="OrgUnitType_VendorCandidate" xml:space="preserve">
+    <value>Potensielle leverandører</value>
+  </data>
+  <data name="PeriodType_Month" xml:space="preserve">
+    <value>Måned</value>
+  </data>
+  <data name="PeriodType_Quarter" xml:space="preserve">
+    <value>Kvartal</value>
+  </data>
+  <data name="PeriodType_Year" xml:space="preserve">
+    <value>År</value>
+  </data>
+  <data name="PlanResourceType_EquipmentGroup" xml:space="preserve">
+    <value>Utstyrsgruppe</value>
+  </data>
+  <data name="PlanResourceType_Resource" xml:space="preserve">
+    <value>Ressurs</value>
+  </data>
+  <data name="PlanResourceType_ResourceGroup" xml:space="preserve">
+    <value>Ressursgruppe</value>
+  </data>
+  <data name="PlanResourceType_WorkerGroup" xml:space="preserve">
+    <value>Arbeidsgruppe</value>
+  </data>
+  <data name="PriceListType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="PriceListType_None" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="PriceListType_Purchase" xml:space="preserve">
+    <value>Innkjøp</value>
+  </data>
+  <data name="PriceListType_Sale" xml:space="preserve">
+    <value>Salg</value>
+  </data>
+  <data name="PriceListType_SaleRent" xml:space="preserve">
+    <value>Utleie</value>
+  </data>
+  <data name="PrintOnKind_CustomPages" xml:space="preserve">
+    <value>Valgte sider</value>
+  </data>
+  <data name="PrintOnKind_EachPage" xml:space="preserve">
+    <value>Hver side</value>
+  </data>
+  <data name="PrintOnKind_FirstAndLast" xml:space="preserve">
+    <value>Første og siste side</value>
+  </data>
+  <data name="PrintOnKind_FirstPage" xml:space="preserve">
+    <value>Første side</value>
+  </data>
+  <data name="PrintOnKind_LastPage" xml:space="preserve">
+    <value>Siste side</value>
+  </data>
+  <data name="ProductLotGenerationRule_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="ProductLotGenerationRule_EachUnit" xml:space="preserve">
+    <value>For hver enhet</value>
+  </data>
+  <data name="ProductLotGenerationRule_OneLot" xml:space="preserve">
+    <value>En lot</value>
+  </data>
+  <data name="ProjectDocumentShowType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="ProjectDocumentShowType_Default" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="ProjectLevel_AllLevels" xml:space="preserve">
+    <value>Alle nivåer</value>
+  </data>
+  <data name="ProjectLevel_NotUsed" xml:space="preserve">
+    <value>Ikke brukt</value>
+  </data>
+  <data name="ProjectLevel_Operation" xml:space="preserve">
+    <value>Operasjon</value>
+  </data>
+  <data name="ProjectLevel_Project" xml:space="preserve">
+    <value>Prosjekt</value>
+  </data>
+  <data name="ProjectLevel_ProjectLine" xml:space="preserve">
+    <value>Prosjektlinje</value>
+  </data>
+  <data name="ProjectLevel_WorkOrder" xml:space="preserve">
+    <value>Arbeidsordre</value>
+  </data>
+  <data name="ProjectLineState_Draft" xml:space="preserve">
+    <value>Utkast</value>
+  </data>
+  <data name="ProjectLineState_Finished" xml:space="preserve">
+    <value>Ferdig</value>
+  </data>
+  <data name="ProjectLineState_InWork" xml:space="preserve">
+    <value>I arbeid</value>
+  </data>
+  <data name="ProjectLineType_Article" xml:space="preserve">
+    <value>Artikkel</value>
+  </data>
+  <data name="ProjectLineType_Assembly" xml:space="preserve">
+    <value>Kalkyle</value>
+  </data>
+  <data name="ProjectLineType_Expenses" xml:space="preserve">
+    <value>Diverse</value>
+  </data>
+  <data name="ProjectLineType_Rent" xml:space="preserve">
+    <value>Utleie</value>
+  </data>
+  <data name="ProjectLineType_ServiceLine" xml:space="preserve">
+    <value>Linje regningsarbeid</value>
+  </data>
+  <data name="ProjectLineType_Summary" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="ProjectLineType_Text" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="ProjectLineType_VendorArticle" xml:space="preserve">
+    <value>Innkjøpsartikkel</value>
+  </data>
+  <data name="ProjectState_Closed" xml:space="preserve">
+    <value>Lukket</value>
+  </data>
+  <data name="ProjectState_Default" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="ProjectState_Draft" xml:space="preserve">
+    <value>Utkast</value>
+  </data>
+  <data name="ProjectState_Evaluating" xml:space="preserve">
+    <value>Evaluering</value>
+  </data>
+  <data name="ProjectState_Finished" xml:space="preserve">
+    <value>Ferdig</value>
+  </data>
+  <data name="ProjectState_InProcess" xml:space="preserve">
+    <value>I prosess</value>
+  </data>
+  <data name="ProjectState_MergePurchase" xml:space="preserve">
+    <value>Åpent innkjøp</value>
+  </data>
+  <data name="ProjectState_Offer" xml:space="preserve">
+    <value>Tilbud</value>
+  </data>
+  <data name="ProjectState_OfferPurchase" xml:space="preserve">
+    <value>Tilbud innkjøp</value>
+  </data>
+  <data name="ProjectState_Opened" xml:space="preserve">
+    <value>Åpnet</value>
+  </data>
+  <data name="ProjectState_Order" xml:space="preserve">
+    <value>Ordre</value>
+  </data>
+  <data name="ProjectState_Ordered" xml:space="preserve">
+    <value>Bestilt</value>
+  </data>
+  <data name="ProjectState_OrderPurchase" xml:space="preserve">
+    <value>Bestilling innkjøp</value>
+  </data>
+  <data name="ProjectState_QuoteOffer" xml:space="preserve">
+    <value>Tilbud</value>
+  </data>
+  <data name="ProjectState_Registering" xml:space="preserve">
+    <value>Registrering</value>
+  </data>
+  <data name="ProjectState_Request" xml:space="preserve">
+    <value>Forespørsel</value>
+  </data>
+  <data name="ProjectState_RequestPurchase" xml:space="preserve">
+    <value>Forespørsel innkjøp</value>
+  </data>
+  <data name="ProjectState_ToApproval" xml:space="preserve">
+    <value>Til godkjenning</value>
+  </data>
+  <data name="ProjectState_WebPortal" xml:space="preserve">
+    <value>Webportal</value>
+  </data>
+  <data name="ProjectSubtype_Production" xml:space="preserve">
+    <value>Produksjon</value>
+  </data>
+  <data name="ProjectSubtype_Repeating" xml:space="preserve">
+    <value>Repeterende</value>
+  </data>
+  <data name="ProjectSubtype_Resale" xml:space="preserve">
+    <value>Forhandlersalg</value>
+  </data>
+  <data name="ProjectSubtype_Service" xml:space="preserve">
+    <value>Regningsarbeid</value>
+  </data>
+  <data name="ProjectTeamUserFilterType_ContactPerson" xml:space="preserve">
+    <value>Kontaktperson</value>
+  </data>
+  <data name="ProjectTeamUserFilterType_SystemUser" xml:space="preserve">
+    <value>Systembrukere</value>
+  </data>
+  <data name="ProjectTeamUserFilterType_Worker" xml:space="preserve">
+    <value>Timeressurser/operatører/teammedlemmer</value>
+  </data>
+  <data name="ProjectType_AssetRegister" xml:space="preserve">
+    <value>Eiendelsregister</value>
+  </data>
+  <data name="ProjectType_CallOff" xml:space="preserve">
+    <value>Avrop</value>
+  </data>
+  <data name="ProjectType_CallOffPurchase" xml:space="preserve">
+    <value>Avrop innkjøpsprosjekt</value>
+  </data>
+  <data name="ProjectType_CallOffSales" xml:space="preserve">
+    <value>Avrop salgsprosjekt</value>
+  </data>
+  <data name="ProjectType_CommitteeMeetings" xml:space="preserve">
+    <value>Utvalgsmøter</value>
+  </data>
+  <data name="ProjectType_Contracts" xml:space="preserve">
+    <value>Kontrakter</value>
+  </data>
+  <data name="ProjectType_ControlsAndMeetings" xml:space="preserve">
+    <value>Kontroller og møter</value>
+  </data>
+  <data name="ProjectType_CurrentAssets" xml:space="preserve">
+    <value>Kortsiktige eiendeler</value>
+  </data>
+  <data name="ProjectType_Custom" xml:space="preserve">
+    <value>Egendefinert</value>
+  </data>
+  <data name="ProjectType_CustomerServices" xml:space="preserve">
+    <value>Kundeservice</value>
+  </data>
+  <data name="ProjectType_CustomerSupport" xml:space="preserve">
+    <value>Kundesupport</value>
+  </data>
+  <data name="ProjectType_Development" xml:space="preserve">
+    <value>Utvikling</value>
+  </data>
+  <data name="ProjectType_Elearning" xml:space="preserve">
+    <value>Opplæring</value>
+  </data>
+  <data name="ProjectType_EMcommitteeMeetings" xml:space="preserve">
+    <value>Ledelsesmøter</value>
+  </data>
+  <data name="ProjectType_EmControls" xml:space="preserve">
+    <value>Ledelseskontroller</value>
+  </data>
+  <data name="ProjectType_EMdocuments" xml:space="preserve">
+    <value>Ledelsesdokumenter</value>
+  </data>
+  <data name="ProjectType_EmMeetings" xml:space="preserve">
+    <value>Ledelsesmøter</value>
+  </data>
+  <data name="ProjectType_FixedAssets" xml:space="preserve">
+    <value>Varige driftsmidler</value>
+  </data>
+  <data name="ProjectType_HelpDesk" xml:space="preserve">
+    <value>Help desk</value>
+  </data>
+  <data name="ProjectType_HRM" xml:space="preserve">
+    <value>Personaladministrasjon</value>
+  </data>
+  <data name="ProjectType_HSdeviation" xml:space="preserve">
+    <value>Uønskede hendelser</value>
+  </data>
+  <data name="ProjectType_HSE" xml:space="preserve">
+    <value>HMS</value>
+  </data>
+  <data name="ProjectType_Improvements" xml:space="preserve">
+    <value>Forbedringer</value>
+  </data>
+  <data name="ProjectType_IntangibleAssets" xml:space="preserve">
+    <value>Immaterielle eiendeler</value>
+  </data>
+  <data name="ProjectType_InternalProject" xml:space="preserve">
+    <value>Internprosjekt</value>
+  </data>
+  <data name="ProjectType_InvoiceCustomerServices" xml:space="preserve">
+    <value>Faktura kundeservice</value>
+  </data>
+  <data name="ProjectType_LeadProjects" xml:space="preserve">
+    <value>Leads</value>
+  </data>
+  <data name="ProjectType_Learning" xml:space="preserve">
+    <value>Opplæring</value>
+  </data>
+  <data name="ProjectType_LearningArticles" xml:space="preserve">
+    <value>Opplæringsmateriell</value>
+  </data>
+  <data name="ProjectType_Maintenance" xml:space="preserve">
+    <value>Vedlikehold</value>
+  </data>
+  <data name="ProjectType_Marketing" xml:space="preserve">
+    <value>Markedsføring</value>
+  </data>
+  <data name="ProjectType_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="ProjectType_PurchaseProject" xml:space="preserve">
+    <value>Innkjøp</value>
+  </data>
+  <data name="ProjectType_QAdeviation" xml:space="preserve">
+    <value>Avviksbehandling</value>
+  </data>
+  <data name="ProjectType_QArequirements" xml:space="preserve">
+    <value>Kvalitetskrav</value>
+  </data>
+  <data name="ProjectType_QMAudit" xml:space="preserve">
+    <value>Revisjoner</value>
+  </data>
+  <data name="ProjectType_QMDocuments" xml:space="preserve">
+    <value>QA-dokumenter</value>
+  </data>
+  <data name="ProjectType_QMimprovements" xml:space="preserve">
+    <value>Forbedringer</value>
+  </data>
+  <data name="ProjectType_QMlinks" xml:space="preserve">
+    <value>Lenker internett</value>
+  </data>
+  <data name="ProjectType_QMmanuals" xml:space="preserve">
+    <value>Manualer</value>
+  </data>
+  <data name="ProjectType_QMprocedures" xml:space="preserve">
+    <value>QA-dokumenter</value>
+  </data>
+  <data name="ProjectType_QMProcessManagement" xml:space="preserve">
+    <value>Prosesstyring</value>
+  </data>
+  <data name="ProjectType_QMriskAreas" xml:space="preserve">
+    <value>Risikoområder</value>
+  </data>
+  <data name="ProjectType_QMRiskAssessment" xml:space="preserve">
+    <value>Risikovurdering</value>
+  </data>
+  <data name="ProjectType_QMRiskTreatments" xml:space="preserve">
+    <value>Risikohåndtering</value>
+  </data>
+  <data name="ProjectType_QMSupplierEvaluations" xml:space="preserve">
+    <value>Leverandørevaluering</value>
+  </data>
+  <data name="ProjectType_Rental" xml:space="preserve">
+    <value>Utleie</value>
+  </data>
+  <data name="ProjectType_RentalAssetManagement" xml:space="preserve">
+    <value>Utleieforvaltning utstyr</value>
+  </data>
+  <data name="ProjectType_RentalAssets" xml:space="preserve">
+    <value>Utleie eiendeler</value>
+  </data>
+  <data name="ProjectType_RentalPurchase" xml:space="preserve">
+    <value>Utleie utstyr</value>
+  </data>
+  <data name="ProjectType_RentalSales" xml:space="preserve">
+    <value>Uteie til kunder</value>
+  </data>
+  <data name="ProjectType_RepeatingInvoice" xml:space="preserve">
+    <value>Repetisjonsprosjekter</value>
+  </data>
+  <data name="ProjectType_RepeatingService" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="ProjectType_RequirementsAndProcedures" xml:space="preserve">
+    <value>Krav og prosedyrer</value>
+  </data>
+  <data name="ProjectType_SalesAndCostBudget" xml:space="preserve">
+    <value>Salgsbudsjett</value>
+  </data>
+  <data name="ProjectType_SalesProject" xml:space="preserve">
+    <value>Salgsprosjekt</value>
+  </data>
+  <data name="ProjectType_Service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="ProjectType_Simple" xml:space="preserve">
+    <value>Enkel</value>
+  </data>
+  <data name="ProjectType_StockIntervalProduction" xml:space="preserve">
+    <value>Fast lagerproduksjon</value>
+  </data>
+  <data name="ProjectType_StockProduction" xml:space="preserve">
+    <value>Lagerproduksjon</value>
+  </data>
+  <data name="ProjectType_SupplierAssessment" xml:space="preserve">
+    <value>Leverandørevaluering</value>
+  </data>
+  <data name="ProjectType_SupplierDeals" xml:space="preserve">
+    <value>Leverandøravtaler</value>
+  </data>
+  <data name="ProjectType_TechnicalDeviation" xml:space="preserve">
+    <value>Tekniske avvik</value>
+  </data>
+  <data name="ProjectType_Templates" xml:space="preserve">
+    <value>Maler</value>
+  </data>
+  <data name="ProjectType_TimeRegistration" xml:space="preserve">
+    <value>Timeregistrering</value>
+  </data>
+  <data name="PurchaseMaterialSourceState_DraftAndInWork" xml:space="preserve">
+    <value>Inkludér utkast</value>
+  </data>
+  <data name="PurchaseMaterialSourceState_InWorkOnly" xml:space="preserve">
+    <value>Kun I arbeid</value>
+  </data>
+  <data name="PurchaseMaterialSourceType_ProjectLines" xml:space="preserve">
+    <value>Prosjektlinjer</value>
+  </data>
+  <data name="PurchaseMaterialSourceType_WorkOrders" xml:space="preserve">
+    <value>Arbeidsordre materialer</value>
+  </data>
+  <data name="QuantityState_No" xml:space="preserve">
+    <value>Nei</value>
+  </data>
+  <data name="QuantityState_NotNeed" xml:space="preserve">
+    <value>Ikke nødvendig</value>
+  </data>
+  <data name="QuantityState_Partial" xml:space="preserve">
+    <value>Delvis</value>
+  </data>
+  <data name="QuantityState_Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="RemittanceProtocolType_Iso20022" xml:space="preserve">
+    <value>ISO 20022</value>
+  </data>
+  <data name="RemittanceProtocolType_Nets" xml:space="preserve">
+    <value>Nets</value>
+  </data>
+  <data name="RemittanceType_Abroad" xml:space="preserve">
+    <value>Utlandet</value>
+  </data>
+  <data name="RemittanceType_Disabled" xml:space="preserve">
+    <value>Deaktivert</value>
+  </data>
+  <data name="RemittanceType_Inland" xml:space="preserve">
+    <value>Innland</value>
+  </data>
+  <data name="ResourceGroupType_EquipmentGroup" xml:space="preserve">
+    <value>Utstyrsgruppe</value>
+  </data>
+  <data name="ResourceGroupType_WorkerGroup" xml:space="preserve">
+    <value>Arbeidsgruppe</value>
+  </data>
+  <data name="RoleType_Accounting" xml:space="preserve">
+    <value>Regnskapsføring</value>
+  </data>
+  <data name="RoleType_ChangeSystemSettings" xml:space="preserve">
+    <value>Grunnoppsett</value>
+  </data>
+  <data name="RoleType_MaterialsIncomeToStock" xml:space="preserve">
+    <value>Varemottak til lager</value>
+  </data>
+  <data name="RoleType_ModifyOwnTimeRecords" xml:space="preserve">
+    <value>Egne timeregistrering</value>
+  </data>
+  <data name="RoleType_NotUsed" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="RoleType_SetPermission" xml:space="preserve">
+    <value>Tilgangstildeling</value>
+  </data>
+  <data name="RoleType_TimeReport" xml:space="preserve">
+    <value>Timerapportering</value>
+  </data>
+  <data name="RoleType_ResetApproval" xml:space="preserve">
+    <value>Tilbakestill godkjenning</value>
+  </data>
+  <data name="SalaryCodeCategory_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="SalaryCodeCategory_NormalWork" xml:space="preserve">
+    <value>Normaltid</value>
+  </data>
+  <data name="SalaryCodeCategory_Overtime" xml:space="preserve">
+    <value>Overtid</value>
+  </data>
+  <data name="SalaryCodeType_Absence" xml:space="preserve">
+    <value>Fravær</value>
+  </data>
+  <data name="SalaryCodeType_Payment" xml:space="preserve">
+    <value>Lønnet</value>
+  </data>
+  <data name="ScriptType_AssemblyTreeDown" xml:space="preserve">
+    <value>Kalkyletre nedover</value>
+  </data>
+  <data name="ScriptType_AssemblyTreeUp" xml:space="preserve">
+    <value>Kalkyletre oppover</value>
+  </data>
+  <data name="ScriptType_PostIndex" xml:space="preserve">
+    <value>Postnr katalog</value>
+  </data>
+  <data name="ScriptType_PriceList" xml:space="preserve">
+    <value>Prisliste</value>
+  </data>
+  <data name="SettingDataType_DateTime" xml:space="preserve">
+    <value>Dato og tid</value>
+  </data>
+  <data name="SettingDataType_Decimal" xml:space="preserve">
+    <value>Desimal</value>
+  </data>
+  <data name="SettingDataType_Enum" xml:space="preserve">
+    <value>Egendefinert</value>
+  </data>
+  <data name="SettingDataType_Int" xml:space="preserve">
+    <value>Tall</value>
+  </data>
+  <data name="StdDocumentTypes_BankPaymentIncomeMoney" xml:space="preserve">
+    <value>Inn i bank</value>
+  </data>
+  <data name="StdDocumentTypes_BankPaymentSpendMoney" xml:space="preserve">
+    <value>Ut av bank</value>
+  </data>
+  <data name="StdDocumentTypes_BeginRests" xml:space="preserve">
+    <value>Opprett lagermengde</value>
+  </data>
+  <data name="StdDocumentTypes_CorrectRests" xml:space="preserve">
+    <value>Korr. lagermengde</value>
+  </data>
+  <data name="StdDocumentTypes_CustomerPayment" xml:space="preserve">
+    <value>Innbetaling fra kunde</value>
+  </data>
+  <data name="StdDocumentTypes_Delivery" xml:space="preserve">
+    <value>Levert</value>
+  </data>
+  <data name="StdDocumentTypes_Disassembly" xml:space="preserve">
+    <value>Demontering</value>
+  </data>
+  <data name="StdDocumentTypes_IncomeInvoice" xml:space="preserve">
+    <value>Inngående faktura</value>
+  </data>
+  <data name="StdDocumentTypes_IncomeInvoicePurchase" xml:space="preserve">
+    <value>Inngående faktura på bestilling</value>
+  </data>
+  <data name="StdDocumentTypes_JournalEntry" xml:space="preserve">
+    <value>Annen bilagsregistrering</value>
+  </data>
+  <data name="StdDocumentTypes_MaterialsIncome" xml:space="preserve">
+    <value>Varemottak</value>
+  </data>
+  <data name="StdDocumentTypes_Movement" xml:space="preserve">
+    <value>Bevegelse</value>
+  </data>
+  <data name="StdDocumentTypes_Outgo" xml:space="preserve">
+    <value>Utgår</value>
+  </data>
+  <data name="StdDocumentTypes_OutgoInvoice" xml:space="preserve">
+    <value>Utgående faktura</value>
+  </data>
+  <data name="StdDocumentTypes_OutgoInvoiceProject" xml:space="preserve">
+    <value>Utgående faktura på prosjekt</value>
+  </data>
+  <data name="StdDocumentTypes_PaymentToVendor" xml:space="preserve">
+    <value>Utbetaling til leverandør</value>
+  </data>
+  <data name="StdDocumentTypes_PickUpFromStock" xml:space="preserve">
+    <value>Plukk fra lager</value>
+  </data>
+  <data name="StdDocumentTypes_PutToStock" xml:space="preserve">
+    <value>Fra prosjekt til lager</value>
+  </data>
+  <data name="StdDocumentTypes_Reconciliation" xml:space="preserve">
+    <value>Avstemme faktura</value>
+  </data>
+  <data name="StdDocumentTypes_Remittance" xml:space="preserve">
+    <value>Remittering</value>
+  </data>
+  <data name="StdDocumentTypes_Return" xml:space="preserve">
+    <value>Retur</value>
+  </data>
+  <data name="StdDocumentTypes_Rounding" xml:space="preserve">
+    <value>Øreavrunding</value>
+  </data>
+  <data name="StdDocumentTypes_SendToSubcontractor" xml:space="preserve">
+    <value>Send til underleverandør</value>
+  </data>
+  <data name="StdDocumentTypes_InventoryChanges" xml:space="preserve">
+    <value>Lagerendring</value>
+  </data>
+  <data name="StdDocumentTypes_VatReturn" xml:space="preserve">
+    <value>Momsoppgjør</value>
+  </data>
+  <data name="SubcontractorStatusViewType_AllActive" xml:space="preserve">
+    <value>Alle aktive</value>
+  </data>
+  <data name="SubcontractorStatusViewType_NotReceived" xml:space="preserve">
+    <value>Ikke mottatt</value>
+  </data>
+  <data name="SubcontractorStatusViewType_NotSent" xml:space="preserve">
+    <value>Ikke sendt</value>
+  </data>
+  <data name="SubcontractorStatusViewType_WithFinished" xml:space="preserve">
+    <value>Inkl. ferdige</value>
+  </data>
+  <data name="SubscriptionErrorCode_CantEncodeSubscription" xml:space="preserve">
+    <value>Kan ikke godkjenne abb.</value>
+  </data>
+  <data name="SubscriptionErrorCode_ClientIdNotMatch" xml:space="preserve">
+    <value>Klient-id stemmer ikke</value>
+  </data>
+  <data name="SubscriptionErrorCode_MoreThanOneLicenseObjectInSystem" xml:space="preserve">
+    <value>Mer enn ett lisensobjekt i systemet</value>
+  </data>
+  <data name="SubscriptionErrorCode_NeedToConnectToLicenceServerToUpdateSubscription" xml:space="preserve">
+    <value>Behov for å koble til lisensserver for å oppdatere abonnement</value>
+  </data>
+  <data name="SubscriptionErrorCode_NoLicensedUsersInSystem" xml:space="preserve">
+    <value>Ingen lisensierte brukere i systemet</value>
+  </data>
+  <data name="SubscriptionErrorCode_NoLicenseObjectInSystem" xml:space="preserve">
+    <value>Ingen lisensobjekter i systemet</value>
+  </data>
+  <data name="SubscriptionErrorCode_NumberOfIsLicenseEnabledNotEqualsToLicenseCount" xml:space="preserve">
+    <value>Antall brukere med godkjent lisens samsvarer ikke med antall lisenser i abonnement</value>
+  </data>
+  <data name="SubscriptionErrorCode_NumberOfIsPlannerEnabledNotEqualsToPlannerCount" xml:space="preserve">
+    <value>Antall brukere med lisens for planlegger samsvarer ikke med antall lisenser for planlegger i abonnement</value>
+  </data>
+  <data name="SubscriptionErrorCode_SubscriptionExpired" xml:space="preserve">
+    <value>Utgått abonnement</value>
+  </data>
+  <data name="SyncInventoryType_Inventory" xml:space="preserve">
+    <value>Lager</value>
+  </data>
+  <data name="SyncInventoryType_Rent" xml:space="preserve">
+    <value>Utleie</value>
+  </data>
+  <data name="SyncInventoryType_WIP" xml:space="preserve">
+    <value>WIP</value>
+  </data>
+  <data name="TaskPriority_AboveNormal" xml:space="preserve">
+    <value>Over normal</value>
+  </data>
+  <data name="TaskPriority_BelowNormal" xml:space="preserve">
+    <value>Under normal</value>
+  </data>
+  <data name="TaskPriority_Critical" xml:space="preserve">
+    <value>Kritisk</value>
+  </data>
+  <data name="TaskPriority_ForFuture" xml:space="preserve">
+    <value>Fremtidig</value>
+  </data>
+  <data name="TaskPriority_High" xml:space="preserve">
+    <value>Høy</value>
+  </data>
+  <data name="TaskPriority_Highest" xml:space="preserve">
+    <value>Høyest</value>
+  </data>
+  <data name="TaskPriority_Low" xml:space="preserve">
+    <value>Lav</value>
+  </data>
+  <data name="TaskPriority_Lowest" xml:space="preserve">
+    <value>Lavest</value>
+  </data>
+  <data name="TaskPriority_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="TaskPriority_Urgent" xml:space="preserve">
+    <value>Haster</value>
+  </data>
+  <data name="TaskPriority_VeryHigh" xml:space="preserve">
+    <value>Veldig høy</value>
+  </data>
+  <data name="TaskPriority_VeryLow" xml:space="preserve">
+    <value>Veldig lav</value>
+  </data>
+  <data name="TaskStateType_Controlled" xml:space="preserve">
+    <value>Kontrollert</value>
+  </data>
+  <data name="TaskStateType_Done" xml:space="preserve">
+    <value>Utført</value>
+  </data>
+  <data name="TaskStateType_Failed" xml:space="preserve">
+    <value>Avbrutt</value>
+  </data>
+  <data name="TaskStateType_InProcess" xml:space="preserve">
+    <value>I arbeid</value>
+  </data>
+  <data name="TaskStateType_Preparing" xml:space="preserve">
+    <value>Forbereder</value>
+  </data>
+  <data name="TaskStateType_Skipped" xml:space="preserve">
+    <value>Utelatt</value>
+  </data>
+  <data name="TaskStateType_WorkList" xml:space="preserve">
+    <value>Arbeidsliste</value>
+  </data>
+  <data name="TaskStateTypeEx_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="TaxCodeType_Direct" xml:space="preserve">
+    <value>Direkte</value>
+  </data>
+  <data name="TaxCodeType_ImportGood" xml:space="preserve">
+    <value>Innførsel varer</value>
+  </data>
+  <data name="TaxCodeType_ImportInvoice" xml:space="preserve">
+    <value>Faktura innførsel</value>
+  </data>
+  <data name="TaxCodeType_ImportService" xml:space="preserve">
+    <value>Innførsel tjenester</value>
+  </data>
+  <data name="TaxCodeType_IngoingNone" xml:space="preserve">
+    <value>Inngående ingen</value>
+  </data>
+  <data name="TaxCodeType_IngoingVat" xml:space="preserve">
+    <value>Inngående mva</value>
+  </data>
+  <data name="TaxCodeType_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="TaxCodeType_Other" xml:space="preserve">
+    <value>Andre</value>
+  </data>
+  <data name="TaxCodeType_OutgoingVat" xml:space="preserve">
+    <value>Utgående mva</value>
+  </data>
+  <data name="TimeRecordFilterType_WithMachines" xml:space="preserve">
+    <value>Inkl. maskiner</value>
+  </data>
+  <data name="TimeRecordFilterType_WorkerTimeOnly" xml:space="preserve">
+    <value>Ansatte</value>
+  </data>
+  <data name="TimeRegistrationFilterType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="TimeRegistrationFilterType_ByClock" xml:space="preserve">
+    <value>Stemplet med klokke</value>
+  </data>
+  <data name="TimeRegistrationFilterType_Fixed" xml:space="preserve">
+    <value>Registreringer uten klokke</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_DateRange" xml:space="preserve">
+    <value>Datointervall</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_Month" xml:space="preserve">
+    <value>Måned</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_Quarter" xml:space="preserve">
+    <value>Kvartal</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_TwoWeeks" xml:space="preserve">
+    <value>To uker</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_Week" xml:space="preserve">
+    <value>Uke</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_Year" xml:space="preserve">
+    <value>År</value>
+  </data>
+  <data name="TimeReportUserFilterType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="TimeReportUserFilterType_Machines" xml:space="preserve">
+    <value>Maskiner</value>
+  </data>
+  <data name="TimeReportUserFilterType_SystemUsers" xml:space="preserve">
+    <value>Systembrukere</value>
+  </data>
+  <data name="TimeReportUserFilterType_Workers" xml:space="preserve">
+    <value>Arbeidere</value>
+  </data>
+  <data name="TypeQuantityState_No" xml:space="preserve">
+    <value>Nei</value>
+  </data>
+  <data name="TypeQuantityState_NotNeed" xml:space="preserve">
+    <value>Ikke nødvendig</value>
+  </data>
+  <data name="UserEmailEncryptionType_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="UserEmailEncryptionType_SSLTLS" xml:space="preserve">
+    <value>SSL/TLS</value>
+  </data>
+  <data name="UserEmailEncryptionType_STARTTLS" xml:space="preserve">
+    <value>STARTTLS</value>
+  </data>
+  <data name="UserFilterType_ContactPerson" xml:space="preserve">
+    <value>Kontaktperson</value>
+  </data>
+  <data name="UserFilterType_Machine" xml:space="preserve">
+    <value>Maskin</value>
+  </data>
+  <data name="UserFilterType_SystemUser" xml:space="preserve">
+    <value>Systembruker</value>
+  </data>
+  <data name="UserFilterType_Team" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="UserFilterType_Tool" xml:space="preserve">
+    <value>Tillegg</value>
+  </data>
+  <data name="UserFilterType_Worker" xml:space="preserve">
+    <value>Arbeider</value>
+  </data>
+  <data name="UserFilterType_WorkTeam" xml:space="preserve">
+    <value>Arbeidslag</value>
+  </data>
+  <data name="UserType_ContactPerson" xml:space="preserve">
+    <value>Kontaktperson</value>
+  </data>
+  <data name="UserType_Machine" xml:space="preserve">
+    <value>Maskiner</value>
+  </data>
+  <data name="UserType_SystemUser" xml:space="preserve">
+    <value>Systembrukere</value>
+  </data>
+  <data name="UserType_Team" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="UserType_Tool" xml:space="preserve">
+    <value>Tillegg</value>
+  </data>
+  <data name="UserType_Worker" xml:space="preserve">
+    <value>Arbeidere / operatører</value>
+  </data>
+  <data name="UserType_WorkTeam" xml:space="preserve">
+    <value>Arbeidslag</value>
+  </data>
+  <data name="VendorArticleType_ForProject" xml:space="preserve">
+    <value>Prosjektmateriale</value>
+  </data>
+  <data name="VendorArticleType_ForStock" xml:space="preserve">
+    <value>Lagermateriale</value>
+  </data>
+  <data name="VendorArticleType_NotUsed" xml:space="preserve">
+    <value>Ikke i bruk</value>
+  </data>
+  <data name="WebExceptionStatus_ConnectFailure" xml:space="preserve">
+    <value>Den eksterne service kunne ikke kontaktes på transportnivå.</value>
+  </data>
+  <data name="WebExceptionStatus_ConnectionClosed" xml:space="preserve">
+    <value>Tilkoblingen ble tidlig stengt.</value>
+  </data>
+  <data name="WebExceptionStatus_NameResolutionFailure" xml:space="preserve">
+    <value>Navnet resolver service kan ikke løse vertsnavn.</value>
+  </data>
+  <data name="WorkflowCompilance_NotOk" xml:space="preserve">
+    <value>Ikke OK</value>
+  </data>
+  <data name="WorkflowCompilance_NotSure" xml:space="preserve">
+    <value>Ikke sikker</value>
+  </data>
+  <data name="WorkflowCompilance_NotUsed" xml:space="preserve">
+    <value>Ikke brukt</value>
+  </data>
+  <data name="WorkflowCompilance_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="WorkflowConsequence_Minimal" xml:space="preserve">
+    <value>Minimal</value>
+  </data>
+  <data name="WorkflowConsequence_Minor" xml:space="preserve">
+    <value>Minor</value>
+  </data>
+  <data name="WorkflowConsequence_Moderate" xml:space="preserve">
+    <value>Liten</value>
+  </data>
+  <data name="WorkflowConsequence_NotUsed" xml:space="preserve">
+    <value>Ikke brukt</value>
+  </data>
+  <data name="WorkflowConsequence_Severe" xml:space="preserve">
+    <value>Alvorlig</value>
+  </data>
+  <data name="WorkflowConsequence_Significant" xml:space="preserve">
+    <value>Signifikant</value>
+  </data>
+  <data name="WorkflowDependencyViewDepth_Children" xml:space="preserve">
+    <value>Datterelement</value>
+  </data>
+  <data name="WorkflowDependencyViewDepth_Full" xml:space="preserve">
+    <value>Komplett</value>
+  </data>
+  <data name="WorkflowDependencyViewDepth_Near" xml:space="preserve">
+    <value>Nærmeste</value>
+  </data>
+  <data name="WorkflowDependencyViewMode_List" xml:space="preserve">
+    <value>Liste</value>
+  </data>
+  <data name="WorkflowDependencyViewMode_Tree" xml:space="preserve">
+    <value>Tre</value>
+  </data>
+  <data name="WorkflowDirection_In" xml:space="preserve">
+    <value>På</value>
+  </data>
+  <data name="WorkflowDirection_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="WorkflowDirection_Out" xml:space="preserve">
+    <value>Ut</value>
+  </data>
+  <data name="WorkflowItemExtType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="WorkflowItemExtType_AllOther" xml:space="preserve">
+    <value>Alt annet</value>
+  </data>
+  <data name="WorkflowItemExtType_Attachment" xml:space="preserve">
+    <value>Vedlegg</value>
+  </data>
+  <data name="WorkflowItemExtType_Compliance" xml:space="preserve">
+    <value>Samsvar</value>
+  </data>
+  <data name="WorkflowItemExtType_Deviation" xml:space="preserve">
+    <value>Avvik</value>
+  </data>
+  <data name="WorkflowItemExtType_Email" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="WorkflowItemExtType_File" xml:space="preserve">
+    <value>Fil</value>
+  </data>
+  <data name="WorkflowItemExtType_Folder" xml:space="preserve">
+    <value>Mappe</value>
+  </data>
+  <data name="WorkflowItemExtType_HistoryFile" xml:space="preserve">
+    <value>Historikk</value>
+  </data>
+  <data name="WorkflowItemExtType_Meeting" xml:space="preserve">
+    <value>Møte</value>
+  </data>
+  <data name="WorkflowItemExtType_PhoneCall" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="WorkflowItemExtType_Procedure" xml:space="preserve">
+    <value>Prosedyre</value>
+  </data>
+  <data name="WorkflowItemExtType_QuickNote" xml:space="preserve">
+    <value>Quick note</value>
+  </data>
+  <data name="WorkflowItemExtType_Report" xml:space="preserve">
+    <value>Rapport</value>
+  </data>
+  <data name="WorkflowItemExtType_Risk" xml:space="preserve">
+    <value>Risiko</value>
+  </data>
+  <data name="WorkflowItemExtType_SkypeCall" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="WorkflowItemExtType_SMS" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="WorkflowItemExtType_Task" xml:space="preserve">
+    <value>Oppgave</value>
+  </data>
+  <data name="WorkflowItemExtType_TeamTask" xml:space="preserve">
+    <value>Teamoppgave</value>
+  </data>
+  <data name="WorkflowItemFileState_Finished" xml:space="preserve">
+    <value>Ferdig</value>
+  </data>
+  <data name="WorkflowItemFileState_Default" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="WorkflowItemFileState_OnHold" xml:space="preserve">
+    <value>På vent</value>
+  </data>
+  <data name="WorkflowItemFileState_Skipped" xml:space="preserve">
+    <value>Utelatt</value>
+  </data>
+  <data name="WorkflowItemFileStateEx_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="WorkflowItemOwnerType_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="WorkflowItemOwnerType_Article" xml:space="preserve">
+    <value>Artikkel</value>
+  </data>
+  <data name="WorkflowItemOwnerType_Document" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="WorkflowItemOwnerType_DocumentDetail" xml:space="preserve">
+    <value>Dokumentdetaljer</value>
+  </data>
+  <data name="WorkflowItemOwnerType_ImportAndExport" xml:space="preserve">
+    <value>Import og eksport</value>
+  </data>
+  <data name="WorkflowItemOwnerType_Lot" xml:space="preserve">
+    <value>Parti</value>
+  </data>
+  <data name="WorkflowItemOwnerType_OrgUnit" xml:space="preserve">
+    <value>Kunde/lev.</value>
+  </data>
+  <data name="WorkflowItemOwnerType_Project" xml:space="preserve">
+    <value>Prosjekt</value>
+  </data>
+  <data name="WorkflowItemOwnerType_ProjectLine" xml:space="preserve">
+    <value>Prosjektlinje</value>
+  </data>
+  <data name="WorkflowItemOwnerType_User" xml:space="preserve">
+    <value>Bruker</value>
+  </data>
+  <data name="WorkflowItemOwnerType_WorkOrder" xml:space="preserve">
+    <value>Arbeidsordre</value>
+  </data>
+  <data name="WorkflowItemSubtypeCategory_Default" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="WorkflowItemSubtypeCategory_ExternalNote" xml:space="preserve">
+    <value>Z-dok</value>
+  </data>
+  <data name="WorkflowItemSubtypeCategory_Report" xml:space="preserve">
+    <value>Rapport</value>
+  </data>
+  <data name="WorkflowItemSyncType_Draft" xml:space="preserve">
+    <value>Utkast</value>
+  </data>
+  <data name="WorkflowItemSyncType_Failed" xml:space="preserve">
+    <value>Feilet</value>
+  </data>
+  <data name="WorkflowItemSyncType_Inbox" xml:space="preserve">
+    <value>Innboks</value>
+  </data>
+  <data name="WorkflowItemSyncType_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="WorkflowItemSyncType_Sent" xml:space="preserve">
+    <value>Sendt</value>
+  </data>
+  <data name="WorkflowItemSyncType_ToSend" xml:space="preserve">
+    <value>Til sending</value>
+  </data>
+  <data name="WorkflowItemType_Attachment" xml:space="preserve">
+    <value>Vedlegg</value>
+  </data>
+  <data name="WorkflowItemType_Compliance" xml:space="preserve">
+    <value>Samsvar</value>
+  </data>
+  <data name="WorkflowItemType_Deviation" xml:space="preserve">
+    <value>Avvik</value>
+  </data>
+  <data name="WorkflowItemType_Email" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="WorkflowItemType_File" xml:space="preserve">
+    <value>Fil</value>
+  </data>
+  <data name="WorkflowItemType_Folder" xml:space="preserve">
+    <value>Mappe</value>
+  </data>
+  <data name="WorkflowItemType_HistoryFile" xml:space="preserve">
+    <value>Historikk fil</value>
+  </data>
+  <data name="WorkflowItemType_Meeting" xml:space="preserve">
+    <value>Møte</value>
+  </data>
+  <data name="WorkflowItemType_PhoneCall" xml:space="preserve">
+    <value>Tlf</value>
+  </data>
+  <data name="WorkflowItemType_Procedure" xml:space="preserve">
+    <value>Prosedyre</value>
+  </data>
+  <data name="WorkflowItemType_QuickNote" xml:space="preserve">
+    <value>Quick note</value>
+  </data>
+  <data name="WorkflowItemType_Report" xml:space="preserve">
+    <value>Rapport</value>
+  </data>
+  <data name="WorkflowItemType_Risk" xml:space="preserve">
+    <value>Risiko</value>
+  </data>
+  <data name="WorkflowItemType_SkypeCall" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="WorkflowItemType_SMS" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="WorkflowItemType_Task" xml:space="preserve">
+    <value>Oppgave</value>
+  </data>
+  <data name="WorkflowItemType_TeamTask" xml:space="preserve">
+    <value>Teamoppgave</value>
+  </data>
+  <data name="WorkflowLikehood_HighLikely" xml:space="preserve">
+    <value>Høy</value>
+  </data>
+  <data name="WorkflowLikehood_Likely" xml:space="preserve">
+    <value>Moderat/normal</value>
+  </data>
+  <data name="WorkflowLikehood_LowLikehood" xml:space="preserve">
+    <value>Liten</value>
+  </data>
+  <data name="WorkflowLikehood_NearCertainty" xml:space="preserve">
+    <value>I nærheten sikkerhet</value>
+  </data>
+  <data name="WorkflowLikehood_NotLikely" xml:space="preserve">
+    <value>Veldig liten</value>
+  </data>
+  <data name="WorkflowLikehood_NotUsed" xml:space="preserve">
+    <value>Ikke brukt</value>
+  </data>
+  <data name="WorkflowRiskColor_Green" xml:space="preserve">
+    <value>Grønn</value>
+  </data>
+  <data name="WorkflowRiskColor_NotUsed" xml:space="preserve">
+    <value>Ikke brukt</value>
+  </data>
+  <data name="WorkflowRiskColor_Red" xml:space="preserve">
+    <value>Rød</value>
+  </data>
+  <data name="WorkflowRiskColor_Yellow" xml:space="preserve">
+    <value>Gul</value>
+  </data>
+  <data name="WorkflowStatusFilter_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="WorkflowStatusFilter_NotHandled" xml:space="preserve">
+    <value>Ikke behandlet</value>
+  </data>
+  <data name="WorkflowStatusFilter_NotRead" xml:space="preserve">
+    <value>Ikke lest</value>
+  </data>
+  <data name="WorkflowStatusFilter_WaitingForReply" xml:space="preserve">
+    <value>Venter på svar</value>
+  </data>
+  <data name="WorkflowSubtypeKind_Certificate" xml:space="preserve">
+    <value>Sertifikat</value>
+  </data>
+  <data name="WorkflowSubtypeKind_Deviation" xml:space="preserve">
+    <value>Avvik</value>
+  </data>
+  <data name="WorkflowSubtypeKind_Drawing" xml:space="preserve">
+    <value>Tegning</value>
+  </data>
+  <data name="WorkflowSubtypeKind_HSE" xml:space="preserve">
+    <value>HMS</value>
+  </data>
+  <data name="WorkflowSubtypeKind_Image" xml:space="preserve">
+    <value>Bilde</value>
+  </data>
+  <data name="WorkflowSubtypeKind_Improvement" xml:space="preserve">
+    <value>Forbedringer</value>
+  </data>
+  <data name="WorkflowSubtypeKind_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="WorkflowSubtypeKind_Procedure" xml:space="preserve">
+    <value>Prosedyrer</value>
+  </data>
+  <data name="WorkflowSubtypeKind_VendorRequest" xml:space="preserve">
+    <value>Forespørsel leverandør</value>
+  </data>
+  <data name="WorkflowSyncAction_CopyLocal" xml:space="preserve">
+    <value>Kopier lokal</value>
+  </data>
+  <data name="WorkflowSyncAction_CopyToServer" xml:space="preserve">
+    <value>Kopier til server</value>
+  </data>
+  <data name="WorkflowSyncAction_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="WorkflowSyncAction_RemoveFromServer" xml:space="preserve">
+    <value>Fjern fra server</value>
+  </data>
+  <data name="WorkflowSyncAction_RemoveLocal" xml:space="preserve">
+    <value>Fjern lokal</value>
+  </data>
+  <data name="WorkListSourceType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="WorkListSourceType_FromResourceGroup" xml:space="preserve">
+    <value>Fra ressursgruppe</value>
+  </data>
+  <data name="WorkListSourceType_FromTeam" xml:space="preserve">
+    <value>Fra team</value>
+  </data>
+  <data name="WorkListSourceType_MyTasks" xml:space="preserve">
+    <value>Mine oppgaver</value>
+  </data>
+  <data name="WorkOrderState_Draft" xml:space="preserve">
+    <value>Utkast</value>
+  </data>
+  <data name="WorkOrderState_Finished" xml:space="preserve">
+    <value>Ferdig</value>
+  </data>
+  <data name="WorkOrderState_InWork" xml:space="preserve">
+    <value>I arbeid</value>
+  </data>
+  <data name="WorkOrderState_Temporary" xml:space="preserve">
+    <value>Midlertidig</value>
+  </data>
+  <data name="TransactionStatusType_Accepted" xml:space="preserve">
+    <value>Akseptert</value>
+  </data>
+  <data name="TransactionStatusType_PartiallyAccepted" xml:space="preserve">
+    <value>Delvis akseptert</value>
+  </data>
+  <data name="TransactionStatusType_Pending" xml:space="preserve">
+    <value>I påvente av</value>
+  </data>
+  <data name="TransactionStatusType_Rejected" xml:space="preserve">
+    <value>Avvist</value>
+  </data>
+  <data name="RemittanceTypeFull_Abroad" xml:space="preserve">
+    <value>Utlandet</value>
+  </data>
+  <data name="RemittanceTypeFull_Disabled" xml:space="preserve">
+    <value>Deaktivert</value>
+  </data>
+  <data name="RemittanceTypeFull_Inland" xml:space="preserve">
+    <value>Innland</value>
+  </data>
+  <data name="RemittanceProtocolType_Iso20022Ext" xml:space="preserve">
+    <value>ISO 20022 Forlenget</value>
+  </data>
+  <data name="ReportTrackType_No" xml:space="preserve">
+    <value>Nei</value>
+  </data>
+  <data name="ReportTrackType_SaveAndEdit" xml:space="preserve">
+    <value>Logg og redigér</value>
+  </data>
+  <data name="ReportTrackType_SaveOnly" xml:space="preserve">
+    <value>Logg</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_Day" xml:space="preserve">
+    <value>Dag</value>
+  </data>
+  <data name="MenuItemAction_OpenOnlyWorkflow" xml:space="preserve">
+    <value>Vis kun åpne workflow</value>
+  </data>
+  <data name="TimeReportUserFilterType_Persons" xml:space="preserve">
+    <value>Alle personer</value>
+  </data>
+  <data name="PriceRequestSourceState_DraftAndInWork" xml:space="preserve">
+    <value>Utkast og I arbeid</value>
+  </data>
+  <data name="PriceRequestSourceState_InWorkOnly" xml:space="preserve">
+    <value>Kun I arbeid</value>
+  </data>
+  <data name="PriceRequestSourceType_AllProjectLines" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="PriceRequestSourceType_SelectedProjectLines" xml:space="preserve">
+    <value>Prosjektlinjer utvalg</value>
+  </data>
+  <data name="PriceRequestSourceState_DraftOnly" xml:space="preserve">
+    <value>Kun utkast</value>
+  </data>
+  <data name="TimeUnit_Hours" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="TimeUnit_Minutes" xml:space="preserve">
+    <value>Minutter</value>
+  </data>
+  <data name="MenuItemAction_SummaryWorkflow" xml:space="preserve">
+    <value>Vis workflow alle nivå</value>
+  </data>
+  <data name="WorkflowSubtypeKind_OutgoingInvoice" xml:space="preserve">
+    <value>Utgående faktura</value>
+  </data>
+  <data name="ArticleFilterType_Group" xml:space="preserve">
+    <value>Gruppe</value>
+  </data>
+  <data name="ArticleType_Group" xml:space="preserve">
+    <value>Gruppe</value>
+  </data>
+  <data name="ProjectState_Template" xml:space="preserve">
+    <value>Mal</value>
+  </data>
+  <data name="ContentTransferMethod_File" xml:space="preserve">
+    <value>Fil</value>
+  </data>
+  <data name="ContentTransferMethod_FTP" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="ContentTransferMethod_FTP_SSL" xml:space="preserve">
+    <value>FTP over SSL</value>
+  </data>
+  <data name="ContentTransferMethod_SFTP" xml:space="preserve">
+    <value>FTP over SSH (sFTP)</value>
+  </data>
+  <data name="WorkflowSubtypeKind_IncomingInvoice" xml:space="preserve">
+    <value>Inngående faktura</value>
+  </data>
+  <data name="RoleType_Salary" xml:space="preserve">
+    <value>Lønn</value>
+  </data>
+  <data name="PutToStockSourceType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="PutToStockSourceType_Materials" xml:space="preserve">
+    <value>Materialer</value>
+  </data>
+  <data name="PutToStockSourceType_Products" xml:space="preserve">
+    <value>Produkter</value>
+  </data>
+  <data name="MenuItemType_ProjectType" xml:space="preserve">
+    <value>Prosjekttype</value>
+  </data>
+  <data name="UserEmailOutgoingType_ExternalEmailClient" xml:space="preserve">
+    <value>Ekstern epostklient</value>
+  </data>
+  <data name="UserEmailOutgoingType_INTERNAL" xml:space="preserve">
+    <value>INTERN</value>
+  </data>
+  <data name="UserEmailOutgoingType_SMTP" xml:space="preserve">
+    <value>SMTP</value>
+  </data>
+  <data name="WorkflowItemSyncType_SentExternally" xml:space="preserve">
+    <value>Sendt eksternt</value>
+  </data>
+  <data name="OrgUnitRegionType_Default" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="OrgUnitRegionType_OutsideTaxArea" xml:space="preserve">
+    <value>Utenfor avgiftsområdet</value>
+  </data>
+  <data name="ProjectLineType_FutureAssembly" xml:space="preserve">
+    <value>Fremtidig kalkyle</value>
+  </data>
+  <data name="ScriptType_AssemblyLineCreation" xml:space="preserve">
+    <value>Kalkylelinjeopprettelse</value>
+  </data>
+  <data name="ScriptType_ProjectLineCreation" xml:space="preserve">
+    <value>Prosjektlinjeopprettelse</value>
+  </data>
+  <data name="DayType_Freeday" xml:space="preserve">
+    <value>Fridag</value>
+  </data>
+  <data name="DayType_Holiday" xml:space="preserve">
+    <value>Ferie</value>
+  </data>
+  <data name="DayType_Saturday" xml:space="preserve">
+    <value>Lørdag</value>
+  </data>
+  <data name="DayType_Sunday" xml:space="preserve">
+    <value>Søndag</value>
+  </data>
+  <data name="DayType_Workday" xml:space="preserve">
+    <value>Arbeidsdag</value>
+  </data>
+  <data name="PurchaseMaterialSourceType_ProjectLineAssemblies" xml:space="preserve">
+    <value>Prosjektlinje kalkyler</value>
+  </data>
+  <data name="ObjectUIType_Article" xml:space="preserve">
+    <value>Artikkel</value>
+  </data>
+  <data name="ObjectUIType_DocumentHeader" xml:space="preserve">
+    <value>Bilagsdokument</value>
+  </data>
+  <data name="ObjectUIType_DocumentTemplate" xml:space="preserve">
+    <value>Dokumentmal</value>
+  </data>
+  <data name="ObjectUIType_OrgUnit" xml:space="preserve">
+    <value>Kunde/lev.</value>
+  </data>
+  <data name="ObjectUIType_Project" xml:space="preserve">
+    <value>Prosjekt</value>
+  </data>
+  <data name="ObjectUIType_ProjectLine" xml:space="preserve">
+    <value>Prosjektlinje</value>
+  </data>
+  <data name="ObjectUIType_WorkflowItem" xml:space="preserve">
+    <value>Workflow-element</value>
+  </data>
+  <data name="RoleType_Article" xml:space="preserve">
+    <value>Artikler</value>
+  </data>
+  <data name="RoleType_Report" xml:space="preserve">
+    <value>Rapporter</value>
+  </data>
+  <data name="TaxCodeAccountType_IngoingVat" xml:space="preserve">
+    <value>Inngående mva</value>
+  </data>
+  <data name="TaxCodeAccountType_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="TaxCodeAccountType_OutgoingVat" xml:space="preserve">
+    <value>Utgående mva</value>
+  </data>
+  <data name="ControlForSelectionType_Brief" xml:space="preserve">
+    <value>Hurtig</value>
+  </data>
+  <data name="ControlForSelectionType_Default" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="TimeRegisterType_Clock" xml:space="preserve">
+    <value>Klokke</value>
+  </data>
+  <data name="TimeRegisterType_ClockEdited" xml:space="preserve">
+    <value>Klokke redigert</value>
+  </data>
+  <data name="TimeRegisterType_Manual" xml:space="preserve">
+    <value>Manuell</value>
+  </data>
+  <data name="TimeRegisterType_Unknown" xml:space="preserve">
+    <value>Ukjent</value>
+  </data>
+  <data name="OverdueOutgoingInvoiceFilterType_AllOverdue" xml:space="preserve">
+    <value>Alle forfalte</value>
+  </data>
+  <data name="OverdueOutgoingInvoiceFilterType_PendingToRemind" xml:space="preserve">
+    <value>Klare til purring</value>
+  </data>
+  <data name="OverdueOutgoingInvoiceFilterType_SentToDebtCollectors" xml:space="preserve">
+    <value>Sendt til inkasso</value>
+  </data>
+  <data name="OverdueOutgoingInvoiceFilterType_Stopped" xml:space="preserve">
+    <value>Stoppet</value>
+  </data>
+  <data name="OverdueOutgoingInvoiceFilterType_NotToRemind" xml:space="preserve">
+    <value>Skal ikke purres</value>
+  </data>
+  <data name="StdDocumentTypes_Reminder" xml:space="preserve">
+    <value>Purring</value>
+  </data>
+  <data name="MaterialListSourceType_ProjectLines" xml:space="preserve">
+    <value>Prosjektlinjer</value>
+  </data>
+  <data name="MaterialListSourceType_WorkOrders" xml:space="preserve">
+    <value>Arbeidsordre materialer</value>
+  </data>
+  <data name="WorkOrderStatusFilter_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="WorkOrderStatusFilter_Draft" xml:space="preserve">
+    <value>Utkast</value>
+  </data>
+  <data name="WorkOrderStatusFilter_InWork" xml:space="preserve">
+    <value>I arbeid</value>
+  </data>
+  <data name="PlanningStrategyWithoutDefault_ASAP" xml:space="preserve">
+    <value>ASAP</value>
+  </data>
+  <data name="PlanningStrategyWithoutDefault_JIT" xml:space="preserve">
+    <value>JIT</value>
+  </data>
+  <data name="PlanningStrategy_ASAP" xml:space="preserve">
+    <value>ASAP</value>
+  </data>
+  <data name="PlanningStrategy_Default" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="PlanningStrategy_JIT" xml:space="preserve">
+    <value>JIT</value>
+  </data>
+  <data name="PlanningStrategyWithoutDefault_Unknown" xml:space="preserve">
+    <value>Ukjent</value>
+  </data>
+  <data name="TaskStateTypeEx_Controlled" xml:space="preserve">
+    <value>Kontrollert</value>
+  </data>
+  <data name="TaskStateTypeEx_Done" xml:space="preserve">
+    <value>Utført</value>
+  </data>
+  <data name="TaskStateTypeEx_Failed" xml:space="preserve">
+    <value>Avbrutt</value>
+  </data>
+  <data name="TaskStateTypeEx_InProcess" xml:space="preserve">
+    <value>I arbeid</value>
+  </data>
+  <data name="TaskStateTypeEx_OnHold" xml:space="preserve">
+    <value>På vent</value>
+  </data>
+  <data name="TaskStateTypeEx_Preparing" xml:space="preserve">
+    <value>Forbereder</value>
+  </data>
+  <data name="TaskStateTypeEx_Skipped" xml:space="preserve">
+    <value>Utelatt</value>
+  </data>
+  <data name="TaskStateTypeEx_WorkList" xml:space="preserve">
+    <value>Arbeidsliste</value>
+  </data>
+  <data name="TaskStateType_OnHold" xml:space="preserve">
+    <value>På vent</value>
+  </data>
+  <data name="TaskStateType_Unknown" xml:space="preserve">
+    <value>Ukjent</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_Hour" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="OutgoingInvoiceExportType_UniEconomyComplete" xml:space="preserve">
+    <value>Uni Økonomi komplett</value>
+  </data>
+  <data name="OutgoingInvoiceExportType_UniEconomySimple" xml:space="preserve">
+    <value>Uni Økonomi enkelt</value>
+  </data>
+  <data name="SalaryExportType_HuldtLillevikV1" xml:space="preserve">
+    <value>Huldt &amp; Lillevik v1</value>
+  </data>
+  <data name="SalaryExportType_HuldtLillevikV2" xml:space="preserve">
+    <value>Huldt &amp; Lillevik v2</value>
+  </data>
+  <data name="PurchaseMaterialViewMode_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="PurchaseMaterialViewMode_Proposed" xml:space="preserve">
+    <value>Forslag</value>
+  </data>
+  <data name="CopyWorkflowSubtypeType_Copy" xml:space="preserve">
+    <value>Kopiér</value>
+  </data>
+  <data name="CopyWorkflowSubtypeType_No" xml:space="preserve">
+    <value>Ikke kopiér</value>
+  </data>
+  <data name="CopyWorkflowType_Copy" xml:space="preserve">
+    <value>Kopiér</value>
+  </data>
+  <data name="CopyWorkflowType_Default" xml:space="preserve">
+    <value>Bruk standard</value>
+  </data>
+  <data name="CopyWorkflowType_No" xml:space="preserve">
+    <value>Ikke kopiér</value>
+  </data>
+  <data name="DateFormat_CustomMask" xml:space="preserve">
+    <value>Datoformat egendefinert</value>
+  </data>
+  <data name="DateFormat_LongDate" xml:space="preserve">
+    <value>Langt datoformat</value>
+  </data>
+  <data name="DateFormat_MonthDay" xml:space="preserve">
+    <value>"Dag Måned" datoformat</value>
+  </data>
+  <data name="DateFormat_ShortDate" xml:space="preserve">
+    <value>Kort datoformat</value>
+  </data>
+  <data name="DateFormat_YearMonth" xml:space="preserve">
+    <value>"Måned År" datoformat</value>
+  </data>
+  <data name="TimeFormat_CustomMask" xml:space="preserve">
+    <value>Tidsformat egendefinert</value>
+  </data>
+  <data name="TimeFormat_LongTime" xml:space="preserve">
+    <value>Langt tidsformat</value>
+  </data>
+  <data name="TimeFormat_ShortTime" xml:space="preserve">
+    <value>Kort tidsformat</value>
+  </data>
+  <data name="WorkflowItemFileState_PendingHandling" xml:space="preserve">
+    <value>Avventer behandling</value>
+  </data>
+  <data name="WorkflowEdiFilter_Archive" xml:space="preserve">
+    <value>Arkiv</value>
+  </data>
+  <data name="WorkflowEdiFilter_ForApproval" xml:space="preserve">
+    <value>Til godkjenning</value>
+  </data>
+  <data name="WorkflowEdiFilter_New" xml:space="preserve">
+    <value>Ikke behandlet</value>
+  </data>
+  <data name="WorkflowEdiFilter_OnHold" xml:space="preserve">
+    <value>På vent</value>
+  </data>
+  <data name="WorkflowEdiFilter_PendingHandling" xml:space="preserve">
+    <value>Avventer behandling</value>
+  </data>
+  <data name="WorkflowEdiFilter_Skipped" xml:space="preserve">
+    <value>Utelatt</value>
+  </data>
+  <data name="WorkflowItemFileType_Image" xml:space="preserve">
+    <value>Bilde</value>
+  </data>
+  <data name="WorkflowItemFileType_IncomingPayment" xml:space="preserve">
+    <value>Innbetalinger</value>
+  </data>
+  <data name="WorkflowItemFileType_OutgoingInvoiceExport" xml:space="preserve">
+    <value>Eksport av utgående faktura</value>
+  </data>
+  <data name="WorkflowItemFileType_PaymentConfirmation" xml:space="preserve">
+    <value>Betalingsbekreftelse</value>
+  </data>
+  <data name="WorkflowItemFileType_PaymentInitiation" xml:space="preserve">
+    <value>Betalingsinitiering</value>
+  </data>
+  <data name="WorkflowItemFileType_PaymentStatusReport" xml:space="preserve">
+    <value>Betalingsstatusrapport</value>
+  </data>
+  <data name="WorkflowItemFileType_PdfDocument" xml:space="preserve">
+    <value>PDF-dokument</value>
+  </data>
+  <data name="WorkflowItemFileType_Presentation" xml:space="preserve">
+    <value>Presentasjon</value>
+  </data>
+  <data name="WorkflowItemFileType_SalaryExport" xml:space="preserve">
+    <value>Lønnseksport</value>
+  </data>
+  <data name="WorkflowItemFileType_Spreadsheet" xml:space="preserve">
+    <value>Regneark</value>
+  </data>
+  <data name="WorkflowItemFileType_EhfInvoice" xml:space="preserve">
+    <value>EHF Faktura</value>
+  </data>
+  <data name="WorkflowItemFileType_Unknown" xml:space="preserve">
+    <value>Ukjent</value>
+  </data>
+  <data name="WorkflowItemFileType_WordDocument" xml:space="preserve">
+    <value>Word-dokument</value>
+  </data>
+  <data name="WorkflowItemFileType_Diagram" xml:space="preserve">
+    <value>Diagram</value>
+  </data>
+  <data name="WorkflowItemFileType_Media" xml:space="preserve">
+    <value>Mediefil</value>
+  </data>
+  <data name="WorkflowItemFileType_EMailMessage" xml:space="preserve">
+    <value>E-postmelding</value>
+  </data>
+  <data name="ContentTransferMethod_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="WorkflowItemFileType_EhfCatalog" xml:space="preserve">
+    <value>EHF Katalog</value>
+  </data>
+  <data name="WorkflowItemFileType_EhfCatalogResponse" xml:space="preserve">
+    <value>EHF Katalogrespons</value>
+  </data>
+  <data name="WorkflowItemFileType_EhfOrder" xml:space="preserve">
+    <value>EHF Ordre</value>
+  </data>
+  <data name="WorkflowItemFileType_EhfOrderResponse" xml:space="preserve">
+    <value>EHF Ordrerespons</value>
+  </data>
+  <data name="ObjectUIType_MeasurementLogTemplate" xml:space="preserve">
+    <value>Målebrev mal</value>
+  </data>
+  <data name="WorkflowItemFileType_Html" xml:space="preserve">
+    <value>HTML-fil</value>
+  </data>
+  <data name="WorkflowItemFileType_Text" xml:space="preserve">
+    <value>Tekstfil</value>
+  </data>
+  <data name="PurchaseMaterialGroupType_DoNotGroup" xml:space="preserve">
+    <value>Ikke gruppér</value>
+  </data>
+  <data name="PurchaseMaterialGroupType_Group" xml:space="preserve">
+    <value>Gruppér</value>
+  </data>
+  <data name="PurchaseMaterialGroupType_GroupWithoutDescription" xml:space="preserve">
+    <value>Gruppér ekskl. beskrivelse</value>
+  </data>
+  <data name="ImportAndExportType_Tolerance" xml:space="preserve">
+    <value>Toleranser</value>
+  </data>
+  <data name="StockPlanningType_DoNotUse" xml:space="preserve">
+    <value>Ikke bruk</value>
+  </data>
+  <data name="StockPlanningType_Production" xml:space="preserve">
+    <value>Lagerproduksjon</value>
+  </data>
+  <data name="StockPlanningType_Purchase" xml:space="preserve">
+    <value>Inkjøp</value>
+  </data>
+  <data name="StockPlanningType_Request" xml:space="preserve">
+    <value>Forespørsel</value>
+  </data>
+  <data name="StockPlanningType_RequestBudget" xml:space="preserve">
+    <value>Budsjett</value>
+  </data>
+  <data name="RoleType_DocumentCenter" xml:space="preserve">
+    <value>Dokumentsenter</value>
+  </data>
+  <data name="StdDocumentTypes_WipChanges" xml:space="preserve">
+    <value>VIA endring</value>
+  </data>
+  <data name="WorkflowSubtypeKind_IncomingCreditNote" xml:space="preserve">
+    <value>Inngående kreditnota</value>
+  </data>
+  <data name="WorkflowSubtypeKind_OutgoingCreditNote" xml:space="preserve">
+    <value>Utgående kreditnota</value>
+  </data>
+  <data name="DocumentSyncStatusType_NotNeeded" xml:space="preserve">
+    <value>Ikke nødvendig</value>
+  </data>
+  <data name="WorkflowItemFileType_ASiC" xml:space="preserve">
+    <value>ASiC-beholder</value>
+  </data>
+  <data name="PlanStockSourceMode_Sales" xml:space="preserve">
+    <value>Salg</value>
+  </data>
+  <data name="PlanStockSourceMode_SalesBudget" xml:space="preserve">
+    <value>Salgsbudsjett</value>
+  </data>
+  <data name="PlanStockSourceMode_StockProduction" xml:space="preserve">
+    <value>Lagerproduksjon</value>
+  </data>
+  <data name="UserType_Support" xml:space="preserve">
+    <value>Brukerstøtte</value>
+  </data>
+  <data name="PurchaseMaterialViewMode_Gross" xml:space="preserve">
+    <value>Brutto</value>
+  </data>
+  <data name="YesNoDefault_Default" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="YesNoDefault_No" xml:space="preserve">
+    <value>Nei</value>
+  </data>
+  <data name="YesNoDefault_Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="OutgoingInvoiceExportType_SveaEkonomi" xml:space="preserve">
+    <value>Svea Finans</value>
+  </data>
+  <data name="MenuItemCategory_BuiltIn" xml:space="preserve">
+    <value>Innebygd</value>
+  </data>
+  <data name="MenuItemCategory_Default" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="MenuItemCategory_UserDefined" xml:space="preserve">
+    <value>Brukerdefinert</value>
+  </data>
+  <data name="DayOfWeek_Friday" xml:space="preserve">
+    <value>Fredag</value>
+  </data>
+  <data name="DayOfWeek_Monday" xml:space="preserve">
+    <value>Mandag</value>
+  </data>
+  <data name="DayOfWeek_Saturday" xml:space="preserve">
+    <value>Lørdag</value>
+  </data>
+  <data name="DayOfWeek_Sunday" xml:space="preserve">
+    <value>Søndag</value>
+  </data>
+  <data name="DayOfWeek_Thursday" xml:space="preserve">
+    <value>Torsdag</value>
+  </data>
+  <data name="DayOfWeek_Tuesday" xml:space="preserve">
+    <value>Tirsdag</value>
+  </data>
+  <data name="DayOfWeek_Wednesday" xml:space="preserve">
+    <value>Onsdag</value>
+  </data>
+  <data name="NotificationType_ApprovalChange" xml:space="preserve">
+    <value>Godkjenningsstatus endret</value>
+  </data>
+  <data name="NotificationType_ApprovalNew" xml:space="preserve">
+    <value>Ny godkjenning</value>
+  </data>
+  <data name="NotificationType_EmailFail" xml:space="preserve">
+    <value>E-post sending feilet</value>
+  </data>
+  <data name="NotificationType_EmailNew" xml:space="preserve">
+    <value>Ny e-post</value>
+  </data>
+  <data name="NotificationType_ObjectChange" xml:space="preserve">
+    <value>Objekt endret</value>
+  </data>
+  <data name="NotificationType_SystemMessage" xml:space="preserve">
+    <value>Systemmelding</value>
+  </data>
+  <data name="NotificationType_TaskNew" xml:space="preserve">
+    <value>Ny oppgave</value>
+  </data>
+  <data name="NotificationType_UserMessage" xml:space="preserve">
+    <value>Brukermelding</value>
+  </data>
+  <data name="ObjectUIType_ArticleGroup" xml:space="preserve">
+    <value>Artikkelgruppe</value>
+  </data>
+  <data name="ObjectUIType_ProjectGroup" xml:space="preserve">
+    <value>Prosjektgruppe</value>
+  </data>
+  <data name="NotificationType_ObjectAssign" xml:space="preserve">
+    <value>Objekt tilordnet</value>
+  </data>
+  <data name="NotificationShowMethod_AlertForm" xml:space="preserve">
+    <value>Zigma360 varsler</value>
+  </data>
+  <data name="NotificationShowMethod_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="NotificationShowMethod_Toast" xml:space="preserve">
+    <value>Windows varsler</value>
+  </data>
+  <data name="NotificationStatus_New" xml:space="preserve">
+    <value>Ny</value>
+  </data>
+  <data name="NotificationStatus_Read" xml:space="preserve">
+    <value>Lest</value>
+  </data>
+  <data name="NotificationStatus_Sent" xml:space="preserve">
+    <value>Sendt</value>
+  </data>
+  <data name="GroupDateByType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="GroupDateByType_Day" xml:space="preserve">
+    <value>Dag</value>
+  </data>
+  <data name="GroupDateByType_Month" xml:space="preserve">
+    <value>Måned</value>
+  </data>
+  <data name="GroupDateByType_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="GroupDateByType_Quarter" xml:space="preserve">
+    <value>Kvartal</value>
+  </data>
+  <data name="GroupDateByType_Year" xml:space="preserve">
+    <value>År</value>
+  </data>
+  <data name="ApproveState_Partial" xml:space="preserve">
+    <value>Delvis</value>
+  </data>
+  <data name="WorkflowItemFileType_SaftFinancialExport" xml:space="preserve">
+    <value>SAF-T Finansiell Eksport</value>
+  </data>
+  <data name="WorkflowSubtypeKind_SaftExport" xml:space="preserve">
+    <value>SAF-T Eksport</value>
+  </data>
+  <data name="OutgoingInvoiceExportType_VismaBusiness" xml:space="preserve">
+    <value>Visma Business</value>
+  </data>
+  <data name="SalaryExportType_VismaPayroll" xml:space="preserve">
+    <value>Visma Lønn</value>
+  </data>
+  <data name="OutgoingInvoiceExportType_XledgerGBAT10" xml:space="preserve">
+    <value>Xledger-GBAT10</value>
+  </data>
+  <data name="SalaryCodeFilterType_Absence" xml:space="preserve">
+    <value>Fravær</value>
+  </data>
+  <data name="SalaryCodeFilterType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="SalaryCodeFilterType_Payment" xml:space="preserve">
+    <value>Lønnet</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Day" xml:space="preserve">
+    <value>Dag</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Gram" xml:space="preserve">
+    <value>Gram</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Hour" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Kilogram" xml:space="preserve">
+    <value>Kilogram</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Liter" xml:space="preserve">
+    <value>Liter</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Millimeter" xml:space="preserve">
+    <value>Millimeter</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Minute" xml:space="preserve">
+    <value>Minutt</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Second" xml:space="preserve">
+    <value>Sekund</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Ton" xml:space="preserve">
+    <value>Tonn</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_UnitsPerHour" xml:space="preserve">
+    <value>Enheter per time</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_UnitsPerMinute" xml:space="preserve">
+    <value>Enheter per minutt</value>
+  </data>
+  <data name="WorkflowItemFileType_VatReportExport" xml:space="preserve">
+    <value>MVA-meldingen Eksport</value>
+  </data>
+  <data name="ImportAndExportType_PriceList" xml:space="preserve">
+    <value>Prislister</value>
+  </data>
+  <data name="ImportAndExportType_BeginRestsDocumentLine" xml:space="preserve">
+    <value>Dokumentlinje</value>
+  </data>
+  <data name="ImportAndExportType_JournalEntryDocumentLine" xml:space="preserve">
+    <value>Dokumentlinje</value>
+  </data>
+  <data name="WorkPackageType_Operation" xml:space="preserve">
+    <value>Operasjon</value>
+  </data>
+  <data name="WorkPackageType_WorkOrder" xml:space="preserve">
+    <value>Arbeidsordre</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_Article" xml:space="preserve">
+    <value>Artikkel</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_Lot" xml:space="preserve">
+    <value>Parti/lot</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_OrgUnit" xml:space="preserve">
+    <value>Firma</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_Project" xml:space="preserve">
+    <value>Prosjekt</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_ProjectLine" xml:space="preserve">
+    <value>Prosjektlinje</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_SpecificationListRow" xml:space="preserve">
+    <value>Spesifikasjonsliste</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_User" xml:space="preserve">
+    <value>Bruker</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_VendorArticle" xml:space="preserve">
+    <value>Leverandørartikkel</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_WorkflowItem" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_SettingsTyped" xml:space="preserve">
+    <value>Systeminnstillinger</value>
+  </data>
+  <data name="EditFormat_Boolean" xml:space="preserve">
+    <value>Boolsk</value>
+  </data>
+  <data name="EditFormat_Date" xml:space="preserve">
+    <value>Dato</value>
+  </data>
+  <data name="EditFormat_DateTime" xml:space="preserve">
+    <value>Dato med tid</value>
+  </data>
+  <data name="EditFormat_Decimal" xml:space="preserve">
+    <value>Desimal</value>
+  </data>
+  <data name="EditFormat_Integer" xml:space="preserve">
+    <value>Heltall</value>
+  </data>
+  <data name="EditFormat_Percent" xml:space="preserve">
+    <value>Prosent</value>
+  </data>
+  <data name="EditFormat_Price" xml:space="preserve">
+    <value>Pris</value>
+  </data>
+  <data name="EditFormat_Quantity" xml:space="preserve">
+    <value>Mengde</value>
+  </data>
+  <data name="EditFormat_String" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="EditFormat_Time" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="ScriptType_WorkPackageDetailsImporter" xml:space="preserve">
+    <value>Arbeidspakkedetaljer importør</value>
+  </data>
+  <data name="ProjectLineType_Adjustment" xml:space="preserve">
+    <value>Justering</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="TimeRegisterClient_Desktop" xml:space="preserve">
+    <value>Desktop</value>
+  </data>
+  <data name="TimeRegisterClient_Mixed" xml:space="preserve">
+    <value>Blandet</value>
+  </data>
+  <data name="TimeRegisterClient_Mobile" xml:space="preserve">
+    <value>Mobil</value>
+  </data>
+  <data name="TimeRegisterClient_NotSpecified" xml:space="preserve">
+    <value>Ikke spesifisert</value>
+  </data>
+  <data name="TimeRegisterClient_Server" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="WorkflowItemOwnerType_WorkPackage" xml:space="preserve">
+    <value>Arbeidspakke</value>
+  </data>
+  <data name="ScriptType_ArticleDetailsImporter" xml:space="preserve">
+    <value>Artikkeldetaljer importør</value>
+  </data>
+  <data name="ScriptType_ProjectDetailsImporter" xml:space="preserve">
+    <value>Prosjektdetaljer importør</value>
+  </data>
+  <data name="ScriptType_ProjectLineDetailsImporter" xml:space="preserve">
+    <value>Prosjektlinjedetaljer importør</value>
+  </data>
+  <data name="ScriptType_LotDetailsImporter" xml:space="preserve">
+    <value>Lot detaljer importør</value>
+  </data>
+  <data name="OAuthProviderType_Authentication" xml:space="preserve">
+    <value>Autentisering</value>
+  </data>
+  <data name="OAuthProviderType_EmailHandling" xml:space="preserve">
+    <value>E-posthåndtering</value>
+  </data>
+  <data name="UserFilterType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="CustomReportCategory_Administrating" xml:space="preserve">
+    <value>Grunnoppsett</value>
+  </data>
+  <data name="CustomReportCategory_Bookkeeping" xml:space="preserve">
+    <value>Regnskap</value>
+  </data>
+  <data name="CustomReportCategory_ExecutiveManagement" xml:space="preserve">
+    <value>Ledelse</value>
+  </data>
+  <data name="CustomReportCategory_Work" xml:space="preserve">
+    <value>Arbeid</value>
+  </data>
+  <data name="TimeRecordFilterType_AllRunningMachines" xml:space="preserve">
+    <value>Alle kjørende maskiner</value>
+  </data>
+  <data name="ProjectScheduleStatus_Finished" xml:space="preserve">
+    <value>Ferdig</value>
+  </data>
+  <data name="ScheduleStatus_Finished" xml:space="preserve">
+    <value>Ferdig</value>
+  </data>
+  <data name="StateForArticleTrackingType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="StateForArticleTrackingType_NotFinished" xml:space="preserve">
+    <value>Utkast og I arbeid</value>
+  </data>
+  <data name="PurchaseMaterialStockMaterialType_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="PurchaseMaterialStockMaterialType_ProjectMaterialsOnly" xml:space="preserve">
+    <value>Prosjektmaterialer</value>
+  </data>
+  <data name="PurchaseMaterialStockMaterialType_StockMaterialsOnly" xml:space="preserve">
+    <value>Lagermaterialer</value>
+  </data>
+  <data name="RoleType_GenericAccess" xml:space="preserve">
+    <value>Tilgang</value>
+  </data>
+  <data name="WorkflowItemOwnerType_WorkflowItemSubtype" xml:space="preserve">
+    <value>Workflow-subtype</value>
+  </data>
+  <data name="SecureContainerType_ASiCe" xml:space="preserve">
+    <value>ASiCe</value>
+  </data>
+  <data name="SecureContainerType_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="SecureContainerType_SecureEnvelope" xml:space="preserve">
+    <value>Sikker konvolutt</value>
+  </data>
+  <data name="WorkflowItemSyncType_Sending" xml:space="preserve">
+    <value>Sender</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_InventoryBalance" xml:space="preserve">
+    <value>Lagermengde</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_PurchaseToProject" xml:space="preserve">
+    <value>Innkjøp til prosjekt</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_PurchaseToStock" xml:space="preserve">
+    <value>Innkjøp til lager</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_SaleFromStock" xml:space="preserve">
+    <value>Salg fra lager</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_SaleOther" xml:space="preserve">
+    <value>Salg annet</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_SaleProduct" xml:space="preserve">
+    <value>Salg av produkt</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_SalePurchased" xml:space="preserve">
+    <value>Salg innkjøpt</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_StockProduction" xml:space="preserve">
+    <value>Lagerproduksjon</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_UseProjectMaterial" xml:space="preserve">
+    <value>Prosjektmateriale i materialliste</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_UseStockMaterial" xml:space="preserve">
+    <value>Lagermateriale i materialliste</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_MeasurementLogLine" xml:space="preserve">
+    <value>Målebrev</value>
+  </data>
+  <data name="ArticleType_Payment" xml:space="preserve">
+    <value>Betaling</value>
+  </data>
+  <data name="AssemblyCostType_Article" xml:space="preserve">
+    <value>Artikkel</value>
+  </data>
+  <data name="AssemblyCostType_Fixed" xml:space="preserve">
+    <value>Faste</value>
+  </data>
+  <data name="AssemblyCostType_FromPriceList" xml:space="preserve">
+    <value>Fra prisliste</value>
+  </data>
+  <data name="CustomFieldTableType_Article" xml:space="preserve">
+    <value>Artikkel</value>
+  </data>
+  <data name="CustomFieldTableType_OrderLine" xml:space="preserve">
+    <value>Ordrelinje</value>
+  </data>
+  <data name="CustomFieldTableType_OrgUnit" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="CustomFieldTableType_User" xml:space="preserve">
+    <value>Bruker</value>
+  </data>
+  <data name="DeliveryMethod_Airline" xml:space="preserve">
+    <value>Fly</value>
+  </data>
+  <data name="DeliveryMethod_Boat" xml:space="preserve">
+    <value>Båt</value>
+  </data>
+  <data name="DeliveryMethod_MailPackage" xml:space="preserve">
+    <value>Postpakke</value>
+  </data>
+  <data name="DeliveryMethod_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="DeliveryMethod_Railway" xml:space="preserve">
+    <value>Tog</value>
+  </data>
+  <data name="DeliveryMethod_Truck" xml:space="preserve">
+    <value>Bil</value>
+  </data>
+  <data name="ProjectLineState_PurchaseCreated" xml:space="preserve">
+    <value>Innkjøp opprettet</value>
+  </data>
+  <data name="ProjectLineState_ReadyForWork" xml:space="preserve">
+    <value>Klar til arbeid</value>
+  </data>
+  <data name="ProjectLineType_Payment" xml:space="preserve">
+    <value>Betaling</value>
+  </data>
+  <data name="ProjectState_ContractOrder" xml:space="preserve">
+    <value>Kontraktordre</value>
+  </data>
+  <data name="ProjectState_ContractOrders" xml:space="preserve">
+    <value>Kontraktordre</value>
+  </data>
+  <data name="ProjectState_Offers" xml:space="preserve">
+    <value>Tilbud</value>
+  </data>
+  <data name="ProjectType_MarketingAndPromotions" xml:space="preserve">
+    <value>Markedsføring og kampanjer</value>
+  </data>
+  <data name="WorkflowItemExtType_WorkOrder" xml:space="preserve">
+    <value>Arbeidsordre</value>
+  </data>
+  <data name="WorkflowRisk_Green" xml:space="preserve">
+    <value>Grønn</value>
+  </data>
+  <data name="WorkflowRisk_Red" xml:space="preserve">
+    <value>Rød</value>
+  </data>
+  <data name="WorkflowRisk_Yellow" xml:space="preserve">
+    <value>Gul</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_CuttingSource" xml:space="preserve">
+    <value>Kutte-kilde</value>
+  </data>
+  <data name="WorkOrderAllowedState_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="WorkOrderAllowedState_Draft" xml:space="preserve">
+    <value>Utkast</value>
+  </data>
+  <data name="WorkOrderAllowedState_InWork" xml:space="preserve">
+    <value>I arbeid</value>
+  </data>
+  <data name="WorkOrderAllowedState_Finished" xml:space="preserve">
+    <value>Ferdig</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_PriceListArticle" xml:space="preserve">
+    <value>Prisliste artikler</value>
+  </data>
+  <data name="ControlForSelectionType_Search" xml:space="preserve">
+    <value>Søk</value>
+  </data>
+  <data name="SalaryTimeImportType_Total" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="SalaryTimeImportType_TotalNoOvertime" xml:space="preserve">
+    <value>Ordinær tid</value>
+  </data>
+  <data name="ArticleFilterType_TemplateProduct" xml:space="preserve">
+    <value>Produktmal</value>
+  </data>
+  <data name="ArticleType_TemplateProduct" xml:space="preserve">
+    <value>Produktmal</value>
+  </data>
+  <data name="EmissionFactorPerType_Kilogram" xml:space="preserve">
+    <value>Kilogram</value>
+  </data>
+  <data name="EmissionFactorPerType_MainUnit" xml:space="preserve">
+    <value>Hovedenhet</value>
+  </data>
+  <data name="SystemActionType_UpdateCurrencyRates" xml:space="preserve">
+    <value>Oppdatér valutakurser</value>
+  </data>
+  <data name="SystemActionType_BatchOperation" xml:space="preserve">
+    <value>Batchoperasjon</value>
+  </data>
+  <data name="TransactionMatchType_Manual" xml:space="preserve">
+    <value>Manuell</value>
+  </data>
+  <data name="TransactionMatchType_None" xml:space="preserve">
+    <value>Ikke matchet</value>
+  </data>
+  <data name="TransactionMatchType_SystemRule" xml:space="preserve">
+    <value>Systemregel</value>
+  </data>
+  <data name="WorkflowItemFileType_BankStatement" xml:space="preserve">
+    <value>Kontoutskrift</value>
+  </data>
+</root>

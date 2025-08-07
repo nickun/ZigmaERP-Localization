@@ -1,0 +1,839 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountAccrualIsnotSpecifiedForAccountLineNumber" xml:space="preserve">
+    <value>The accrual account is not specified for the accounting line number {0}</value>
+  </data>
+  <data name="AccountCreditIsnotSpecifiedForAccountLineNumber" xml:space="preserve">
+    <value>The credit account is not specified for the accounting line number {0}</value>
+  </data>
+  <data name="AccountDebitIsnotSpecifiedForAccountLineNumber" xml:space="preserve">
+    <value>The debit account is not specified for the accounting line number {0}</value>
+  </data>
+  <data name="AvailableQuantityLessThanNeeded" xml:space="preserve">
+    <value>The available quantity is less than needed.</value>
+  </data>
+  <data name="CannotInsertDuplicateKeyValue" xml:space="preserve">
+    <value>The duplicate key value ({0}) cannot be inserted</value>
+  </data>
+  <data name="CantAddUserWithExistingName" xml:space="preserve">
+    <value>Username cannot be duplicated. A user with this username has already been registered.</value>
+  </data>
+  <data name="CantAddUserWithExistingNumber" xml:space="preserve">
+    <value>A user with existing usernumber cannot be added</value>
+  </data>
+  <data name="CantChangeProjectState" xml:space="preserve">
+    <value>Project status cannot be changed</value>
+  </data>
+  <data name="CantDeleteAccountWithBalance" xml:space="preserve">
+    <value>Account cannot be deleted because of its balance</value>
+  </data>
+  <data name="CantDeleteItem" xml:space="preserve">
+    <value>Item cannot be deleted</value>
+  </data>
+  <data name="CantDeleteOperationsUsesInTimeRecords" xml:space="preserve">
+    <value>Operation cannot be deleted. \r\nIt is used in time record(s)</value>
+  </data>
+  <data name="CantFindOUWithNumber" xml:space="preserve">
+    <value>Organization unit number is not found</value>
+  </data>
+  <data name="CantRemoveObjectObjectUsesInTimeRecords" xml:space="preserve">
+    <value>Record cannot be deleted. It is used in time record(s)</value>
+  </data>
+  <data name="CantSaveAccountWithExistingCode" xml:space="preserve">
+    <value>Duplicate account code is not allowed. Saving of account failed</value>
+  </data>
+  <data name="CantSaveItem" xml:space="preserve">
+    <value>Item cannot be saved</value>
+  </data>
+  <data name="CantSaveObjectAllChildrenMustBeClosed" xml:space="preserve">
+    <value>Object cannot be saved.\r\nAll subprojects must be closed</value>
+  </data>
+  <data name="CantSaveObjectNotClosedDeviationsExistsForThisProject" xml:space="preserve">
+    <value>Object cannot be saved.\r\nThere are unhandled deviations related to this project or to all sub levels</value>
+  </data>
+  <data name="CantSaveOrgUnitAddress" xml:space="preserve">
+    <value>Organization unit address cannot be saved</value>
+  </data>
+  <data name="CantSavePostIndex" xml:space="preserve">
+    <value>Postal index cannot be saved</value>
+  </data>
+  <data name="CantSaveSubscription" xml:space="preserve">
+    <value>Subscription cannot be saved</value>
+  </data>
+  <data name="CantSaveUserWithExistingName" xml:space="preserve">
+    <value>Username cannot be duplicated.\r\nA user with this username has already been registered.</value>
+  </data>
+  <data name="CantSaveUserWithExistingNumber" xml:space="preserve">
+    <value>Usernumber cannot be duplicated.\r\nA user with this usernumber has already been registered.</value>
+  </data>
+  <data name="CantUpdateArticlePriceListPrice" xml:space="preserve">
+    <value>Pricelist price of article cannot be updated</value>
+  </data>
+  <data name="CustomerMustBeSpecified" xml:space="preserve">
+    <value>Specifying a customer is obligatory</value>
+  </data>
+  <data name="DatabaseCreationIsNotAllowed" xml:space="preserve">
+    <value>Database creation is not allowed.</value>
+  </data>
+  <data name="DayCommentForThisDateAlreadyExists" xml:space="preserve">
+    <value>Day comment has already been written for this date</value>
+  </data>
+  <data name="DBCreationError" xml:space="preserve">
+    <value>Database creation error.\r\n {0}</value>
+  </data>
+  <data name="DebitAndCreditDoNotMatch" xml:space="preserve">
+    <value>Debit and credit do not match</value>
+  </data>
+  <data name="DeviationTaskCantBeClosedDirectly" xml:space="preserve">
+    <value>The deviation task cannot be closed closed immedately.\r\nIt is required to close the corresponding deviation project first.\r\nA deviation task can be closed if there is no devation project connected with it.</value>
+  </data>
+  <data name="DocumentDate" xml:space="preserve">
+    <value>Document: {0}\r\nDate: {1}</value>
+  </data>
+  <data name="DocumentDetailsMustHaveRefToIIJournalLine" xml:space="preserve">
+    <value>Document details must have a reference to the 'Income invoice' journal line!</value>
+  </data>
+  <data name="DocumentDetailsMustHaveRefToOIJournalLine" xml:space="preserve">
+    <value>Document details must have a reference to the 'Outgo invoice' journal line!</value>
+  </data>
+  <data name="DocumentFromTo" xml:space="preserve">
+    <value>Document: {0}\r\nFrom: {1}, To: {2}</value>
+  </data>
+  <data name="DocumentId" xml:space="preserve">
+    <value>Document Id: {0}</value>
+  </data>
+  <data name="Exception" xml:space="preserve">
+    <value>An error occurred: {0}</value>
+  </data>
+  <data name="FollowingUnitsOfVANotSpecified" xml:space="preserve">
+    <value>The following measurement units of vendor article are not specified in article: {0}</value>
+  </data>
+  <data name="GlobalGovermentPaymentAccountIsNotSpecified" xml:space="preserve">
+    <value>Global goverment payment account is not specified</value>
+  </data>
+  <data name="IncorrectPeriod" xml:space="preserve">
+    <value>Incorrect period</value>
+  </data>
+  <data name="InvalidOperationException" xml:space="preserve">
+    <value>InvalidOperationException</value>
+  </data>
+  <data name="LandingPageNotSpecified" xml:space="preserve">
+    <value>Landing page is empty in project</value>
+  </data>
+  <data name="NoLandingPageWithThisId" xml:space="preserve">
+    <value>There is no landing page with this id</value>
+  </data>
+  <data name="NoProjectWithThisId" xml:space="preserve">
+    <value>There is no project with this id</value>
+  </data>
+  <data name="NotEnoughRestsDocument" xml:space="preserve">
+    <value>Insufficient inventory balance. Document: {0}</value>
+  </data>
+  <data name="NotEnoughRestsLot" xml:space="preserve">
+    <value>Insufficient lot balance: {0}</value>
+  </data>
+  <data name="NoUserWithThisName" xml:space="preserve">
+    <value>There is no user with given name</value>
+  </data>
+  <data name="OneOfDocLineDoesntHaveAccountingLine" xml:space="preserve">
+    <value>One of the document lines does not have accounting lines</value>
+  </data>
+  <data name="PeriodDoesNotExistDocumentDate" xml:space="preserve">
+    <value>The period does not exist.\r\nDocument: {0}\r\nDate: {1}</value>
+  </data>
+  <data name="PeriodIsCloseDocumentDate" xml:space="preserve">
+    <value>The period is closed.\r\nDocument: {0}\r\nDate: {1}</value>
+  </data>
+  <data name="ProjectDoesntExists" xml:space="preserve">
+    <value>Project does not exist</value>
+  </data>
+  <data name="ServerError" xml:space="preserve">
+    <value>Server error\r\n{0}</value>
+  </data>
+  <data name="SomeFieldsAreNotCorrectlyInitialized" xml:space="preserve">
+    <value>Some fields are not initialized correctly.</value>
+  </data>
+  <data name="StockMustBeSpecifiedForDocumentProjects" xml:space="preserve">
+    <value>Stock must be specified for the document (project).</value>
+  </data>
+  <data name="StocksInventoryAccountIsNotSpecified" xml:space="preserve">
+    <value>The stock's inventory account is not specified:\r\n{0}</value>
+  </data>
+  <data name="TennantIsNotFound" xml:space="preserve">
+    <value>Tenant '{0}' has not been found.</value>
+  </data>
+  <data name="TennantsAreNotAllowedForThisSystem" xml:space="preserve">
+    <value>Tenants are not allowed in this system.</value>
+  </data>
+  <data name="TimeRecordWithoutProject" xml:space="preserve">
+    <value>The work cannot be started without specifiing a project.
+Check if default time registration project is set in System preferences</value>
+  </data>
+  <data name="TimingResourceOrTimingResourceGroupRequired" xml:space="preserve">
+    <value>Either Time resource or Time resource group is required</value>
+  </data>
+  <data name="TimingResourceShouldBeInTimingResourceGroup" xml:space="preserve">
+    <value>Time resource should be added to time resource group. Operation: {0}</value>
+  </data>
+  <data name="TimingResourceShouldBeInTimingResourceGroupOperation" xml:space="preserve">
+    <value>Time resource should be added to time resource group. Operation: {0}</value>
+  </data>
+  <data name="TimingResourceShouldBeInTimingResourceGroupOperationTemplate" xml:space="preserve">
+    <value>Time resource should be added to time resource group. Operation template: {0}</value>
+  </data>
+  <data name="UnableToCreateAccountAccountCodeCannotBeZero" xml:space="preserve">
+    <value>Account cannot be created\r\nAccount code cannot be zero</value>
+  </data>
+  <data name="UnableToDeleteDocument" xml:space="preserve">
+    <value>Transaction document cannot be deleted</value>
+  </data>
+  <data name="UnableToDeleteDocumentAccountDetail" xml:space="preserve">
+    <value>Transaction account detail cannot be deleted</value>
+  </data>
+  <data name="UnableToDeleteDocumentIsLocked" xml:space="preserve">
+    <value>Transaction document cannot be deleted. It is locked.</value>
+  </data>
+  <data name="UnableToDeleteDocumentLine" xml:space="preserve">
+    <value>Transaction line cannot be deleted.</value>
+  </data>
+  <data name="UnableToDeleteDocumentLotDetail" xml:space="preserve">
+    <value>Transaction lot detail cannot be deleted.</value>
+  </data>
+  <data name="UnableToDeleteProjectAssemblyLineDependentWorkOrders" xml:space="preserve">
+    <value>Project assembly line {0} cannot be deleted because of created work order.</value>
+  </data>
+  <data name="UnableToDeleteProjectDependentDocuments" xml:space="preserve">
+    <value>Project cannot be deleted. There is (are) dependent document(s): {0}</value>
+  </data>
+  <data name="UnableToDeleteProjectDependentTimeRecords" xml:space="preserve">
+    <value>Project '{0}' cannot be deleted.\r\nThere is (are) time record(s) connected to it.</value>
+  </data>
+  <data name="UnableToDeleteProjectDependentWorkOrders" xml:space="preserve">
+    <value>Project cannot be deleted.\r\nThere is (are) work order(s) '{0}' connected to it.</value>
+  </data>
+  <data name="UnableToDeleteProjectLineDependentDocuments" xml:space="preserve">
+    <value>Project line cannot be deleted.\r\nThere is (are) dependent document(s): {0}</value>
+  </data>
+  <data name="UnableToDeleteTheDocumentLineDependentDocuments" xml:space="preserve">
+    <value>Transaction line '{0}' cannot be deleted.\r\nThere is (are) dependent document(s): {1}</value>
+  </data>
+  <data name="UnableToDeleteTheLotDependentDocuments" xml:space="preserve">
+    <value>Lot '{0}' cannot be deleted.\r\nThere is (are) dependent document(s): {1}</value>
+  </data>
+  <data name="UnableToDeleteTheRecords" xml:space="preserve">
+    <value>Record cannot be deleted because it is being used in another table.</value>
+  </data>
+  <data name="UnableToDeleteWorkOrderDependentTimeRecords" xml:space="preserve">
+    <value>Work order {0} cannot be deleted.\r\nThere is (are) time record(s) connected to it.</value>
+  </data>
+  <data name="UnableToInitializeCompanyOUNumberDoesntExists" xml:space="preserve">
+    <value>Company cannot be initialized.\r\nOrganization unit number does not exist in AutoCalc.</value>
+  </data>
+  <data name="UnableToPostTheDocument" xml:space="preserve">
+    <value>Document cannot be posted</value>
+  </data>
+  <data name="UnableToPutLotWithoutArticleToStock" xml:space="preserve">
+    <value>Lot "{0}" without any article cannot be put on stock (Line {1})</value>
+  </data>
+  <data name="UnableToReadGeneralSettingCustomersAccountNotDefined" xml:space="preserve">
+    <value>Customer's account in System preferences is not defined</value>
+  </data>
+  <data name="UnableToReadGeneralSettingsGeneralLedgerNotDefined" xml:space="preserve">
+    <value>General ledger in System preferences is not defined</value>
+  </data>
+  <data name="UnableToReadGeneralSettingsNotDefined" xml:space="preserve">
+    <value>System preferences are not defined</value>
+  </data>
+  <data name="UnableToReadGeneralSettingsSubLedgerForCustomersNotDefined" xml:space="preserve">
+    <value>Customers' subledger in System preferences is not defined</value>
+  </data>
+  <data name="UnableToReadGeneralSettingsSubLedgerForVendorsNotDefined" xml:space="preserve">
+    <value>Vendors' subledger in System preferences is not defined</value>
+  </data>
+  <data name="UnableToReadGeneralSettingsVendorsAccountNotDefined" xml:space="preserve">
+    <value>Vendor's account in System preferences is not defined</value>
+  </data>
+  <data name="UnableToReadgeneralSettingsWFPrefixNotDefined" xml:space="preserve">
+    <value>General workflow item name prefix in System preferences is not defined</value>
+  </data>
+  <data name="UnableToRemoveItemCantRemoveBuiltInProjectType" xml:space="preserve">
+    <value>Built-in project type cannot be removed.</value>
+  </data>
+  <data name="UnableToRemoveItemYouCannotRemoveBuiltInProjectState" xml:space="preserve">
+    <value>Built-in project state cannot be removed.</value>
+  </data>
+  <data name="UnableToRemoveItemYouCantRemoveBuildtInProjectSubtype" xml:space="preserve">
+    <value>Built-in project subtype cannot be removed.</value>
+  </data>
+  <data name="UnableToRollbackTheDocumentDependent" xml:space="preserve">
+    <value>The document '{0}' cannot be rollbacked.\r\nThere is (are) dependent document(s): {1}</value>
+  </data>
+  <data name="UnableToSaveDuplicateFileToDB" xml:space="preserve">
+    <value>Duplicate file cannot be saved in the database.\r\nThe file '{0}' has already been registered in the database</value>
+  </data>
+  <data name="UnitDoesntSpecifiedForArticle" xml:space="preserve">
+    <value>Unit "{0}" is not specified for the article "{1}"</value>
+  </data>
+  <data name="UserEmailAccountHasToBeOwnedByUser" xml:space="preserve">
+    <value>User email account has to be owned by user.</value>
+  </data>
+  <data name="VatPeriodIsAlreadyClosed" xml:space="preserve">
+    <value>The vat period is already closed: {0}</value>
+  </data>
+  <data name="VendorMustBeSpecified" xml:space="preserve">
+    <value>Vendor must be specified!</value>
+  </data>
+  <data name="VendorShouldBeSpecified" xml:space="preserve">
+    <value>Vendor should be specified!</value>
+  </data>
+  <data name="WorkOrderIsNotInDraftStatus" xml:space="preserve">
+    <value>Changes can't be applied because the work order is not in Draft status.</value>
+  </data>
+  <data name="WorkOrderIsNotSpecified" xml:space="preserve">
+    <value>Work order is not specified</value>
+  </data>
+  <data name="WrongTotalCreditSum" xml:space="preserve">
+    <value>Total credit sum is wrong. {0} is correct.</value>
+  </data>
+  <data name="WrongTotalCreditSumShouldBe" xml:space="preserve">
+    <value>Total credit sum ({0}) is wrong. {1} is correct.</value>
+  </data>
+  <data name="WrongTotalDebitSum" xml:space="preserve">
+    <value>Total debit sum is wrong. {0} is correct.</value>
+  </data>
+  <data name="WrongTotalDebitSumShouldBe" xml:space="preserve">
+    <value>Total debit sum ({0}) is wrong. {1} is correct.</value>
+  </data>
+  <data name="WrongTotalQuantityOfLotsShouldBe" xml:space="preserve">
+    <value>Total quantity in lots for pos {1} is wrong. {0} is correct.</value>
+  </data>
+  <data name="YouCanNotChangeDocumentDocumentHasJournalLinesAndState" xml:space="preserve">
+    <value>Transaction document cannot be changed. It has journal lines and its status is {0}\r\n Data may be inconsistent</value>
+  </data>
+  <data name="YouCannotChangeDocumentState" xml:space="preserve">
+    <value>Transaction document cannot be changed. Its status is {0}</value>
+  </data>
+  <data name="YouCannotChangeReadyForWorkProjectLine" xml:space="preserve">
+    <value>Project line in "In work"-status cannot be changed.</value>
+  </data>
+  <data name="YouCantAddNewArticleHere" xml:space="preserve">
+    <value>A new article cannot be added here.</value>
+  </data>
+  <data name="YouCantAddNewInworkMaterialInThisWay" xml:space="preserve">
+    <value>New inwork material cannot be added in this way</value>
+  </data>
+  <data name="YouCantAddNewInWorkOperationInThisWay" xml:space="preserve">
+    <value>New in work operation cannot be added in this way</value>
+  </data>
+  <data name="YouCantAddNewLotInThisWay" xml:space="preserve">
+    <value>New lot cannot be added in this way</value>
+  </data>
+  <data name="YouCantAddNewVendorArticleHere" xml:space="preserve">
+    <value>New vendor article cannot be added in this way</value>
+  </data>
+  <data name="UnableToChangeArticleTypeAsHasAssembly" xml:space="preserve">
+    <value>Article type cannot be changed because the article has an assembly.</value>
+  </data>
+  <data name="YouCantChangeMeasurementUnitUsedInAssembly" xml:space="preserve">
+    <value>The measurement unit cannot be changed because it is used in assembly lines</value>
+  </data>
+  <data name="YouCantChangeMainMeasurementUnitRestsExist" xml:space="preserve">
+    <value>The measurement unit cannot be changed because the article has inventory balance</value>
+  </data>
+  <data name="YouCantUseAnyDocumentLinesWithoutToolArticle" xml:space="preserve">
+    <value>You can't use any document lines without 'Tool' type article.</value>
+  </data>
+  <data name="YouHaveBeenWorkingWithStaleDataBecauseAnotherUserModified" xml:space="preserve">
+    <value>You have been working with old data because another user modified it!\r\nUpdate your data and try again.</value>
+  </data>
+  <data name="YouMustSpecifyAccrualPeriod" xml:space="preserve">
+    <value>Accrual period should be specified</value>
+  </data>
+  <data name="NameShouldBeEntered" xml:space="preserve">
+    <value>Name should be entered</value>
+  </data>
+  <data name="UnableToDeleteRemittanceDependentDocuments" xml:space="preserve">
+    <value>Remittance settings cannot be deleted.\r\nThere is (are) dependent document(s): {0}</value>
+  </data>
+  <data name="DefineMainUnitForVendorArticle" xml:space="preserve">
+    <value>Main unit for vendor article should be defined</value>
+  </data>
+  <data name="DocumentDetailsAreNotSpecified" xml:space="preserve">
+    <value>Document without lines cannot be posted</value>
+  </data>
+  <data name="UnableToDeleteBankAccountNumberDependentDocuments" xml:space="preserve">
+    <value>Bank account number '{0}' cannot be deleted. Dependent documents: '{1}'</value>
+  </data>
+  <data name="DataForThisYearAlreadyExists" xml:space="preserve">
+    <value>Data have already been registered for this year</value>
+  </data>
+  <data name="SelectAnotherFileForUpdate" xml:space="preserve">
+    <value>The file has been changed. It cannot be updated.
+Please select another file for update.</value>
+  </data>
+  <data name="ObjectWasNotFoundInDatabase" xml:space="preserve">
+    <value>Object was not found in the database: {0} ({1})</value>
+  </data>
+  <data name="UnableToDeleteArticleRootAssemblyLine" xml:space="preserve">
+    <value>Article root assembly line '{0}' cannot be deleted.</value>
+  </data>
+  <data name="UnableToDeleteProjectRootAssemblyLine" xml:space="preserve">
+    <value>Project root assembly line '{0}' cannot be deleted</value>
+  </data>
+  <data name="UnableToDeleteWorkOrderRootAssemblyLine" xml:space="preserve">
+    <value>Work order root assembly line '{0}' cannot be deleted</value>
+  </data>
+  <data name="MasterArticleAlreadyHasThisVendor" xml:space="preserve">
+    <value>You can't add the vendor article to the master article as this vendor already exists</value>
+  </data>
+  <data name="TheCertificateIsNotSpecifiedForSomeLots" xml:space="preserve">
+    <value>Either certificate or serial number is not specified for lots for the line number {0}</value>
+  </data>
+  <data name="LockedPeriodContainseRunningTR" xml:space="preserve">
+    <value>Period for time registration can't be closed as it contains running time record(s)</value>
+  </data>
+  <data name="LockTimeRegistrationPeriod_AccessIsDenied" xml:space="preserve">
+    <value>Access is denied</value>
+  </data>
+  <data name="LockTimeRegistrationPeriod_CantSave" xml:space="preserve">
+    <value>System settings cannot be saved</value>
+  </data>
+  <data name="LockTimeRegistrationPeriod_DatesCompareFail" xml:space="preserve">
+    <value>Time administration closing date should be earlier or equal to time registration closing date</value>
+  </data>
+  <data name="CantDeleteSalaryPeriod_SummaryTimeRecordExist" xml:space="preserve">
+    <value>A period that contains data cannot be deleted.\r\nRemove summary from time records first</value>
+  </data>
+  <data name="CantDeleteSalaryPeriod_PeriodIsClosed" xml:space="preserve">
+    <value>Closed period cannot be deleted</value>
+  </data>
+  <data name="CantSaveOverlappedTimeRecord" xml:space="preserve">
+    <value>Saving an overlapping time record is not allowed</value>
+  </data>
+  <data name="CantSaveArticleWithExistingCode" xml:space="preserve">
+    <value>Article with the same code has already been registered</value>
+  </data>
+  <data name="CantSaveVendorArticleWithExistingCode" xml:space="preserve">
+    <value>Vendor article with the same code has already been registered</value>
+  </data>
+  <data name="CantSaveVendorArticleWithoutVendor" xml:space="preserve">
+    <value>Vendor has to be specified</value>
+  </data>
+  <data name="WrongSubscriptionData" xml:space="preserve">
+    <value>Subscription data have wrong format</value>
+  </data>
+  <data name="WrongSalaryPeriodType" xml:space="preserve">
+    <value>This user has other salary period type!</value>
+  </data>
+  <data name="UnableToMakeCorrectionWithoutAnArticle" xml:space="preserve">
+    <value>Corrections cannot be made without an article (Line {0})</value>
+  </data>
+  <data name="DocumentIsCreated" xml:space="preserve">
+    <value>A document is created</value>
+  </data>
+  <data name="PurchaseProjectIsCreated" xml:space="preserve">
+    <value>A purchase project is created</value>
+  </data>
+  <data name="WorkOrderIsCreated" xml:space="preserve">
+    <value>Work order has been created</value>
+  </data>
+  <data name="CantModifyTimeRecordPeriodIsLocked" xml:space="preserve">
+    <value>Time registration or time administration is closed for this date.</value>
+  </data>
+  <data name="CantSaveSalaryCodeWithSameDefaultTimeWizardsPosType" xml:space="preserve">
+    <value>Salary code cannot be saved with the same "Default position in time wizard"</value>
+  </data>
+  <data name="CantApplyAllChanges" xml:space="preserve">
+    <value>Not all changes are applied. Probably you are working with old data</value>
+  </data>
+  <data name="CantApplyChanges" xml:space="preserve">
+    <value>You are working with old data. Changes cannot be saved</value>
+  </data>
+  <data name="CurrencyIsMandatoryForReminderSetting" xml:space="preserve">
+    <value>Specifying currency is mandatory for Reminder set-up</value>
+  </data>
+  <data name="UnableToPasteSomeOfTheItems" xml:space="preserve">
+    <value>Some items that you are trying to paste have been deleted. You are working with old data.</value>
+  </data>
+  <data name="OwnerHasBeenDeleted" xml:space="preserve">
+    <value>It is not possible to apply changes. The Owner object{0} has been deleted.</value>
+  </data>
+  <data name="PeriodIsAlreadyClosed" xml:space="preserve">
+    <value>The period has already been closed: {0}</value>
+  </data>
+  <data name="MandatoryFileForPost" xml:space="preserve">
+    <value>A workflow file is required for posting</value>
+  </data>
+  <data name="TheProjectIsAlreadyAssigned" xml:space="preserve">
+    <value>The project has already been assigned.</value>
+  </data>
+  <data name="UnableToChangeArticleTypeAsIsUsedInAssembly" xml:space="preserve">
+    <value>Article type cannot be changed because the article is used in an assembly.</value>
+  </data>
+  <data name="UnableToDeleteArticleIsUsedInAssembly" xml:space="preserve">
+    <value>Article cannot be deleted because it is used in an assembly.</value>
+  </data>
+  <data name="DepartmentNumbersExceedAllowedLength" xml:space="preserve">
+    <value>Department number exceeds the allowed length: {0}</value>
+  </data>
+  <data name="NoEntriesForExport" xml:space="preserve">
+    <value>There are no data for export</value>
+  </data>
+  <data name="NotUniqueDepartmentNumbers" xml:space="preserve">
+    <value>Non-unique department numbers: {0}</value>
+  </data>
+  <data name="NotUniqueResourceNumbers" xml:space="preserve">
+    <value>Non-unique resource numbers: {0}</value>
+  </data>
+  <data name="NotUniqueSalaryCodes" xml:space="preserve">
+    <value>Non-unique salary codes: {0}</value>
+  </data>
+  <data name="NumDepartmentsWithoutNumber" xml:space="preserve">
+    <value>{0} department(s) should have an assigned number.</value>
+  </data>
+  <data name="NumResourcesWithoutNumber" xml:space="preserve">
+    <value>{0} resource(s) should have an assigned number.</value>
+  </data>
+  <data name="NumSalaryCodesWithoutNumber" xml:space="preserve">
+    <value>{0} salary code(s) should have an assigned number.</value>
+  </data>
+  <data name="ResourceNumbersExceedAllowedLength" xml:space="preserve">
+    <value>Resource number exceeds the allowed length: {0}</value>
+  </data>
+  <data name="SalaryCodesExceedAllowedLength" xml:space="preserve">
+    <value>Salary code exceeds the allowed length: {0}</value>
+  </data>
+  <data name="VendorAccountDoesNotMatchVendor" xml:space="preserve">
+    <value>The vendor account doesn't match the vendor.</value>
+  </data>
+  <data name="CustomerAccountDoesNotMatchCustomer" xml:space="preserve">
+    <value>The customer account doesn't match the customer</value>
+  </data>
+  <data name="CantDeleteApprovedTimeRecord" xml:space="preserve">
+    <value>Deleting an approved time record is not allowed</value>
+  </data>
+  <data name="CantModifyApprovedTimeRecord" xml:space="preserve">
+    <value>Editing an approved time record is not allowed</value>
+  </data>
+  <data name="ProjectLineCanNotHaveWorkOrder" xml:space="preserve">
+    <value>The project line can not have a work order.</value>
+  </data>
+  <data name="ProjectLineIsNotInDraftStatus" xml:space="preserve">
+    <value>Changes can't be applied because the project line is not in draft status.</value>
+  </data>
+  <data name="ParentHasBeenDeleted" xml:space="preserve">
+    <value>It is not possible to apply changes. The Parent object{0} has been deleted.</value>
+  </data>
+  <data name="CantApplyChangesWOIsFinished" xml:space="preserve">
+    <value>Changes can't be applied because the work order is in the finished status.</value>
+  </data>
+  <data name="CantChangeNotCustomMaterial" xml:space="preserve">
+    <value>Can't change not custom created material.</value>
+  </data>
+  <data name="WorkOrderIsNotInWorkStatus" xml:space="preserve">
+    <value>Changes can't be applied because the work order is not in Work status.</value>
+  </data>
+  <data name="ProjectLineIsInFinishedStatus" xml:space="preserve">
+    <value>Changes can't be applied because the project line is in finished status.</value>
+  </data>
+  <data name="CyclicLinksNotAllowed" xml:space="preserve">
+    <value>Changes cannot be saved. Cyclic links are not allowed!</value>
+  </data>
+  <data name="WorkflowSubtypeRequired" xml:space="preserve">
+    <value>Workflow subtype(s) is(are) required.</value>
+  </data>
+  <data name="UnableToDeleteProjectDependentMeasurementLogs" xml:space="preserve">
+    <value>Unable to delete the project {0}.\r\nRemove measurement log(s) first</value>
+  </data>
+  <data name="UnableToDeleteProjectLineDependentMeasurementLogs" xml:space="preserve">
+    <value>Project line cannot be deleted.\r\nRemove measurement log(s) first</value>
+  </data>
+  <data name="UnableToDeleteWorkOrderDependentMeasurementLogs" xml:space="preserve">
+    <value>Work order {0} cannot be deleted.\r\nRemove measurement log(s) first</value>
+  </data>
+  <data name="MeasurementUnitExportCodeIsNotSpecified" xml:space="preserve">
+    <value>The UN/ECE measurement unit code is not specified for the '{0}'</value>
+  </data>
+  <data name="OrganizationIsNotFound" xml:space="preserve">
+    <value>The company '{0} ({1})' is not found</value>
+  </data>
+  <data name="MeasurementUnitForExportCodeIsNotFound" xml:space="preserve">
+    <value>The measurement unit is not found for the UN/ECE code '{0}'</value>
+  </data>
+  <data name="AgreementIdIsNotSpecified" xml:space="preserve">
+    <value>Agreement ID is not specified in the remittance settings</value>
+  </data>
+  <data name="BankAccountNumberIsNotSpecified" xml:space="preserve">
+    <value>Bank Account No. is not specified</value>
+  </data>
+  <data name="BankAccountOfSomeLinesIsNotSpecified" xml:space="preserve">
+    <value>Bank account number is not specified for line(s)</value>
+  </data>
+  <data name="CompanyOfSomeLinesIsNotSpecified" xml:space="preserve">
+    <value>Company is not specified for line(s)</value>
+  </data>
+  <data name="DataSenderIdIsNotSpecified" xml:space="preserve">
+    <value>Data Sender ID is mandatory for Remittance set-up</value>
+  </data>
+  <data name="DueDateOfSomeLinesIsEarlierThanToday" xml:space="preserve">
+    <value>Due date of line(s) is(are) earlier than today’s date</value>
+  </data>
+  <data name="NoneOfDocumentDetailsIsDefined" xml:space="preserve">
+    <value>None of document details is specified</value>
+  </data>
+  <data name="OutputFileNameIsNotSpecified" xml:space="preserve">
+    <value>Output file name is not specified</value>
+  </data>
+  <data name="OutputFolderIsNotSpecified" xml:space="preserve">
+    <value>Output folder is not specified</value>
+  </data>
+  <data name="RemittanceSetupIsNotSpecified" xml:space="preserve">
+    <value>Remittance settings are not chosen.</value>
+  </data>
+  <data name="YouCantChangeMeasurementUnitUsedInInventory" xml:space="preserve">
+    <value>The measurement unit cannot be changed because it is used in inventory</value>
+  </data>
+  <data name="YouCantChangeMeasurementUnitUsedInPriceLists" xml:space="preserve">
+    <value>The measurement unit cannot be changed because it is used in price list</value>
+  </data>
+  <data name="NoInvoicesForFactoring" xml:space="preserve">
+    <value>There are no invoices for factoring</value>
+  </data>
+  <data name="OperationIsNotSpecified" xml:space="preserve">
+    <value>Operation is not specofied</value>
+  </data>
+  <data name="DateIsNotSpecified" xml:space="preserve">
+    <value>Date is not specified</value>
+  </data>
+  <data name="PeriodIsNotSpecified" xml:space="preserve">
+    <value>Period is not specified</value>
+  </data>
+  <data name="CantDeleteNotificationCreatedByAnotheUser" xml:space="preserve">
+    <value>It is not allowed to delete a notification created by another user.</value>
+  </data>
+  <data name="ApprovalChangedMessageTemplate" xml:space="preserve">
+    <value>New approval status "{0}" for the {1}</value>
+  </data>
+  <data name="ApprovalNewMessageTemplate" xml:space="preserve">
+    <value>For approval: {0}</value>
+  </data>
+  <data name="EmailFailMessageTemplate" xml:space="preserve">
+    <value>Failed to send email to the {0} ({1})\r\n{2}</value>
+  </data>
+  <data name="EmailNewMessageTemplate" xml:space="preserve">
+    <value>New email from {0} ({1})</value>
+  </data>
+  <data name="ObjectAssignedMessageTemplate" xml:space="preserve">
+    <value>The object '{0}' has been assigned to the '{1}'</value>
+  </data>
+  <data name="ObjectChangedMessageTemplate" xml:space="preserve">
+    <value>Object has been modified or deleted: {0}</value>
+  </data>
+  <data name="TaskNewMessageTemplate" xml:space="preserve">
+    <value>Got a task: {0}</value>
+  </data>
+  <data name="CantSaveTimeRecordOvertimeIsNotAllowed" xml:space="preserve">
+    <value>Overtime for this time record is not allowed</value>
+  </data>
+  <data name="WorkflowSubtypeForSaftExportRequired" xml:space="preserve">
+    <value>Workflow subtype for SAF-T Export is required.</value>
+  </data>
+  <data name="ArticleLocalization_ArticleMissed" xml:space="preserve">
+    <value>Article is not specified</value>
+  </data>
+  <data name="ArticleLocalization_CultureAndCompanyAreNull" xml:space="preserve">
+    <value>Both culture and company are not specified</value>
+  </data>
+  <data name="ArticleLocalization_DuplicatedCompany" xml:space="preserve">
+    <value>Localization for this company already exists</value>
+  </data>
+  <data name="ArticleLocalization_DuplicatedCulture" xml:space="preserve">
+    <value>Localization for this culture already exists</value>
+  </data>
+  <data name="ArticleDiscountGroupIsNotSpecified" xml:space="preserve">
+    <value>Article discount group is not specified.</value>
+  </data>
+  <data name="SomeItemsCannotBeDeleted" xml:space="preserve">
+    <value>Some items cannot be deleted:\r\n{0}</value>
+  </data>
+  <data name="UnableToDeleteArticleDiscountGroupsIsAssignedToArticles" xml:space="preserve">
+    <value>Unable to delete discount groups that are assigned to articles</value>
+  </data>
+  <data name="UnableToDeleteArticleDiscountGroupsIsAssignedToOrgUnits" xml:space="preserve">
+    <value>Unable to delete discount groups that are assigned to companies</value>
+  </data>
+  <data name="ContactOfOrganizationIsNotSpecified" xml:space="preserve">
+    <value>Contact person of the organization is not specified.</value>
+  </data>
+  <data name="OrgUnitDiscountGroupIsNotSpecified" xml:space="preserve">
+    <value>Company discount group is not specified.</value>
+  </data>
+  <data name="CantStartTimeRegistrationForFinishedOperation" xml:space="preserve">
+    <value>Can't start time registration for finished operation</value>
+  </data>
+  <data name="CantStartTimeRegistrationForFinishedProject" xml:space="preserve">
+    <value>Can't start time registration for finished project</value>
+  </data>
+  <data name="CantStartTimeRegistrationForFinishedProjectLine" xml:space="preserve">
+    <value>Can't start time registration for finished project line</value>
+  </data>
+  <data name="CantStartTimeRegistrationForFinishedWorkOrder" xml:space="preserve">
+    <value>Can't start time registration for finished work order</value>
+  </data>
+  <data name="CantStartTimeRegistrationForFinishedTask" xml:space="preserve">
+    <value>Can't start time registration for finished task</value>
+  </data>
+  <data name="LotsAreNotSpecifiedForTheLine" xml:space="preserve">
+    <value>Lots are not specified for the document line '{0}'</value>
+  </data>
+  <data name="NumberShouldBeEntered" xml:space="preserve">
+    <value>Number should be entered</value>
+  </data>
+  <data name="CantPutProducedLotsOnStock" xml:space="preserve">
+    <value>Can't put produced lots on stock</value>
+  </data>
+  <data name="AccountDoesNotExist" xml:space="preserve">
+    <value>The account {0} doesn't exist</value>
+  </data>
+  <data name="IdentityProviderIsInUse" xml:space="preserve">
+    <value>This identity provider is in use and can't be deleted.</value>
+  </data>
+  <data name="UnableToDeleteArticleIsUsedInLots" xml:space="preserve">
+    <value>Article cannot be deleted because it is used in lots</value>
+  </data>
+  <data name="UnableToChangeShift" xml:space="preserve">
+    <value>Can't change the shift</value>
+  </data>
+  <data name="DepartmentDoesNotExist" xml:space="preserve">
+    <value>Department with the number {0} doesn't exist</value>
+  </data>
+  <data name="NoPermissionToPerformTheOperation" xml:space="preserve">
+    <value>No permission to perform the operation</value>
+  </data>
+  <data name="RoundingAccountIsNotDefined" xml:space="preserve">
+    <value>Rounding account is not defined in system settings</value>
+  </data>
+  <data name="NoPermissionForBatchTimeRegistration" xml:space="preserve">
+    <value>No permission for period time registration</value>
+  </data>
+  <data name="NoPermissionForFutureBatchTimeRegistration" xml:space="preserve">
+    <value>No permission for future time records registration</value>
+  </data>
+</root>

@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accounting" xml:space="preserve">
+    <value>Regnskap</value>
+  </data>
+  <data name="Addresses" xml:space="preserve">
+    <value>Standardadresser</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="Appearance" xml:space="preserve">
+    <value>Synlighet</value>
+  </data>
+  <data name="Approvement" xml:space="preserve">
+    <value>Siste godkjenningsforespørsel</value>
+  </data>
+  <data name="Article" xml:space="preserve">
+    <value>Artikkel</value>
+  </data>
+  <data name="BeginRests" xml:space="preserve">
+    <value>Start lagermengde</value>
+  </data>
+  <data name="Calculation" xml:space="preserve">
+    <value>Kalkulasjon</value>
+  </data>
+  <data name="CalculationSummary" xml:space="preserve">
+    <value>Kalkulert sum</value>
+  </data>
+  <data name="Compilance" xml:space="preserve">
+    <value>Compliance</value>
+  </data>
+  <data name="Connection" xml:space="preserve">
+    <value>Tilkobling</value>
+  </data>
+  <data name="ContactStatus" xml:space="preserve">
+    <value>Kontaktstatus</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>Kunde</value>
+  </data>
+  <data name="CustomFields" xml:space="preserve">
+    <value>Egendefinerte felt</value>
+  </data>
+  <data name="DatabaseBackup" xml:space="preserve">
+    <value>Database backup</value>
+  </data>
+  <data name="Dates" xml:space="preserve">
+    <value>Datoer</value>
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>Levering</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Deviation" xml:space="preserve">
+    <value>Avvik</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Fra</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="IncludeSubGroups" xml:space="preserve">
+    <value>Inkl. undergrupper</value>
+  </data>
+  <data name="IntegrationServer" xml:space="preserve">
+    <value>Integrasjonsserver</value>
+  </data>
+  <data name="IntervalProjects" xml:space="preserve">
+    <value>Intervallprosjekter</value>
+  </data>
+  <data name="IntervalRules" xml:space="preserve">
+    <value>Intervallregler</value>
+  </data>
+  <data name="Keys" xml:space="preserve">
+    <value>Nøkler</value>
+  </data>
+  <data name="KID" xml:space="preserve">
+    <value>KID</value>
+  </data>
+  <data name="LicenseDates" xml:space="preserve">
+    <value>Lisensdato</value>
+  </data>
+  <data name="Lot" xml:space="preserve">
+    <value>Lot</value>
+  </data>
+  <data name="MeasurementUnits" xml:space="preserve">
+    <value>Enhet</value>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>Annet</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="OrgUnitSelection" xml:space="preserve">
+    <value>Kontakttyper</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>Parametere</value>
+  </data>
+  <data name="Physical" xml:space="preserve">
+    <value>Fysisk</value>
+  </data>
+  <data name="Precision" xml:space="preserve">
+    <value>Presisjon</value>
+  </data>
+  <data name="Procedure" xml:space="preserve">
+    <value>Prosedyre</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Prosjekt</value>
+  </data>
+  <data name="Projects" xml:space="preserve">
+    <value>Prosjekter</value>
+  </data>
+  <data name="ProjectsSettings" xml:space="preserve">
+    <value>Prosjektinnstillinger</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Mengde</value>
+  </data>
+  <data name="QuantityDiscountCategories" xml:space="preserve">
+    <value>Kvantumsrabatt kategorier</value>
+  </data>
+  <data name="Receive" xml:space="preserve">
+    <value>Motta</value>
+  </data>
+  <data name="Rent" xml:space="preserve">
+    <value>Leie</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Rapporter</value>
+  </data>
+  <data name="Resource" xml:space="preserve">
+    <value>Ressurs</value>
+  </data>
+  <data name="ResourceCalculated" xml:space="preserve">
+    <value>Kalkulert ressurs</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Resultat</value>
+  </data>
+  <data name="Risk" xml:space="preserve">
+    <value>Risiko</value>
+  </data>
+  <data name="RiskAndCompliance" xml:space="preserve">
+    <value>Workflow eier</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Rolle</value>
+  </data>
+  <data name="Salary" xml:space="preserve">
+    <value>Lønn</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Funksjoner</value>
+  </data>
+  <data name="Task" xml:space="preserve">
+    <value>Oppgave</value>
+  </data>
+  <data name="ThisGroup" xml:space="preserve">
+    <value>Kun valgt gruppe</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="TimeInterval" xml:space="preserve">
+    <value>Tidsintervall</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Til</value>
+  </data>
+  <data name="Units" xml:space="preserve">
+    <value>Enheter</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Bruker</value>
+  </data>
+  <data name="UserDefined" xml:space="preserve">
+    <value>Brukerdefinert</value>
+  </data>
+  <data name="UserInterface" xml:space="preserve">
+    <value>Brukergrensesnitt</value>
+  </data>
+  <data name="UserInterfaceSettings" xml:space="preserve">
+    <value>Innstillinger brukergrensesnitt</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Brukere</value>
+  </data>
+  <data name="Vat" xml:space="preserve">
+    <value>Mva</value>
+  </data>
+  <data name="VatAccountsLimits" xml:space="preserve">
+    <value>Momskontoer</value>
+  </data>
+  <data name="WebShop" xml:space="preserve">
+    <value>Webshop</value>
+  </data>
+  <data name="WorkflowFileItemsNaming" xml:space="preserve">
+    <value>Navngi filelementer</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="WorkOrder" xml:space="preserve">
+    <value>Arbeidsordre</value>
+  </data>
+  <data name="FeaturesDocumentType" xml:space="preserve">
+    <value>Transaksjonsfunksjoner</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Rediger</value>
+  </data>
+  <data name="Templates" xml:space="preserve">
+    <value>Maler/Templates</value>
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>Lager</value>
+  </data>
+  <data name="Ingoing" xml:space="preserve">
+    <value>Inngående</value>
+  </data>
+  <data name="Outgoing" xml:space="preserve">
+    <value>Utgående</value>
+  </data>
+  <data name="ImportRemittanceErrors" xml:space="preserve">
+    <value>Importér overføringsfeil</value>
+  </data>
+  <data name="ImportPayments" xml:space="preserve">
+    <value>Importér betalinger</value>
+  </data>
+  <data name="Incoming" xml:space="preserve">
+    <value>Inngående</value>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="Flexitime" xml:space="preserve">
+    <value>Fleksitid</value>
+  </data>
+  <data name="ShiftPlan" xml:space="preserve">
+    <value>Skiftplan</value>
+  </data>
+  <data name="Break" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="ExtraTime" xml:space="preserve">
+    <value>Overtid / ekstra tid</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Rabatt</value>
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>Faktura</value>
+  </data>
+  <data name="ProjectStatus" xml:space="preserve">
+    <value>Prosjektstatus</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>Analytics</value>
+  </data>
+  <data name="Assembly" xml:space="preserve">
+    <value>Kalkyle</value>
+  </data>
+  <data name="Dimension" xml:space="preserve">
+    <value>Dimensjon</value>
+  </data>
+  <data name="PriceList" xml:space="preserve">
+    <value>Prislilste</value>
+  </data>
+  <data name="ObjectSelection" xml:space="preserve">
+    <value>Type oppslag</value>
+  </data>
+  <data name="Tracking" xml:space="preserve">
+    <value>Sporing</value>
+  </data>
+  <data name="InPeriod" xml:space="preserve">
+    <value>I periode</value>
+  </data>
+  <data name="Reminder" xml:space="preserve">
+    <value>Purring</value>
+  </data>
+  <data name="Reminders" xml:space="preserve">
+    <value>Purringer</value>
+  </data>
+  <data name="DebtCollection" xml:space="preserve">
+    <value>Inkasso</value>
+  </data>
+  <data name="LastReminder" xml:space="preserve">
+    <value>Siste purring</value>
+  </data>
+  <data name="NextReminder" xml:space="preserve">
+    <value>Neste purring</value>
+  </data>
+  <data name="ProductionPlanner" xml:space="preserve">
+    <value>Produksjonsplanlegger</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopieringstype</value>
+  </data>
+  <data name="PriceCategories" xml:space="preserve">
+    <value>Priskategorier</value>
+  </data>
+  <data name="AsicContainer" xml:space="preserve">
+    <value>Sikker beholder</value>
+  </data>
+  <data name="ProjectLine" xml:space="preserve">
+    <value>Prosjektlinje</value>
+  </data>
+  <data name="Approvers" xml:space="preserve">
+    <value>Godkjennere</value>
+  </data>
+  <data name="WeekShiftPlan" xml:space="preserve">
+    <value>Uke skiftplan</value>
+  </data>
+  <data name="Labels" xml:space="preserve">
+    <value>Etiketter</value>
+  </data>
+  <data name="WorkPackage" xml:space="preserve">
+    <value>Arbeidspakke</value>
+  </data>
+  <data name="AutoPick" xml:space="preserve">
+    <value>Autoplukking</value>
+  </data>
+  <data name="ProjectTemplate" xml:space="preserve">
+    <value>Prosjektmal</value>
+  </data>
+  <data name="Access" xml:space="preserve">
+    <value>Tilgang</value>
+  </data>
+  <data name="Emission" xml:space="preserve">
+    <value>Utslipp</value>
+  </data>
+  <data name="Match" xml:space="preserve">
+    <value>Match</value>
+  </data>
+</root>

@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountNameExample" xml:space="preserve">
+    <value>Example: Ellen's account for mail.com</value>
+  </data>
+  <data name="ArticleWizardPage1Name" xml:space="preserve">
+    <value>General properties</value>
+  </data>
+  <data name="ArticleWizardPage2Vendor" xml:space="preserve">
+    <value>Vendor properties</value>
+  </data>
+  <data name="ArticleWizardPage3Physical" xml:space="preserve">
+    <value>Physical properties</value>
+  </data>
+  <data name="ArticleWizardPage4Stock" xml:space="preserve">
+    <value>Stock properties</value>
+  </data>
+  <data name="ArticleWizardPage5Price" xml:space="preserve">
+    <value>Cost and price</value>
+  </data>
+  <data name="ArticleWizardPage6Custom" xml:space="preserve">
+    <value>Custom fields</value>
+  </data>
+  <data name="ArticleWizardUnableCreatePrefix" xml:space="preserve">
+    <value>Unable to create a prefix. Such prefix already exists</value>
+  </data>
+  <data name="BankPaymentCustomerInvoiceWizardPage" xml:space="preserve">
+    <value>Customer invoice</value>
+  </data>
+  <data name="BankPaymentIncomeMoneyWizardPage" xml:space="preserve">
+    <value>Income money creation</value>
+  </data>
+  <data name="BankPaymentSpendMoneyWizardPage" xml:space="preserve">
+    <value>Spend money creation</value>
+  </data>
+  <data name="BankPaymentVendorInvoiceWizardPage" xml:space="preserve">
+    <value>Payment to vendor</value>
+  </data>
+  <data name="BeginRentDate" xml:space="preserve">
+    <value>Begin rent date</value>
+  </data>
+  <data name="ColumnSettingsWillBeApplied" xml:space="preserve">
+    <value>Column settings will be applied to {0} user(s)</value>
+  </data>
+  <data name="CompletionPageFinish" xml:space="preserve">
+    <value>You have successfully completed the wizard</value>
+  </data>
+  <data name="CompletionPageProceedText" xml:space="preserve">
+    <value>To close this wizard, click Finish</value>
+  </data>
+  <data name="CompletionPageTitle" xml:space="preserve">
+    <value>Completing the wizard</value>
+  </data>
+  <data name="Configuring" xml:space="preserve">
+    <value>Configuring</value>
+  </data>
+  <data name="ContactPersonWizardPageFirst" xml:space="preserve">
+    <value>Contact person's  details</value>
+  </data>
+  <data name="CopyKeepAllOwners" xml:space="preserve">
+    <value>Copy - keep all owners</value>
+  </data>
+  <data name="CopyKeepTheCurrentOwner" xml:space="preserve">
+    <value>Copy - keep the current owner</value>
+  </data>
+  <data name="CreateContactPersons" xml:space="preserve">
+    <value>Create contact persons</value>
+  </data>
+  <data name="CreateDocumentFromWorkflowItem" xml:space="preserve">
+    <value>Create document</value>
+  </data>
+  <data name="CreateOneMore" xml:space="preserve">
+    <value>Create one more</value>
+  </data>
+  <data name="CreateOperationTemplateWizardPageEquipment" xml:space="preserve">
+    <value>Machine properties</value>
+  </data>
+  <data name="CreateOperationTemplateWizardPageName" xml:space="preserve">
+    <value>Name and main resource</value>
+  </data>
+  <data name="CreateOperationTemplateWizardPageWorker" xml:space="preserve">
+    <value>Worker properties</value>
+  </data>
+  <data name="CreateOperationWizardPageStarting" xml:space="preserve">
+    <value>Select template or create operation from stretch</value>
+  </data>
+  <data name="CreateProjectWizardPageCustomer" xml:space="preserve">
+    <value>Vendor / customer information</value>
+  </data>
+  <data name="CreateProjectWizardPageDelivery" xml:space="preserve">
+    <value>Delivery</value>
+  </data>
+  <data name="CreateProjectWizardPageGeneral" xml:space="preserve">
+    <value>General properties</value>
+  </data>
+  <data name="CreateProjectWizardPagePayment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="CreatePurchaseProjectWizardPurchaseMaterials" xml:space="preserve">
+    <value>Purchase materials</value>
+  </data>
+  <data name="CustomText" xml:space="preserve">
+    <value>Custom text</value>
+  </data>
+  <data name="EmailAddressExample" xml:space="preserve">
+    <value>Example: ellen@mail.com</value>
+  </data>
+  <data name="EndRentDate" xml:space="preserve">
+    <value>End rent date</value>
+  </data>
+  <data name="FillShiftPlanWizardPage" xml:space="preserve">
+    <value>Fill shift plan </value>
+  </data>
+  <data name="FinalDocumentationGenerationWizardDocsSelection" xml:space="preserve">
+    <value>Documentation selection</value>
+  </data>
+  <data name="FinalDocumentationGenerationWizardDocTitle" xml:space="preserve">
+    <value>Document title</value>
+  </data>
+  <data name="FinalDocumentationGenerationWizardProjectLineSelection" xml:space="preserve">
+    <value>Project line selection</value>
+  </data>
+  <data name="IncomeInvoiceWizardPage" xml:space="preserve">
+    <value>Income invoice</value>
+  </data>
+  <data name="MoveRemoveFromCurrentOwner" xml:space="preserve">
+    <value>Move - remove from current owner</value>
+  </data>
+  <data name="MoveRemoveFromPreviousOwners" xml:space="preserve">
+    <value>Move - remove from previous owners</value>
+  </data>
+  <data name="OrgUnitWizardAutoAccountError" xml:space="preserve">
+    <value>You have selected an option to automatically create Account,{0}but Code for Account can't be generated within a range{0}set by ORG_ACCOUNT_CODE_MIN and ORG_ACCOUNT_CODE_MAX settings.{0}{0}You will be redirected to page where you can choose another option.</value>
+  </data>
+  <data name="OrgUnitWizardPageAccounts" xml:space="preserve">
+    <value>Select the appropriate values for the accounts</value>
+  </data>
+  <data name="OrgunitWizardPageAddresses" xml:space="preserve">
+    <value>Addresses</value>
+  </data>
+  <data name="OrgunitWizardPageContactInformation" xml:space="preserve">
+    <value>Contact information</value>
+  </data>
+  <data name="OrgunitWizardPageCustom" xml:space="preserve">
+    <value>Custom fields</value>
+  </data>
+  <data name="OrgunitWizardPageCustomerProperties" xml:space="preserve">
+    <value>Customer properties</value>
+  </data>
+  <data name="OrgunitWizardPageDeliveryPayment" xml:space="preserve">
+    <value>Delivery and payment</value>
+  </data>
+  <data name="OrgUnitWizardPageFirst" xml:space="preserve">
+    <value>Fill out the fields below</value>
+  </data>
+  <data name="OrgunitWizardPageOrgunitType" xml:space="preserve">
+    <value>Organization unit type</value>
+  </data>
+  <data name="OrgUnitWizardPageRoles" xml:space="preserve">
+    <value>What role does this organizational unit?</value>
+  </data>
+  <data name="OrgUnitWizardPageTaxCodes" xml:space="preserve">
+    <value>Specify taxes</value>
+  </data>
+  <data name="OrgunitWizardPageVendorProperties" xml:space="preserve">
+    <value>Vendor properties</value>
+  </data>
+  <data name="OutgoInvoiceWizardPage" xml:space="preserve">
+    <value>Outgo invoice</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="ProjectLineWizardCustomFields" xml:space="preserve">
+    <value>Custom fields</value>
+  </data>
+  <data name="ProjectLineWizardLineType" xml:space="preserve">
+    <value>Line type and quantity</value>
+  </data>
+  <data name="ProjectLineWizardPrice" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="ProjectLineWizardProjectLinePosition" xml:space="preserve">
+    <value>Project line position</value>
+  </data>
+  <data name="ProjectLineWizardProjectLineType" xml:space="preserve">
+    <value>Project line type</value>
+  </data>
+  <data name="ProjectLineWizardSelectArticle" xml:space="preserve">
+    <value>Select article</value>
+  </data>
+  <data name="Resource" xml:space="preserve">
+    <value>Resource</value>
+  </data>
+  <data name="SetTaskCompletion" xml:space="preserve">
+    <value>Set task completion</value>
+  </data>
+  <data name="StartOperationTimeRegistrationWizardProjectPage" xml:space="preserve">
+    <value>Select project</value>
+  </data>
+  <data name="StartOperationTimeRegistrationWizardWorkOrderPage" xml:space="preserve">
+    <value>Select operation</value>
+  </data>
+  <data name="StepCounter" xml:space="preserve">
+    <value>Step {0} of {1}</value>
+  </data>
+  <data name="StopCurrentOperation" xml:space="preserve">
+    <value>Stop current operation</value>
+  </data>
+  <data name="UnableCreatePrefixIsNotSpecified" xml:space="preserve">
+    <value>Unable to create a prefix. Article prefix is not specified</value>
+  </data>
+  <data name="UploadFileWizardChooseOption" xml:space="preserve">
+    <value>Choose option</value>
+  </data>
+  <data name="UploadFileWizardFileAlreadyExists" xml:space="preserve">
+    <value>The file is already exists on the server!{0}Choose another one, please</value>
+  </data>
+  <data name="UploadFileWizardFileProperties" xml:space="preserve">
+    <value>File properties</value>
+  </data>
+  <data name="UploadFolderWizardFolderContent" xml:space="preserve">
+    <value>Folder content</value>
+  </data>
+  <data name="UploadFolderWizardFolderProperties" xml:space="preserve">
+    <value>Folder properties</value>
+  </data>
+  <data name="UserWizardPageCustom" xml:space="preserve">
+    <value>Custom fields</value>
+  </data>
+  <data name="UserWizardPageEmails" xml:space="preserve">
+    <value>E-Mails</value>
+  </data>
+  <data name="UserWizardPageFirst" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="UserWizardPageOrgUnit" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="VendorArticleWizardProperties" xml:space="preserve">
+    <value>Vendor article properties</value>
+  </data>
+  <data name="Watermark" xml:space="preserve">
+    <value>Watermark</value>
+  </data>
+  <data name="WeAreCompletingSetupWait" xml:space="preserve">
+    <value>We are completing the setup for your account. This might take several minutes.</value>
+  </data>
+  <data name="WelcomePageIntro" xml:space="preserve">
+    <value>This wizard simplifies the implementation of a complex set of tasks by guiding you through a series of simple steps</value>
+  </data>
+  <data name="WelcomePageProceedText" xml:space="preserve">
+    <value>To continue, click Next</value>
+  </data>
+  <data name="WelcomePageTitle" xml:space="preserve">
+    <value>Welcome to the wizard</value>
+  </data>
+  <data name="FileHasBeenAlreadyHandled" xml:space="preserve">
+    <value>The file has already been handled.</value>
+  </data>
+  <data name="FileSucessfullyAnalyzed" xml:space="preserve">
+    <value>The file has been successfully analyzed.</value>
+  </data>
+  <data name="PathForImportIsNotAccessible" xml:space="preserve">
+    <value>The path for import is not accessible</value>
+  </data>
+  <data name="ThereAreAlreadyPaidTransactions" xml:space="preserve">
+    <value>It has been found {0} already paid transactions.</value>
+  </data>
+  <data name="ThereAreUnrecognizedTransactions" xml:space="preserve">
+    <value>It has been identified {0} unrecognized transactions.</value>
+  </data>
+  <data name="WorkOrderQuantityWillBeChangedFromTo" xml:space="preserve">
+    <value>Quantity of the work order will be changed from {0} to {1} {2}</value>
+  </data>
+  <data name="InvoiceNumberIsAlreadyRedistered" xml:space="preserve">
+    <value>The invoice number is already registered.</value>
+  </data>
+  <data name="NotEnoughStockRests" xml:space="preserve">
+    <value>Not enough inventory balance</value>
+  </data>
+  <data name="TheDocumentWasRemoved" xml:space="preserve">
+    <value>The document was removed.</value>
+  </data>
+  <data name="ThePostingOfDocumentFailed" xml:space="preserve">
+    <value>The posting of document failed.</value>
+  </data>
+  <data name="NotAllTheProductsWereProduced" xml:space="preserve">
+    <value>Not all the products were produced</value>
+  </data>
+  <data name="IsTooEarlyToCreateReminder" xml:space="preserve">
+    <value>Reminder for invoice(s) '{0}' should not be created at the moment.</value>
+  </data>
+  <data name="RemindingIsDisabledForTheCustomer" xml:space="preserve">
+    <value>Reminding is disabled for the customer.</value>
+  </data>
+  <data name="SomeOfInvoicesAreStoppedForRemindingMultiple" xml:space="preserve">
+    <value>Reminding for invoices '{0}' is stopped.</value>
+  </data>
+  <data name="SomeOfInvoicesAreStoppedForRemindingSingle" xml:space="preserve">
+    <value>Reminding for invoice {0} is stopped.</value>
+  </data>
+  <data name="TransactionsAlreadyRegisteredWillBeUpdated" xml:space="preserve">
+    <value>Transactions for the period '{0}' have already been registered and will be updated</value>
+  </data>
+  <data name="ContainerCreationAsic" xml:space="preserve">
+    <value>Secure container creation</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="IdentificationSsn" xml:space="preserve">
+    <value>Identification (SSN)</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="Skipped" xml:space="preserve">
+    <value>Skipped</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="AuthenticationError" xml:space="preserve">
+    <value>Authentication error</value>
+  </data>
+  <data name="EnterpriseCertificateLoading" xml:space="preserve">
+    <value>Enterprise certificate loading</value>
+  </data>
+  <data name="ApprovedBy" xml:space="preserve">
+    <value>Approved by</value>
+  </data>
+  <data name="NumberOfOperationsSelected" xml:space="preserve">
+    <value>operation(s) are selected</value>
+  </data>
+  <data name="NumberOfWorkOrdersSelected" xml:space="preserve">
+    <value>work order(s) are selected</value>
+  </data>
+  <data name="NumberOfOperationsAlreadyAssigned" xml:space="preserve">
+    <value>operation(s) have already been assigned</value>
+  </data>
+  <data name="NumberOfWorkOrdersAlreadyAssigned" xml:space="preserve">
+    <value>work order(s) have already been assigned</value>
+  </data>
+  <data name="InformationLimitDataResult" xml:space="preserve">
+    <value>&lt;b&gt;Information:&lt;/b&gt; Search result is limited to {0} lines</value>
+  </data>
+  <data name="StopCurrentOperationFormatName" xml:space="preserve">
+    <value>Stop {0}</value>
+  </data>
+  <data name="ThereIsNothingToPickUp" xml:space="preserve">
+    <value>There is nothing to pick up</value>
+  </data>
+  <data name="LotShouldBeSpecified" xml:space="preserve">
+    <value>Lots should be specified</value>
+  </data>
+  <data name="NameAlreadyExistConfirmation" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UploadFileWizardReportProperties" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OperationsAndSpecificationListsRemoveWarning" xml:space="preserve">
+    <value>Operations and specification lists for materials will be removed</value>
+  </data>
+  <data name="OperationsAndAssemblyTreeRemoveWarning" xml:space="preserve">
+    <value>Assembly tree and operations for the product will be removed</value>
+  </data>
+  <data name="SelectOneAricleToChangeArticleType" xml:space="preserve">
+    <value>Removing assemblies for many articles is denied. Please select only one article</value>
+  </data>
+  <data name="ProblemHasFeasibleSolution" xml:space="preserve">
+    <value>The problem has a feasible solution.</value>
+  </data>
+  <data name="ProblemNotSolved" xml:space="preserve">
+    <value>The problem does not have an optimal solution.</value>
+  </data>
+  <data name="CreateProjectWizardArticleHasNoVendor" xml:space="preserve">
+    <value>Selected group article has no vendor articles assigned</value>
+  </data>
+  <data name="ReplaceArticleAssemblyConfirmation" xml:space="preserve">
+    <value>Existing article assembly will be removed permanently!</value>
+  </data>
+  <data name="ReplaceArticleAssemblyPrompt" xml:space="preserve">
+    <value>Select articles for assembly update:</value>
+  </data>
+</root>

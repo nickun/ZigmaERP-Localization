@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountCode" xml:space="preserve">
+    <value>Kontonr.</value>
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>Bokføring</value>
+  </data>
+  <data name="AccountName" xml:space="preserve">
+    <value>Kontonavn</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Beløp</value>
+  </data>
+  <data name="Amount_Currency" xml:space="preserve">
+    <value>Beløp (valuta)</value>
+  </data>
+  <data name="Apr" xml:space="preserve">
+    <value>Apr.</value>
+  </data>
+  <data name="Apr_Budget" xml:space="preserve">
+    <value>Apr. Budsjett</value>
+  </data>
+  <data name="Apr_PreviousYear" xml:space="preserve">
+    <value>Apr. I fjor</value>
+  </data>
+  <data name="Apr_Result" xml:space="preserve">
+    <value>Apr. Resultat</value>
+  </data>
+  <data name="Aug" xml:space="preserve">
+    <value>Aug.</value>
+  </data>
+  <data name="Aug_Budget" xml:space="preserve">
+    <value>Aug. Budsjett</value>
+  </data>
+  <data name="Aug_PreviousYear" xml:space="preserve">
+    <value>Aug. I fjor</value>
+  </data>
+  <data name="Aug_Result" xml:space="preserve">
+    <value>Aug. Resultat</value>
+  </data>
+  <data name="BankNumber" xml:space="preserve">
+    <value>Bankkonto</value>
+  </data>
+  <data name="BankReference" xml:space="preserve">
+    <value>Bankreferanse</value>
+  </data>
+  <data name="BeginBalance" xml:space="preserve">
+    <value>Åpningsbalanse</value>
+  </data>
+  <data name="Budget" xml:space="preserve">
+    <value>Budsjett</value>
+  </data>
+  <data name="ClosingBalance" xml:space="preserve">
+    <value>Sluttbalanse</value>
+  </data>
+  <data name="ClosingBalanceDifferencePercent" xml:space="preserve">
+    <value>Differanse sluttbalanse %</value>
+  </data>
+  <data name="ClosingBalancePreviousYear" xml:space="preserve">
+    <value>Sluttbalanse forrige år</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>Firmanavn</value>
+  </data>
+  <data name="CompanyNumber" xml:space="preserve">
+    <value>Kunde/lev.nr</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="CustomerCode" xml:space="preserve">
+    <value>Kundenr.</value>
+  </data>
+  <data name="CustomerName" xml:space="preserve">
+    <value>Kundenavn</value>
+  </data>
+  <data name="CustomerOrVendorName" xml:space="preserve">
+    <value>Kunde- eller lev.navn</value>
+  </data>
+  <data name="CustomerOrVendorNumber" xml:space="preserve">
+    <value>Kunde eller lev.nr</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Dato</value>
+  </data>
+  <data name="Dec" xml:space="preserve">
+    <value>Des.</value>
+  </data>
+  <data name="Dec_Budget" xml:space="preserve">
+    <value>Des. Budsjett</value>
+  </data>
+  <data name="Dec_PreviousYear" xml:space="preserve">
+    <value>Des. I fjor</value>
+  </data>
+  <data name="Dec_Result" xml:space="preserve">
+    <value>Des. Resultat</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Avdeling</value>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Bilag</value>
+  </data>
+  <data name="DocumentNumber" xml:space="preserve">
+    <value>Bilagsnr.</value>
+  </data>
+  <data name="DueDate" xml:space="preserve">
+    <value>Forfallsdato</value>
+  </data>
+  <data name="DueDateWeekNumber" xml:space="preserve">
+    <value>Forfallsuke</value>
+  </data>
+  <data name="EighthPeriod" xml:space="preserve">
+    <value>Periode åtte</value>
+  </data>
+  <data name="EleventhPeriod" xml:space="preserve">
+    <value>Periode elleve</value>
+  </data>
+  <data name="EndBalance" xml:space="preserve">
+    <value>Sluttbalanse</value>
+  </data>
+  <data name="Feb" xml:space="preserve">
+    <value>Feb.</value>
+  </data>
+  <data name="Feb_Budget" xml:space="preserve">
+    <value>Feb. Budsjett</value>
+  </data>
+  <data name="Feb_PreviousYear" xml:space="preserve">
+    <value>Feb. I fjor</value>
+  </data>
+  <data name="Feb_Result" xml:space="preserve">
+    <value>Feb. Resultat</value>
+  </data>
+  <data name="FifthPeriod" xml:space="preserve">
+    <value>Periode fem</value>
+  </data>
+  <data name="FirstPeriod" xml:space="preserve">
+    <value>Periode en</value>
+  </data>
+  <data name="FouthPeriod" xml:space="preserve">
+    <value>Periode fire</value>
+  </data>
+  <data name="GroupLevel1" xml:space="preserve">
+    <value>Gruppenivå 1</value>
+  </data>
+  <data name="GroupLevel2" xml:space="preserve">
+    <value>Gruppenivå 2</value>
+  </data>
+  <data name="GroupLevel3" xml:space="preserve">
+    <value>Gruppenivå 3</value>
+  </data>
+  <data name="IncomingCompanyBalance" xml:space="preserve">
+    <value>Inngående balanse</value>
+  </data>
+  <data name="InvoiceAddress" xml:space="preserve">
+    <value>Fakturaadresse</value>
+  </data>
+  <data name="InvoiceDate" xml:space="preserve">
+    <value>Fakturadato</value>
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>Fakturanr</value>
+  </data>
+  <data name="IsFakeRecord" xml:space="preserve">
+    <value>Visningspostering</value>
+  </data>
+  <data name="IsInvoiceClosed" xml:space="preserve">
+    <value>Lukket faktura</value>
+  </data>
+  <data name="IsPayment" xml:space="preserve">
+    <value>Betaling</value>
+  </data>
+  <data name="IsPeriodClose" xml:space="preserve">
+    <value>Lukket periode</value>
+  </data>
+  <data name="Jan" xml:space="preserve">
+    <value>Jan.</value>
+  </data>
+  <data name="Jan_Budget" xml:space="preserve">
+    <value>Jan. Budsjett</value>
+  </data>
+  <data name="Jan_PreviousYear" xml:space="preserve">
+    <value>Jan. I fjor</value>
+  </data>
+  <data name="Jan_Result" xml:space="preserve">
+    <value>Jan. Resultat</value>
+  </data>
+  <data name="Jul" xml:space="preserve">
+    <value>Jul. </value>
+  </data>
+  <data name="Jul_Budget" xml:space="preserve">
+    <value>Juli Budsjett</value>
+  </data>
+  <data name="Jul_PreviousYear" xml:space="preserve">
+    <value>Juli I fjor</value>
+  </data>
+  <data name="Jul_Result" xml:space="preserve">
+    <value>Juli Resultat</value>
+  </data>
+  <data name="Jun" xml:space="preserve">
+    <value>Jun.</value>
+  </data>
+  <data name="Jun_Budget" xml:space="preserve">
+    <value>Juni Budsjett</value>
+  </data>
+  <data name="Jun_PreviousYear" xml:space="preserve">
+    <value>Juni I fjor</value>
+  </data>
+  <data name="Jun_Result" xml:space="preserve">
+    <value>Juni Resultat</value>
+  </data>
+  <data name="KIDNumber" xml:space="preserve">
+    <value>KID-nummer</value>
+  </data>
+  <data name="Mar" xml:space="preserve">
+    <value>Mar.</value>
+  </data>
+  <data name="Mar_Budget" xml:space="preserve">
+    <value>Mars Budsjett</value>
+  </data>
+  <data name="Mar_PreviousYear" xml:space="preserve">
+    <value>Mars I fjor</value>
+  </data>
+  <data name="Mar_Result" xml:space="preserve">
+    <value>Mars Resultat</value>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>Mai</value>
+  </data>
+  <data name="May_Budget" xml:space="preserve">
+    <value>Mars Budsjett</value>
+  </data>
+  <data name="May_PreviousYear" xml:space="preserve">
+    <value>Mars I fjor</value>
+  </data>
+  <data name="May_Result" xml:space="preserve">
+    <value>Mars Resultat</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Måned</value>
+  </data>
+  <data name="Movement" xml:space="preserve">
+    <value>Bevegelse</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="NinthPeriod" xml:space="preserve">
+    <value>Periode ni</value>
+  </data>
+  <data name="Nov" xml:space="preserve">
+    <value>Nov.</value>
+  </data>
+  <data name="Nov_Budget" xml:space="preserve">
+    <value>Nov. Budsjett</value>
+  </data>
+  <data name="Nov_PreviousYear" xml:space="preserve">
+    <value>Nov. I fjor</value>
+  </data>
+  <data name="Nov_Result" xml:space="preserve">
+    <value>Nov. Resultat</value>
+  </data>
+  <data name="Oct" xml:space="preserve">
+    <value>Okt.</value>
+  </data>
+  <data name="Oct_Budget" xml:space="preserve">
+    <value>Okt. Budsjett</value>
+  </data>
+  <data name="Oct_PreviousYear" xml:space="preserve">
+    <value>Okt. I fjor</value>
+  </data>
+  <data name="Oct_Result" xml:space="preserve">
+    <value>Okt. Resultat</value>
+  </data>
+  <data name="OpeningBalance" xml:space="preserve">
+    <value>Åpningsbalanse</value>
+  </data>
+  <data name="OpeningBalancePreviousYear" xml:space="preserve">
+    <value>Sluttbalanse i år</value>
+  </data>
+  <data name="OutgoingCompanyBalance" xml:space="preserve">
+    <value>Utgående balanse</value>
+  </data>
+  <data name="Paid" xml:space="preserve">
+    <value>Betalt</value>
+  </data>
+  <data name="PaidInvoiceNumber" xml:space="preserve">
+    <value>Betalt på faktura</value>
+  </data>
+  <data name="PreviousYear" xml:space="preserve">
+    <value>I fjor</value>
+  </data>
+  <data name="PreviousYearBudget" xml:space="preserve">
+    <value>Forrige års budsjett</value>
+  </data>
+  <data name="PreviuosYearSum" xml:space="preserve">
+    <value>Sum i fjor</value>
+  </data>
+  <data name="ProjectName" xml:space="preserve">
+    <value>Prosjektnavn</value>
+  </data>
+  <data name="ProjectNumber" xml:space="preserve">
+    <value>Prosjektnr</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Referanse</value>
+  </data>
+  <data name="Rest" xml:space="preserve">
+    <value>Rest</value>
+  </data>
+  <data name="RestInvoiceNumber" xml:space="preserve">
+    <value>Rest på faktura</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Resultat</value>
+  </data>
+  <data name="SAFTCode_Basis" xml:space="preserve">
+    <value>SAF-T kode basis</value>
+  </data>
+  <data name="SAFTCode_Tax" xml:space="preserve">
+    <value>SAF-T kode tax</value>
+  </data>
+  <data name="SecondPeriod" xml:space="preserve">
+    <value>Periode to</value>
+  </data>
+  <data name="Sep" xml:space="preserve">
+    <value>Sep.</value>
+  </data>
+  <data name="Sep_Budget" xml:space="preserve">
+    <value>Sep. Budsjett</value>
+  </data>
+  <data name="Sep_PreviousYear" xml:space="preserve">
+    <value>Sep. I fjor</value>
+  </data>
+  <data name="Sep_Result" xml:space="preserve">
+    <value>Sep. Resultat</value>
+  </data>
+  <data name="SeventhPeriod" xml:space="preserve">
+    <value>Periode sju</value>
+  </data>
+  <data name="SixthPeriod" xml:space="preserve">
+    <value>Periode seks</value>
+  </data>
+  <data name="Sum" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="SumPreviousYear" xml:space="preserve">
+    <value>Sum forrige år</value>
+  </data>
+  <data name="SumSelectedPeriodPreviousYear" xml:space="preserve">
+    <value>Sum for valgt periode og forrige år</value>
+  </data>
+  <data name="SumYear" xml:space="preserve">
+    <value>Sum år</value>
+  </data>
+  <data name="TenthPeriod" xml:space="preserve">
+    <value>Periode ti</value>
+  </data>
+  <data name="ThirdPeriod" xml:space="preserve">
+    <value>Periode tre</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Total_Budget" xml:space="preserve">
+    <value>Totalt budsjett</value>
+  </data>
+  <data name="Total_PreviousYear" xml:space="preserve">
+    <value>Totalt i fjor</value>
+  </data>
+  <data name="Total_Result" xml:space="preserve">
+    <value>Totalt resultat</value>
+  </data>
+  <data name="TwelfthPeriod" xml:space="preserve">
+    <value>Periode tolv</value>
+  </data>
+  <data name="VATCode" xml:space="preserve">
+    <value>MVA-kode</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>År</value>
+  </data>
+  <data name="Project_Parent_Name" xml:space="preserve">
+    <value>Overordnet prosjektnavn</value>
+  </data>
+  <data name="Project_Parent_Number" xml:space="preserve">
+    <value>Overordnet prosjektnr</value>
+  </data>
+  <data name="SumPendingRemittance" xml:space="preserve">
+    <value>Sendt remittering</value>
+  </data>
+  <data name="PaidInvoiceNumber_Currency" xml:space="preserve">
+    <value>Betalt på faktura (valuta)</value>
+  </data>
+  <data name="RestInvoiceNumber_Currency" xml:space="preserve">
+    <value>Rest på faktura (valuta)</value>
+  </data>
+  <data name="BeginBalance_Currency" xml:space="preserve">
+    <value>Åpningsbalanse (valuta)</value>
+  </data>
+  <data name="EndBalance_Currency" xml:space="preserve">
+    <value>Sluttbalanse (valuta)</value>
+  </data>
+  <data name="Pos" xml:space="preserve">
+    <value>Posisjon</value>
+  </data>
+  <data name="ShowDetails" xml:space="preserve">
+    <value>Vis detaljer</value>
+  </data>
+  <data name="GroupName" xml:space="preserve">
+    <value>Gruppe</value>
+  </data>
+  <data name="BudgetHours" xml:space="preserve">
+    <value>Planlagte timer</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Firmanavn</value>
+  </data>
+  <data name="CustomerNumber" xml:space="preserve">
+    <value>Kundennummer</value>
+  </data>
+  <data name="ProjectDate" xml:space="preserve">
+    <value>Prosjektdato</value>
+  </data>
+  <data name="ProjectSubtype" xml:space="preserve">
+    <value>Prosjektsubtype</value>
+  </data>
+  <data name="SumIncomeInvoiced" xml:space="preserve">
+    <value>Mottatte fakturaer</value>
+  </data>
+  <data name="BudgetRevenue" xml:space="preserve">
+    <value>Budsjett salg</value>
+  </data>
+  <data name="BookedRevenue" xml:space="preserve">
+    <value>Bokført salg</value>
+  </data>
+  <data name="SumFromStock" xml:space="preserve">
+    <value>Fra lager</value>
+  </data>
+  <data name="RegisteredWorkCost" xml:space="preserve">
+    <value>Reg arbeidskost</value>
+  </data>
+  <data name="BudgetHoursDecimal" xml:space="preserve">
+    <value>Planlagte timer (desimaltall)</value>
+  </data>
+  <data name="CalculateInterest" xml:space="preserve">
+    <value>Kalkulér rente</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Utskriftsspråk</value>
+  </data>
+  <data name="CurrencyRate_Actual" xml:space="preserve">
+    <value>Faktisk valutakurs</value>
+  </data>
+  <data name="Date_SentToDebtCollector" xml:space="preserve">
+    <value>Sendt til inkasso dato</value>
+  </data>
+  <data name="Date_Stopped" xml:space="preserve">
+    <value>Stoppet dato</value>
+  </data>
+  <data name="DoReminding" xml:space="preserve">
+    <value>Purring</value>
+  </data>
+  <data name="Fee" xml:space="preserve">
+    <value>Gebyr</value>
+  </data>
+  <data name="Fee_Currency" xml:space="preserve">
+    <value>Gebyr (valuta)</value>
+  </data>
+  <data name="Interest" xml:space="preserve">
+    <value>Rente</value>
+  </data>
+  <data name="InterestDays" xml:space="preserve">
+    <value>Rentedager</value>
+  </data>
+  <data name="InterestPercent" xml:space="preserve">
+    <value>Rente, % per år</value>
+  </data>
+  <data name="Interest_Currency" xml:space="preserve">
+    <value>Rente (valuta)</value>
+  </data>
+  <data name="IsPaymentFreeMonth" xml:space="preserve">
+    <value>Bet.fri mnd</value>
+  </data>
+  <data name="IsStopped" xml:space="preserve">
+    <value>Stoppet</value>
+  </data>
+  <data name="LastReminderDate" xml:space="preserve">
+    <value>Siste purringsdato</value>
+  </data>
+  <data name="LastReminderDebtCollection" xml:space="preserve">
+    <value>Siste purring inkasso</value>
+  </data>
+  <data name="LastReminderDueDate" xml:space="preserve">
+    <value>Siste purring forfallsdato</value>
+  </data>
+  <data name="MinCountedInterest" xml:space="preserve">
+    <value>Minstebeløp renter</value>
+  </data>
+  <data name="NextReminderDate" xml:space="preserve">
+    <value>Neste purringsdato</value>
+  </data>
+  <data name="NextReminderDebtCollection" xml:space="preserve">
+    <value>Neste purring inkasso</value>
+  </data>
+  <data name="OverdueDays" xml:space="preserve">
+    <value>Overtidsdager</value>
+  </data>
+  <data name="ReminderCnt" xml:space="preserve">
+    <value>Antall purringer</value>
+  </data>
+  <data name="ReminderSetup_Last" xml:space="preserve">
+    <value>Siste purring</value>
+  </data>
+  <data name="ReminderSetup_Next" xml:space="preserve">
+    <value>Neste purring</value>
+  </data>
+  <data name="SentToDebtCollector" xml:space="preserve">
+    <value>Sendt til inkasso</value>
+  </data>
+  <data name="UseDebtCollection" xml:space="preserve">
+    <value>Bruk inkasso</value>
+  </data>
+  <data name="UseFee" xml:space="preserve">
+    <value>Bruk gebyr</value>
+  </data>
+  <data name="User_SentToDebtCollector" xml:space="preserve">
+    <value>Sendt til inkasso av</value>
+  </data>
+  <data name="User_Stopped" xml:space="preserve">
+    <value>Stoppet av</value>
+  </data>
+  <data name="MinCountedInterest_Currency" xml:space="preserve">
+    <value>Minstebeløp renter (valuta)</value>
+  </data>
+  <data name="ReminderSetup_Next_Number" xml:space="preserve">
+    <value>Neste purring nummer</value>
+  </data>
+  <data name="SumPutToStock" xml:space="preserve">
+    <value>Til lager</value>
+  </data>
+  <data name="Date_Finished" xml:space="preserve">
+    <value>Dato ferdigstatus</value>
+  </data>
+  <data name="Date_Order" xml:space="preserve">
+    <value>Dato ordrestatus</value>
+  </data>
+  <data name="LastInvoiceDate" xml:space="preserve">
+    <value>Siste fakturadato</value>
+  </data>
+  <data name="ProjectStatus" xml:space="preserve">
+    <value>Prosjektstatus</value>
+  </data>
+  <data name="BookedMaterialCost" xml:space="preserve">
+    <value>Bokført varekostnad</value>
+  </data>
+  <data name="BookedExpenses" xml:space="preserve">
+    <value>Bokført andre kostnad</value>
+  </data>
+  <data name="User_Responsible" xml:space="preserve">
+    <value>Ansvarlig/PM</value>
+  </data>
+  <data name="RemainingHours" xml:space="preserve">
+    <value>Gjenstående timer</value>
+  </data>
+  <data name="RemainingHoursDecimal" xml:space="preserve">
+    <value>Gjenstående timer (desimaltall)</value>
+  </data>
+  <data name="RegisteredHours" xml:space="preserve">
+    <value>Reg timer</value>
+  </data>
+  <data name="RegisteredHoursDecimal" xml:space="preserve">
+    <value>Reg timer (desimaltall)</value>
+  </data>
+  <data name="BudgetExpenses" xml:space="preserve">
+    <value>Budsjett finanskostnad</value>
+  </data>
+  <data name="BudgetMaterialCost" xml:space="preserve">
+    <value>Budsjett varekostnad</value>
+  </data>
+  <data name="BudgetWorkCost" xml:space="preserve">
+    <value>Budsjett arbeidskost</value>
+  </data>
+  <data name="BudgetOtherCost" xml:space="preserve">
+    <value>Budsjett andre kostnader</value>
+  </data>
+  <data name="BudgetOtherCost_Hint" xml:space="preserve">
+    <value>Budsjett materialkost og andre finanskostnader</value>
+  </data>
+  <data name="ContributionMargin" xml:space="preserve">
+    <value>DB</value>
+  </data>
+  <data name="WipMarkup" xml:space="preserve">
+    <value>VIA påslag</value>
+  </data>
+  <data name="WipMarkupPercent" xml:space="preserve">
+    <value>VIA påslag%</value>
+  </data>
+  <data name="ContributionMarginPerHour" xml:space="preserve">
+    <value>DB per time</value>
+  </data>
+  <data name="ContributionRatioPercent" xml:space="preserve">
+    <value>DG</value>
+  </data>
+  <data name="ContributionRatioPercent_Hint" xml:space="preserve">
+    <value>Dekningsgrad</value>
+  </data>
+  <data name="ContributionMargin_Hint" xml:space="preserve">
+    <value>Dekningsbidrag</value>
+  </data>
+  <data name="WipEarnedNotInvoiced" xml:space="preserve">
+    <value>Opptjent, ikke fakturert</value>
+  </data>
+  <data name="BookedOtherCost" xml:space="preserve">
+    <value>Bokførte kostnader</value>
+  </data>
+  <data name="BookedOtherCost_Hint" xml:space="preserve">
+    <value>Bokførte materialkost og andre kostnader</value>
+  </data>
+  <data name="WipInvoicedNotEarned" xml:space="preserve">
+    <value>Fakturert, ikke opptjent</value>
+  </data>
+  <data name="Account_SubledgerCode" xml:space="preserve">
+    <value>Kontonr. reskontro</value>
+  </data>
+  <data name="Account_SubledgerName" xml:space="preserve">
+    <value>Kontonavn reskontro</value>
+  </data>
+  <data name="BudgetContributionMargin" xml:space="preserve">
+    <value>Budsjett DB</value>
+  </data>
+  <data name="BudgetContributionMarginPerHour" xml:space="preserve">
+    <value>Budsjett DB per time</value>
+  </data>
+  <data name="BudgetContributionRatioPercent" xml:space="preserve">
+    <value>Budsjett DG</value>
+  </data>
+  <data name="BudgetContributionRatioPercent_Hint" xml:space="preserve">
+    <value>Budsjett Dekningsgrad</value>
+  </data>
+  <data name="ProjectDescription" xml:space="preserve">
+    <value>Prosjekbeskrivelse</value>
+  </data>
+  <data name="ProjectWipMarkupPercent" xml:space="preserve">
+    <value>Prosjekt VIA påslag%</value>
+  </data>
+  <data name="PlannedExtraCost" xml:space="preserve">
+    <value>Planlagte ekstra kostnader</value>
+  </data>
+  <data name="Deviation" xml:space="preserve">
+    <value>Avvik</value>
+  </data>
+  <data name="DocumentInvoiceNumber" xml:space="preserve">
+    <value>Bilagsfakturanr</value>
+  </data>
+</root>

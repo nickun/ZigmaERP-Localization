@@ -1,0 +1,773 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_Agio" xml:space="preserve">
+    <value>Agiokonto</value>
+  </data>
+  <data name="Account_Bank" xml:space="preserve">
+    <value>Standard bankkonto ved kontering</value>
+  </data>
+  <data name="Account_Customers" xml:space="preserve">
+    <value>Hovedbokskonto kundefordringer</value>
+  </data>
+  <data name="Account_DirectPostLevel1" xml:space="preserve">
+    <value>Direkte postering kontonivå 1</value>
+  </data>
+  <data name="Account_DirectPostLevel2" xml:space="preserve">
+    <value>Direkte postering kontonivå 2</value>
+  </data>
+  <data name="Account_DirectPostLevel3" xml:space="preserve">
+    <value>Direkte postering kontonivå 3</value>
+  </data>
+  <data name="Account_DirectPostLevel4" xml:space="preserve">
+    <value>Direkte postering kontonivå 4</value>
+  </data>
+  <data name="Account_Disagio" xml:space="preserve">
+    <value>Disagiokonto</value>
+  </data>
+  <data name="Account_GlobalGovernment" xml:space="preserve">
+    <value>Oppgjørskonto mva</value>
+  </data>
+  <data name="Account_IncomeProduction" xml:space="preserve">
+    <value>Balansekonto for "ikke-fakturert" fra produksjon</value>
+  </data>
+  <data name="Account_Purchase" xml:space="preserve">
+    <value>Innkjøpskonto</value>
+  </data>
+  <data name="Account_Purchase_InRegion" xml:space="preserve">
+    <value>Innkjøpskonto avgiftsfritt innkjøp fra EU</value>
+  </data>
+  <data name="Account_Purchase_OutRegion" xml:space="preserve">
+    <value>Innkjøpskonto avgiftsfritt innkjøp utenfor EU</value>
+  </data>
+  <data name="Account_Rounding" xml:space="preserve">
+    <value>Konto for øreavrunding</value>
+  </data>
+  <data name="Account_Sales" xml:space="preserve">
+    <value>Salgskonto</value>
+  </data>
+  <data name="Account_Sales_InRegion" xml:space="preserve">
+    <value>Salgskonto innen EU</value>
+  </data>
+  <data name="Account_Sales_OutRegion" xml:space="preserve">
+    <value>Salgskonto utenfor EU</value>
+  </data>
+  <data name="Account_Sales_OutTaxArea" xml:space="preserve">
+    <value>Salgskonto utenfor avgiftsområdet</value>
+  </data>
+  <data name="Account_StockChanges" xml:space="preserve">
+    <value>Beholdningsendring lager</value>
+  </data>
+  <data name="Account_TaxFromAbroad" xml:space="preserve">
+    <value>Utgående mva konto, kjøpte tjenester fra utland</value>
+  </data>
+  <data name="Account_Vendors" xml:space="preserve">
+    <value>Hovedbokskonto leverandørgjeld</value>
+  </data>
+  <data name="Account_VendorsNotInvoiced" xml:space="preserve">
+    <value>Innkjøpt, ikke fakturert påløpt kostnad</value>
+  </data>
+  <data name="Account_WIPIncome" xml:space="preserve">
+    <value>Resultatkonto for "i arbeid" (opptjent, ikke-fakturert inntekt)</value>
+  </data>
+  <data name="Account_WIPNotInvoiced" xml:space="preserve">
+    <value>Balansekonto for "i arbeid" (opptjent, ikke-fakturert inntekt)</value>
+  </data>
+  <data name="Account_WIPStockBalance" xml:space="preserve">
+    <value>Balansekonto for "i arbeid" (beholdningsendring)</value>
+  </data>
+  <data name="Account_WIPStockResult" xml:space="preserve">
+    <value>Resultatkonto for "i arbeid" (beholdningsendring)</value>
+  </data>
+  <data name="AccountBalanceRangeFrom" xml:space="preserve">
+    <value>Nedre balansekonto</value>
+  </data>
+  <data name="AccountBalanceRangeTo" xml:space="preserve">
+    <value>Øvre balansekonto</value>
+  </data>
+  <data name="AccountIncomeRangeFrom" xml:space="preserve">
+    <value>Nedre resultatkonto</value>
+  </data>
+  <data name="AccountIncomeRangeTo" xml:space="preserve">
+    <value>Øvre resultatkonto</value>
+  </data>
+  <data name="AccountMaterialCostRangeFrom" xml:space="preserve">
+    <value>Nedre konto materialkostnader</value>
+  </data>
+  <data name="AccountMaterialCostRangeTo" xml:space="preserve">
+    <value>Øvre konto materialkostnader</value>
+  </data>
+  <data name="AccountTaxIncomeMax" xml:space="preserve">
+    <value>Høyeste inngående mva-konto</value>
+  </data>
+  <data name="AccountTaxIncomeMin" xml:space="preserve">
+    <value>Laveste inngående mva-konto</value>
+  </data>
+  <data name="AccountTaxOutgoMax" xml:space="preserve">
+    <value>Høyeste utgående mva-konto</value>
+  </data>
+  <data name="AccountTaxOutgoMin" xml:space="preserve">
+    <value>Laveste utgående mva-konto</value>
+  </data>
+  <data name="AllowChangeProjectNumber" xml:space="preserve">
+    <value>Tillat endring av prosjektnummer</value>
+  </data>
+  <data name="AskWorkflowSubtypesForNonFiles" xml:space="preserve">
+    <value>Spør om subtype for workflow som ikke er filer</value>
+  </data>
+  <data name="AutoLogOutInterval" xml:space="preserve">
+    <value>Intervall for autoutlogging</value>
+  </data>
+  <data name="CheckEmailsIntervalMinutes" xml:space="preserve">
+    <value>Intervall for sjekk av e-post (minutter)</value>
+  </data>
+  <data name="Counter_CustomerAccountCode" xml:space="preserve">
+    <value>Løpenummer for reskontro kunde</value>
+  </data>
+  <data name="Counter_VendorAccountCode" xml:space="preserve">
+    <value>Løpenummer for reskontro leverandør</value>
+  </data>
+  <data name="Counter_VendorNotInvoicedAccountCode" xml:space="preserve">
+    <value>Løpenummer for "ikke-fakturert"fra leverandør</value>
+  </data>
+  <data name="Counter_WorkflowItemSequenceNumber" xml:space="preserve">
+    <value>Løpenummer workflow</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="Culture_ForWorkers" xml:space="preserve">
+    <value>Språk for arbeidere</value>
+  </data>
+  <data name="Culture_FromOrganization" xml:space="preserve">
+    <value>Språk for firma</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="DateTimeCustomMask" xml:space="preserve">
+    <value>Dato egendefinert</value>
+  </data>
+  <data name="DateTimeFormat" xml:space="preserve">
+    <value>Datoformat</value>
+  </data>
+  <data name="DefaultHelpUrl" xml:space="preserve">
+    <value>Url-link til hjelpeside</value>
+  </data>
+  <data name="DefaultPageSettings" xml:space="preserve">
+    <value>Standard utskriftsformat</value>
+  </data>
+  <data name="DeliveryMethod" xml:space="preserve">
+    <value>Standard Leveringsmåte</value>
+  </data>
+  <data name="DeliveryTerms" xml:space="preserve">
+    <value>Standard Leveringsbetingelser</value>
+  </data>
+  <data name="EquipmentCostToPricePercent" xml:space="preserve">
+    <value>Påslag ressurser (på kostpris til salgspris)</value>
+  </data>
+  <data name="ExternalFilesRoot" xml:space="preserve">
+    <value>Mappe for eksterne filer</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Skrifttype Note</value>
+  </data>
+  <data name="GroupsPanelVisibilityMode" xml:space="preserve">
+    <value>Standard visningsmodus for gruppepanel</value>
+  </data>
+  <data name="IsBarcodeLogonEnabled" xml:space="preserve">
+    <value>Logg på systemet med strekkode for arbeidere</value>
+  </data>
+  <data name="IsContactPersonEmailRequired" xml:space="preserve">
+    <value>Påkrevd med e-mail for kontaktperson</value>
+  </data>
+  <data name="IsEditionOfBuiltInLocalizationStringsAllowed" xml:space="preserve">
+    <value>Tillat redigering av innebygde språkfelter på rapporter</value>
+  </data>
+  <data name="IsEditionOfBuiltInReportsAllowed" xml:space="preserve">
+    <value>Tillat redigering av innebygde rapporter</value>
+  </data>
+  <data name="IsGeneral" xml:space="preserve">
+    <value>Generelle instillinger</value>
+  </data>
+  <data name="IsPickForDraftWOAllowed" xml:space="preserve">
+    <value>Tillat plukk av lagermaterialer på arbeidsordre i "Utkast"-status</value>
+  </data>
+  <data name="IsProjectContactRequires" xml:space="preserve">
+    <value>Krav om prosjektkontaktperson</value>
+  </data>
+  <data name="IsPurchaseForDraftWOAllowed" xml:space="preserve">
+    <value>Tillat opprettelse av innkjøp på arbeidsordre i "Utkast"-status</value>
+  </data>
+  <data name="IsTimeRegistrationForDraftWOAllowed" xml:space="preserve">
+    <value>Tillat timeregistrering på arbeidsordre i "Utkast"-status</value>
+  </data>
+  <data name="KidFactoringCustomerId" xml:space="preserve">
+    <value>Factoring kunde-id (fast)</value>
+  </data>
+  <data name="KidNumberOfDigits_CustomerNumber" xml:space="preserve">
+    <value>Antall siffer i kundenr.</value>
+  </data>
+  <data name="KidNumberOfDigits_InvoiceNumber" xml:space="preserve">
+    <value>Antall siffer i fakturanr.</value>
+  </data>
+  <data name="KidNumberOfZeros_AfterInvoiceNumber" xml:space="preserve">
+    <value>Antall 0 etter fakturanr.</value>
+  </data>
+  <data name="Ledger_General" xml:space="preserve">
+    <value>Hovedbok</value>
+  </data>
+  <data name="Ledger_SubledgerForCustomers" xml:space="preserve">
+    <value>Kundereskontro</value>
+  </data>
+  <data name="Ledger_SubledgerForVendors" xml:space="preserve">
+    <value>Leverandørreskontro</value>
+  </data>
+  <data name="MaterialCostToPricePercent" xml:space="preserve">
+    <value>Påslag materialer (på kostpris til salgspris)</value>
+  </data>
+  <data name="MeasurementUnit_AdjustmentTime_Default" xml:space="preserve">
+    <value>Standardformat tid for justeringstid </value>
+  </data>
+  <data name="MeasurementUnit_LeadTime_Default" xml:space="preserve">
+    <value>Standardformat tid for ledetid</value>
+  </data>
+  <data name="MeasurementUnit_PostLoadTime_Default" xml:space="preserve">
+    <value>Standardformat tid 'etter operasjon'</value>
+  </data>
+  <data name="MeasurementUnit_Time_Default" xml:space="preserve">
+    <value>Standardformat tid</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Navneinnstillinger</value>
+  </data>
+  <data name="OrgUnit_DefaultMaterialStock" xml:space="preserve">
+    <value>Standard materiallager</value>
+  </data>
+  <data name="OrgUnit_DefaultProductStock" xml:space="preserve">
+    <value>Standard produktlager</value>
+  </data>
+  <data name="OrgUnit_Organization" xml:space="preserve">
+    <value>Firmanavn</value>
+  </data>
+  <data name="OrgUnit_QuarantineStock" xml:space="preserve">
+    <value>Karantene lager</value>
+  </data>
+  <data name="OrgUnit_WebShopStock" xml:space="preserve">
+    <value>Lagernavn for Web Shop</value>
+  </data>
+  <data name="PaymentTerms" xml:space="preserve">
+    <value>Standard betalingsbetingelser</value>
+  </data>
+  <data name="PercentPrecision" xml:space="preserve">
+    <value>Antall desimaler prosent</value>
+  </data>
+  <data name="PlannerTimeUnit" xml:space="preserve">
+    <value>Tidsenhet for planlegger</value>
+  </data>
+  <data name="PlanningStrategy" xml:space="preserve">
+    <value>Planleggingsstrategi</value>
+  </data>
+  <data name="PriceList_WebShop" xml:space="preserve">
+    <value>Standard prisliste Web Shop</value>
+  </data>
+  <data name="PricePrecision" xml:space="preserve">
+    <value>Antall desimaler pris</value>
+  </data>
+  <data name="Project_DefaultForTimeRegistration" xml:space="preserve">
+    <value>Standardprosjekt for timeregistrering</value>
+  </data>
+  <data name="PutWOToWorkOnCreation" xml:space="preserve">
+    <value>Sett arbeidsordre til "I arbeid" automatisk</value>
+  </data>
+  <data name="QuantityPrecision" xml:space="preserve">
+    <value>Antall desimaler mengde</value>
+  </data>
+  <data name="RatePrecision" xml:space="preserve">
+    <value>Antall desimaler kurs</value>
+  </data>
+  <data name="RemittanceEnable" xml:space="preserve">
+    <value>Aktivér remittering</value>
+  </data>
+  <data name="ReportDefaultFont" xml:space="preserve">
+    <value>Standardfont på utskrifter</value>
+  </data>
+  <data name="RoundingLimit" xml:space="preserve">
+    <value>Grense for øreavrunding</value>
+  </data>
+  <data name="SalaryCode" xml:space="preserve">
+    <value>Lønnskode</value>
+  </data>
+  <data name="SalaryPriceToWorkCostPercent" xml:space="preserve">
+    <value>Påslag lønnskostnad i kalkulasjon</value>
+  </data>
+  <data name="SalaryPriceToWorkPricePercent" xml:space="preserve">
+    <value>Påslag utpris lønn i kalkulasjon</value>
+  </data>
+  <data name="SerialNumberDefinition" xml:space="preserve">
+    <value>Serienummer genereringsregel</value>
+  </data>
+  <data name="Shift_Default" xml:space="preserve">
+    <value>Standard skift for bedriften</value>
+  </data>
+  <data name="SkinName" xml:space="preserve">
+    <value>Utseende (skin) på Zigma360</value>
+  </data>
+  <data name="SkipDatePageOnWOCreation" xml:space="preserve">
+    <value>Hopp over spørsmål om datoer ved opprettelse av arbeidsordre</value>
+  </data>
+  <data name="SkipIntervalAfterShiftEnd" xml:space="preserve">
+    <value>Antall timer og min. som ikke skal regnes med etter sluttid skiftplan</value>
+  </data>
+  <data name="SkipIntervalBeforeShiftStart" xml:space="preserve">
+    <value>Antall timer og min. som ikke skal regnes med før starttid skiftplan</value>
+  </data>
+  <data name="TaxCode_Purchase" xml:space="preserve">
+    <value>Mva-kode innkjøp</value>
+  </data>
+  <data name="TaxCode_Purchase_InRegion" xml:space="preserve">
+    <value>Mva-kode innkjøp avgiftsfritt fra EU</value>
+  </data>
+  <data name="TaxCode_Purchase_OutRegion" xml:space="preserve">
+    <value>Mva-kode innkjøp avgiftsfritt utenfor EU</value>
+  </data>
+  <data name="TaxCode_Sales" xml:space="preserve">
+    <value>Mva-kode salg</value>
+  </data>
+  <data name="TaxCode_Sales_InRegion" xml:space="preserve">
+    <value>Mva-kode salg avgiftsfritt til EU</value>
+  </data>
+  <data name="TaxCode_Sales_OutRegion" xml:space="preserve">
+    <value>Mva-kode salg avgiftsfritt utenfor EU</value>
+  </data>
+  <data name="TaxCode_Sales_OutTaxArea" xml:space="preserve">
+    <value>Mva-kode salg utenfor avgiftsområdet</value>
+  </data>
+  <data name="TimeCustomMask" xml:space="preserve">
+    <value>Tidsformat egendefinert</value>
+  </data>
+  <data name="TimeFormat" xml:space="preserve">
+    <value>Tidsformat</value>
+  </data>
+  <data name="UpdateCostsOnWorkorderCreation" xml:space="preserve">
+    <value>Oppdatér kost ved opprettelse av arbeidsordre</value>
+  </data>
+  <data name="UseCompletionWizardOnStopWork" xml:space="preserve">
+    <value>Får opp dialogbilde ved utstempling</value>
+  </data>
+  <data name="User_DefaultForDeviation" xml:space="preserve">
+    <value>Avviksansvarlig i firmaet</value>
+  </data>
+  <data name="WIPPeriodFinished" xml:space="preserve">
+    <value>Innlåsing av "i arbeid"-periode (format: yyyy.mm)</value>
+  </data>
+  <data name="WODeadlineDateGap" xml:space="preserve">
+    <value>Slakk arbeidsordre (antall dager)</value>
+  </data>
+  <data name="WorkflowItem_Logo" xml:space="preserve">
+    <value>Firmalogo</value>
+  </data>
+  <data name="WorkflowItemNamePrefix" xml:space="preserve">
+    <value>Workflow-prefiks</value>
+  </data>
+  <data name="Project_TimeBank" xml:space="preserve">
+    <value>Timebank prosjekt</value>
+  </data>
+  <data name="TimeRegistrationLockToDate" xml:space="preserve">
+    <value>Sperredato for timeregistrering</value>
+  </data>
+  <data name="FillFixedPriceForInWorkPL" xml:space="preserve">
+    <value>Fyll automatisk inn Overstyrende pris for prosjektlinjer i "I arbeid"-status</value>
+  </data>
+  <data name="EhfFtpPwd" xml:space="preserve">
+    <value>FTP-passord</value>
+  </data>
+  <data name="EhfFtpServer" xml:space="preserve">
+    <value>FTP server</value>
+  </data>
+  <data name="EhfFtpUser" xml:space="preserve">
+    <value>FTP-bruker</value>
+  </data>
+  <data name="OrgUnit_MaintenanceStock" xml:space="preserve">
+    <value>Veldikeholdslager</value>
+  </data>
+  <data name="SalaryPeriodType" xml:space="preserve">
+    <value>Standard lønnsperiode type</value>
+  </data>
+  <data name="TimeManagementLockToDate" xml:space="preserve">
+    <value>Sperredato for tidsadministrasjon</value>
+  </data>
+  <data name="SimpleStock" xml:space="preserve">
+    <value>Enkel lagerhåndtering</value>
+  </data>
+  <data name="IncludeReturnDateIntoRentPeriod" xml:space="preserve">
+    <value>Inkludér returdato i utleieperioden</value>
+  </data>
+  <data name="AutoPickMaterials" xml:space="preserve">
+    <value>Autoplukking av materialer</value>
+  </data>
+  <data name="AutoPickUseCertificateMaterials" xml:space="preserve">
+    <value>Autoplukking av materialer som krever sertifikat / serienr</value>
+  </data>
+  <data name="InvoiceNumberFormat" xml:space="preserve">
+    <value>Faktura nummerformat</value>
+  </data>
+  <data name="InvoiceNumberFormatPreview" xml:space="preserve">
+    <value>Faktura nummer forhåndsvisning</value>
+  </data>
+  <data name="KidFormat" xml:space="preserve">
+    <value>KID-format</value>
+  </data>
+  <data name="KidFormatPreview" xml:space="preserve">
+    <value>KID forhåndsvisning</value>
+  </data>
+  <data name="IsKidEnabled" xml:space="preserve">
+    <value>KID aktivert</value>
+  </data>
+  <data name="AssemblyLineFormatPreview_L" xml:space="preserve">
+    <value>Lengde format visning</value>
+  </data>
+  <data name="AssemblyLineFormatPreview_LW" xml:space="preserve">
+    <value>Lengde x Bredde format visning</value>
+  </data>
+  <data name="AssemblyLineFormatPreview_LWH" xml:space="preserve">
+    <value>Lengde x Bredde x Høyde format visning</value>
+  </data>
+  <data name="AssemblyLineFormatPreview_PCS" xml:space="preserve">
+    <value>Stykker format visning</value>
+  </data>
+  <data name="AssemblyLineFormatPreview_WH" xml:space="preserve">
+    <value>Bredde x Høyde format visning</value>
+  </data>
+  <data name="AssemblyLineFormat_L" xml:space="preserve">
+    <value>Lengde format</value>
+  </data>
+  <data name="AssemblyLineFormat_LW" xml:space="preserve">
+    <value>Lengde x Bredde format</value>
+  </data>
+  <data name="AssemblyLineFormat_LWH" xml:space="preserve">
+    <value>Lengde x Bredde x Høyde format</value>
+  </data>
+  <data name="AssemblyLineFormat_PCS" xml:space="preserve">
+    <value>Stykker format</value>
+  </data>
+  <data name="AssemblyLineFormat_WH" xml:space="preserve">
+    <value>Bredde x Høyde format</value>
+  </data>
+  <data name="ArticleSelectionControl" xml:space="preserve">
+    <value>Oppslag artikkel</value>
+  </data>
+  <data name="OrgUnitSelectionControl" xml:space="preserve">
+    <value>Oppslag kontakter</value>
+  </data>
+  <data name="ProjectSelectionControl" xml:space="preserve">
+    <value>Oppslag prosjekt</value>
+  </data>
+  <data name="PlannerLimitDays" xml:space="preserve">
+    <value>Planleggers begrensningsdager</value>
+  </data>
+  <data name="Account_Fee" xml:space="preserve">
+    <value>Gebyrkonto</value>
+  </data>
+  <data name="Account_Interest" xml:space="preserve">
+    <value>Rentekonto</value>
+  </data>
+  <data name="DoReminderAccounting" xml:space="preserve">
+    <value>Bokføring av gebyr og renter</value>
+  </data>
+  <data name="NoFeeDays" xml:space="preserve">
+    <value>Forfalte dager før gebyr</value>
+  </data>
+  <data name="StringField1" xml:space="preserve">
+    <value>Valgfritt felt 1</value>
+  </data>
+  <data name="StringField10" xml:space="preserve">
+    <value>Valgfritt felt 10</value>
+  </data>
+  <data name="StringField2" xml:space="preserve">
+    <value>Valgfritt felt 2</value>
+  </data>
+  <data name="StringField3" xml:space="preserve">
+    <value>Valgfritt felt 3</value>
+  </data>
+  <data name="StringField4" xml:space="preserve">
+    <value>Valgfritt felt 4</value>
+  </data>
+  <data name="StringField5" xml:space="preserve">
+    <value>Valgfritt felt 5</value>
+  </data>
+  <data name="StringField6" xml:space="preserve">
+    <value>Valgfritt felt 6</value>
+  </data>
+  <data name="StringField7" xml:space="preserve">
+    <value>Valgfritt felt 7</value>
+  </data>
+  <data name="StringField8" xml:space="preserve">
+    <value>Valgfritt felt 8</value>
+  </data>
+  <data name="StringField9" xml:space="preserve">
+    <value>Valgfritt felt 9</value>
+  </data>
+  <data name="IsBarcodeLogonEnabledForSystemUsers" xml:space="preserve">
+    <value>Logg på systemet med strekkode for systembrukere</value>
+  </data>
+  <data name="MaterialCostToPricePercent_Hint" xml:space="preserve">
+    <value>Endringer påvirker artikkelpriser</value>
+  </data>
+  <data name="GroupsPanelVisibilityMode_Hint" xml:space="preserve">
+    <value>Dette valget gjøres ved oppstart når en bedrift skal komme i gang med systemet.
+Valget kan overstyres inne på hver enkelt bruker etterhvert.</value>
+  </data>
+  <data name="WODeadlineDateGap_Hint" xml:space="preserve">
+    <value>Brukes til beregning av arbeidsordrefrist.
+Prosjektlinjefrist minus Slakk arbeidsordre (antall dager) blir arbeidsordrefrist.</value>
+  </data>
+  <data name="WipMarkupPercent" xml:space="preserve">
+    <value>VIA påslag</value>
+  </data>
+  <data name="Account_StockChanges_Hint" xml:space="preserve">
+    <value>Resultatkonto</value>
+  </data>
+  <data name="Account_BankFactoring" xml:space="preserve">
+    <value>Faktoring betalingskonto</value>
+  </data>
+  <data name="OrgUnit_FactoringCompany" xml:space="preserve">
+    <value>Faktoring firma</value>
+  </data>
+  <data name="UseFactoring_Default" xml:space="preserve">
+    <value>Bruk faktoring som standard</value>
+  </data>
+  <data name="ProcessNumberFormat_Operation" xml:space="preserve">
+    <value>Arbeidspakke nummerformat (operasjon)</value>
+  </data>
+  <data name="ProcessNumberFormat_Operation_Preview" xml:space="preserve">
+    <value>Arbeidspakke nummerformat visning (operasjon)</value>
+  </data>
+  <data name="ProcessNumberFormat_WorkOrder" xml:space="preserve">
+    <value>Arbeidspakke nummerformat (arbeidsordre)</value>
+  </data>
+  <data name="ProcessNumberFormat_WorkOrder_Preview" xml:space="preserve">
+    <value>Arbeidspakke nummerformat visning (arbeidsordre)</value>
+  </data>
+  <data name="WODeadlineHourToDayFactor" xml:space="preserve">
+    <value>Arbeidsordrefrist tid konvertere faktor, arbeidstimer per dag</value>
+  </data>
+  <data name="SuggestEarliestDateOnWOCreation" xml:space="preserve">
+    <value>Foreslå tidligste dato under arbeidsordre opprettelsen</value>
+  </data>
+  <data name="Article_ReferenceField1_Type" xml:space="preserve">
+    <value>Artikkel oppslagsfelt 1</value>
+  </data>
+  <data name="Article_ReferenceField2_Type" xml:space="preserve">
+    <value>Artikkel oppslagsfelt 2</value>
+  </data>
+  <data name="Article_ReferenceField3_Type" xml:space="preserve">
+    <value>Artikkel oppslagsfelt 3</value>
+  </data>
+  <data name="OrgUnit_ReferenceField1_Type" xml:space="preserve">
+    <value>Kontakter oppslagsfelt 1</value>
+  </data>
+  <data name="OrgUnit_ReferenceField2_Type" xml:space="preserve">
+    <value>Kontakter oppslagsfelt 2</value>
+  </data>
+  <data name="OrgUnit_ReferenceField3_Type" xml:space="preserve">
+    <value>Kontakter oppslagsfelt 3</value>
+  </data>
+  <data name="WorkflowItem_ReferenceField1_Type" xml:space="preserve">
+    <value>Workflow oppslagsfelt 1</value>
+  </data>
+  <data name="WorkflowItem_ReferenceField2_Type" xml:space="preserve">
+    <value>Workflow oppslagsfelt 2</value>
+  </data>
+  <data name="WorkflowItem_ReferenceField3_Type" xml:space="preserve">
+    <value>Workflow oppslagsfelt 3</value>
+  </data>
+  <data name="TimeRegistrationUseResourceDepartment" xml:space="preserve">
+    <value>Bruk alltid avdeling fra ressurs i tidsregistrering</value>
+  </data>
+  <data name="DefaultArticleSubWorkOrder" xml:space="preserve">
+    <value>"Sub-arbeidsordre" for nye produktartikler</value>
+  </data>
+  <data name="DefaultArticleSubWorkOrder_Hint" xml:space="preserve">
+    <value>Standard - sist brukt</value>
+  </data>
+  <data name="VatReportOutPathUri" xml:space="preserve">
+    <value>MVA-rapport eksport utgangsmappe</value>
+  </data>
+  <data name="DefaultMenuProfile_Users" xml:space="preserve">
+    <value>Standard menyprofil for brukere</value>
+  </data>
+  <data name="DefaultMenuProfile_Workers" xml:space="preserve">
+    <value>Standard menyprofil for arbeidere</value>
+  </data>
+  <data name="MandatoryDepartmentForArticles" xml:space="preserve">
+    <value>Obligatorisk avdeling for artikler</value>
+  </data>
+  <data name="MandatoryDepartmentForIncomingInvoices" xml:space="preserve">
+    <value>Obligatorisk avdeling for Inngående fakturaer</value>
+  </data>
+  <data name="TimeRegistrationUseArticleDepartment" xml:space="preserve">
+    <value>Bruk avdeling fra artikkel i tidsregistrering</value>
+  </data>
+  <data name="TimeRegistrationShowQuantityInWizards" xml:space="preserve">
+    <value>Vis felt for registrering av mengde ved tidregistrering</value>
+  </data>
+  <data name="AllowCustomerAccountCodeOverride" xml:space="preserve">
+    <value>Tillat kodeoverstyring for nye kunder</value>
+  </data>
+  <data name="AllowVendorAccountCodeOverride" xml:space="preserve">
+    <value>Tillat kodeoverstyring for nye leverandører</value>
+  </data>
+  <data name="Script_Assembly" xml:space="preserve">
+    <value>Standard scripting for kalkyle</value>
+  </data>
+  <data name="Script_ProjectLine" xml:space="preserve">
+    <value>Standard scripting for prosjektlinje</value>
+  </data>
+  <data name="DrawingReferenceFormat" xml:space="preserve">
+    <value>Tegningsreferanseformat</value>
+  </data>
+  <data name="DrawingReferenceFormatPreview" xml:space="preserve">
+    <value>Tegningsreferanseformat visning</value>
+  </data>
+  <data name="AutoPickForProduced" xml:space="preserve">
+    <value>Autoplukk materialer for ferdige produkter</value>
+  </data>
+  <data name="AutoPickForDeliveredMaterials" xml:space="preserve">
+    <value>Autoplukk materialer for leverte materialer / lagerprodukter</value>
+  </data>
+  <data name="AutoPickForDeliveredProductsEnabled" xml:space="preserve">
+    <value>Aktiver autoplukking ved levering av kalkyle prosjektlinjer</value>
+  </data>
+  <data name="FactorDGToWIPMarkupPercent" xml:space="preserve">
+    <value>Faktor DG til VIA påslag</value>
+  </data>
+  <data name="PlannerPrioritizeStartedWO" xml:space="preserve">
+    <value>Prioriter startet arbeidsordrer</value>
+  </data>
+  <data name="DeliveryLotIsMandatory" xml:space="preserve">
+    <value>Obligatoriske lot/partier for levering</value>
+  </data>
+  <data name="CurrencyRateAutoUpdate" xml:space="preserve">
+    <value>Valutakurs automatisk oppdatering</value>
+  </data>
+  <data name="AutoPickMaterialsWithNegativeQuantity" xml:space="preserve">
+    <value>Autoplukk materialer med negativ mengde</value>
+  </data>
+</root>

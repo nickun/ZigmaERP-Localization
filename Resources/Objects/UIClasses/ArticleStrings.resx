@@ -1,0 +1,698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_Cost" xml:space="preserve">
+    <value>Purchases account</value>
+  </data>
+  <data name="Account_Sales" xml:space="preserve">
+    <value>Sales account</value>
+  </data>
+  <data name="Account_Sales_InRegion" xml:space="preserve">
+    <value>Sales account in region</value>
+  </data>
+  <data name="Account_Sales_OutRegion" xml:space="preserve">
+    <value>Sales account outside region</value>
+  </data>
+  <data name="Account_Sales_OutTaxArea" xml:space="preserve">
+    <value>Sales account outside vat area</value>
+  </data>
+  <data name="AdditionalDescription" xml:space="preserve">
+    <value>Additional description</value>
+  </data>
+  <data name="ApproveDate" xml:space="preserve">
+    <value>Approval date</value>
+  </data>
+  <data name="ApproveDescription" xml:space="preserve">
+    <value>Approval description</value>
+  </data>
+  <data name="ApproveState" xml:space="preserve">
+    <value>Approval status</value>
+  </data>
+  <data name="ArticleAccountCategory" xml:space="preserve">
+    <value>Article account category</value>
+  </data>
+  <data name="ArticleType" xml:space="preserve">
+    <value>Article type</value>
+  </data>
+  <data name="AskApproveDate" xml:space="preserve">
+    <value>Approval request date</value>
+  </data>
+  <data name="BarCode" xml:space="preserve">
+    <value>Custom barcode</value>
+  </data>
+  <data name="BarCodeString" xml:space="preserve">
+    <value>Barcode</value>
+  </data>
+  <data name="BasicPrice" xml:space="preserve">
+    <value>Basic price</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="ComplianceCount" xml:space="preserve">
+    <value>Compliance count</value>
+  </data>
+  <data name="ComplianceScoreAverage" xml:space="preserve">
+    <value>Compliance average score</value>
+  </data>
+  <data name="ComplianceScoreAverageColor" xml:space="preserve">
+    <value>Compliance average score color</value>
+  </data>
+  <data name="ComplianceScoreMin" xml:space="preserve">
+    <value>Compliance min score</value>
+  </data>
+  <data name="ComplianceScoreMinColor" xml:space="preserve">
+    <value>Compliance min score color</value>
+  </data>
+  <data name="CopyNoteToProjectLine" xml:space="preserve">
+    <value>Copy note to project line</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="Cost_Hint" xml:space="preserve">
+    <value>Comes from assembly or default vendor article</value>
+  </data>
+  <data name="CostToPricePercent" xml:space="preserve">
+    <value>Fixed Markup% materials</value>
+  </data>
+  <data name="Country_OfOrigin" xml:space="preserve">
+    <value>Country of origin</value>
+  </data>
+  <data name="Courier" xml:space="preserve">
+    <value>Courier</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="DateCreated" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="DefaultPrice" xml:space="preserve">
+    <value>Default price</value>
+  </data>
+  <data name="DefaultPrice_Hint" xml:space="preserve">
+    <value>Default price from assembly or basic price from vendor article or calculated basic price</value>
+  </data>
+  <data name="DeliveryDays" xml:space="preserve">
+    <value>Delivery days</value>
+  </data>
+  <data name="Density" xml:space="preserve">
+    <value>Density, kg/m3</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Diameter" xml:space="preserve">
+    <value>Diameter, mm</value>
+  </data>
+  <data name="Dimension" xml:space="preserve">
+    <value>Dimension</value>
+  </data>
+  <data name="DoNotDelivery" xml:space="preserve">
+    <value>Do not delivery</value>
+  </data>
+  <data name="DrawingNumber" xml:space="preserve">
+    <value>Drawing number</value>
+  </data>
+  <data name="ExportCode" xml:space="preserve">
+    <value>Export code</value>
+  </data>
+  <data name="ExternalGuid" xml:space="preserve">
+    <value>External id</value>
+  </data>
+  <data name="ExternalId" xml:space="preserve">
+    <value>External id</value>
+  </data>
+  <data name="Factor_Alt1" xml:space="preserve">
+    <value>Main units per unit 1</value>
+  </data>
+  <data name="Factor_Alt1_Hint" xml:space="preserve">
+    <value>How many main units for one alternative</value>
+  </data>
+  <data name="Factor_Alt2" xml:space="preserve">
+    <value>Main units per unit 2</value>
+  </data>
+  <data name="Factor_Alt3" xml:space="preserve">
+    <value>Main units per unit 3</value>
+  </data>
+  <data name="Factor_Alt4" xml:space="preserve">
+    <value>Main units per unit 4</value>
+  </data>
+  <data name="Factor_Purchase" xml:space="preserve">
+    <value>Main units per purchase unit</value>
+  </data>
+  <data name="FixedPrice" xml:space="preserve">
+    <value>Fixed price</value>
+  </data>
+  <data name="FullCost" xml:space="preserve">
+    <value>Cost with freight and discount</value>
+  </data>
+  <data name="GroupInWorkOrderType" xml:space="preserve">
+    <value>Group in work order materials</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Thickness / height, mm</value>
+  </data>
+  <data name="IsAllowedMinusRest" xml:space="preserve">
+    <value>Allow negative inventory balance</value>
+  </data>
+  <data name="IsAutoTimeRegistration" xml:space="preserve">
+    <value>Auto time registration</value>
+  </data>
+  <data name="IsDisabled" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="IsNoteExists" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="IsSalesArticle" xml:space="preserve">
+    <value>Sales article</value>
+  </data>
+  <data name="IsSerialNumber" xml:space="preserve">
+    <value>Serial number</value>
+  </data>
+  <data name="IsServiceWork" xml:space="preserve">
+    <value>Service work</value>
+  </data>
+  <data name="IsVisibleForAllCustomers" xml:space="preserve">
+    <value>Visible for all customers</value>
+  </data>
+  <data name="KeyChangePricePercent" xml:space="preserve">
+    <value>Price change</value>
+  </data>
+  <data name="KeyCostToPrice" xml:space="preserve">
+    <value>CM/cost</value>
+  </data>
+  <data name="KeyDB" xml:space="preserve">
+    <value>CM</value>
+  </data>
+  <data name="KeyDBForHour" xml:space="preserve">
+    <value>CM per hour</value>
+  </data>
+  <data name="KeyDG" xml:space="preserve">
+    <value>CR</value>
+  </data>
+  <data name="LastEditDate" xml:space="preserve">
+    <value>Last edit date</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Length, mm</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Margin" xml:space="preserve">
+    <value>Margin, mm</value>
+  </data>
+  <data name="MeasurementUnit" xml:space="preserve">
+    <value>Main unit</value>
+  </data>
+  <data name="MeasurementUnit_Alt1" xml:space="preserve">
+    <value>Unit 1</value>
+  </data>
+  <data name="MeasurementUnit_Alt2" xml:space="preserve">
+    <value>Unit 2</value>
+  </data>
+  <data name="MeasurementUnit_Alt3" xml:space="preserve">
+    <value>Unit 3</value>
+  </data>
+  <data name="MeasurementUnit_Alt4" xml:space="preserve">
+    <value>Unit 4</value>
+  </data>
+  <data name="MeasurementUnit_AlternativeRest" xml:space="preserve">
+    <value>Alternative stock unit</value>
+  </data>
+  <data name="MeasurementUnitPurchase" xml:space="preserve">
+    <value>Purchase unit</value>
+  </data>
+  <data name="MinOrderQuantity" xml:space="preserve">
+    <value>Min order quantity</value>
+  </data>
+  <data name="MinPurchaseQuantity" xml:space="preserve">
+    <value>Min purchase quantity</value>
+  </data>
+  <data name="MinStockQuantity" xml:space="preserve">
+    <value>Min stock quantity</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Article name</value>
+  </data>
+  <data name="NormalOrderQuantity" xml:space="preserve">
+    <value>Normal order quantity</value>
+  </data>
+  <data name="NormalProductionQuantity" xml:space="preserve">
+    <value>Normal production quantity</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="NotePlainText" xml:space="preserve">
+    <value>Note plain text</value>
+  </data>
+  <data name="OrgUnit_Customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="OrgUnit_DefaultProductStock" xml:space="preserve">
+    <value>Default product stock</value>
+  </data>
+  <data name="OrgUnit_DefaultStock" xml:space="preserve">
+    <value>Default material stock</value>
+  </data>
+  <data name="OrgUnit_DefaultVendor" xml:space="preserve">
+    <value>Default vendor</value>
+  </data>
+  <data name="OrgUnit_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="OwnerType" xml:space="preserve">
+    <value>Owner type</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="PriceListPrice" xml:space="preserve">
+    <value>Pricelist price</value>
+  </data>
+  <data name="ProducedBy" xml:space="preserve">
+    <value>Produced by</value>
+  </data>
+  <data name="ProductLotGenerationRule" xml:space="preserve">
+    <value>Product lot generation rule</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="QuantityDiscount_UseAdvancedCalculation" xml:space="preserve">
+    <value>Use advanced calculation</value>
+  </data>
+  <data name="QuantityDiscountCategory1_Quantity" xml:space="preserve">
+    <value>Quantity for category 1</value>
+  </data>
+  <data name="QuantityDiscountCategory2_Quantity" xml:space="preserve">
+    <value>Quantity for category 2</value>
+  </data>
+  <data name="QuantityDiscountCategory3_Quantity" xml:space="preserve">
+    <value>Quantity for category 3</value>
+  </data>
+  <data name="QuantityDiscountCategory4_Quantity" xml:space="preserve">
+    <value>Quantity for category 4</value>
+  </data>
+  <data name="QuantityDiscountCategory5_Quantity" xml:space="preserve">
+    <value>Quantity for category 5</value>
+  </data>
+  <data name="QuantityDiscountProfile" xml:space="preserve">
+    <value>Quantity discount profile</value>
+  </data>
+  <data name="Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="RemarkColor" xml:space="preserve">
+    <value>Remark color</value>
+  </data>
+  <data name="RentCost" xml:space="preserve">
+    <value>Rent cost</value>
+  </data>
+  <data name="RentPrice" xml:space="preserve">
+    <value>Rent price</value>
+  </data>
+  <data name="RiskCount" xml:space="preserve">
+    <value>Risk count</value>
+  </data>
+  <data name="RiskScoreAverage" xml:space="preserve">
+    <value>Risk average score</value>
+  </data>
+  <data name="RiskScoreAverageColor" xml:space="preserve">
+    <value>Risk average score color</value>
+  </data>
+  <data name="RiskScoreMax" xml:space="preserve">
+    <value>Risk max score</value>
+  </data>
+  <data name="RiskScoreMaxColor" xml:space="preserve">
+    <value>Risk max score color</value>
+  </data>
+  <data name="SerialNumberDefinition" xml:space="preserve">
+    <value>Serial number generation rule</value>
+  </data>
+  <data name="SubWorkOrder" xml:space="preserve">
+    <value>Sub work order</value>
+  </data>
+  <data name="TaxCode_Purchase" xml:space="preserve">
+    <value>Purchases vat code</value>
+  </data>
+  <data name="TaxCode_Sales" xml:space="preserve">
+    <value>Sales vat code</value>
+  </data>
+  <data name="URL" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="UseCertificate" xml:space="preserve">
+    <value>Use certificate</value>
+  </data>
+  <data name="UsedCostToPricePercent" xml:space="preserve">
+    <value>Markup% materials</value>
+  </data>
+  <data name="User_Approver" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="User_AskApprove" xml:space="preserve">
+    <value>Approval requested by</value>
+  </data>
+  <data name="VendorArticle_Default" xml:space="preserve">
+    <value>Default vendor article</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Net weight, kg</value>
+  </data>
+  <data name="WeightPerSquare" xml:space="preserve">
+    <value>Weight per square, kg/m2</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Width, mm</value>
+  </data>
+  <data name="WorkflowItem_Drawing" xml:space="preserve">
+    <value>Drawing</value>
+  </data>
+  <data name="WorkHoursEach" xml:space="preserve">
+    <value>Hours per unit</value>
+  </data>
+  <data name="FixedWeight" xml:space="preserve">
+    <value>Fixed weight, kg</value>
+  </data>
+  <data name="EmailCount" xml:space="preserve">
+    <value>Email count</value>
+  </data>
+  <data name="FileCount" xml:space="preserve">
+    <value>File count</value>
+  </data>
+  <data name="StringField1" xml:space="preserve">
+    <value>String field 1</value>
+  </data>
+  <data name="StringField2" xml:space="preserve">
+    <value>String field 2</value>
+  </data>
+  <data name="StringField3" xml:space="preserve">
+    <value>String field 3</value>
+  </data>
+  <data name="StringField4" xml:space="preserve">
+    <value>String field 4</value>
+  </data>
+  <data name="StringField5" xml:space="preserve">
+    <value>String field 5</value>
+  </data>
+  <data name="Cost_Alt1" xml:space="preserve">
+    <value>Cost for unit 1</value>
+  </data>
+  <data name="Cost_Alt2" xml:space="preserve">
+    <value>Cost for unit 2</value>
+  </data>
+  <data name="Cost_Alt3" xml:space="preserve">
+    <value>Cost for unit 3</value>
+  </data>
+  <data name="Cost_Alt4" xml:space="preserve">
+    <value>Cost for unit 4</value>
+  </data>
+  <data name="Cost_Purchase" xml:space="preserve">
+    <value>Cost for purchase unit</value>
+  </data>
+  <data name="StringField10" xml:space="preserve">
+    <value>String field 10</value>
+  </data>
+  <data name="StringField6" xml:space="preserve">
+    <value>String field 6</value>
+  </data>
+  <data name="StringField7" xml:space="preserve">
+    <value>String field 7</value>
+  </data>
+  <data name="StringField8" xml:space="preserve">
+    <value>String field 8</value>
+  </data>
+  <data name="StringField9" xml:space="preserve">
+    <value>String field 9</value>
+  </data>
+  <data name="ScriptParameters" xml:space="preserve">
+    <value>Script parameters</value>
+  </data>
+  <data name="Script_Assembly" xml:space="preserve">
+    <value>Script for assembly</value>
+  </data>
+  <data name="Script_ProjectLine" xml:space="preserve">
+    <value>Script for project line</value>
+  </data>
+  <data name="DefaultAssemblyQuantity" xml:space="preserve">
+    <value>Default assembly quantity</value>
+  </data>
+  <data name="DefaultAssemblyQuantityType" xml:space="preserve">
+    <value>Quantity type in assembly</value>
+  </data>
+  <data name="ProductLotGenerationRule_Hint" xml:space="preserve">
+    <value>The "Auto" setting means:
+- the "Each unit" rule is used if an article uses certificates / serial numbers and a work order has the "Piece" unit;
+- the "One lot" rule is used otherwise.</value>
+  </data>
+  <data name="DrawingReference" xml:space="preserve">
+    <value>Drawing reference</value>
+  </data>
+  <data name="Weight_Alt1" xml:space="preserve">
+    <value>Weight for unit 1, kg</value>
+  </data>
+  <data name="Weight_Alt2" xml:space="preserve">
+    <value>Weight for unit 2, kg</value>
+  </data>
+  <data name="Weight_Alt3" xml:space="preserve">
+    <value>Weight for unit 3, kg</value>
+  </data>
+  <data name="Weight_Alt4" xml:space="preserve">
+    <value>Weight for unit 4, kg</value>
+  </data>
+  <data name="Weight_Purchase" xml:space="preserve">
+    <value>Weight for purhcase unit, kg</value>
+  </data>
+  <data name="ArticleVersion" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="MeasurementUnit_Assembly" xml:space="preserve">
+    <value>Unit for assembly</value>
+  </data>
+  <data name="MeasurementUnit_Net" xml:space="preserve">
+    <value>Net unit</value>
+  </data>
+  <data name="MeasurementUnit_Net_Hint" xml:space="preserve">
+    <value>The net unit (excluding packaging material), e.g. ml in bottles of Shampoo.</value>
+  </data>
+  <data name="MeasurementUnit_ProjectLine" xml:space="preserve">
+    <value>Unit for project lines</value>
+  </data>
+  <data name="OrderQuantityIncrement" xml:space="preserve">
+    <value>Order quantity increment</value>
+  </data>
+  <data name="KeyDB_Hint" xml:space="preserve">
+    <value>Contribution margin</value>
+  </data>
+  <data name="KeyDG_Hint" xml:space="preserve">
+    <value>Contribution ratio</value>
+  </data>
+  <data name="QualityControl" xml:space="preserve">
+    <value>Quality control</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="Level_Hint" xml:space="preserve">
+    <value>Manually set level for plan stock production</value>
+  </data>
+  <data name="UNSPSC_Code" xml:space="preserve">
+    <value>UNSPSC code</value>
+  </data>
+  <data name="ReferenceField1" xml:space="preserve">
+    <value>Multi choice field 1</value>
+  </data>
+  <data name="ReferenceField2" xml:space="preserve">
+    <value>Multi choice field 2</value>
+  </data>
+  <data name="ReferenceField3" xml:space="preserve">
+    <value>Multi choice field 3</value>
+  </data>
+  <data name="ApproversCount" xml:space="preserve">
+    <value>Number of approvers</value>
+  </data>
+  <data name="FixedKeyDG" xml:space="preserve">
+    <value>Fixed CR, %</value>
+  </data>
+  <data name="BruttoWeight" xml:space="preserve">
+    <value>Gross weight, kg</value>
+  </data>
+  <data name="TareWeight" xml:space="preserve">
+    <value>Tare weight, kg</value>
+  </data>
+  <data name="ArticleDiscountGroup" xml:space="preserve">
+    <value>Discount group</value>
+  </data>
+  <data name="CopySerialNumberToProduct" xml:space="preserve">
+    <value>Copy serial number to product</value>
+  </data>
+  <data name="CostMaterial" xml:space="preserve">
+    <value>Material cost</value>
+  </data>
+  <data name="CostWork" xml:space="preserve">
+    <value>Cost of work</value>
+  </data>
+  <data name="CustomerArticleCodePrefix" xml:space="preserve">
+    <value>Customer's article number prefix</value>
+  </data>
+  <data name="CopySerialNumberToProduct_Hint" xml:space="preserve">
+    <value>Copies serial number from material to product on picking or goods receiving.
+The mark should be set for materials.
+The first product lot with empty serial is used, serials are not overridden.
+The product should use the empty serial generation rule - "{3}"</value>
+  </data>
+  <data name="DenySalesDiscount" xml:space="preserve">
+    <value>Deny sales discount</value>
+  </data>
+  <data name="ProjectLocation" xml:space="preserve">
+    <value>Project location</value>
+  </data>
+  <data name="UseSerialNumber" xml:space="preserve">
+    <value>Use serial number</value>
+  </data>
+  <data name="PlanningStrategy" xml:space="preserve">
+    <value>Planning strategy</value>
+  </data>
+  <data name="PlanningStrategy_Hint" xml:space="preserve">
+    <value>Is copied into created project lines</value>
+  </data>
+  <data name="MeasurementUnit_Pick" xml:space="preserve">
+    <value>Unit for picking</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Creation date</value>
+  </data>
+  <data name="MeasurementUnit_AssemblyCost" xml:space="preserve">
+    <value>Unit for cost in assembly</value>
+  </data>
+  <data name="User_Author" xml:space="preserve">
+    <value>Created by</value>
+  </data>
+  <data name="User_LastEdit" xml:space="preserve">
+    <value>Last edited by</value>
+  </data>
+  <data name="IsTemplate" xml:space="preserve">
+    <value>Template</value>
+  </data>
+</root>

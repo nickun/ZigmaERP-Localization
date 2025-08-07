@@ -1,0 +1,3156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessType_Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="AccessType_Advanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="AccessType_Deny" xml:space="preserve">
+    <value>Access denied</value>
+  </data>
+  <data name="AccessType_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="AccessType_NotUsed" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="AccessType_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="AccountType_Credit" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="AccountType_Debit" xml:space="preserve">
+    <value>Debit</value>
+  </data>
+  <data name="AccountType_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="ApproveFilterState_Approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="ApproveFilterState_Declined" xml:space="preserve">
+    <value>Declined</value>
+  </data>
+  <data name="ApproveFilterState_Need" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="ApproveFilterState_Waiting" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="ApproveState_Approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="ApproveState_Declined" xml:space="preserve">
+    <value>Declined</value>
+  </data>
+  <data name="ApproveState_Need" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="ApproveState_NotNeed" xml:space="preserve">
+    <value>Not required</value>
+  </data>
+  <data name="ApproveState_Waiting" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="ArticleFilterType_All" xml:space="preserve">
+    <value>All articles</value>
+  </data>
+  <data name="ArticleFilterType_AssemblyPart" xml:space="preserve">
+    <value>Assembly part</value>
+  </data>
+  <data name="ArticleFilterType_Expenses" xml:space="preserve">
+    <value>Expense</value>
+  </data>
+  <data name="ArticleFilterType_Feature" xml:space="preserve">
+    <value>Feature</value>
+  </data>
+  <data name="ArticleFilterType_ForProject" xml:space="preserve">
+    <value>Project material</value>
+  </data>
+  <data name="ArticleFilterType_ForStock" xml:space="preserve">
+    <value>Stock material</value>
+  </data>
+  <data name="ArticleFilterType_Learning" xml:space="preserve">
+    <value>Learning</value>
+  </data>
+  <data name="ArticleFilterType_LowValue" xml:space="preserve">
+    <value>Low value</value>
+  </data>
+  <data name="ArticleFilterType_ProductForProject" xml:space="preserve">
+    <value>Project product</value>
+  </data>
+  <data name="ArticleFilterType_ProductForStock" xml:space="preserve">
+    <value>Stock product</value>
+  </data>
+  <data name="ArticleFilterType_Service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="ArticleFilterType_SubcontractorWork" xml:space="preserve">
+    <value>Subcontractor work</value>
+  </data>
+  <data name="ArticleFilterType_Tool" xml:space="preserve">
+    <value>Tool</value>
+  </data>
+  <data name="ArticlePrefixType_CounterOnly" xml:space="preserve">
+    <value>Counter only</value>
+  </data>
+  <data name="ArticlePrefixType_Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="ArticlePrefixType_Predefined" xml:space="preserve">
+    <value>Pre-defined</value>
+  </data>
+  <data name="ArticlePrefixType_UserDefinedPrefix" xml:space="preserve">
+    <value>User-defined prefix</value>
+  </data>
+  <data name="ArticleType_AssemblyPart" xml:space="preserve">
+    <value>Assembly part</value>
+  </data>
+  <data name="ArticleType_Expenses" xml:space="preserve">
+    <value>Expense</value>
+  </data>
+  <data name="ArticleType_Feature" xml:space="preserve">
+    <value>Feature</value>
+  </data>
+  <data name="ArticleType_ForProject" xml:space="preserve">
+    <value>Project material</value>
+  </data>
+  <data name="ArticleType_ForStock" xml:space="preserve">
+    <value>Stock material</value>
+  </data>
+  <data name="ArticleType_Learning" xml:space="preserve">
+    <value>Learning</value>
+  </data>
+  <data name="ArticleType_LowValue" xml:space="preserve">
+    <value>Low value</value>
+  </data>
+  <data name="ArticleType_NotUsed" xml:space="preserve">
+    <value>Not used</value>
+  </data>
+  <data name="ArticleType_ProductForProject" xml:space="preserve">
+    <value>Project product</value>
+  </data>
+  <data name="ArticleType_ProductForStock" xml:space="preserve">
+    <value>Stock product</value>
+  </data>
+  <data name="ArticleType_Service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="ArticleType_SubcontractorWork" xml:space="preserve">
+    <value>Subcontractor work</value>
+  </data>
+  <data name="ArticleType_Tool" xml:space="preserve">
+    <value>Tool</value>
+  </data>
+  <data name="AssemblyPriceType_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="AssemblyPriceType_Basic" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="AssemblyPriceType_UseCostToPricePercent" xml:space="preserve">
+    <value>Cost to price percent</value>
+  </data>
+  <data name="AssemblyTreeNodeType_Article" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="AssemblyTreeNodeType_Assembly" xml:space="preserve">
+    <value>Assembly</value>
+  </data>
+  <data name="AssemblyTreeNodeType_Comment" xml:space="preserve">
+    <value>Comment node</value>
+  </data>
+  <data name="AssemblyTreeNodeType_Expenses" xml:space="preserve">
+    <value>Expenses</value>
+  </data>
+  <data name="AssemblyTreeNodeType_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="AssemblyTreeNodeType_SelectionGroup" xml:space="preserve">
+    <value>Selection group</value>
+  </data>
+  <data name="AssemblyTreeNodeType_SpecificationList" xml:space="preserve">
+    <value>Specification list</value>
+  </data>
+  <data name="AssemblyTreeNodeType_Summary" xml:space="preserve">
+    <value>Summary node</value>
+  </data>
+  <data name="AssemblyTreeNodeType_VendorArticle" xml:space="preserve">
+    <value>Vendor article</value>
+  </data>
+  <data name="AutoCalcExceptionType_AuthenticationFailed" xml:space="preserve">
+    <value>Authentication failed</value>
+  </data>
+  <data name="AutoCalcExceptionType_FileAlreadyExists" xml:space="preserve">
+    <value>The file already exists</value>
+  </data>
+  <data name="AutoCalcExceptionType_GeneralSettingsNotSpecified" xml:space="preserve">
+    <value>General settings are not specified</value>
+  </data>
+  <data name="AutoCalcExceptionType_InvalidArgument" xml:space="preserve">
+    <value>Invalid argument</value>
+  </data>
+  <data name="AutoCalcExceptionType_LogicalErrorInData" xml:space="preserve">
+    <value>Logical error in data</value>
+  </data>
+  <data name="AutoCalcExceptionType_NoChangesAllowed" xml:space="preserve">
+    <value>No changes allowed</value>
+  </data>
+  <data name="AutoCalcExceptionType_NotEnoughRests" xml:space="preserve">
+    <value>Not enough rests</value>
+  </data>
+  <data name="AutoCalcExceptionType_NotExistDocument" xml:space="preserve">
+    <value>Not existing document</value>
+  </data>
+  <data name="AutoCalcExceptionType_PeriodDoesNotExist" xml:space="preserve">
+    <value>Period does not exist</value>
+  </data>
+  <data name="AutoCalcExceptionType_PeriodIsClose" xml:space="preserve">
+    <value>Period is close</value>
+  </data>
+  <data name="AutoCalcExceptionType_VersionMismatch" xml:space="preserve">
+    <value>Version mismatch</value>
+  </data>
+  <data name="AutoCalcExceptionType_WrongPostingData" xml:space="preserve">
+    <value>Wrong posting data</value>
+  </data>
+  <data name="AutoCalcExceptionType_WrongPostingState" xml:space="preserve">
+    <value>Wrong posting status</value>
+  </data>
+  <data name="AutoCalcExceptionType_WrongSettings" xml:space="preserve">
+    <value>Error in system settings or in feature set up</value>
+  </data>
+  <data name="AutoTimeRecordFilterType_All" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="AutoTimeRecordFilterType_WithoutAuto" xml:space="preserve">
+    <value>Hide auto</value>
+  </data>
+  <data name="CommentFilterType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="CommentFilterType_System" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="CommentFilterType_User" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="ConfirmStatusType_Confirmed" xml:space="preserve">
+    <value>Confirmed</value>
+  </data>
+  <data name="ConfirmStatusType_Failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="ConfirmStatusType_Unconfirmed" xml:space="preserve">
+    <value>Unconfirmed</value>
+  </data>
+  <data name="DatasourceType_Current" xml:space="preserve">
+    <value>Current element</value>
+  </data>
+  <data name="DatasourceType_Data" xml:space="preserve">
+    <value>All data</value>
+  </data>
+  <data name="DatasourceType_Selected" xml:space="preserve">
+    <value>Selection of elements</value>
+  </data>
+  <data name="DocumentControlState_Controlled" xml:space="preserve">
+    <value>Controlled</value>
+  </data>
+  <data name="DocumentControlState_NoNeed" xml:space="preserve">
+    <value>No need to control</value>
+  </data>
+  <data name="DocumentControlState_NotControlled" xml:space="preserve">
+    <value>Not controlled</value>
+  </data>
+  <data name="DocumentFilterState_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="DocumentFilterState_Draft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="DocumentFilterState_Posted" xml:space="preserve">
+    <value>Posted</value>
+  </data>
+  <data name="DocumentKind_AutoPurchase" xml:space="preserve">
+    <value>Auto purchase</value>
+  </data>
+  <data name="DocumentKind_LowValueItems" xml:space="preserve">
+    <value>Low values</value>
+  </data>
+  <data name="DocumentKind_Materials" xml:space="preserve">
+    <value>Materials</value>
+  </data>
+  <data name="DocumentKind_NotSpecified" xml:space="preserve">
+    <value>Not specified</value>
+  </data>
+  <data name="DocumentState_AccountingPosted" xml:space="preserve">
+    <value>Accounting posted</value>
+  </data>
+  <data name="DocumentState_Draft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="DocumentState_FullPosted" xml:space="preserve">
+    <value>Full posted</value>
+  </data>
+  <data name="DocumentState_InventoryPosted" xml:space="preserve">
+    <value>Inventory posted</value>
+  </data>
+  <data name="DocumentSyncStatusType_None" xml:space="preserve">
+    <value>Not sent</value>
+  </data>
+  <data name="DocumentSyncStatusType_Sent" xml:space="preserve">
+    <value>Sent</value>
+  </data>
+  <data name="EdgeUseType_Exclude" xml:space="preserve">
+    <value>Exclude</value>
+  </data>
+  <data name="EdgeUseType_Include" xml:space="preserve">
+    <value>Include</value>
+  </data>
+  <data name="EdgeUseType_NoLimit" xml:space="preserve">
+    <value>No Limit</value>
+  </data>
+  <data name="EnabledFilterType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="EnabledFilterType_EnabledOnly" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="EquipmentType_Machine" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="EquipmentType_Tool" xml:space="preserve">
+    <value>Tool</value>
+  </data>
+  <data name="ExpandState_Hidden" xml:space="preserve">
+    <value>Hidden</value>
+  </data>
+  <data name="ExpandState_NotSet" xml:space="preserve">
+    <value>Not set</value>
+  </data>
+  <data name="ExpandState_Visible" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="ExpandState_VisibleNotSum" xml:space="preserve">
+    <value>Expanded</value>
+  </data>
+  <data name="GroupInWorkOrderType_DoNotGroup" xml:space="preserve">
+    <value>Do not group</value>
+  </data>
+  <data name="GroupInWorkOrderType_GroupAll" xml:space="preserve">
+    <value>Group all</value>
+  </data>
+  <data name="GroupInWorkOrderType_SumByPieces" xml:space="preserve">
+    <value>Sum by pieces</value>
+  </data>
+  <data name="GroupPanelVisibilityMode_AlwaysHide" xml:space="preserve">
+    <value>Always off</value>
+  </data>
+  <data name="GroupPanelVisibilityMode_AlwaysShow" xml:space="preserve">
+    <value>Always on</value>
+  </data>
+  <data name="GroupPanelVisibilityMode_Automatically" xml:space="preserve">
+    <value>No preference</value>
+  </data>
+  <data name="HistoryWorkflowFilterType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="HistoryWorkflowFilterType_NoHistoryFiles" xml:space="preserve">
+    <value>Hide history files</value>
+  </data>
+  <data name="ImportAndExportType_Article" xml:space="preserve">
+    <value>Articles</value>
+  </data>
+  <data name="ImportAndExportType_ArticlesCost" xml:space="preserve">
+    <value>Articles cost and price</value>
+  </data>
+  <data name="ImportAndExportType_AssemblyLine" xml:space="preserve">
+    <value>Assembly lines</value>
+  </data>
+  <data name="ImportAndExportType_AssemblyOperation" xml:space="preserve">
+    <value>Assembly operations</value>
+  </data>
+  <data name="ImportAndExportType_ContactPerson" xml:space="preserve">
+    <value>Contact persons</value>
+  </data>
+  <data name="ImportAndExportType_DocumentLine" xml:space="preserve">
+    <value>Document line</value>
+  </data>
+  <data name="ImportAndExportType_OperationTemplate" xml:space="preserve">
+    <value>Operation templates</value>
+  </data>
+  <data name="ImportAndExportType_OrgUnit" xml:space="preserve">
+    <value>Organization Units</value>
+  </data>
+  <data name="ImportAndExportType_PostIndex" xml:space="preserve">
+    <value>Post indexes</value>
+  </data>
+  <data name="ImportAndExportType_Project" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="ImportAndExportType_Resource" xml:space="preserve">
+    <value>Resources</value>
+  </data>
+  <data name="ImportAndExportType_ResourceGroup" xml:space="preserve">
+    <value>Resource groups</value>
+  </data>
+  <data name="ImportAndExportType_VendorArticle" xml:space="preserve">
+    <value>Vendor articles</value>
+  </data>
+  <data name="ImportAndExportType_VendorArticlesCost" xml:space="preserve">
+    <value>Vendor articles cost</value>
+  </data>
+  <data name="IntervalProjectType_IntervalInvoice" xml:space="preserve">
+    <value>Invoice </value>
+  </data>
+  <data name="IntervalProjectType_IntervalService" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="IntervalProjectType_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="IntervalType_Day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="IntervalType_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="IntervalType_NotUsed" xml:space="preserve">
+    <value>Not used</value>
+  </data>
+  <data name="IntervalType_Week" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="InvoiceGroupType_GroupedByCustomer" xml:space="preserve">
+    <value>Grouped by customer</value>
+  </data>
+  <data name="InvoiceGroupType_GroupedByOrder" xml:space="preserve">
+    <value>Grouped by order</value>
+  </data>
+  <data name="InvoiceGroupType_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="InvoicePaymentType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="InvoicePaymentType_OpenPositions" xml:space="preserve">
+    <value>Open positions</value>
+  </data>
+  <data name="InvoicePaymentType_OverDueInvoices" xml:space="preserve">
+    <value>Overdue invoices</value>
+  </data>
+  <data name="InvoiceStatusType_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="InvoiceStatusType_Paid" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="InvoiceStatusType_Partial" xml:space="preserve">
+    <value>Partial</value>
+  </data>
+  <data name="InvoiceStatusType_Stopped" xml:space="preserve">
+    <value>Stopped</value>
+  </data>
+  <data name="InvoiceStatusType_Unpaid" xml:space="preserve">
+    <value>Unpaid</value>
+  </data>
+  <data name="InvoicingKind_Materials" xml:space="preserve">
+    <value>Materials</value>
+  </data>
+  <data name="InvoicingKind_NotUsed" xml:space="preserve">
+    <value>Not used</value>
+  </data>
+  <data name="InvoicingKind_Rent" xml:space="preserve">
+    <value>Rent</value>
+  </data>
+  <data name="InvoicingKind_Work" xml:space="preserve">
+    <value>Work</value>
+  </data>
+  <data name="ItemOpenness_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="ItemOpenness_Closed" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="ItemOpenness_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="LeftEdgeUseType_Greater" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="LeftEdgeUseType_GreaterOrEqual" xml:space="preserve">
+    <value>≥</value>
+  </data>
+  <data name="LeftEdgeUseType_NegInfinity" xml:space="preserve">
+    <value>-∞</value>
+  </data>
+  <data name="MaterialType_ForProject" xml:space="preserve">
+    <value>Project material</value>
+  </data>
+  <data name="MaterialType_ForStock" xml:space="preserve">
+    <value>Stock material</value>
+  </data>
+  <data name="MaterialType_NotMaterial" xml:space="preserve">
+    <value>Not material</value>
+  </data>
+  <data name="MeasurementUnitFilterType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="MeasurementUnitFilterType_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="MeasurementUnitFilterType_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Meter" xml:space="preserve">
+    <value>Meter</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Meter2" xml:space="preserve">
+    <value>Square meter</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Meter3" xml:space="preserve">
+    <value>Cubic meter</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Piece" xml:space="preserve">
+    <value>Piece</value>
+  </data>
+  <data name="MeasurementUnitType_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="MeasurementUnitType_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="MenuItemAction_Note" xml:space="preserve">
+    <value>Show note</value>
+  </data>
+  <data name="MenuItemAction_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="MenuItemAction_Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="MenuItemAction_Workflow" xml:space="preserve">
+    <value>Show workflow items</value>
+  </data>
+  <data name="MenuItemType_CustomGroup" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="MenuItemType_DefaultGroup" xml:space="preserve">
+    <value>Default group</value>
+  </data>
+  <data name="MenuItemType_DefaultItem" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="MenuItemType_File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="MenuItemType_Folder" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="MenuItemType_ObjectShortcut" xml:space="preserve">
+    <value>Object link</value>
+  </data>
+  <data name="MenuItemType_Web" xml:space="preserve">
+    <value>Web link</value>
+  </data>
+  <data name="NoteExists_Comment" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="NoteExists_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoteExists_Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="NoteExists_NoteAndComment" xml:space="preserve">
+    <value>Note and comments</value>
+  </data>
+  <data name="QuantityType_EachPiece" xml:space="preserve">
+    <value>Each piece</value>
+  </data>
+  <data name="QuantityType_EachUnit" xml:space="preserve">
+    <value>Each unit</value>
+  </data>
+  <data name="QuantityType_Fixed" xml:space="preserve">
+    <value>Fixed</value>
+  </data>
+  <data name="OrgUnitAddressType_Delivery" xml:space="preserve">
+    <value>Delivery</value>
+  </data>
+  <data name="OrgUnitAddressType_Invoice" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="OrgUnitAddressType_Post" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="OrgUnitAddressType_Unknown" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="OrgUnitAddressType_Visit" xml:space="preserve">
+    <value>Visit</value>
+  </data>
+  <data name="OrgUnitFilterType_Customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="OrgUnitFilterType_CustomerCandidate" xml:space="preserve">
+    <value>Customer candidate</value>
+  </data>
+  <data name="OrgUnitFilterType_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="OrgUnitFilterType_Stock" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="OrgUnitFilterType_Undefined" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="OrgUnitFilterType_Vendor" xml:space="preserve">
+    <value>Vendor</value>
+  </data>
+  <data name="OrgUnitFilterType_VendorCandidate" xml:space="preserve">
+    <value>Vendor candidate</value>
+  </data>
+  <data name="OrgUnitRegionType_InsideRegion" xml:space="preserve">
+    <value>Inside region</value>
+  </data>
+  <data name="OrgUnitRegionType_Native" xml:space="preserve">
+    <value>Native</value>
+  </data>
+  <data name="OrgUnitRegionType_OutsideRegion" xml:space="preserve">
+    <value>Outside region</value>
+  </data>
+  <data name="OrgUnitReportFilterType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="OrgUnitReportFilterType_Customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="OrgUnitReportFilterType_Vendor" xml:space="preserve">
+    <value>Vendor</value>
+  </data>
+  <data name="OrgUnitType_Customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="OrgUnitType_CustomerCandidate" xml:space="preserve">
+    <value>Customer candidate</value>
+  </data>
+  <data name="OrgUnitType_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="OrgUnitType_LeadProvider" xml:space="preserve">
+    <value>Lead provider</value>
+  </data>
+  <data name="OrgUnitType_NotUsed" xml:space="preserve">
+    <value>Not used</value>
+  </data>
+  <data name="OrgUnitType_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="OrgUnitType_Stock" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="OrgUnitType_Vendor" xml:space="preserve">
+    <value>Vendor</value>
+  </data>
+  <data name="OrgUnitType_VendorCandidate" xml:space="preserve">
+    <value>Vendor candidate</value>
+  </data>
+  <data name="PeriodType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="PeriodType_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="PeriodType_Quarter" xml:space="preserve">
+    <value>Quarter</value>
+  </data>
+  <data name="PeriodType_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="PlanResourceType_EquipmentGroup" xml:space="preserve">
+    <value>Equipment group</value>
+  </data>
+  <data name="PlanResourceType_Resource" xml:space="preserve">
+    <value>Resource</value>
+  </data>
+  <data name="PlanResourceType_ResourceGroup" xml:space="preserve">
+    <value>Resource group</value>
+  </data>
+  <data name="PlanResourceType_WorkerGroup" xml:space="preserve">
+    <value>Worker group</value>
+  </data>
+  <data name="PriceListType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="PriceListType_None" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="PriceListType_Purchase" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="PriceListType_Sale" xml:space="preserve">
+    <value>Sale</value>
+  </data>
+  <data name="PriceListType_SaleRent" xml:space="preserve">
+    <value>Sale rent</value>
+  </data>
+  <data name="PrintOnKind_CustomPages" xml:space="preserve">
+    <value>Custom pages</value>
+  </data>
+  <data name="PrintOnKind_EachPage" xml:space="preserve">
+    <value>Each page</value>
+  </data>
+  <data name="PrintOnKind_FirstAndLast" xml:space="preserve">
+    <value>First and last page</value>
+  </data>
+  <data name="PrintOnKind_FirstPage" xml:space="preserve">
+    <value>First page</value>
+  </data>
+  <data name="PrintOnKind_LastPage" xml:space="preserve">
+    <value>Last page</value>
+  </data>
+  <data name="ProductLotGenerationRule_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="ProductLotGenerationRule_EachUnit" xml:space="preserve">
+    <value>Each unit</value>
+  </data>
+  <data name="ProductLotGenerationRule_OneLot" xml:space="preserve">
+    <value>One lot</value>
+  </data>
+  <data name="ProjectDocumentShowType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="ProjectDocumentShowType_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="ProjectLevel_AllLevels" xml:space="preserve">
+    <value>All project levels</value>
+  </data>
+  <data name="ProjectLevel_NotUsed" xml:space="preserve">
+    <value>Not used</value>
+  </data>
+  <data name="ProjectLevel_Operation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="ProjectLevel_Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="ProjectLevel_ProjectLine" xml:space="preserve">
+    <value>Project line</value>
+  </data>
+  <data name="ProjectLevel_WorkOrder" xml:space="preserve">
+    <value>Work order</value>
+  </data>
+  <data name="ProjectLineState_Draft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="ProjectLineState_Finished" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="ProjectLineState_InWork" xml:space="preserve">
+    <value>In work</value>
+  </data>
+  <data name="ProjectLineType_Article" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="ProjectLineType_Assembly" xml:space="preserve">
+    <value>Assembly</value>
+  </data>
+  <data name="ProjectLineType_Expenses" xml:space="preserve">
+    <value>Expenses</value>
+  </data>
+  <data name="ProjectLineType_Rent" xml:space="preserve">
+    <value>Rent</value>
+  </data>
+  <data name="ProjectLineType_ServiceLine" xml:space="preserve">
+    <value>Service line</value>
+  </data>
+  <data name="ProjectLineType_Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="ProjectLineType_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="ProjectLineType_VendorArticle" xml:space="preserve">
+    <value>Vendor Article</value>
+  </data>
+  <data name="ProjectState_Closed" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="ProjectState_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="ProjectState_Draft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="ProjectState_Evaluating" xml:space="preserve">
+    <value>Evaluating</value>
+  </data>
+  <data name="ProjectState_Finished" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="ProjectState_InProcess" xml:space="preserve">
+    <value>In process</value>
+  </data>
+  <data name="ProjectState_MergePurchase" xml:space="preserve">
+    <value>Merge for purchase</value>
+  </data>
+  <data name="ProjectState_Offer" xml:space="preserve">
+    <value>Offer</value>
+  </data>
+  <data name="ProjectState_OfferPurchase" xml:space="preserve">
+    <value>Offer for purchase</value>
+  </data>
+  <data name="ProjectState_Opened" xml:space="preserve">
+    <value>Opened</value>
+  </data>
+  <data name="ProjectState_Order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="ProjectState_Ordered" xml:space="preserve">
+    <value>Ordered</value>
+  </data>
+  <data name="ProjectState_OrderPurchase" xml:space="preserve">
+    <value>Order for purchase</value>
+  </data>
+  <data name="ProjectState_QuoteOffer" xml:space="preserve">
+    <value>Quote offer</value>
+  </data>
+  <data name="ProjectState_Registering" xml:space="preserve">
+    <value>Registering</value>
+  </data>
+  <data name="ProjectState_Request" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="ProjectState_RequestPurchase" xml:space="preserve">
+    <value>Request for purchase</value>
+  </data>
+  <data name="ProjectState_Tickets" xml:space="preserve">
+    <value>Tickets</value>
+  </data>
+  <data name="ProjectState_ToApproval" xml:space="preserve">
+    <value>To approval</value>
+  </data>
+  <data name="ProjectState_WebPortal" xml:space="preserve">
+    <value>Web portal</value>
+  </data>
+  <data name="ProjectSubtype_Production" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="ProjectSubtype_Repeating" xml:space="preserve">
+    <value>Repeating</value>
+  </data>
+  <data name="ProjectSubtype_Resale" xml:space="preserve">
+    <value>Resale</value>
+  </data>
+  <data name="ProjectSubtype_Service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="ProjectTeamUserFilterType_ContactPerson" xml:space="preserve">
+    <value>Contact person</value>
+  </data>
+  <data name="ProjectTeamUserFilterType_SystemUser" xml:space="preserve">
+    <value>System user</value>
+  </data>
+  <data name="ProjectTeamUserFilterType_Worker" xml:space="preserve">
+    <value>Worker / operator</value>
+  </data>
+  <data name="ProjectType_AssetRegister" xml:space="preserve">
+    <value>Asset register</value>
+  </data>
+  <data name="ProjectType_CallOff" xml:space="preserve">
+    <value>Call-off</value>
+  </data>
+  <data name="ProjectType_CallOffPurchase" xml:space="preserve">
+    <value>Call-off purchase</value>
+  </data>
+  <data name="ProjectType_CallOffSales" xml:space="preserve">
+    <value>Call-off sales</value>
+  </data>
+  <data name="ProjectType_CommitteeMeetings" xml:space="preserve">
+    <value>Committee meetings</value>
+  </data>
+  <data name="ProjectType_Contracts" xml:space="preserve">
+    <value>Contracts</value>
+  </data>
+  <data name="ProjectType_ControlsAndMeetings" xml:space="preserve">
+    <value>Controls and meetings</value>
+  </data>
+  <data name="ProjectType_CurrentAssets" xml:space="preserve">
+    <value>Current assets</value>
+  </data>
+  <data name="ProjectType_Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="ProjectType_CustomerServices" xml:space="preserve">
+    <value>Customer services</value>
+  </data>
+  <data name="ProjectType_CustomerSupport" xml:space="preserve">
+    <value>Customer support</value>
+  </data>
+  <data name="ProjectType_Development" xml:space="preserve">
+    <value>Development</value>
+  </data>
+  <data name="ProjectType_Elearning" xml:space="preserve">
+    <value>E-learning</value>
+  </data>
+  <data name="ProjectType_EMcommitteeMeetings" xml:space="preserve">
+    <value>EM committee meetings</value>
+  </data>
+  <data name="ProjectType_EmControls" xml:space="preserve">
+    <value>EM controls</value>
+  </data>
+  <data name="ProjectType_EMdocuments" xml:space="preserve">
+    <value>EM documents</value>
+  </data>
+  <data name="ProjectType_EmMeetings" xml:space="preserve">
+    <value>EM meetings</value>
+  </data>
+  <data name="ProjectType_EMPlans" xml:space="preserve">
+    <value>EM plans</value>
+  </data>
+  <data name="ProjectType_FixedAssets" xml:space="preserve">
+    <value>Fixed assets</value>
+  </data>
+  <data name="ProjectType_HelpDesk" xml:space="preserve">
+    <value>Help desk</value>
+  </data>
+  <data name="ProjectType_HRM" xml:space="preserve">
+    <value>HRM human resources</value>
+  </data>
+  <data name="ProjectType_HSdeviation" xml:space="preserve">
+    <value>HS deviation</value>
+  </data>
+  <data name="ProjectType_HSE" xml:space="preserve">
+    <value>HSE helth and safety</value>
+  </data>
+  <data name="ProjectType_Improvements" xml:space="preserve">
+    <value>Improvements</value>
+  </data>
+  <data name="ProjectType_IntangibleAssets" xml:space="preserve">
+    <value>Intangible assets</value>
+  </data>
+  <data name="ProjectType_InternalProject" xml:space="preserve">
+    <value>Internal project</value>
+  </data>
+  <data name="ProjectType_InvoiceCustomerServices" xml:space="preserve">
+    <value>Invoice customer services</value>
+  </data>
+  <data name="ProjectType_LeadProjects" xml:space="preserve">
+    <value>Lead projects</value>
+  </data>
+  <data name="ProjectType_Learning" xml:space="preserve">
+    <value>Learning</value>
+  </data>
+  <data name="ProjectType_LearningArticles" xml:space="preserve">
+    <value>Learning articles</value>
+  </data>
+  <data name="ProjectType_Maintenance" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="ProjectType_Marketing" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="ProjectType_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="ProjectType_PurchaseProject" xml:space="preserve">
+    <value>Purchase project</value>
+  </data>
+  <data name="ProjectType_QAdeviation" xml:space="preserve">
+    <value>QA deviation</value>
+  </data>
+  <data name="ProjectType_QArequirements" xml:space="preserve">
+    <value>QA requirements</value>
+  </data>
+  <data name="ProjectType_QMAudit" xml:space="preserve">
+    <value>QM audit</value>
+  </data>
+  <data name="ProjectType_QMDocuments" xml:space="preserve">
+    <value>QM documents</value>
+  </data>
+  <data name="ProjectType_QMimprovements" xml:space="preserve">
+    <value>QM improvements</value>
+  </data>
+  <data name="ProjectType_QMlinks" xml:space="preserve">
+    <value>QM links</value>
+  </data>
+  <data name="ProjectType_QMmanuals" xml:space="preserve">
+    <value>QM manuals</value>
+  </data>
+  <data name="ProjectType_QMprocedures" xml:space="preserve">
+    <value>QM procedures</value>
+  </data>
+  <data name="ProjectType_QMProcessManagement" xml:space="preserve">
+    <value>QM process management</value>
+  </data>
+  <data name="ProjectType_QMriskAreas" xml:space="preserve">
+    <value>QM risk areas</value>
+  </data>
+  <data name="ProjectType_QMRiskAssessment" xml:space="preserve">
+    <value>QM risk assessment</value>
+  </data>
+  <data name="ProjectType_QMRiskTreatments" xml:space="preserve">
+    <value>QM risk treatments</value>
+  </data>
+  <data name="ProjectType_QMSupplierEvaluations" xml:space="preserve">
+    <value>QM supplier evaluations</value>
+  </data>
+  <data name="ProjectType_Rental" xml:space="preserve">
+    <value>Rental</value>
+  </data>
+  <data name="ProjectType_RentalAssetManagement" xml:space="preserve">
+    <value>Rental asset management</value>
+  </data>
+  <data name="ProjectType_RentalAssets" xml:space="preserve">
+    <value>Rental assets</value>
+  </data>
+  <data name="ProjectType_RentalPurchase" xml:space="preserve">
+    <value>Rental purchase</value>
+  </data>
+  <data name="ProjectType_RentalSales" xml:space="preserve">
+    <value>Rental sales</value>
+  </data>
+  <data name="ProjectType_RepeatingInvoice" xml:space="preserve">
+    <value>Repeating invoice</value>
+  </data>
+  <data name="ProjectType_RepeatingService" xml:space="preserve">
+    <value>Repeating service</value>
+  </data>
+  <data name="ProjectType_RequirementsAndProcedures" xml:space="preserve">
+    <value>Requirements and procedures</value>
+  </data>
+  <data name="ProjectType_SalesAndCostBudget" xml:space="preserve">
+    <value>Sales budget</value>
+  </data>
+  <data name="ProjectType_SalesProject" xml:space="preserve">
+    <value>Sales project</value>
+  </data>
+  <data name="ProjectType_Service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="ProjectType_Simple" xml:space="preserve">
+    <value>Simple</value>
+  </data>
+  <data name="ProjectType_StockIntervalProduction" xml:space="preserve">
+    <value>Stock interval production</value>
+  </data>
+  <data name="ProjectType_StockProduction" xml:space="preserve">
+    <value>Stock production</value>
+  </data>
+  <data name="ProjectType_SupplierAssessment" xml:space="preserve">
+    <value>Supplier assessment</value>
+  </data>
+  <data name="ProjectType_SupplierDeals" xml:space="preserve">
+    <value>Supplier deals</value>
+  </data>
+  <data name="ProjectType_SupplyChain" xml:space="preserve">
+    <value>Supply chain</value>
+  </data>
+  <data name="ProjectType_TechnicalDeviation" xml:space="preserve">
+    <value>Technical deviation</value>
+  </data>
+  <data name="ProjectType_Templates" xml:space="preserve">
+    <value>Templates</value>
+  </data>
+  <data name="ProjectType_TimeRegistration" xml:space="preserve">
+    <value>Time registration</value>
+  </data>
+  <data name="PurchaseMaterialSourceState_DraftAndInWork" xml:space="preserve">
+    <value>Include draft</value>
+  </data>
+  <data name="PurchaseMaterialSourceState_InWorkOnly" xml:space="preserve">
+    <value>In work only</value>
+  </data>
+  <data name="PurchaseMaterialSourceType_ProjectLines" xml:space="preserve">
+    <value>Project lines</value>
+  </data>
+  <data name="PurchaseMaterialSourceType_WorkOrders" xml:space="preserve">
+    <value>Work order materials</value>
+  </data>
+  <data name="QuantityState_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="QuantityState_NotNeed" xml:space="preserve">
+    <value>No need</value>
+  </data>
+  <data name="QuantityState_Partial" xml:space="preserve">
+    <value>Partial</value>
+  </data>
+  <data name="QuantityState_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="RemittanceProtocolType_Iso20022" xml:space="preserve">
+    <value>ISO 20022</value>
+  </data>
+  <data name="RemittanceProtocolType_Nets" xml:space="preserve">
+    <value>Nets</value>
+  </data>
+  <data name="RemittanceType_Abroad" xml:space="preserve">
+    <value>Abroad</value>
+  </data>
+  <data name="RemittanceType_Disabled" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="RemittanceType_Inland" xml:space="preserve">
+    <value>Inland</value>
+  </data>
+  <data name="ResourceGroupType_EquipmentGroup" xml:space="preserve">
+    <value>Equipment group</value>
+  </data>
+  <data name="ResourceGroupType_WorkerGroup" xml:space="preserve">
+    <value>Worker group</value>
+  </data>
+  <data name="RightEdgeUseType_Infinity" xml:space="preserve">
+    <value>+∞</value>
+  </data>
+  <data name="RightEdgeUseType_Less" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="RightEdgeUseType_LessOrEqual" xml:space="preserve">
+    <value>≤</value>
+  </data>
+  <data name="RoleType_Accounting" xml:space="preserve">
+    <value>Accounting</value>
+  </data>
+  <data name="RoleType_ChangeSystemSettings" xml:space="preserve">
+    <value>Administrating</value>
+  </data>
+  <data name="RoleType_MaterialsIncomeToStock" xml:space="preserve">
+    <value>Goods receipt to stock</value>
+  </data>
+  <data name="RoleType_ModifyOwnTimeRecords" xml:space="preserve">
+    <value>Modify own time records</value>
+  </data>
+  <data name="RoleType_NotUsed" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="RoleType_SetPermission" xml:space="preserve">
+    <value>Set permission</value>
+  </data>
+  <data name="RoleType_TimeReport" xml:space="preserve">
+    <value>Time report</value>
+  </data>
+  <data name="RoleType_ResetApproval" xml:space="preserve">
+    <value>Reset approval</value>
+  </data>
+  <data name="SalaryCodeCategory_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="SalaryCodeCategory_NormalWork" xml:space="preserve">
+    <value>Normal work</value>
+  </data>
+  <data name="SalaryCodeCategory_Overtime" xml:space="preserve">
+    <value>Overtime</value>
+  </data>
+  <data name="SalaryCodeType_Absence" xml:space="preserve">
+    <value>Absence</value>
+  </data>
+  <data name="SalaryCodeType_Payment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="ScriptType_AssemblyTreeDown" xml:space="preserve">
+    <value>Assembly tree downwards</value>
+  </data>
+  <data name="ScriptType_AssemblyTreeUp" xml:space="preserve">
+    <value>Assembly tree upwards</value>
+  </data>
+  <data name="ScriptType_PostIndex" xml:space="preserve">
+    <value>Post index</value>
+  </data>
+  <data name="ScriptType_PriceList" xml:space="preserve">
+    <value>Price list</value>
+  </data>
+  <data name="SettingDataType_Boolean" xml:space="preserve">
+    <value>Boolean</value>
+  </data>
+  <data name="SettingDataType_DateTime" xml:space="preserve">
+    <value>DateTime</value>
+  </data>
+  <data name="SettingDataType_Decimal" xml:space="preserve">
+    <value>Decimal</value>
+  </data>
+  <data name="SettingDataType_Enum" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="SettingDataType_Int" xml:space="preserve">
+    <value>Int</value>
+  </data>
+  <data name="SettingDataType_String" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="StdDocumentTypes_BankPaymentIncomeMoney" xml:space="preserve">
+    <value>Bank payment - income money</value>
+  </data>
+  <data name="StdDocumentTypes_BankPaymentSpendMoney" xml:space="preserve">
+    <value>Bank payment - spend money</value>
+  </data>
+  <data name="StdDocumentTypes_BeginRests" xml:space="preserve">
+    <value>Create rests</value>
+  </data>
+  <data name="StdDocumentTypes_CorrectRests" xml:space="preserve">
+    <value>Correct rests</value>
+  </data>
+  <data name="StdDocumentTypes_CustomerPayment" xml:space="preserve">
+    <value>Customer payment</value>
+  </data>
+  <data name="StdDocumentTypes_Delivery" xml:space="preserve">
+    <value>Delivery</value>
+  </data>
+  <data name="StdDocumentTypes_Disassembly" xml:space="preserve">
+    <value>Disassembly</value>
+  </data>
+  <data name="StdDocumentTypes_IncomeInvoice" xml:space="preserve">
+    <value>Incoming invoice</value>
+  </data>
+  <data name="StdDocumentTypes_IncomeInvoicePurchase" xml:space="preserve">
+    <value>Incoming invoice on goods purchase</value>
+  </data>
+  <data name="StdDocumentTypes_JournalEntry" xml:space="preserve">
+    <value>Journal entry</value>
+  </data>
+  <data name="StdDocumentTypes_MaterialsIncome" xml:space="preserve">
+    <value>Goods receipt</value>
+  </data>
+  <data name="StdDocumentTypes_Movement" xml:space="preserve">
+    <value>Movement</value>
+  </data>
+  <data name="StdDocumentTypes_Outgo" xml:space="preserve">
+    <value>Outgo</value>
+  </data>
+  <data name="StdDocumentTypes_OutgoInvoice" xml:space="preserve">
+    <value>Outgoing invoice</value>
+  </data>
+  <data name="StdDocumentTypes_OutgoInvoiceProject" xml:space="preserve">
+    <value>Outgoing invoice project</value>
+  </data>
+  <data name="StdDocumentTypes_PaymentToVendor" xml:space="preserve">
+    <value>Payment to vendor</value>
+  </data>
+  <data name="StdDocumentTypes_PickUpFromStock" xml:space="preserve">
+    <value>Pick up from stock</value>
+  </data>
+  <data name="StdDocumentTypes_PutToStock" xml:space="preserve">
+    <value>Put to stock</value>
+  </data>
+  <data name="StdDocumentTypes_Reconciliation" xml:space="preserve">
+    <value>Reconciliation</value>
+  </data>
+  <data name="StdDocumentTypes_Remittance" xml:space="preserve">
+    <value>Remittance</value>
+  </data>
+  <data name="StdDocumentTypes_Return" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="StdDocumentTypes_Rounding" xml:space="preserve">
+    <value>Rounding</value>
+  </data>
+  <data name="StdDocumentTypes_SendToSubcontractor" xml:space="preserve">
+    <value>Send to subcontractor</value>
+  </data>
+  <data name="StdDocumentTypes_InventoryChanges" xml:space="preserve">
+    <value>Inventory changes</value>
+  </data>
+  <data name="StdDocumentTypes_VatReturn" xml:space="preserve">
+    <value>Vat return</value>
+  </data>
+  <data name="SubcontractorStatusViewType_AllActive" xml:space="preserve">
+    <value>All not finished</value>
+  </data>
+  <data name="SubcontractorStatusViewType_NotReceived" xml:space="preserve">
+    <value>Not received</value>
+  </data>
+  <data name="SubcontractorStatusViewType_NotSent" xml:space="preserve">
+    <value>Not sent</value>
+  </data>
+  <data name="SubcontractorStatusViewType_WithFinished" xml:space="preserve">
+    <value>With finished</value>
+  </data>
+  <data name="SubscriptionErrorCode_CantEncodeSubscription" xml:space="preserve">
+    <value>Can’t encode subscription</value>
+  </data>
+  <data name="SubscriptionErrorCode_ClientIdNotMatch" xml:space="preserve">
+    <value>Client id does not match</value>
+  </data>
+  <data name="SubscriptionErrorCode_MoreThanOneLicenseObjectInSystem" xml:space="preserve">
+    <value>More than one license in system</value>
+  </data>
+  <data name="SubscriptionErrorCode_NeedToConnectToLicenceServerToUpdateSubscription" xml:space="preserve">
+    <value>Need to connect to license server to update subscription</value>
+  </data>
+  <data name="SubscriptionErrorCode_NoLicensedUsersInSystem" xml:space="preserve">
+    <value>No licensed users in system</value>
+  </data>
+  <data name="SubscriptionErrorCode_NoLicenseObjectInSystem" xml:space="preserve">
+    <value>No license in system</value>
+  </data>
+  <data name="SubscriptionErrorCode_NumberOfIsLicenseEnabledNotEqualsToLicenseCount" xml:space="preserve">
+    <value>Number of licensed users does not correspond to the subscribed number of users</value>
+  </data>
+  <data name="SubscriptionErrorCode_NumberOfIsPlannerEnabledNotEqualsToPlannerCount" xml:space="preserve">
+    <value>Number of planner users does not correspond to the subscribed number of users</value>
+  </data>
+  <data name="SubscriptionErrorCode_SubscriptionExpired" xml:space="preserve">
+    <value>Subscription is expired</value>
+  </data>
+  <data name="SyncInventoryType_Inventory" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="SyncInventoryType_Rent" xml:space="preserve">
+    <value>Rent</value>
+  </data>
+  <data name="SyncInventoryType_WIP" xml:space="preserve">
+    <value>WIP</value>
+  </data>
+  <data name="TaskPriority_AboveNormal" xml:space="preserve">
+    <value>Above normal</value>
+  </data>
+  <data name="TaskPriority_BelowNormal" xml:space="preserve">
+    <value>Below normal</value>
+  </data>
+  <data name="TaskPriority_Critical" xml:space="preserve">
+    <value>Critical</value>
+  </data>
+  <data name="TaskPriority_ForFuture" xml:space="preserve">
+    <value>For future</value>
+  </data>
+  <data name="TaskPriority_High" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="TaskPriority_Highest" xml:space="preserve">
+    <value>Highest</value>
+  </data>
+  <data name="TaskPriority_Low" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="TaskPriority_Lowest" xml:space="preserve">
+    <value>Lowest</value>
+  </data>
+  <data name="TaskPriority_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="TaskPriority_Urgent" xml:space="preserve">
+    <value>Urgent</value>
+  </data>
+  <data name="TaskPriority_VeryHigh" xml:space="preserve">
+    <value>Very high</value>
+  </data>
+  <data name="TaskPriority_VeryLow" xml:space="preserve">
+    <value>Very low</value>
+  </data>
+  <data name="TaskStateType_Controlled" xml:space="preserve">
+    <value>Controlled</value>
+  </data>
+  <data name="TaskStateType_Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="TaskStateType_Failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="TaskStateType_InProcess" xml:space="preserve">
+    <value>In process</value>
+  </data>
+  <data name="TaskStateType_Preparing" xml:space="preserve">
+    <value>Preparing</value>
+  </data>
+  <data name="TaskStateType_Skipped" xml:space="preserve">
+    <value>Skipped</value>
+  </data>
+  <data name="TaskStateType_WorkList" xml:space="preserve">
+    <value>Work list</value>
+  </data>
+  <data name="TaskStateTypeEx_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="TaxCodeType_Direct" xml:space="preserve">
+    <value>Direct</value>
+  </data>
+  <data name="TaxCodeType_ImportGood" xml:space="preserve">
+    <value>Import goods</value>
+  </data>
+  <data name="TaxCodeType_ImportInvoice" xml:space="preserve">
+    <value>Invoice import</value>
+  </data>
+  <data name="TaxCodeType_ImportService" xml:space="preserve">
+    <value>Import services</value>
+  </data>
+  <data name="TaxCodeType_IngoingNone" xml:space="preserve">
+    <value>Ingoing none</value>
+  </data>
+  <data name="TaxCodeType_IngoingVat" xml:space="preserve">
+    <value>Ingoing vat</value>
+  </data>
+  <data name="TaxCodeType_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="TaxCodeType_Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="TaxCodeType_OutgoingVat" xml:space="preserve">
+    <value>Outgoing vat</value>
+  </data>
+  <data name="TimeRecordFilterType_WithMachines" xml:space="preserve">
+    <value>With machines</value>
+  </data>
+  <data name="TimeRecordFilterType_WorkerTimeOnly" xml:space="preserve">
+    <value>Worker time only</value>
+  </data>
+  <data name="TimeRegistrationFilterType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="TimeRegistrationFilterType_ByClock" xml:space="preserve">
+    <value>By clock</value>
+  </data>
+  <data name="TimeRegistrationFilterType_Fixed" xml:space="preserve">
+    <value>Fixed</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_DateRange" xml:space="preserve">
+    <value>Date range</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_Quarter" xml:space="preserve">
+    <value>Quarter</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_TwoWeeks" xml:space="preserve">
+    <value>Two weeks</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_Week" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="TimeReportUserFilterType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="TimeReportUserFilterType_Machines" xml:space="preserve">
+    <value>Machines</value>
+  </data>
+  <data name="TimeReportUserFilterType_SystemUsers" xml:space="preserve">
+    <value>System users</value>
+  </data>
+  <data name="TimeReportUserFilterType_Workers" xml:space="preserve">
+    <value>Workers</value>
+  </data>
+  <data name="TypeQuantityState_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="TypeQuantityState_NotNeed" xml:space="preserve">
+    <value>No need</value>
+  </data>
+  <data name="UserEmailEncryptionType_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="UserEmailEncryptionType_SSLTLS" xml:space="preserve">
+    <value>SSL/TLS</value>
+  </data>
+  <data name="UserEmailEncryptionType_STARTTLS" xml:space="preserve">
+    <value>STARTTLS</value>
+  </data>
+  <data name="UserFilterType_ContactPerson" xml:space="preserve">
+    <value>Contact person</value>
+  </data>
+  <data name="UserFilterType_Machine" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="UserFilterType_SystemUser" xml:space="preserve">
+    <value>System user</value>
+  </data>
+  <data name="UserFilterType_Team" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="UserFilterType_Tool" xml:space="preserve">
+    <value>Tool</value>
+  </data>
+  <data name="UserFilterType_Worker" xml:space="preserve">
+    <value>Worker / operator</value>
+  </data>
+  <data name="UserFilterType_WorkTeam" xml:space="preserve">
+    <value>Work team</value>
+  </data>
+  <data name="UserType_ContactPerson" xml:space="preserve">
+    <value>Contact person</value>
+  </data>
+  <data name="UserType_Machine" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="UserType_SystemUser" xml:space="preserve">
+    <value>System user</value>
+  </data>
+  <data name="UserType_Team" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="UserType_Tool" xml:space="preserve">
+    <value>Tool</value>
+  </data>
+  <data name="UserType_Worker" xml:space="preserve">
+    <value>Worker / operator</value>
+  </data>
+  <data name="UserType_WorkTeam" xml:space="preserve">
+    <value>Work team</value>
+  </data>
+  <data name="VendorArticleType_ForProject" xml:space="preserve">
+    <value>Project material</value>
+  </data>
+  <data name="VendorArticleType_ForStock" xml:space="preserve">
+    <value>Stock material</value>
+  </data>
+  <data name="VendorArticleType_NotUsed" xml:space="preserve">
+    <value>Not used</value>
+  </data>
+  <data name="WebExceptionStatus_ConnectFailure" xml:space="preserve">
+    <value>The remote service point could not be contacted at the transport level.</value>
+  </data>
+  <data name="WebExceptionStatus_ConnectionClosed" xml:space="preserve">
+    <value>The connection was prematurely closed.</value>
+  </data>
+  <data name="WebExceptionStatus_NameResolutionFailure" xml:space="preserve">
+    <value>The name resolver service could not resolve the host name.</value>
+  </data>
+  <data name="WorkflowCompilance_NotOk" xml:space="preserve">
+    <value>Not OK</value>
+  </data>
+  <data name="WorkflowCompilance_NotSure" xml:space="preserve">
+    <value>Not sure</value>
+  </data>
+  <data name="WorkflowCompilance_NotUsed" xml:space="preserve">
+    <value>Not used</value>
+  </data>
+  <data name="WorkflowCompilance_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="WorkflowConsequence_Minimal" xml:space="preserve">
+    <value>Minimal</value>
+  </data>
+  <data name="WorkflowConsequence_Minor" xml:space="preserve">
+    <value>Minor</value>
+  </data>
+  <data name="WorkflowConsequence_Moderate" xml:space="preserve">
+    <value>Moderate</value>
+  </data>
+  <data name="WorkflowConsequence_NotUsed" xml:space="preserve">
+    <value>Not used</value>
+  </data>
+  <data name="WorkflowConsequence_Severe" xml:space="preserve">
+    <value>Severe</value>
+  </data>
+  <data name="WorkflowConsequence_Significant" xml:space="preserve">
+    <value>Significant</value>
+  </data>
+  <data name="WorkflowDependencyViewDepth_Children" xml:space="preserve">
+    <value>Children</value>
+  </data>
+  <data name="WorkflowDependencyViewDepth_Full" xml:space="preserve">
+    <value>Full</value>
+  </data>
+  <data name="WorkflowDependencyViewDepth_Near" xml:space="preserve">
+    <value>Near</value>
+  </data>
+  <data name="WorkflowDependencyViewMode_List" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="WorkflowDependencyViewMode_Tree" xml:space="preserve">
+    <value>Tree</value>
+  </data>
+  <data name="WorkflowDirection_In" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="WorkflowDirection_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="WorkflowDirection_Out" xml:space="preserve">
+    <value>Out</value>
+  </data>
+  <data name="WorkflowItemExtType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="WorkflowItemExtType_AllOther" xml:space="preserve">
+    <value>All other</value>
+  </data>
+  <data name="WorkflowItemExtType_Attachment" xml:space="preserve">
+    <value>Attachment</value>
+  </data>
+  <data name="WorkflowItemExtType_Compliance" xml:space="preserve">
+    <value>Compliance</value>
+  </data>
+  <data name="WorkflowItemExtType_Deviation" xml:space="preserve">
+    <value>Deviation</value>
+  </data>
+  <data name="WorkflowItemExtType_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="WorkflowItemExtType_File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="WorkflowItemExtType_Folder" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="WorkflowItemExtType_HistoryFile" xml:space="preserve">
+    <value>History file</value>
+  </data>
+  <data name="WorkflowItemExtType_Meeting" xml:space="preserve">
+    <value>Meeting</value>
+  </data>
+  <data name="WorkflowItemExtType_PhoneCall" xml:space="preserve">
+    <value>Phone call</value>
+  </data>
+  <data name="WorkflowItemExtType_Procedure" xml:space="preserve">
+    <value>Procedure</value>
+  </data>
+  <data name="WorkflowItemExtType_QuickNote" xml:space="preserve">
+    <value>Quick note</value>
+  </data>
+  <data name="WorkflowItemExtType_Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="WorkflowItemExtType_Risk" xml:space="preserve">
+    <value>Risk</value>
+  </data>
+  <data name="WorkflowItemExtType_SkypeCall" xml:space="preserve">
+    <value>Skype call</value>
+  </data>
+  <data name="WorkflowItemExtType_SMS" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="WorkflowItemExtType_Task" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="WorkflowItemExtType_TeamTask" xml:space="preserve">
+    <value>Team task</value>
+  </data>
+  <data name="WorkflowItemFileState_Finished" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="WorkflowItemFileState_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="WorkflowItemFileState_OnHold" xml:space="preserve">
+    <value>On hold</value>
+  </data>
+  <data name="WorkflowItemFileState_Skipped" xml:space="preserve">
+    <value>Skipped</value>
+  </data>
+  <data name="WorkflowItemFileStateEx_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="WorkflowItemOwnerType_Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="WorkflowItemOwnerType_Article" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="WorkflowItemOwnerType_Document" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="WorkflowItemOwnerType_DocumentDetail" xml:space="preserve">
+    <value>Document detail</value>
+  </data>
+  <data name="WorkflowItemOwnerType_ImportAndExport" xml:space="preserve">
+    <value>Import / Export</value>
+  </data>
+  <data name="WorkflowItemOwnerType_Lot" xml:space="preserve">
+    <value>Lot</value>
+  </data>
+  <data name="WorkflowItemOwnerType_OrgUnit" xml:space="preserve">
+    <value>Organization unit</value>
+  </data>
+  <data name="WorkflowItemOwnerType_Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="WorkflowItemOwnerType_ProjectLine" xml:space="preserve">
+    <value>Project line</value>
+  </data>
+  <data name="WorkflowItemOwnerType_User" xml:space="preserve">
+    <value>User / Resource / Contact person</value>
+  </data>
+  <data name="WorkflowItemOwnerType_WorkOrder" xml:space="preserve">
+    <value>Work order</value>
+  </data>
+  <data name="WorkflowItemSubtypeCategory_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="WorkflowItemSubtypeCategory_ExternalNote" xml:space="preserve">
+    <value>External note</value>
+  </data>
+  <data name="WorkflowItemSubtypeCategory_Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="WorkflowItemSyncType_Draft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="WorkflowItemSyncType_Failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="WorkflowItemSyncType_Inbox" xml:space="preserve">
+    <value>Inbox</value>
+  </data>
+  <data name="WorkflowItemSyncType_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="WorkflowItemSyncType_Sent" xml:space="preserve">
+    <value>Sent</value>
+  </data>
+  <data name="WorkflowItemSyncType_ToSend" xml:space="preserve">
+    <value>To send</value>
+  </data>
+  <data name="WorkflowItemType_Attachment" xml:space="preserve">
+    <value>Attachment</value>
+  </data>
+  <data name="WorkflowItemType_Compliance" xml:space="preserve">
+    <value>Compliance</value>
+  </data>
+  <data name="WorkflowItemType_Deviation" xml:space="preserve">
+    <value>Deviation</value>
+  </data>
+  <data name="WorkflowItemType_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="WorkflowItemType_File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="WorkflowItemType_Folder" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="WorkflowItemType_HistoryFile" xml:space="preserve">
+    <value>History file</value>
+  </data>
+  <data name="WorkflowItemType_Meeting" xml:space="preserve">
+    <value>Meeting</value>
+  </data>
+  <data name="WorkflowItemType_PhoneCall" xml:space="preserve">
+    <value>Phone call</value>
+  </data>
+  <data name="WorkflowItemType_Procedure" xml:space="preserve">
+    <value>Procedure</value>
+  </data>
+  <data name="WorkflowItemType_QuickNote" xml:space="preserve">
+    <value>Quick note</value>
+  </data>
+  <data name="WorkflowItemType_Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="WorkflowItemType_Risk" xml:space="preserve">
+    <value>Risk</value>
+  </data>
+  <data name="WorkflowItemType_SkypeCall" xml:space="preserve">
+    <value>Skype call</value>
+  </data>
+  <data name="WorkflowItemType_SMS" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="WorkflowItemType_Task" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="WorkflowItemType_TeamTask" xml:space="preserve">
+    <value>Team task</value>
+  </data>
+  <data name="WorkflowLikehood_HighLikely" xml:space="preserve">
+    <value>High likely</value>
+  </data>
+  <data name="WorkflowLikehood_Likely" xml:space="preserve">
+    <value>Likely</value>
+  </data>
+  <data name="WorkflowLikehood_LowLikehood" xml:space="preserve">
+    <value>Low likelihood</value>
+  </data>
+  <data name="WorkflowLikehood_NearCertainty" xml:space="preserve">
+    <value>Near certainty</value>
+  </data>
+  <data name="WorkflowLikehood_NotLikely" xml:space="preserve">
+    <value>Not likely</value>
+  </data>
+  <data name="WorkflowLikehood_NotUsed" xml:space="preserve">
+    <value>Not used</value>
+  </data>
+  <data name="WorkflowRiskColor_Green" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="WorkflowRiskColor_NotUsed" xml:space="preserve">
+    <value>Not used</value>
+  </data>
+  <data name="WorkflowRiskColor_Red" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="WorkflowRiskColor_Yellow" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="WorkflowStatusFilter_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="WorkflowStatusFilter_NotHandled" xml:space="preserve">
+    <value>Not handled</value>
+  </data>
+  <data name="WorkflowStatusFilter_NotRead" xml:space="preserve">
+    <value>Not read</value>
+  </data>
+  <data name="WorkflowStatusFilter_WaitingForReply" xml:space="preserve">
+    <value>Waiting for a reply</value>
+  </data>
+  <data name="WorkflowSubtypeKind_Certificate" xml:space="preserve">
+    <value>Certificate</value>
+  </data>
+  <data name="WorkflowSubtypeKind_Deviation" xml:space="preserve">
+    <value>Deviation</value>
+  </data>
+  <data name="WorkflowSubtypeKind_Drawing" xml:space="preserve">
+    <value>Drawing</value>
+  </data>
+  <data name="WorkflowSubtypeKind_HSE" xml:space="preserve">
+    <value>HSE helth and safety</value>
+  </data>
+  <data name="WorkflowSubtypeKind_Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="WorkflowSubtypeKind_Improvement" xml:space="preserve">
+    <value>Improvement</value>
+  </data>
+  <data name="WorkflowSubtypeKind_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="WorkflowSubtypeKind_Procedure" xml:space="preserve">
+    <value>Procedure</value>
+  </data>
+  <data name="WorkflowSubtypeKind_VendorRequest" xml:space="preserve">
+    <value>Vendor request</value>
+  </data>
+  <data name="WorkflowSyncAction_CopyLocal" xml:space="preserve">
+    <value>Copy local</value>
+  </data>
+  <data name="WorkflowSyncAction_CopyToServer" xml:space="preserve">
+    <value>Copy to server</value>
+  </data>
+  <data name="WorkflowSyncAction_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="WorkflowSyncAction_RemoveFromServer" xml:space="preserve">
+    <value>Remove from server</value>
+  </data>
+  <data name="WorkflowSyncAction_RemoveLocal" xml:space="preserve">
+    <value>Remove local</value>
+  </data>
+  <data name="WorkListSourceType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="WorkListSourceType_FromResourceGroup" xml:space="preserve">
+    <value>From resource group</value>
+  </data>
+  <data name="WorkListSourceType_FromTeam" xml:space="preserve">
+    <value>From team</value>
+  </data>
+  <data name="WorkListSourceType_MyTasks" xml:space="preserve">
+    <value>My tasks</value>
+  </data>
+  <data name="WorkOrderState_Draft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="WorkOrderState_Finished" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="WorkOrderState_InWork" xml:space="preserve">
+    <value>In work</value>
+  </data>
+  <data name="WorkOrderState_Temporary" xml:space="preserve">
+    <value>Temporary </value>
+  </data>
+  <data name="TransactionStatusType_Accepted" xml:space="preserve">
+    <value>Accepted</value>
+  </data>
+  <data name="TransactionStatusType_PartiallyAccepted" xml:space="preserve">
+    <value>Partially accepted</value>
+  </data>
+  <data name="TransactionStatusType_Pending" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="TransactionStatusType_Rejected" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="RemittanceTypeFull_Abroad" xml:space="preserve">
+    <value>Abroad</value>
+  </data>
+  <data name="RemittanceTypeFull_Disabled" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="RemittanceTypeFull_Inland" xml:space="preserve">
+    <value>Inland</value>
+  </data>
+  <data name="StdDocumentTypes_ProjectMaterialCosts" xml:space="preserve">
+    <value>Project material costs</value>
+  </data>
+  <data name="StdDocumentTypes_ProjectWorkCosts" xml:space="preserve">
+    <value>Project work costs</value>
+  </data>
+  <data name="RemittanceProtocolType_Iso20022Ext" xml:space="preserve">
+    <value>ISO 20022 Extended</value>
+  </data>
+  <data name="ReportTrackType_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ReportTrackType_SaveAndEdit" xml:space="preserve">
+    <value>Save and edit</value>
+  </data>
+  <data name="ReportTrackType_SaveOnly" xml:space="preserve">
+    <value>Save only</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_Day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="MenuItemAction_OpenOnlyWorkflow" xml:space="preserve">
+    <value>Show only open workflow items</value>
+  </data>
+  <data name="WorkflowItemOwnerType_ArticleAssemblyLine" xml:space="preserve">
+    <value>Article assembly line</value>
+  </data>
+  <data name="WorkflowItemOwnerType_ArticleOperation" xml:space="preserve">
+    <value>Article assembly operation</value>
+  </data>
+  <data name="WorkflowItemOwnerType_Batch" xml:space="preserve">
+    <value>Batch</value>
+  </data>
+  <data name="WorkflowItemOwnerType_InWorkOperation" xml:space="preserve">
+    <value>In work operation</value>
+  </data>
+  <data name="WorkflowItemOwnerType_InWorkOperationChecklistTask" xml:space="preserve">
+    <value>Operation checklist task</value>
+  </data>
+  <data name="WorkflowItemOwnerType_InWorkOrderAssemblyLine" xml:space="preserve">
+    <value>In work material</value>
+  </data>
+  <data name="WorkflowItemOwnerType_OperationChecklistTask" xml:space="preserve">
+    <value>Article operation checklist</value>
+  </data>
+  <data name="WorkflowItemOwnerType_OperationChecklistTaskTemplate" xml:space="preserve">
+    <value>Operation checklist template</value>
+  </data>
+  <data name="WorkflowItemOwnerType_OperationTemplate" xml:space="preserve">
+    <value>Operation template</value>
+  </data>
+  <data name="WorkflowItemOwnerType_ProjectAssemblyLine" xml:space="preserve">
+    <value>Project assembly line</value>
+  </data>
+  <data name="WorkflowItemOwnerType_ProjectChecklistTask" xml:space="preserve">
+    <value>Project checklist task</value>
+  </data>
+  <data name="WorkflowItemOwnerType_ProjectChecklistTaskTemplate" xml:space="preserve">
+    <value>Project checklist template</value>
+  </data>
+  <data name="WorkflowItemOwnerType_ProjectOperation" xml:space="preserve">
+    <value>Project assembly operation</value>
+  </data>
+  <data name="WorkflowItemOwnerType_VendorArticle" xml:space="preserve">
+    <value>Vendor article</value>
+  </data>
+  <data name="WorkflowItemOwnerType_WorkOrderAssemblyLine" xml:space="preserve">
+    <value>Work order assembly line</value>
+  </data>
+  <data name="WorkflowItemOwnerType_WorkOrderChecklistTask" xml:space="preserve">
+    <value>Work order checklist task</value>
+  </data>
+  <data name="WorkflowItemOwnerType_WorkOrderChecklistTaskTemplate" xml:space="preserve">
+    <value>Work order checklist template</value>
+  </data>
+  <data name="WorkflowItemOwnerType_WorkOrderOperation" xml:space="preserve">
+    <value>Work order assembly operation</value>
+  </data>
+  <data name="TimeReportUserFilterType_Persons" xml:space="preserve">
+    <value>All persons</value>
+  </data>
+  <data name="WorkflowDirection_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="PriceRequestSourceState_DraftAndInWork" xml:space="preserve">
+    <value>Drafts and in work</value>
+  </data>
+  <data name="PriceRequestSourceState_InWorkOnly" xml:space="preserve">
+    <value>In work only</value>
+  </data>
+  <data name="PriceRequestSourceType_AllProjectLines" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="PriceRequestSourceType_SelectedProjectLines" xml:space="preserve">
+    <value>Selected project lines</value>
+  </data>
+  <data name="AutoCalcExceptionType_AutoCalcServerProblem" xml:space="preserve">
+    <value>Zigma360 server problem</value>
+  </data>
+  <data name="PriceRequestSourceState_DraftOnly" xml:space="preserve">
+    <value>Drafts only</value>
+  </data>
+  <data name="AutoCalcExceptionType_WorkflowItemIsHistory" xml:space="preserve">
+    <value>Workflow item is a history file</value>
+  </data>
+  <data name="DocumentTemplateFilterKind_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="DocumentTemplateFilterKind_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="DocumentTemplateFilterKind_Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="DocumentTemplateFilterKind_Proposed" xml:space="preserve">
+    <value>Proposed</value>
+  </data>
+  <data name="TimeUnit_Hours" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="TimeUnit_Minutes" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="MenuItemAction_SummaryWorkflow" xml:space="preserve">
+    <value>Show summary workflow items</value>
+  </data>
+  <data name="WorkflowSubtypeKind_OutgoingInvoice" xml:space="preserve">
+    <value>Outgoing invoice</value>
+  </data>
+  <data name="ArticleFilterType_Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="ArticleType_Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="ArticleFilterType_Asset" xml:space="preserve">
+    <value>Asset</value>
+  </data>
+  <data name="ArticleType_Asset" xml:space="preserve">
+    <value>Asset</value>
+  </data>
+  <data name="ProjectState_Template" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="GroupOperationInWorkOrderType_ByOwnerLine" xml:space="preserve">
+    <value>By assembly line</value>
+  </data>
+  <data name="GroupOperationInWorkOrderType_ByWorkOrder" xml:space="preserve">
+    <value>By work order</value>
+  </data>
+  <data name="ImportAndExportType_Account" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="ContentTransferMethod_File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="ContentTransferMethod_FTP" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="ContentTransferMethod_FTP_SSL" xml:space="preserve">
+    <value>FTP over SSL</value>
+  </data>
+  <data name="ContentTransferMethod_SFTP" xml:space="preserve">
+    <value>FTP over SSH (sFTP)</value>
+  </data>
+  <data name="WorkflowSubtypeKind_IncomingInvoice" xml:space="preserve">
+    <value>Incoming invoice</value>
+  </data>
+  <data name="RoleType_Salary" xml:space="preserve">
+    <value>Salary</value>
+  </data>
+  <data name="PutToStockSourceType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="PutToStockSourceType_Materials" xml:space="preserve">
+    <value>Materials</value>
+  </data>
+  <data name="PutToStockSourceType_Products" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="WorkflowItemOwnerType_SalaryPeriod" xml:space="preserve">
+    <value>Salary period</value>
+  </data>
+  <data name="MenuItemAction_StartTimeRegistration" xml:space="preserve">
+    <value>Start time registration</value>
+  </data>
+  <data name="MenuItemType_ProjectType" xml:space="preserve">
+    <value>Project type</value>
+  </data>
+  <data name="UserEmailOutgoingType_ExternalEmailClient" xml:space="preserve">
+    <value>External email client</value>
+  </data>
+  <data name="UserEmailOutgoingType_INTERNAL" xml:space="preserve">
+    <value>INTERNAL</value>
+  </data>
+  <data name="UserEmailOutgoingType_SMTP" xml:space="preserve">
+    <value>SMTP</value>
+  </data>
+  <data name="WorkflowItemSyncType_SentExternally" xml:space="preserve">
+    <value>Sent externally</value>
+  </data>
+  <data name="OrgUnitRegionType_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="OrgUnitRegionType_OutsideTaxArea" xml:space="preserve">
+    <value>Outside vat area</value>
+  </data>
+  <data name="ProjectLineType_FutureAssembly" xml:space="preserve">
+    <value>Future assembly</value>
+  </data>
+  <data name="ScriptType_AssemblyLineCreation" xml:space="preserve">
+    <value>Assembly line creation</value>
+  </data>
+  <data name="ScriptType_ProjectLineCreation" xml:space="preserve">
+    <value>Project line creation</value>
+  </data>
+  <data name="DayType_Freeday" xml:space="preserve">
+    <value>Free day</value>
+  </data>
+  <data name="DayType_Holiday" xml:space="preserve">
+    <value>Holiday</value>
+  </data>
+  <data name="DayType_Saturday" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="DayType_Sunday" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="DayType_Workday" xml:space="preserve">
+    <value>Work day</value>
+  </data>
+  <data name="PurchaseMaterialSourceType_ProjectLineAssemblies" xml:space="preserve">
+    <value>Project line assemblies</value>
+  </data>
+  <data name="ObjectUIType_Article" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="ObjectUIType_DocumentHeader" xml:space="preserve">
+    <value>Transaction document</value>
+  </data>
+  <data name="ObjectUIType_DocumentTemplate" xml:space="preserve">
+    <value>Document template</value>
+  </data>
+  <data name="ObjectUIType_OrgUnit" xml:space="preserve">
+    <value>Organization unit</value>
+  </data>
+  <data name="ObjectUIType_Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="ObjectUIType_ProjectLine" xml:space="preserve">
+    <value>Project line</value>
+  </data>
+  <data name="ObjectUIType_WorkflowItem" xml:space="preserve">
+    <value>Workflow item</value>
+  </data>
+  <data name="RoleType_Article" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="RoleType_Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="TaxCodeAccountType_IngoingVat" xml:space="preserve">
+    <value>Ingoing vat</value>
+  </data>
+  <data name="TaxCodeAccountType_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="TaxCodeAccountType_OutgoingVat" xml:space="preserve">
+    <value>Outgoing vat</value>
+  </data>
+  <data name="ControlForSelectionType_Brief" xml:space="preserve">
+    <value>Quick</value>
+  </data>
+  <data name="ControlForSelectionType_Default" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="TimeRegisterType_Clock" xml:space="preserve">
+    <value>Clock</value>
+  </data>
+  <data name="TimeRegisterType_ClockEdited" xml:space="preserve">
+    <value>Clock edited</value>
+  </data>
+  <data name="TimeRegisterType_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="TimeRegisterType_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="AutoCalcExceptionType_ObsoleteOwnerObject" xml:space="preserve">
+    <value>Object-owner is obsolete</value>
+  </data>
+  <data name="OverdueOutgoingInvoiceFilterType_AllOverdue" xml:space="preserve">
+    <value>All overdue</value>
+  </data>
+  <data name="OverdueOutgoingInvoiceFilterType_PendingToRemind" xml:space="preserve">
+    <value>Pending to remind</value>
+  </data>
+  <data name="OverdueOutgoingInvoiceFilterType_SentToDebtCollectors" xml:space="preserve">
+    <value>Sent to debt collectors</value>
+  </data>
+  <data name="OverdueOutgoingInvoiceFilterType_Stopped" xml:space="preserve">
+    <value>Stopped</value>
+  </data>
+  <data name="OverdueOutgoingInvoiceFilterType_NotToRemind" xml:space="preserve">
+    <value>Not to remind</value>
+  </data>
+  <data name="StdDocumentTypes_Reminder" xml:space="preserve">
+    <value>Reminder</value>
+  </data>
+  <data name="MaterialListSourceType_ProjectLines" xml:space="preserve">
+    <value>Project line assemblies</value>
+  </data>
+  <data name="MaterialListSourceType_WorkOrders" xml:space="preserve">
+    <value>Work order materials</value>
+  </data>
+  <data name="WorkOrderStatusFilter_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="WorkOrderStatusFilter_Draft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="WorkOrderStatusFilter_InWork" xml:space="preserve">
+    <value>In work</value>
+  </data>
+  <data name="PlanningStrategyWithoutDefault_ASAP" xml:space="preserve">
+    <value>ASAP</value>
+  </data>
+  <data name="PlanningStrategyWithoutDefault_JIT" xml:space="preserve">
+    <value>JIT</value>
+  </data>
+  <data name="PlanningStrategy_ASAP" xml:space="preserve">
+    <value>ASAP</value>
+  </data>
+  <data name="PlanningStrategy_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="PlanningStrategy_JIT" xml:space="preserve">
+    <value>JIT</value>
+  </data>
+  <data name="ProjectScheduleStatus_Fail" xml:space="preserve">
+    <value>Fail</value>
+  </data>
+  <data name="ProjectScheduleStatus_NotScheduled" xml:space="preserve">
+    <value>Not scheduled</value>
+  </data>
+  <data name="ProjectScheduleStatus_Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="ScheduleStatus_NoFreeCapacity" xml:space="preserve">
+    <value>No free capacity</value>
+  </data>
+  <data name="ScheduleStatus_NoResourcesInGroup" xml:space="preserve">
+    <value>No resources in group</value>
+  </data>
+  <data name="ScheduleStatus_NotScheduled" xml:space="preserve">
+    <value>Not scheduled</value>
+  </data>
+  <data name="ScheduleStatus_PreviousOperationFailed" xml:space="preserve">
+    <value>Previous operation failed</value>
+  </data>
+  <data name="ScheduleStatus_ResourceGroupIsNotDefined" xml:space="preserve">
+    <value>Resource group is not defined</value>
+  </data>
+  <data name="ScheduleStatus_Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="ScheduleStatus_UnknownPlanningStrategy" xml:space="preserve">
+    <value>Unknown planning strategy</value>
+  </data>
+  <data name="PlanningStrategyWithoutDefault_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="ScheduleStatus_NextOperationFailed" xml:space="preserve">
+    <value>Next operation failed</value>
+  </data>
+  <data name="ProjectScheduleStatus_MainWorkOrderFailed" xml:space="preserve">
+    <value>Main work order failed</value>
+  </data>
+  <data name="ProjectScheduleStatus_SubWorkOrderFailed" xml:space="preserve">
+    <value>Sub work order failed</value>
+  </data>
+  <data name="ProjectScheduleStatus_WorkOrderHasNoOperations" xml:space="preserve">
+    <value>Work order has no operations</value>
+  </data>
+  <data name="TaskStateTypeEx_Controlled" xml:space="preserve">
+    <value>Controlled</value>
+  </data>
+  <data name="TaskStateTypeEx_Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="TaskStateTypeEx_Failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="TaskStateTypeEx_InProcess" xml:space="preserve">
+    <value>In process</value>
+  </data>
+  <data name="TaskStateTypeEx_OnHold" xml:space="preserve">
+    <value>On hold</value>
+  </data>
+  <data name="TaskStateTypeEx_Preparing" xml:space="preserve">
+    <value>Preparing</value>
+  </data>
+  <data name="TaskStateTypeEx_Skipped" xml:space="preserve">
+    <value>Skipped</value>
+  </data>
+  <data name="TaskStateTypeEx_WorkList" xml:space="preserve">
+    <value>Work list</value>
+  </data>
+  <data name="TaskStateType_OnHold" xml:space="preserve">
+    <value>On hold</value>
+  </data>
+  <data name="TaskStateType_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="TimeRegistrationPeriodType_Hour" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="OutgoingInvoiceExportType_UniEconomyComplete" xml:space="preserve">
+    <value>Uni Economy complete</value>
+  </data>
+  <data name="OutgoingInvoiceExportType_UniEconomySimple" xml:space="preserve">
+    <value>Uni Economy simple</value>
+  </data>
+  <data name="SalaryExportType_HuldtLillevikV1" xml:space="preserve">
+    <value>Huldt &amp; Lillevik v1</value>
+  </data>
+  <data name="SalaryExportType_HuldtLillevikV2" xml:space="preserve">
+    <value>Huldt &amp; Lillevik v2</value>
+  </data>
+  <data name="PurchaseMaterialViewMode_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="PurchaseMaterialViewMode_Proposed" xml:space="preserve">
+    <value>Proposal</value>
+  </data>
+  <data name="CopyWorkflowSubtypeType_Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="CopyWorkflowSubtypeType_No" xml:space="preserve">
+    <value>Do not copy</value>
+  </data>
+  <data name="CopyWorkflowType_Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="CopyWorkflowType_Default" xml:space="preserve">
+    <value>Use default</value>
+  </data>
+  <data name="CopyWorkflowType_No" xml:space="preserve">
+    <value>Do not copy</value>
+  </data>
+  <data name="DateFormat_CustomMask" xml:space="preserve">
+    <value>Custom date format</value>
+  </data>
+  <data name="DateFormat_LongDate" xml:space="preserve">
+    <value>Long date format</value>
+  </data>
+  <data name="DateFormat_MonthDay" xml:space="preserve">
+    <value>"Day Month" date format</value>
+  </data>
+  <data name="DateFormat_ShortDate" xml:space="preserve">
+    <value>Short date format</value>
+  </data>
+  <data name="DateFormat_YearMonth" xml:space="preserve">
+    <value>"Month Year" date format</value>
+  </data>
+  <data name="TimeFormat_CustomMask" xml:space="preserve">
+    <value>Custom time format</value>
+  </data>
+  <data name="TimeFormat_LongTime" xml:space="preserve">
+    <value>Long time format</value>
+  </data>
+  <data name="TimeFormat_ShortTime" xml:space="preserve">
+    <value>Short time format</value>
+  </data>
+  <data name="WorkflowItemFileState_PendingHandling" xml:space="preserve">
+    <value>Pending handling</value>
+  </data>
+  <data name="WorkflowEdiFilter_Archive" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="WorkflowEdiFilter_ForApproval" xml:space="preserve">
+    <value>For approval</value>
+  </data>
+  <data name="WorkflowEdiFilter_New" xml:space="preserve">
+    <value>Not handled</value>
+  </data>
+  <data name="WorkflowEdiFilter_OnHold" xml:space="preserve">
+    <value>On hold</value>
+  </data>
+  <data name="WorkflowEdiFilter_PendingHandling" xml:space="preserve">
+    <value>Pending handling</value>
+  </data>
+  <data name="WorkflowEdiFilter_Skipped" xml:space="preserve">
+    <value>Skipped</value>
+  </data>
+  <data name="WorkflowItemFileType_Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="WorkflowItemFileType_IncomingPayment" xml:space="preserve">
+    <value>Incoming Payment</value>
+  </data>
+  <data name="WorkflowItemFileType_OutgoingInvoiceExport" xml:space="preserve">
+    <value>Outgoing Invoice Export</value>
+  </data>
+  <data name="WorkflowItemFileType_PaymentConfirmation" xml:space="preserve">
+    <value>Payment Confirmation</value>
+  </data>
+  <data name="WorkflowItemFileType_PaymentInitiation" xml:space="preserve">
+    <value>Payment Initiation</value>
+  </data>
+  <data name="WorkflowItemFileType_PaymentStatusReport" xml:space="preserve">
+    <value>Payment Status Report</value>
+  </data>
+  <data name="WorkflowItemFileType_PdfDocument" xml:space="preserve">
+    <value>PDF Document</value>
+  </data>
+  <data name="WorkflowItemFileType_Presentation" xml:space="preserve">
+    <value>Presentation</value>
+  </data>
+  <data name="WorkflowItemFileType_SalaryExport" xml:space="preserve">
+    <value>Salary Export</value>
+  </data>
+  <data name="WorkflowItemFileType_Spreadsheet" xml:space="preserve">
+    <value>Spreadsheet</value>
+  </data>
+  <data name="WorkflowItemFileType_EhfInvoice" xml:space="preserve">
+    <value>EHF Invoice</value>
+  </data>
+  <data name="WorkflowItemFileType_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="WorkflowItemFileType_WordDocument" xml:space="preserve">
+    <value>Word Document</value>
+  </data>
+  <data name="WorkflowItemFileType_Diagram" xml:space="preserve">
+    <value>Diagram</value>
+  </data>
+  <data name="WorkflowItemFileType_Media" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="WorkflowItemFileType_EMailMessage" xml:space="preserve">
+    <value>E-Mail Message</value>
+  </data>
+  <data name="ContentTransferMethod_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="WorkflowItemFileType_EhfCatalog" xml:space="preserve">
+    <value>EHF Catalogue</value>
+  </data>
+  <data name="WorkflowItemFileType_EhfCatalogResponse" xml:space="preserve">
+    <value>EHF Catalogue Response</value>
+  </data>
+  <data name="WorkflowItemFileType_EhfOrder" xml:space="preserve">
+    <value>EHF Order</value>
+  </data>
+  <data name="WorkflowItemFileType_EhfOrderResponse" xml:space="preserve">
+    <value>EHF Order Response</value>
+  </data>
+  <data name="ObjectUIType_MeasurementLogTemplate" xml:space="preserve">
+    <value>Measurement log template</value>
+  </data>
+  <data name="WorkflowItemFileType_Html" xml:space="preserve">
+    <value>HTML file</value>
+  </data>
+  <data name="WorkflowItemFileType_Text" xml:space="preserve">
+    <value>Text file</value>
+  </data>
+  <data name="PurchaseMaterialGroupType_DoNotGroup" xml:space="preserve">
+    <value>Do not group</value>
+  </data>
+  <data name="PurchaseMaterialGroupType_Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="PurchaseMaterialGroupType_GroupWithoutDescription" xml:space="preserve">
+    <value>Group excl. description</value>
+  </data>
+  <data name="ImportAndExportType_Tolerance" xml:space="preserve">
+    <value>Tolerances</value>
+  </data>
+  <data name="StockPlanningType_DoNotUse" xml:space="preserve">
+    <value>Do not use</value>
+  </data>
+  <data name="StockPlanningType_Production" xml:space="preserve">
+    <value>Stock production</value>
+  </data>
+  <data name="StockPlanningType_Purchase" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="StockPlanningType_Request" xml:space="preserve">
+    <value>Demand</value>
+  </data>
+  <data name="StockPlanningType_RequestBudget" xml:space="preserve">
+    <value>Budget</value>
+  </data>
+  <data name="RoleType_DocumentCenter" xml:space="preserve">
+    <value>Document center</value>
+  </data>
+  <data name="ProjectScheduleStatus_Partial" xml:space="preserve">
+    <value>Partial</value>
+  </data>
+  <data name="StdDocumentTypes_WipChanges" xml:space="preserve">
+    <value>WIP changes</value>
+  </data>
+  <data name="WorkflowSubtypeKind_IncomingCreditNote" xml:space="preserve">
+    <value>Incoming credit note</value>
+  </data>
+  <data name="WorkflowSubtypeKind_OutgoingCreditNote" xml:space="preserve">
+    <value>Outgoing credit note</value>
+  </data>
+  <data name="DocumentSyncStatusType_NotNeeded" xml:space="preserve">
+    <value>Not required</value>
+  </data>
+  <data name="WorkflowItemFileType_ASiC" xml:space="preserve">
+    <value>ASiC Container</value>
+  </data>
+  <data name="PlanStockSourceMode_Sales" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="PlanStockSourceMode_SalesBudget" xml:space="preserve">
+    <value>Sales budget</value>
+  </data>
+  <data name="PlanStockSourceMode_StockProduction" xml:space="preserve">
+    <value>Stock production</value>
+  </data>
+  <data name="UserType_Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="PurchaseMaterialViewMode_Gross" xml:space="preserve">
+    <value>Gross</value>
+  </data>
+  <data name="YesNoDefault_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="YesNoDefault_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="YesNoDefault_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="OutgoingInvoiceExportType_SveaEkonomi" xml:space="preserve">
+    <value>Svea Ekonomi</value>
+  </data>
+  <data name="MenuItemCategory_BuiltIn" xml:space="preserve">
+    <value>Built-in</value>
+  </data>
+  <data name="MenuItemCategory_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="MenuItemCategory_UserDefined" xml:space="preserve">
+    <value>User defined</value>
+  </data>
+  <data name="DayOfWeek_Friday" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="DayOfWeek_Monday" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="DayOfWeek_Saturday" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="DayOfWeek_Sunday" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="DayOfWeek_Thursday" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="DayOfWeek_Tuesday" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="DayOfWeek_Wednesday" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="NotificationType_ApprovalChange" xml:space="preserve">
+    <value>Approval status changed</value>
+  </data>
+  <data name="NotificationType_ApprovalNew" xml:space="preserve">
+    <value>New approval</value>
+  </data>
+  <data name="NotificationType_EmailFail" xml:space="preserve">
+    <value>Email send failed</value>
+  </data>
+  <data name="NotificationType_EmailNew" xml:space="preserve">
+    <value>New email</value>
+  </data>
+  <data name="NotificationType_ObjectChange" xml:space="preserve">
+    <value>Object changed</value>
+  </data>
+  <data name="NotificationType_SystemMessage" xml:space="preserve">
+    <value>System message</value>
+  </data>
+  <data name="NotificationType_TaskNew" xml:space="preserve">
+    <value>New task</value>
+  </data>
+  <data name="NotificationType_UserMessage" xml:space="preserve">
+    <value>User message</value>
+  </data>
+  <data name="ObjectUIType_Lot" xml:space="preserve">
+    <value>Lot</value>
+  </data>
+  <data name="ObjectUIType_Operation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="ObjectUIType_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="ObjectUIType_User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="ObjectUIType_VendorArticle" xml:space="preserve">
+    <value>Vendor article</value>
+  </data>
+  <data name="ObjectUIType_WorkOrder" xml:space="preserve">
+    <value>Work order</value>
+  </data>
+  <data name="ObjectUIType_ArticleGroup" xml:space="preserve">
+    <value>Article group</value>
+  </data>
+  <data name="ObjectUIType_ProjectGroup" xml:space="preserve">
+    <value>Project group</value>
+  </data>
+  <data name="NotificationType_ObjectAssign" xml:space="preserve">
+    <value>Object assigned</value>
+  </data>
+  <data name="NotificationShowMethod_AlertForm" xml:space="preserve">
+    <value>Zigma360 notifications</value>
+  </data>
+  <data name="NotificationShowMethod_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="NotificationShowMethod_Toast" xml:space="preserve">
+    <value>Windows notifications</value>
+  </data>
+  <data name="NotificationStatus_New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="NotificationStatus_Read" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="NotificationStatus_Sent" xml:space="preserve">
+    <value>Sent</value>
+  </data>
+  <data name="GroupDateByType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="GroupDateByType_Day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="GroupDateByType_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="GroupDateByType_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="GroupDateByType_Quarter" xml:space="preserve">
+    <value>Quarter</value>
+  </data>
+  <data name="GroupDateByType_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="ApproveState_Partial" xml:space="preserve">
+    <value>Partial</value>
+  </data>
+  <data name="WorkflowItemFileType_SaftFinancialExport" xml:space="preserve">
+    <value>SAF-T Financial Export</value>
+  </data>
+  <data name="WorkflowSubtypeKind_SaftExport" xml:space="preserve">
+    <value>SAF-T Export</value>
+  </data>
+  <data name="OutgoingInvoiceExportType_VismaBusiness" xml:space="preserve">
+    <value>Visma Business</value>
+  </data>
+  <data name="SalaryExportType_VismaPayroll" xml:space="preserve">
+    <value>Visma Payroll</value>
+  </data>
+  <data name="OutgoingInvoiceExportType_XledgerGBAT10" xml:space="preserve">
+    <value>Xledger-GBAT10</value>
+  </data>
+  <data name="SalaryCodeFilterType_Absence" xml:space="preserve">
+    <value>Absence</value>
+  </data>
+  <data name="SalaryCodeFilterType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="SalaryCodeFilterType_Payment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="SystemActionType_DatabaseBackup" xml:space="preserve">
+    <value>Database backup</value>
+  </data>
+  <data name="SystemActionType_DataExport" xml:space="preserve">
+    <value>Data export</value>
+  </data>
+  <data name="SystemActionType_DataImport" xml:space="preserve">
+    <value>Data import</value>
+  </data>
+  <data name="SystemActionType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="SystemActionType_SystemNotification" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="SystemActionType_UpdateArticlePrice" xml:space="preserve">
+    <value>Update article price</value>
+  </data>
+  <data name="SystemActionType_Webhook" xml:space="preserve">
+    <value>Webhook</value>
+  </data>
+  <data name="SystemActionType_WorkflowItemsBackup" xml:space="preserve">
+    <value>Workflow items backup</value>
+  </data>
+  <data name="SystemActionType_WorkOrderCreation" xml:space="preserve">
+    <value>Work order creation</value>
+  </data>
+  <data name="SystemActionType_EmptyingRecycleBin" xml:space="preserve">
+    <value>Emptying recycle bin</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Gram" xml:space="preserve">
+    <value>Gram</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Hour" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Kilogram" xml:space="preserve">
+    <value>Kilogram</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Liter" xml:space="preserve">
+    <value>Liter</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Millimeter" xml:space="preserve">
+    <value>Millimeter</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Minute" xml:space="preserve">
+    <value>Minute</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Second" xml:space="preserve">
+    <value>Second</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_Ton" xml:space="preserve">
+    <value>Ton</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_UnitsPerHour" xml:space="preserve">
+    <value>Units per hour</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_UnitsPerMinute" xml:space="preserve">
+    <value>Units per minute</value>
+  </data>
+  <data name="WorkflowItemFileType_VatReportExport" xml:space="preserve">
+    <value>VAT Report Export</value>
+  </data>
+  <data name="ImportAndExportType_PriceList" xml:space="preserve">
+    <value>Price lists</value>
+  </data>
+  <data name="TemplateExistence_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="TemplateExistence_WithTemplates" xml:space="preserve">
+    <value>With templates</value>
+  </data>
+  <data name="ImportAndExportType_BeginRestsDocumentLine" xml:space="preserve">
+    <value>Document line</value>
+  </data>
+  <data name="ImportAndExportType_JournalEntryDocumentLine" xml:space="preserve">
+    <value>Document line</value>
+  </data>
+  <data name="WorkPackageType_Operation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="WorkPackageType_WorkOrder" xml:space="preserve">
+    <value>Work order</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_Article" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_Lot" xml:space="preserve">
+    <value>Lot</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_OrgUnit" xml:space="preserve">
+    <value>Organization unit</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_ProjectLine" xml:space="preserve">
+    <value>Project line</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_SpecificationListRow" xml:space="preserve">
+    <value>Specification list</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_VendorArticle" xml:space="preserve">
+    <value>Vendor article</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_WorkflowItem" xml:space="preserve">
+    <value>Workflow item</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_SettingsTyped" xml:space="preserve">
+    <value>System preferences</value>
+  </data>
+  <data name="EditFormat_Boolean" xml:space="preserve">
+    <value>Boolean</value>
+  </data>
+  <data name="EditFormat_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="EditFormat_DateTime" xml:space="preserve">
+    <value>Date with time</value>
+  </data>
+  <data name="EditFormat_Decimal" xml:space="preserve">
+    <value>Decimal</value>
+  </data>
+  <data name="EditFormat_Integer" xml:space="preserve">
+    <value>Integer</value>
+  </data>
+  <data name="EditFormat_Percent" xml:space="preserve">
+    <value>Percent</value>
+  </data>
+  <data name="EditFormat_Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="EditFormat_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="EditFormat_String" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="EditFormat_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="ScriptType_WorkPackageDetailsImporter" xml:space="preserve">
+    <value>Work package details importer</value>
+  </data>
+  <data name="ProjectLineType_Adjustment" xml:space="preserve">
+    <value>Adjustment</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="TimeRegisterClient_Desktop" xml:space="preserve">
+    <value>Desktop</value>
+  </data>
+  <data name="TimeRegisterClient_Mixed" xml:space="preserve">
+    <value>Mixed</value>
+  </data>
+  <data name="TimeRegisterClient_Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="TimeRegisterClient_NotSpecified" xml:space="preserve">
+    <value>Not specified</value>
+  </data>
+  <data name="TimeRegisterClient_Server" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="WorkflowItemOwnerType_WorkPackage" xml:space="preserve">
+    <value>Work package</value>
+  </data>
+  <data name="ScriptType_ArticleDetailsImporter" xml:space="preserve">
+    <value>Article details importer</value>
+  </data>
+  <data name="ScriptType_ProjectDetailsImporter" xml:space="preserve">
+    <value>Project details importer</value>
+  </data>
+  <data name="ScriptType_ProjectLineDetailsImporter" xml:space="preserve">
+    <value>Project line details importer</value>
+  </data>
+  <data name="ScriptType_LotDetailsImporter" xml:space="preserve">
+    <value>Lot details importer</value>
+  </data>
+  <data name="OAuthProviderType_Authentication" xml:space="preserve">
+    <value>Authentication</value>
+  </data>
+  <data name="OAuthProviderType_EmailHandling" xml:space="preserve">
+    <value>Email handling</value>
+  </data>
+  <data name="UserFilterType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="SystemActionType_DeleteFromRecycleBin" xml:space="preserve">
+    <value>Deleted from recycle bin</value>
+  </data>
+  <data name="SystemActionType_RequestedSensitiveInfo" xml:space="preserve">
+    <value>Requested sensitive information</value>
+  </data>
+  <data name="SystemActionType_UpdatedSensitiveInfo" xml:space="preserve">
+    <value>Updated sensitive information</value>
+  </data>
+  <data name="SystemActionType_LogOn" xml:space="preserve">
+    <value>Log on</value>
+  </data>
+  <data name="JournalEntryImportType_Visma" xml:space="preserve">
+    <value>Visma SIE4</value>
+  </data>
+  <data name="CustomReportCategory_Administrating" xml:space="preserve">
+    <value>Administrating</value>
+  </data>
+  <data name="CustomReportCategory_Bookkeeping" xml:space="preserve">
+    <value>Bookkeeping</value>
+  </data>
+  <data name="CustomReportCategory_ExecutiveManagement" xml:space="preserve">
+    <value>Executive management</value>
+  </data>
+  <data name="CustomReportCategory_Work" xml:space="preserve">
+    <value>Work</value>
+  </data>
+  <data name="TimeRecordFilterType_AllRunningMachines" xml:space="preserve">
+    <value>All running machines</value>
+  </data>
+  <data name="SystemActionType_ShiftPlanChangedByUser" xml:space="preserve">
+    <value>User changed shift plan</value>
+  </data>
+  <data name="ProjectScheduleStatus_Finished" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="ScheduleStatus_Finished" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="StateForArticleTrackingType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="StateForArticleTrackingType_NotFinished" xml:space="preserve">
+    <value>Drafts and in work</value>
+  </data>
+  <data name="PurchaseMaterialStockMaterialType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="PurchaseMaterialStockMaterialType_ProjectMaterialsOnly" xml:space="preserve">
+    <value>Project materials</value>
+  </data>
+  <data name="PurchaseMaterialStockMaterialType_StockMaterialsOnly" xml:space="preserve">
+    <value>Stock materials</value>
+  </data>
+  <data name="RoleType_GenericAccess" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="WorkflowItemOwnerType_WorkflowItemSubtype" xml:space="preserve">
+    <value>Workflow subtype</value>
+  </data>
+  <data name="SecureContainerType_ASiCe" xml:space="preserve">
+    <value>ASiCe</value>
+  </data>
+  <data name="SecureContainerType_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="SecureContainerType_SecureEnvelope" xml:space="preserve">
+    <value>Secure Envelope</value>
+  </data>
+  <data name="WorkflowItemSyncType_Sending" xml:space="preserve">
+    <value>Sending</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_InventoryBalance" xml:space="preserve">
+    <value>Inventory balance</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_PurchaseToProject" xml:space="preserve">
+    <value>Purchase to project</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_PurchaseToStock" xml:space="preserve">
+    <value>Purchase to stock</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_SaleFromStock" xml:space="preserve">
+    <value>Sale from stock</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_SaleOther" xml:space="preserve">
+    <value>Sale other</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_SaleProduct" xml:space="preserve">
+    <value>Sale product</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_SalePurchased" xml:space="preserve">
+    <value>Sale purchased</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_StockProduction" xml:space="preserve">
+    <value>Stock production</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_UseProjectMaterial" xml:space="preserve">
+    <value>Project material in material list</value>
+  </data>
+  <data name="ArticleDetailedStatusSourceType_UseStockMaterial" xml:space="preserve">
+    <value>Stock material in material list</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_MeasurementLogLine" xml:space="preserve">
+    <value>Measurement log</value>
+  </data>
+  <data name="MeasurementUnitQuantityWizardType_CuttingSource" xml:space="preserve">
+    <value>Cutting source</value>
+  </data>
+  <data name="TenantRegionType_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="TenantRegionType_NorthEurope" xml:space="preserve">
+    <value>North Europe</value>
+  </data>
+  <data name="TenantRegionType_Norway" xml:space="preserve">
+    <value>Norway</value>
+  </data>
+  <data name="WorkOrderAllowedState_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="WorkOrderAllowedState_Draft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="WorkOrderAllowedState_InWork" xml:space="preserve">
+    <value>In work</value>
+  </data>
+  <data name="WorkOrderAllowedState_Finished" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="UserDefinedStringFieldContainerType_PriceListArticle" xml:space="preserve">
+    <value>Price list articles</value>
+  </data>
+  <data name="ControlForSelectionType_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SalaryTimeImportType_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="SalaryTimeImportType_TotalNoOvertime" xml:space="preserve">
+    <value>Total no overtime</value>
+  </data>
+  <data name="ArticleFilterType_TemplateProduct" xml:space="preserve">
+    <value>Template product</value>
+  </data>
+  <data name="ArticleType_TemplateProduct" xml:space="preserve">
+    <value>Template product</value>
+  </data>
+  <data name="EmissionFactorPerType_Kilogram" xml:space="preserve">
+    <value>Kilogram</value>
+  </data>
+  <data name="EmissionFactorPerType_MainUnit" xml:space="preserve">
+    <value>Main unit</value>
+  </data>
+  <data name="SystemActionType_UpdateCurrencyRates" xml:space="preserve">
+    <value>Update currency rates</value>
+  </data>
+  <data name="SystemActionType_BatchOperation" xml:space="preserve">
+    <value>Batch operation</value>
+  </data>
+  <data name="TransactionMatchType_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="TransactionMatchType_None" xml:space="preserve">
+    <value>Not matched</value>
+  </data>
+  <data name="TransactionMatchType_SystemRule" xml:space="preserve">
+    <value>System rule</value>
+  </data>
+  <data name="WorkflowItemFileType_BankStatement" xml:space="preserve">
+    <value>Bank Statement</value>
+  </data>
+</root>

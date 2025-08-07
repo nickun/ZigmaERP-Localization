@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountingTab" xml:space="preserve">
+    <value>Accounting</value>
+  </data>
+  <data name="AnalysisTab" xml:space="preserve">
+    <value>Activate Analysis</value>
+  </data>
+  <data name="CanCloseWithOpenedSubprojects" xml:space="preserve">
+    <value>Allow closing with opened subprojects</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="CompanySelectionType" xml:space="preserve">
+    <value>Company selection type</value>
+  </data>
+  <data name="DefaultForIsArrived" xml:space="preserve">
+    <value>Default for "Arrived"</value>
+  </data>
+  <data name="DefaultForIsDelivered" xml:space="preserve">
+    <value>Default for "Delivered"</value>
+  </data>
+  <data name="DefaultForIsFinished" xml:space="preserve">
+    <value>Default for "Produced"</value>
+  </data>
+  <data name="DefaultForIsIncomeInvoiced" xml:space="preserve">
+    <value>Default for "Incoming invoiced"</value>
+  </data>
+  <data name="DefaultForIsOutgoingInvoiced" xml:space="preserve">
+    <value>Default for "Invoiced"</value>
+  </data>
+  <data name="DefaultForIsPurchased" xml:space="preserve">
+    <value>Default for "Purchased"</value>
+  </data>
+  <data name="DefaultForIsReturn" xml:space="preserve">
+    <value>Default for "Returned"</value>
+  </data>
+  <data name="DefaultForIsSentToSubcontractor" xml:space="preserve">
+    <value>Default for "Sent to subcontractor"</value>
+  </data>
+  <data name="DeliveryTab" xml:space="preserve">
+    <value>Enable registration of Delivery</value>
+  </data>
+  <data name="DenyDelete" xml:space="preserve">
+    <value>Disable project deletion</value>
+  </data>
+  <data name="DocumentsTab" xml:space="preserve">
+    <value>Activate All transactions</value>
+  </data>
+  <data name="IncomeInvoicesTab" xml:space="preserve">
+    <value>Enable registration of Incoming invoices</value>
+  </data>
+  <data name="IntervalTarget" xml:space="preserve">
+    <value>Interval target</value>
+  </data>
+  <data name="IsBuiltIn" xml:space="preserve">
+    <value>Built-in</value>
+  </data>
+  <data name="IsContactRequired" xml:space="preserve">
+    <value>Contact person required</value>
+  </data>
+  <data name="IsInterval" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="IsInUse" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="IncludeTasksInProjectHours" xml:space="preserve">
+    <value>Include task hours in project hours</value>
+  </data>
+  <data name="LotsTab" xml:space="preserve">
+    <value>Activate Material lot, Product lot, Batch components</value>
+  </data>
+  <data name="MaterialsArrivalTab" xml:space="preserve">
+    <value>Enable registration of Goods receipt</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Project type</value>
+  </data>
+  <data name="NextProjectNumberPreview" xml:space="preserve">
+    <value>Next project no. preview</value>
+  </data>
+  <data name="OutgoingInvoicesTab" xml:space="preserve">
+    <value>Enable registration of Outgoing invoices</value>
+  </data>
+  <data name="PickedMaterialsTab" xml:space="preserve">
+    <value>Enable Picking from stock</value>
+  </data>
+  <data name="ProjectLinesTab" xml:space="preserve">
+    <value>Activate Project lines</value>
+  </data>
+  <data name="ProjectNumber" xml:space="preserve">
+    <value>Last used project no.</value>
+  </data>
+  <data name="ProjectNumberPrefix" xml:space="preserve">
+    <value>Define project no. format</value>
+  </data>
+  <data name="ProjectNumberPrefix_Hint" xml:space="preserve">
+    <value>{0} – Counter, ex: {0:d6}
+{1} – Current date/time, ex: {1:yyyMMdd_HHmmss}</value>
+  </data>
+  <data name="ProjectNumberShortPrefix" xml:space="preserve">
+    <value>Prefix</value>
+  </data>
+  <data name="ProjectWorkflowTab" xml:space="preserve">
+    <value>Activate Project workflow</value>
+  </data>
+  <data name="PurchaseLinesTab" xml:space="preserve">
+    <value>Enable creation of Purchase</value>
+  </data>
+  <data name="PutToStockTab" xml:space="preserve">
+    <value>Enable Putting materials on stock</value>
+  </data>
+  <data name="ReturnTab" xml:space="preserve">
+    <value>Enable registration of Return</value>
+  </data>
+  <data name="SchedulerTab" xml:space="preserve">
+    <value>Activate Scheduler</value>
+  </data>
+  <data name="SelectCustomer" xml:space="preserve">
+    <value>Activate choosing a Customer</value>
+  </data>
+  <data name="SelectCustomerCandidate" xml:space="preserve">
+    <value>Activate choosing a Potential customer</value>
+  </data>
+  <data name="SelectDepartment" xml:space="preserve">
+    <value>Activate choosing Own company / department</value>
+  </data>
+  <data name="SelectPartner" xml:space="preserve">
+    <value>Activate choosing a Partner</value>
+  </data>
+  <data name="SelectStock" xml:space="preserve">
+    <value>Activate choosing a Stock</value>
+  </data>
+  <data name="SelectVendor" xml:space="preserve">
+    <value>Activate choosing a Vendor</value>
+  </data>
+  <data name="SelectVendorCandidate" xml:space="preserve">
+    <value>Activate choosing a Potential vendor</value>
+  </data>
+  <data name="SendToSubcontractorTab" xml:space="preserve">
+    <value>Enable Sending to subcontractor</value>
+  </data>
+  <data name="ShowSalesPrice" xml:space="preserve">
+    <value>Use sale price</value>
+  </data>
+  <data name="ShowSalesPrice_Hint" xml:space="preserve">
+    <value>Price instead of Cost from Article will be taken when creating a Project line</value>
+  </data>
+  <data name="UseCostToPricePercent" xml:space="preserve">
+    <value>Copy default markup percent on materials</value>
+  </data>
+  <data name="UseForAccounting" xml:space="preserve">
+    <value>Activate Accounting</value>
+  </data>
+  <data name="UseForTimeRegistration" xml:space="preserve">
+    <value>Activate Time registration</value>
+  </data>
+  <data name="UseOwnCompany" xml:space="preserve">
+    <value>Activate the autofill of Own company</value>
+  </data>
+  <data name="UseWIP" xml:space="preserve">
+    <value>Use WIP</value>
+  </data>
+  <data name="VisibleTabs" xml:space="preserve">
+    <value>Visible tabs</value>
+  </data>
+  <data name="WorkOrdersTab" xml:space="preserve">
+    <value>Enable creation of Work orders</value>
+  </data>
+  <data name="IsProjectAccountingEnabled" xml:space="preserve">
+    <value>Activate Project accounting</value>
+  </data>
+  <data name="ProceduresTab" xml:space="preserve">
+    <value>Activate Procedures</value>
+  </data>
+  <data name="ProjectCheckListTab" xml:space="preserve">
+    <value>Activate Check lists</value>
+  </data>
+  <data name="ProjectDocumentsTab" xml:space="preserve">
+    <value>Enable generation of final documentation</value>
+  </data>
+  <data name="CopyToProjectType" xml:space="preserve">
+    <value>Copy workflow from Article to project line</value>
+  </data>
+  <data name="TasksTab" xml:space="preserve">
+    <value>Activate Project tasks</value>
+  </data>
+  <data name="ProjectLinesFromAccounting" xml:space="preserve">
+    <value>Enable creation of project lines from accounting</value>
+  </data>
+  <data name="ProjectLine_ReferenceField1_Type" xml:space="preserve">
+    <value>Project line multi choice field 1</value>
+  </data>
+  <data name="ProjectLine_ReferenceField2_Type" xml:space="preserve">
+    <value>Project line multi choice field 2</value>
+  </data>
+  <data name="ProjectLine_ReferenceField3_Type" xml:space="preserve">
+    <value>Project line multi choice field 3</value>
+  </data>
+  <data name="Project_ReferenceField1_Type" xml:space="preserve">
+    <value>Project multi choice field 1</value>
+  </data>
+  <data name="Project_ReferenceField2_Type" xml:space="preserve">
+    <value>Project multi choice field 2</value>
+  </data>
+  <data name="Project_ReferenceField3_Type" xml:space="preserve">
+    <value>Project multi choice field 3</value>
+  </data>
+  <data name="DefaultForIsPutToStock" xml:space="preserve">
+    <value>Default for "Put to stock"</value>
+  </data>
+  <data name="Rent" xml:space="preserve">
+    <value>Enable creation of Rent-type project lines</value>
+  </data>
+  <data name="CopyToProjectType_Hint" xml:space="preserve">
+    <value>Workflow from Article will be copied to project line if that is defined in Workflow-subtype</value>
+  </data>
+  <data name="SelectCustomerCandidate_Hint" xml:space="preserve">
+    <value>Possibility to choose from potential customers' list when creating a new project</value>
+  </data>
+  <data name="SelectCustomer_Hint" xml:space="preserve">
+    <value>Possibility to choose from customers' list when creating a new project</value>
+  </data>
+  <data name="SelectDepartment_Hint" xml:space="preserve">
+    <value>Possibility to choose from departments' list when creating a new project</value>
+  </data>
+  <data name="SelectPartner_Hint" xml:space="preserve">
+    <value>Possibility to choose from partners' list when creating a new project</value>
+  </data>
+  <data name="SelectStock_Hint" xml:space="preserve">
+    <value>Possibility to choose from stocks' list when creating a new project</value>
+  </data>
+  <data name="SelectVendorCandidate_Hint" xml:space="preserve">
+    <value>Possibility to choose from potential vendors' list when creating a new project</value>
+  </data>
+  <data name="SelectVendor_Hint" xml:space="preserve">
+    <value>Possibility to choose from vendors' list when creating a new project</value>
+  </data>
+  <data name="UseCostToPricePercent_Hint" xml:space="preserve">
+    <value>Markup percent on materials from System preferences will be copied to Project, and Markup percent on materials from Article will be copied to project line.</value>
+  </data>
+  <data name="UseOwnCompany_Hint" xml:space="preserve">
+    <value>This function is used in combination with "Activate choosing Own company/department".
+Own company name will be automatically filled out when creating a new project.</value>
+  </data>
+  <data name="Project_StringField10_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project string field 10</value>
+  </data>
+  <data name="Project_StringField1_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project string field 1</value>
+  </data>
+  <data name="Project_StringField2_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project string field 2</value>
+  </data>
+  <data name="Project_StringField3_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project string field 3</value>
+  </data>
+  <data name="Project_StringField4_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project string field 4</value>
+  </data>
+  <data name="Project_StringField5_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project string field 5</value>
+  </data>
+  <data name="Project_StringField6_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project string field 6</value>
+  </data>
+  <data name="Project_StringField7_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project string field 7</value>
+  </data>
+  <data name="Project_StringField8_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project string field 8</value>
+  </data>
+  <data name="Project_StringField9_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project string field 9</value>
+  </data>
+  <data name="ProjectLine_StringField10_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project line string field 10</value>
+  </data>
+  <data name="ProjectLine_StringField1_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project line string field 1</value>
+  </data>
+  <data name="ProjectLine_StringField2_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project line string field 2</value>
+  </data>
+  <data name="ProjectLine_StringField3_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project line string field 3</value>
+  </data>
+  <data name="ProjectLine_StringField4_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project line string field 4</value>
+  </data>
+  <data name="ProjectLine_StringField5_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project line string field 5</value>
+  </data>
+  <data name="ProjectLine_StringField6_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project line string field 6</value>
+  </data>
+  <data name="ProjectLine_StringField7_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project line string field 7</value>
+  </data>
+  <data name="ProjectLine_StringField8_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project line string field 8</value>
+  </data>
+  <data name="ProjectLine_StringField9_LocalizationKey" xml:space="preserve">
+    <value>Localization key for Project line string field 9</value>
+  </data>
+  <data name="MeasurementLog" xml:space="preserve">
+    <value>Activate Measurement log</value>
+  </data>
+  <data name="ActivateEhfOrder" xml:space="preserve">
+    <value>Activate EHF Order</value>
+  </data>
+  <data name="MaterialsArrivalTab_Hint" xml:space="preserve">
+    <value>Can only be used in purchases</value>
+  </data>
+  <data name="OutgoingInvoicesTab_Hint" xml:space="preserve">
+    <value>Should be set for project states</value>
+  </data>
+  <data name="Account_WipEarnedNotInvoicedBalance" xml:space="preserve">
+    <value>WIP earned, not booked income Balance account</value>
+  </data>
+  <data name="Account_WipEarnedNotInvoicedResult" xml:space="preserve">
+    <value>WIP earned, not booked income Result account</value>
+  </data>
+  <data name="Account_WIPInvoicedNotEarnedBalance" xml:space="preserve">
+    <value>WIP booked income, not earned Balance account</value>
+  </data>
+  <data name="Account_WIPInvoicedNotEarnedResult" xml:space="preserve">
+    <value>WIP booked income, not earned Result account</value>
+  </data>
+  <data name="LocalizationKey" xml:space="preserve">
+    <value>Localization key</value>
+  </data>
+  <data name="LocalizationKey_Hint" xml:space="preserve">
+    <value>Key to search among Report localized strings</value>
+  </data>
+  <data name="MandatoryDepartment" xml:space="preserve">
+    <value>Mandatory department</value>
+  </data>
+  <data name="MandatoryWorkOrderForTimeRegistration" xml:space="preserve">
+    <value>Mandatory work order for time registration</value>
+  </data>
+  <data name="FileCount" xml:space="preserve">
+    <value>File count</value>
+  </data>
+  <data name="EmailCount" xml:space="preserve">
+    <value>Email count</value>
+  </data>
+  <data name="ComplianceCount" xml:space="preserve">
+    <value>Compliance count</value>
+  </data>
+  <data name="ComplianceScoreAverage" xml:space="preserve">
+    <value>Compliance average score</value>
+  </data>
+  <data name="ComplianceScoreAverageColor" xml:space="preserve">
+    <value>Compliance average score color</value>
+  </data>
+  <data name="ComplianceScoreMin" xml:space="preserve">
+    <value>Compliance min score</value>
+  </data>
+  <data name="ComplianceScoreMinColor" xml:space="preserve">
+    <value>Compliance min score color</value>
+  </data>
+  <data name="RiskCount" xml:space="preserve">
+    <value>Risk count</value>
+  </data>
+  <data name="RiskScoreAverage" xml:space="preserve">
+    <value>Risk average score</value>
+  </data>
+  <data name="RiskScoreAverageColor" xml:space="preserve">
+    <value>Risk average score color</value>
+  </data>
+  <data name="RiskScoreMax" xml:space="preserve">
+    <value>Risk max score</value>
+  </data>
+  <data name="RiskScoreMaxColor" xml:space="preserve">
+    <value>Risk max score color</value>
+  </data>
+  <data name="MandatoryProjectTemplate" xml:space="preserve">
+    <value>Mandatory project template</value>
+  </data>
+  <data name="RememberProjectTemplate" xml:space="preserve">
+    <value>Remember last used project template</value>
+  </data>
+  <data name="DefaultWorkOrderPriority" xml:space="preserve">
+    <value>Default work order priority</value>
+  </data>
+  <data name="DefaultWorkOrderPriority_Hint" xml:space="preserve">
+    <value>Lower number - higher priority. Set 0 to disable priority</value>
+  </data>
+  <data name="UseArticleAssemblyReplacementFromPL" xml:space="preserve">
+    <value>Enable article assembly replacement from project line</value>
+  </data>
+</root>

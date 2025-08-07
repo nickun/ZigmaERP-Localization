@@ -1,0 +1,1465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="AddedToWorkList" xml:space="preserve">
+    <value>Lagt til arbeidsliste</value>
+  </data>
+  <data name="Agree" xml:space="preserve">
+    <value>Samtykke</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="AllArticles" xml:space="preserve">
+    <value>*Alle artikler</value>
+  </data>
+  <data name="AllSubtypes" xml:space="preserve">
+    <value>Alle subtyper</value>
+  </data>
+  <data name="AllWorkflowItems" xml:space="preserve">
+    <value>All workflow</value>
+  </data>
+  <data name="AllWorkflowItemSubtypes" xml:space="preserve">
+    <value>*All workflow subtyper</value>
+  </data>
+  <data name="AppIsNotRunning" xml:space="preserve">
+    <value>Zigma360 kjører ikke</value>
+  </data>
+  <data name="Article" xml:space="preserve">
+    <value>Artikkel</value>
+  </data>
+  <data name="ArticlesWithoutGroup" xml:space="preserve">
+    <value>*Artikler uten gruppe</value>
+  </data>
+  <data name="AssemblyTreeLine" xml:space="preserve">
+    <value>Kalkylelinje</value>
+  </data>
+  <data name="BackupProcessStartedWait" xml:space="preserve">
+    <value>Backup prosessen har startet ...</value>
+  </data>
+  <data name="BackupProcessSuccessfullyFinished" xml:space="preserve">
+    <value>Backup prosessen er fullført</value>
+  </data>
+  <data name="BankPaymentSpendMoney" xml:space="preserve">
+    <value>Utbetaling bank</value>
+  </data>
+  <data name="Batch" xml:space="preserve">
+    <value>Batch</value>
+  </data>
+  <data name="Blank" xml:space="preserve">
+    <value>Uten innhold</value>
+  </data>
+  <data name="BusinessProcessShapes" xml:space="preserve">
+    <value>Forretningsprosess</value>
+  </data>
+  <data name="CancelingWait" xml:space="preserve">
+    <value>Avbryter ...</value>
+  </data>
+  <data name="CantChangeProjectCurrencyIfFinishedLinesExist" xml:space="preserve">
+    <value>Kan ikke lagre valuta hvis noen linjer er i Ferdig.</value>
+  </data>
+  <data name="CantCloseProjectWorkOrderInDraft" xml:space="preserve">
+    <value>Det er ikke mulig å lukke prosjektet hvis noen arbeidsordrer har Utkast-status</value>
+  </data>
+  <data name="CantCreateArticle" xml:space="preserve">
+    <value>Kunne ikke opprette artikkel</value>
+  </data>
+  <data name="CantDeleteFromServer" xml:space="preserve">
+    <value>Kan ikke slette '{0}' fra server</value>
+  </data>
+  <data name="CantDeleteLoggedResource" xml:space="preserve">
+    <value>Kan ikke slette logget ressurs</value>
+  </data>
+  <data name="CantRemoveArticleThatUsesInAssemblies" xml:space="preserve">
+    <value>Kan ikke fjerne artikkel som er brukt i kalkyle!</value>
+  </data>
+  <data name="CantRemoveVendorArticleThatUsesInAssemblies1" xml:space="preserve">
+    <value>Kan ikke fjerne leverandørartikkel som er brukt i kalkyler!</value>
+  </data>
+  <data name="CantRunScript" xml:space="preserve">
+    <value>Kan ikke kjøre valgt skript</value>
+  </data>
+  <data name="CantSaveItem" xml:space="preserve">
+    <value>Kan ikke lagre objekt!</value>
+  </data>
+  <data name="CantSaveProjectAssembly" xml:space="preserve">
+    <value>Kan ikke lagre prosjektkalkyle</value>
+  </data>
+  <data name="CantSaveWorkOrderAssembly" xml:space="preserve">
+    <value>Kan ikke lagre arbeidsordrekalkyle</value>
+  </data>
+  <data name="CantStartOperation" xml:space="preserve">
+    <value>Kan ikke starte operasjon!</value>
+  </data>
+  <data name="CantUseDisabledArticle" xml:space="preserve">
+    <value>Kan ikke bruke deaktivert artikkel</value>
+  </data>
+  <data name="CircularReference" xml:space="preserve">
+    <value>Objektet ble ikke lagt til. Kanskje problemet er sirkulær referanse?</value>
+  </data>
+  <data name="ClearAllSorting" xml:space="preserve">
+    <value>Fjern all sortering</value>
+  </data>
+  <data name="ClearSorting" xml:space="preserve">
+    <value>Fjern sortering</value>
+  </data>
+  <data name="ClosingWait" xml:space="preserve">
+    <value>Lukker ...</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Bekreftelse</value>
+  </data>
+  <data name="ConfirmationError" xml:space="preserve">
+    <value>Bekreftelsesfeil</value>
+  </data>
+  <data name="ConfirmChangeSelectedItem" xml:space="preserve">
+    <value>Vil du endre objektet '{0}'? {1}</value>
+  </data>
+  <data name="ConfirmChangeSelectedItems" xml:space="preserve">
+    <value>Vil du endre {0} valgte objekter?</value>
+  </data>
+  <data name="ConfirmChangesSave" xml:space="preserve">
+    <value>Vil du lagre endringer?</value>
+  </data>
+  <data name="ConfirmCloseAutocalc" xml:space="preserve">
+    <value>Vil du avslutte Zigma360?</value>
+  </data>
+  <data name="ConfirmDeleteFromGroup" xml:space="preserve">
+    <value>Vil du slette valgt element fra gruppe?</value>
+  </data>
+  <data name="ConfirmDeleteSelectedItem" xml:space="preserve">
+    <value>Er du sikker på at du vil slette elementet: '{0}'? {1}</value>
+  </data>
+  <data name="ConfirmDeleteSelectedItems" xml:space="preserve">
+    <value>Vil du slette {0} valgte elementer?</value>
+  </data>
+  <data name="ConfirmExcludeFromGroup" xml:space="preserve">
+    <value>Er du sikker på at du vil ekskludere valgt objekt(er) fra gruppe?</value>
+  </data>
+  <data name="ConfirmGenerateOrgUnitNumber" xml:space="preserve">
+    <value>Vil du generere et nytt nummer?</value>
+  </data>
+  <data name="ConfirmImport" xml:space="preserve">
+    <value>Importdataene dine er ikke i riktig rekkefølge. Vil du importere uansett?</value>
+  </data>
+  <data name="ConfirmOverwriteLocalCopyWorkflowFile" xml:space="preserve">
+    <value>Tidligere åpnet fil ble ikke lastet opp til server.
+Vil du overskrive den?</value>
+  </data>
+  <data name="ConfirmOverwriteWorkflowFileWithSameSubtype" xml:space="preserve">
+    <value>Det finnes allerede en fil med samme subtype i workflow.
+Vil du overskrive den?</value>
+  </data>
+  <data name="ConfirmProjectCantBeClosed" xml:space="preserve">
+    <value>Prosjektet er ikke godkjent. Vil du likevel lukke det?</value>
+  </data>
+  <data name="ConfirmProjectChangeEmail" xml:space="preserve">
+    <value>Vil du forandre e-postadressen på prosjektet til e-postadressen til kontaktpersonen?</value>
+  </data>
+  <data name="ConfirmProjectClose" xml:space="preserve">
+    <value>Vil du lukke prosjekt {0} ?</value>
+  </data>
+  <data name="ConfirmProjectDiscard" xml:space="preserve">
+    <value>Ikke alle prosjektlinjer er ferdige. Vil du likevel lukke prosjektet?</value>
+  </data>
+  <data name="ConfirmProjectOpen" xml:space="preserve">
+    <value>Vil du åpne prosjekt {0} ?</value>
+  </data>
+  <data name="ConfirmResetCustomization" xml:space="preserve">
+    <value>Vil du fjerne alle tilpasninger?</value>
+  </data>
+  <data name="ConfirmRunningTask" xml:space="preserve">
+    <value>Tidssporing pågår. Vil du avslutte programmet?</value>
+  </data>
+  <data name="ConfirmSetAsDefault" xml:space="preserve">
+    <value>Vil du sette '{0}' som default?</value>
+  </data>
+  <data name="ConfirmSetAsGeneral" xml:space="preserve">
+    <value>Er du sikker på at du vil sette '{0}' som standard?</value>
+  </data>
+  <data name="ConfirmSkipGeneration" xml:space="preserve">
+    <value>Vil du hoppe over opprettelse av prosjekt?</value>
+  </data>
+  <data name="ConfirmUpdateClient" xml:space="preserve">
+    <value>Klientversjonen er ikke i samsvar med serverversjonen. Vil du laste ned og kjøre oppdatering?</value>
+  </data>
+  <data name="ConfirmUpdateClientHotFix" xml:space="preserve">
+    <value>Vil du laste ned og kjøre siste oppdatering?</value>
+  </data>
+  <data name="ConfirmUpdateDeliveryDateForPL" xml:space="preserve">
+    <value>Vil du også forandre leveringsdato på alle prosjektlinjene?</value>
+  </data>
+  <data name="ConnectErrorMessage" xml:space="preserve">
+    <value>Det er en kommunikasjonsfeil med serveren:
+
+{0}
+
+Trykk "Start på nytt" for å starte programmet på nytt, "Avbryt" for å forbli på siden</value>
+  </data>
+  <data name="ContactAlreadyExist" xml:space="preserve">
+    <value>Denne kontaktpersonen finnes allerede for kontakten</value>
+  </data>
+  <data name="Converting" xml:space="preserve">
+    <value>Konverterer ...</value>
+  </data>
+  <data name="DateNotSpecified" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DeleteArticleConfirmationText" xml:space="preserve">
+    <value>Nå vil Artikkelen slettes</value>
+  </data>
+  <data name="DeleteArticleConfirmationTitle" xml:space="preserve">
+    <value>Bekreft sletting av artikkel</value>
+  </data>
+  <data name="DeleteDocumentConfirmationText" xml:space="preserve">
+    <value>Nå vil du slette HELE dokument.
+(for å slette en dokumentlinje, åpne fanen dokument først)</value>
+  </data>
+  <data name="DeleteDocumentConfirmationTitle" xml:space="preserve">
+    <value>Bekreft fjerning av dokument</value>
+  </data>
+  <data name="DeleteProjectConfirmationText" xml:space="preserve">
+    <value>Nå vil du slette HELE prosjektet.
+(for å slette en prosjektlinje, åpne fanen prosjektlinjer først)</value>
+  </data>
+  <data name="DeleteProjectConfirmationTitle" xml:space="preserve">
+    <value>Bekreft sletting av prosjekt</value>
+  </data>
+  <data name="DeletingWait" xml:space="preserve">
+    <value>Sletter ...</value>
+  </data>
+  <data name="DirectoryNotFoundError" xml:space="preserve">
+    <value>Katalog ikke funnet ({0})</value>
+  </data>
+  <data name="DiscardYourChanges" xml:space="preserve">
+    <value>Forkast dine endringer</value>
+  </data>
+  <data name="DocumentDetail" xml:space="preserve">
+    <value>Dokumentlinje</value>
+  </data>
+  <data name="DocumentForSpecifiedPeriodAlreadyExists" xml:space="preserve">
+    <value>Dokument for den angitte periode finnes allerede</value>
+  </data>
+  <data name="DocumentHeader" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="DocumentLocked" xml:space="preserve">
+    <value>Dokumentet er låst av {0}.</value>
+  </data>
+  <data name="DoYouReallyWantToChangeStateFromFinished" xml:space="preserve">
+    <value>Vil du endre status fra ferdig?</value>
+  </data>
+  <data name="DoYouWantToChangeProperty" xml:space="preserve">
+    <value>Vil du forandre &lt;PropName&gt;?</value>
+  </data>
+  <data name="DuplicateVendorInVendorArticles" xml:space="preserve">
+    <value>Leverandørartikkel fra denne lev. finnes allerede</value>
+  </data>
+  <data name="ElectricalSymbolsShapes" xml:space="preserve">
+    <value>Elektriske symboler</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Feil</value>
+  </data>
+  <data name="ErrorAlreadyExistsDocumentWithSameSubtype" xml:space="preserve">
+    <value>Det finnes allerede et dokument med samme kategori!</value>
+  </data>
+  <data name="ErrorBreakMustBeInTimePeriod" xml:space="preserve">
+    <value>Pause må være innen perioden</value>
+  </data>
+  <data name="ErrorBreakNotSpecified" xml:space="preserve">
+    <value>Pauseperiode ikke angitt</value>
+  </data>
+  <data name="ErrorBreaksMustBeInDifferentPeriods" xml:space="preserve">
+    <value>Pauser må være i ulike perioder</value>
+  </data>
+  <data name="ErrorCantConvertToPdf" xml:space="preserve">
+    <value>Kan ikke konvertere til Pdf</value>
+  </data>
+  <data name="ErrorPeriodNotSpecified" xml:space="preserve">
+    <value>Tidsperiode ikke angitt</value>
+  </data>
+  <data name="ErrorRangesIntersect" xml:space="preserve">
+    <value>Numrene krysser hverandre</value>
+  </data>
+  <data name="ErrorTheFoundLotIsNotProductLot" xml:space="preserve">
+    <value>Den funnede lot'en er ikke en produkt lot</value>
+  </data>
+  <data name="ErrorThereAreNotSuitableWorkOrders" xml:space="preserve">
+    <value>Det finnes ingen passende arbeidsordre</value>
+  </data>
+  <data name="ErrorThereAreNoWorkOrdersInProject" xml:space="preserve">
+    <value>Det er ingen arbeidsordre i prosjektet</value>
+  </data>
+  <data name="ErrorWrongArticleCode" xml:space="preserve">
+    <value>Feil artikkelkode</value>
+  </data>
+  <data name="ErrorWrongDocumentNumber" xml:space="preserve">
+    <value>Feil dokumentnummer</value>
+  </data>
+  <data name="ErrorWrongProjectNumber" xml:space="preserve">
+    <value>Feil prosjektnummer</value>
+  </data>
+  <data name="ExcelFileIsEmpty" xml:space="preserve">
+    <value>Microsoft Excel-filen er tom</value>
+  </data>
+  <data name="ExcelNotInstalled" xml:space="preserve">
+    <value>Ikke funnet noen versjon av Microsoft Excel</value>
+  </data>
+  <data name="ExportCode" xml:space="preserve">
+    <value>Eksport kode</value>
+  </data>
+  <data name="ExportException" xml:space="preserve">
+    <value>Eksporter unntak</value>
+  </data>
+  <data name="Exporting" xml:space="preserve">
+    <value>Eksporterer ...</value>
+  </data>
+  <data name="FatalErrorMessage" xml:space="preserve">
+    <value>Uventet feil i applikasjonen
+
+Uventet feil i applikasjonen
+
+ Uventet feil i applikasjonen
+Uventet feil i applikasjonen</value>
+  </data>
+  <data name="FileExistsInDb" xml:space="preserve">
+    <value>Filen finnes allerede i databasen</value>
+  </data>
+  <data name="FileHasNewVersion" xml:space="preserve">
+    <value>Filen du prøver å åpne har allerede en ny versjon</value>
+  </data>
+  <data name="FileIsMissing" xml:space="preserve">
+    <value>Fil mangler</value>
+  </data>
+  <data name="FileNameValidationError" xml:space="preserve">
+    <value>Et filnavn kan ikke inneholde følgende tegn: {0}</value>
+  </data>
+  <data name="FlowChartingShapes" xml:space="preserve">
+    <value>Flytdiagram</value>
+  </data>
+  <data name="FooterCountFormat" xml:space="preserve">
+    <value>Antall: {0}</value>
+  </data>
+  <data name="GeneratePeriodsFailed" xml:space="preserve">
+    <value>Kan ikke generere perioder i speifisert år  ({0}).{1} Pass på at periodene i dette året ikke har blitt opprettet tidligere.</value>
+  </data>
+  <data name="GrabillaNotFound" xml:space="preserve">
+    <value>Det ser ut som Grabilla (skjermbiildeverktøy) ikke er installert. Vil du installere det nå?</value>
+  </data>
+  <data name="HostIsInvalidOrUnavailable" xml:space="preserve">
+    <value>Host '{0}'
+er ugyldig eller utilgjengelig</value>
+  </data>
+  <data name="ImportException" xml:space="preserve">
+    <value>Import unntak</value>
+  </data>
+  <data name="Importing" xml:space="preserve">
+    <value>Importerer ...</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Informasjon</value>
+  </data>
+  <data name="InvalidDirectoryPath" xml:space="preserve">
+    <value>Feil sti!</value>
+  </data>
+  <data name="InvalidFileName" xml:space="preserve">
+    <value>Feil filnavn</value>
+  </data>
+  <data name="InvalidFilePath" xml:space="preserve">
+    <value>Feil filsti!</value>
+  </data>
+  <data name="InvalidFolderName" xml:space="preserve">
+    <value>Feil mappenavn!</value>
+  </data>
+  <data name="InvalidFromTime" xml:space="preserve">
+    <value>Starttid må være mindre eller lik slutttid!</value>
+  </data>
+  <data name="InvalidInteger" xml:space="preserve">
+    <value>Ugyldig tall!</value>
+  </data>
+  <data name="InvalidInvoicePeriod" xml:space="preserve">
+    <value>Fakturaperiodens slutt er før periodens start</value>
+  </data>
+  <data name="InvalidToTime" xml:space="preserve">
+    <value>Sluttid må være større eller lik starttid!</value>
+  </data>
+  <data name="InvalidUrl" xml:space="preserve">
+    <value>Feil Url</value>
+  </data>
+  <data name="InvalidValue" xml:space="preserve">
+    <value>Feil verdi!</value>
+  </data>
+  <data name="InvoicingLinesForThisPeriodAlreadyExists" xml:space="preserve">
+    <value>Fakturalinjer for denne perioden finnes allerede</value>
+  </data>
+  <data name="InWorkAssemblyTreeLine" xml:space="preserve">
+    <value>I arbeid kalkylelinje</value>
+  </data>
+  <data name="InWorkOperation" xml:space="preserve">
+    <value>I arbeid operasjon</value>
+  </data>
+  <data name="InWorkOperationChecklistTask" xml:space="preserve">
+    <value>I arbeid operasjon sjekkliste oppgave</value>
+  </data>
+  <data name="IsNotAnImage" xml:space="preserve">
+    <value>'{0}' er ikke et bilde eller formatet støttes ikke</value>
+  </data>
+  <data name="LastTimeYouWorkedWithDocumentModified" xml:space="preserve">
+    <value>Forrige gang du arbeidet med dokument {0} lagret/lastet du det ikke til Workflow (sjekk om det ligger åpent)</value>
+  </data>
+  <data name="LicenseError" xml:space="preserve">
+    <value>Lisensfeil: {0}</value>
+  </data>
+  <data name="LicenseExpiresError" xml:space="preserve">
+    <value>Lisensen utløper om {0} dag(er). Vennligst kontakt administrator</value>
+  </data>
+  <data name="LicenseIsExpiredError" xml:space="preserve">
+    <value>Lisens er utgått. Vennligst kontakt administrator</value>
+  </data>
+  <data name="LoadingWait" xml:space="preserve">
+    <value>Henter data ...</value>
+  </data>
+  <data name="LocalCopyOfFileHaveModification" xml:space="preserve">
+    <value>Den lokale kopien av denne filen er modifisert. Vil du åpne den lokale filen i stedet?</value>
+  </data>
+  <data name="LocalSyncFolderNotFound" xml:space="preserve">
+    <value>Det er ingen lokal mappe som passer til servermappen. Vil du spesifisere den?</value>
+  </data>
+  <data name="Lot" xml:space="preserve">
+    <value>Lot</value>
+  </data>
+  <data name="MultiChangeConfirmationText" xml:space="preserve">
+    <value>Bekreft antall du vil endre ({0})</value>
+  </data>
+  <data name="MultiDeleteConfirmationText" xml:space="preserve">
+    <value>Bekreft antall du vil slette ({0})</value>
+  </data>
+  <data name="MustSelectItem" xml:space="preserve">
+    <value>Du må velge en verdi for dette feltet</value>
+  </data>
+  <data name="NameAlreadyExistConfirmation" xml:space="preserve">
+    <value>Et firma med samme navn er allerede registrert. Vil du duplisere det?</value>
+  </data>
+  <data name="NewBatch" xml:space="preserve">
+    <value>Ny batch</value>
+  </data>
+  <data name="NewDocument" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="NewPurchaseProject" xml:space="preserve">
+    <value>Nytt innkjøpsprosjekt</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nei</value>
+  </data>
+  <data name="NoMatchesFound" xml:space="preserve">
+    <value>Ingen treff funnet</value>
+  </data>
+  <data name="NoReportExistsForControl" xml:space="preserve">
+    <value>Ingen rapport finnes for kontroll</value>
+  </data>
+  <data name="NotAssignedArticles" xml:space="preserve">
+    <value>*Ikke tildelte artikler</value>
+  </data>
+  <data name="NotBlank" xml:space="preserve">
+    <value>Med innhold</value>
+  </data>
+  <data name="NotCorrectAnswer" xml:space="preserve">
+    <value>Svaret er feil!</value>
+  </data>
+  <data name="NotCompletedChecklistTaskPresent" xml:space="preserve">
+    <value>Ikke fullført gjeldende oppgaveliste</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Notat</value>
+  </data>
+  <data name="NotSupportedReportRichTextFileFormat" xml:space="preserve">
+    <value>Advarsel! Filen "{0}" har ikke format som støtter forhåndsvisning {1}</value>
+  </data>
+  <data name="NoVendorSpecifiedForProject" xml:space="preserve">
+    <value>Feil: leverandør for prosjektet er ikke spesifisert</value>
+  </data>
+  <data name="NowYouWillDeleteCompanyIncludingDetails" xml:space="preserve">
+    <value>Nå vil du slette firmaet med detaljer. Vil du fortsette?</value>
+  </data>
+  <data name="NumberNotSpecified" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>Operasjon</value>
+  </data>
+  <data name="OperationChecklistTaskTemplate" xml:space="preserve">
+    <value>Operasjon sjekkliste mal</value>
+  </data>
+  <data name="OperationTemplate" xml:space="preserve">
+    <value>Operasjonsmal</value>
+  </data>
+  <data name="OrganizationNotDefined" xml:space="preserve">
+    <value>Ukjent kontakt</value>
+  </data>
+  <data name="OrgUnit" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="OutOfRange" xml:space="preserve">
+    <value>Verdi er utenfor området!</value>
+  </data>
+  <data name="PasswordAndConfirmationDoesNotMatch" xml:space="preserve">
+    <value>Passordet og bekreftelse er ulike</value>
+  </data>
+  <data name="PasswordChanged" xml:space="preserve">
+    <value>Passordet er endret</value>
+  </data>
+  <data name="PleaseEnterCorrectValue" xml:space="preserve">
+    <value>Legg inn korrekt verdi</value>
+  </data>
+  <data name="PleaseEnterGreaterZero" xml:space="preserve">
+    <value>Tallet må være større enn null</value>
+  </data>
+  <data name="PleaseEnterOrSelectValue" xml:space="preserve">
+    <value>Skriv inn en verdi</value>
+  </data>
+  <data name="PleaseEnterUniqueArticleCodeValue" xml:space="preserve">
+    <value>Vennligst legg inn et unikt artikkelnr.</value>
+  </data>
+  <data name="PleaseEnterValidEmail" xml:space="preserve">
+    <value>Skriv inn en gyldig e-postadresse</value>
+  </data>
+  <data name="PleaseEnterValidSingleEmail" xml:space="preserve">
+    <value>Skriv inn en gyldig e-postadresse</value>
+  </data>
+  <data name="PleaseEnterValue" xml:space="preserve">
+    <value>Skriv inn en verdi</value>
+  </data>
+  <data name="PleaseEnterZeroOrGreaterZero" xml:space="preserve">
+    <value>Skriv inn et nummer større enn eller lik null</value>
+  </data>
+  <data name="PleaseRestartZigmaForAppliyngLicenseSettings" xml:space="preserve">
+    <value>Vennligst restart Zigma360 for å iverksette lisensinnstillingene.</value>
+  </data>
+  <data name="PleaseSelectAction" xml:space="preserve">
+    <value>Velg handling:</value>
+  </data>
+  <data name="PleaseSelectExistingObject" xml:space="preserve">
+    <value>Dette objektet er fjerna fra databasen!</value>
+  </data>
+  <data name="PleaseSelectPurchaseProject" xml:space="preserve">
+    <value>Vennligst velg et innkjøpsprosjekt</value>
+  </data>
+  <data name="PostingDocument" xml:space="preserve">
+    <value>Posterer dokument</value>
+  </data>
+  <data name="PostingError" xml:space="preserve">
+    <value>Posteringsfeil</value>
+  </data>
+  <data name="Preparing" xml:space="preserve">
+    <value>Klargjør</value>
+  </data>
+  <data name="PreparingReport" xml:space="preserve">
+    <value>Forbereder rapport ...</value>
+  </data>
+  <data name="Process" xml:space="preserve">
+    <value>Prosess</value>
+  </data>
+  <data name="ProcessingWait" xml:space="preserve">
+    <value>Prosesserer ...</value>
+  </data>
+  <data name="ProductHasNoOperationsError" xml:space="preserve">
+    <value>Produktet har ingen operasjoner</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Prosjekt</value>
+  </data>
+  <data name="ProjectAssemblyTreeLine" xml:space="preserve">
+    <value>Prosjekt kalkylelinje</value>
+  </data>
+  <data name="ProjectChecklistTask" xml:space="preserve">
+    <value>Prosjekt sjekkliste oppgave</value>
+  </data>
+  <data name="ProjectCheckListTasks" xml:space="preserve">
+    <value>Sjekkliste prosjekt</value>
+  </data>
+  <data name="ProjectChecklistTaskTemplate" xml:space="preserve">
+    <value>Prosjekt sjekkliste oppgavemal</value>
+  </data>
+  <data name="ProjectConfirmationText" xml:space="preserve">
+    <value>Skriv inn prosjektnr for å bekrefte</value>
+  </data>
+  <data name="ProjectConfirmationTitle" xml:space="preserve">
+    <value>Prosjekt bekreftelse</value>
+  </data>
+  <data name="ProjectLine" xml:space="preserve">
+    <value>Prosjektlinje</value>
+  </data>
+  <data name="ProjectNumberPrefixNotSpecified" xml:space="preserve">
+    <value>Prosjektnr prefiks er ikke spesifisert</value>
+  </data>
+  <data name="ProjectOperation" xml:space="preserve">
+    <value>Prosjektoperasjon</value>
+  </data>
+  <data name="ProjectNotFound" xml:space="preserve">
+    <value>Prosjekt er ikke funnet</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Spørsmål</value>
+  </data>
+  <data name="QuestionRowDelete" xml:space="preserve">
+    <value>Vil du slette en rad?</value>
+  </data>
+  <data name="RebuildingDocument" xml:space="preserve">
+    <value>Rekonstruerer dokument ...</value>
+  </data>
+  <data name="RecipientAddressesAreNotDefined" xml:space="preserve">
+    <value>Adresser til mottaker er ikke definert</value>
+  </data>
+  <data name="RelatedProjects" xml:space="preserve">
+    <value>Relaterte prosjekter</value>
+  </data>
+  <data name="RequestForVendorPrices" xml:space="preserve">
+    <value>Forespørsel lev.priser</value>
+  </data>
+  <data name="RequestingServerData" xml:space="preserve">
+    <value>Venter på serverdata ...</value>
+  </data>
+  <data name="ResizingImage" xml:space="preserve">
+    <value>Endre størrelse bilde</value>
+  </data>
+  <data name="ResourceWithSameNumberAlreadyExists" xml:space="preserve">
+    <value>Ressurs med samme nummer finnes allerede</value>
+  </data>
+  <data name="RollbackDocumentConfirmationText" xml:space="preserve">
+    <value>Nå vil du tilbakeføre transaksjonen</value>
+  </data>
+  <data name="RollbackDocumentConfirmationTitle" xml:space="preserve">
+    <value>Bekreft tilbakeføring dokument</value>
+  </data>
+  <data name="RollbackRemittanceDocumentConfirmationText" xml:space="preserve">
+    <value>&lt;b&gt;Obs!&lt;/b&gt;
+Dette dokumentet ble sendt til bank.
+Tilbakeførsel kan forårsake feil i betaling.</value>
+  </data>
+  <data name="RollingBackDocument" xml:space="preserve">
+    <value>Tilbakefører ...</value>
+  </data>
+  <data name="SaveYourChanges" xml:space="preserve">
+    <value>Lagre dine endringer</value>
+  </data>
+  <data name="SaveYourChangesAsANewFile" xml:space="preserve">
+    <value>Lagre endringer som en ny fil</value>
+  </data>
+  <data name="SavingLicense" xml:space="preserve">
+    <value>Lagrer lisens ...</value>
+  </data>
+  <data name="SavingWait" xml:space="preserve">
+    <value>Lagrer ...</value>
+  </data>
+  <data name="ScanBarcode" xml:space="preserve">
+    <value>Skann med webkamera</value>
+  </data>
+  <data name="SearchCTRL_F" xml:space="preserve">
+    <value>Søk (Ctrl+F)</value>
+  </data>
+  <data name="SelectCommonDictionaryValue" xml:space="preserve">
+    <value>Velg verdi fra felles oppslag</value>
+  </data>
+  <data name="ServerCommunicationProblemTryAgain" xml:space="preserve">
+    <value>Serverkommunikasjonsproblem.\r\nSjekk nettverksforbindelsen og prøv igjen</value>
+  </data>
+  <data name="ShouldBeZero" xml:space="preserve">
+    <value>Skulle vært null</value>
+  </data>
+  <data name="ShouldNotBeZero" xml:space="preserve">
+    <value>Skulle ikke vært null</value>
+  </data>
+  <data name="SpecificationListTypeWillBeChanged" xml:space="preserve">
+    <value>Type spesifikasjonsliste will bli endret! Vil du fortsette?</value>
+  </data>
+  <data name="SpecifyCustomerAccount" xml:space="preserve">
+    <value>Feil: kundekonto er ikke spesifisert</value>
+  </data>
+  <data name="SpecifyCustomerNumber" xml:space="preserve">
+    <value>Feil: kundenummer er ikke spesifisert</value>
+  </data>
+  <data name="SpecifyCustomersAccount" xml:space="preserve">
+    <value>Feil: konto for kunde er ikke spesifisert i systemoppsettet</value>
+  </data>
+  <data name="SpecifyCustomersSubledger" xml:space="preserve">
+    <value>Feil: kundereskontro er ikke spesifisert i systemoppsettet</value>
+  </data>
+  <data name="SpecifyGeneralLedger" xml:space="preserve">
+    <value>Feil: hovedbok er ikke spesifisert i systemoppsettet</value>
+  </data>
+  <data name="SpecifyVendorAccount" xml:space="preserve">
+    <value>Feil: leverandørkonto er ikke spesifisert</value>
+  </data>
+  <data name="SpecifyVendorNotInvoiceAccount" xml:space="preserve">
+    <value>Feil: leverandør, ikke fakturert konto,er ikke spesifisert</value>
+  </data>
+  <data name="SpecifyVendorNumber" xml:space="preserve">
+    <value>Feil: leverandørnr er ikke spesifisert</value>
+  </data>
+  <data name="SpecifyVendorsAccount" xml:space="preserve">
+    <value>Feil: leverandørnummer er ikke angitt på denne leverandøren</value>
+  </data>
+  <data name="SpecifyVendorsSubledger" xml:space="preserve">
+    <value>Feil: leverandørnummer er ikke angitt på denne leverandøren</value>
+  </data>
+  <data name="SpellingErrorTypeAgreeAgain" xml:space="preserve">
+    <value>Feil med rettskriving. Skriv inn "Samtykke" igjen.</value>
+  </data>
+  <data name="StartingApp" xml:space="preserve">
+    <value>Åpner Zigma360 ...</value>
+  </data>
+  <data name="TargetProjectTypeNotSpecified" xml:space="preserve">
+    <value>En målprosjekttype for aktivt prosjekt er ikke spesifiesert.</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Mal</value>
+  </data>
+  <data name="TenantAlreadyExist" xml:space="preserve">
+    <value>Kunden finnes allerede</value>
+  </data>
+  <data name="TheArticleDontUseLatestDrawing" xml:space="preserve">
+    <value>Denne artikkelen bruker ikke den siste tegningen. Vil du bruke den?</value>
+  </data>
+  <data name="TheCurrentUserDoesNotHaveAnyEmails" xml:space="preserve">
+    <value>Denne brukeren har ikke noen e-post adresse</value>
+  </data>
+  <data name="ThereIsANewRevisionOfThisFileInWorkflow" xml:space="preserve">
+    <value>Det er en ny revisjon av denne filen i Workflow, so du kan ikke lagre endringer til originaldokumentet. Opprett en ny fil i stedet.</value>
+  </data>
+  <data name="ThisWillDeleteFilesPermanently" xml:space="preserve">
+    <value>Dette vil slette filen permanent. Vil du fortsette?</value>
+  </data>
+  <data name="TimeForToday" xml:space="preserve">
+    <value>Tid i dag</value>
+  </data>
+  <data name="TimeMustBeGreater" xml:space="preserve">
+    <value>Tiden må være større enn</value>
+  </data>
+  <data name="TotalSumMustBeGreaterThanZero" xml:space="preserve">
+    <value>Totalsum må være større enn null</value>
+  </data>
+  <data name="TypeAgreeToContinue" xml:space="preserve">
+    <value>Skriv inn "&lt;b&gt;Samtykke&lt;/b&gt;" for å fortsette</value>
+  </data>
+  <data name="UnableCreateCustomProjectTypeWithDuplicatePrefix" xml:space="preserve">
+    <value>Ikke mulig å opprette egendef. prosjekttype. Prosjektypen finnes allerede eller det samme prosjektnr prefiks finnes allerede.</value>
+  </data>
+  <data name="UndoPdfPageChanges" xml:space="preserve">
+    <value>Alle endringer på denne siden vil bli tilbakestilt .
+Er du sikker på at du vil fortsette?</value>
+  </data>
+  <data name="UpdatingArticlePriceListPrice" xml:space="preserve">
+    <value>Oppdater artikler prisliste</value>
+  </data>
+  <data name="UpdatingLicense" xml:space="preserve">
+    <value>Oppdaterer lisens ...</value>
+  </data>
+  <data name="UsedGroups" xml:space="preserve">
+    <value />
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Bruker</value>
+  </data>
+  <data name="UserIsNotLoggedOn" xml:space="preserve">
+    <value>Bruker er ikke pålogget</value>
+  </data>
+  <data name="UsersWithoutGroup" xml:space="preserve">
+    <value>Brukere uten gruppe</value>
+  </data>
+  <data name="UserWithSameNameAlreadyExists" xml:space="preserve">
+    <value>Bruker med samme navn finnes allerede</value>
+  </data>
+  <data name="VendorArticleAlreadyAssigned" xml:space="preserve">
+    <value>Valgt leverandørartikkel er allerede tildelt til "{0}".
+Vil du linke til "{1}" i stedet?</value>
+  </data>
+  <data name="ViewActualFile" xml:space="preserve">
+    <value>Se fil</value>
+  </data>
+  <data name="ViewHistoryFile" xml:space="preserve">
+    <value>Se tidligere fil</value>
+  </data>
+  <data name="ViewOriginalFile" xml:space="preserve">
+    <value>Se originalfil</value>
+  </data>
+  <data name="ViewYourFile" xml:space="preserve">
+    <value>Se din fil</value>
+  </data>
+  <data name="Wait" xml:space="preserve">
+    <value>Vennligst vent</value>
+  </data>
+  <data name="WantToMerge" xml:space="preserve">
+    <value>Det finnes prosjekter fra leverandør '{0}' som kan slås sammen.{1}Du kan slå sammen et prosjekt med et eksisterende, eller opprette et nytt. Vil du slå sammen?</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Varsel</value>
+  </data>
+  <data name="WarningResourcesPriceChanges" xml:space="preserve">
+    <value>NB! Endringer som gjøres her 
+vil umiddelbart påvirke 
+kalkyle i Artikler</value>
+  </data>
+  <data name="WokflowItemUsedBySystem" xml:space="preserve">
+    <value>Wokflow element som brukes av systemet, og kan ikke slettes</value>
+  </data>
+  <data name="WorkflowItemNumber" xml:space="preserve">
+    <value>Workflow element nr</value>
+  </data>
+  <data name="WorkflowItemSubtypesWithoutGroup" xml:space="preserve">
+    <value>*Subtyper uten gruppe</value>
+  </data>
+  <data name="WorkflowItemsWithoutGroup" xml:space="preserve">
+    <value>Workflow uten gruppe</value>
+  </data>
+  <data name="WorkOrder" xml:space="preserve">
+    <value>Arbeidsordre</value>
+  </data>
+  <data name="WorkOrderAssemblyTreeLine" xml:space="preserve">
+    <value>Arbeidsordre kalkylelinje</value>
+  </data>
+  <data name="WorkOrderChecklistTask" xml:space="preserve">
+    <value>Arbeidsordre sjekkliste oppgave</value>
+  </data>
+  <data name="WorkOrderChecklistTaskTemplate" xml:space="preserve">
+    <value>Arbeidsordre sjekkliste oppgavemal</value>
+  </data>
+  <data name="WorkOrderOperation" xml:space="preserve">
+    <value>Arbeidsordre operasjon</value>
+  </data>
+  <data name="WrongBarcodeType" xml:space="preserve">
+    <value>Feil strekkodetype</value>
+  </data>
+  <data name="WrongFileNameFormat" xml:space="preserve">
+    <value>Feil format</value>
+  </data>
+  <data name="WrongOldPassword" xml:space="preserve">
+    <value>Gammelt passord er feil</value>
+  </data>
+  <data name="WrongPaymentDate" xml:space="preserve">
+    <value>Feil betalingsdato</value>
+  </data>
+  <data name="WrongReportData" xml:space="preserve">
+    <value>Rapporten inneholder ingen eller feil data</value>
+  </data>
+  <data name="WrongSerialNumberDefinitionFormat" xml:space="preserve">
+    <value>Feil format</value>
+  </data>
+  <data name="WrongUserOrPassword" xml:space="preserve">
+    <value>Feil bruker eller passord</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="ChangedByUserOn" xml:space="preserve">
+    <value>Endret av {0} den {1}</value>
+  </data>
+  <data name="DeleteDocumentConfirmationTextShort" xml:space="preserve">
+    <value>Nå vil du slette HELE dokument.</value>
+  </data>
+  <data name="WarningNonSalaryTime" xml:space="preserve">
+    <value>NB! Timene du registrerer her 
+vil ikke bli registert som lønnstimer</value>
+  </data>
+  <data name="OperationsAreConnectedToMaterialLine" xml:space="preserve">
+    <value>NB! Operasjonene er koblet til materiallinje</value>
+  </data>
+  <data name="SuffixAsChild" xml:space="preserve">
+    <value>som datterelement</value>
+  </data>
+  <data name="SuffixAsRoot" xml:space="preserve">
+    <value>som grunnelement</value>
+  </data>
+  <data name="InfoForgottenTimeRecordWasStopped" xml:space="preserve">
+    <value>Tidsstoring ble ikke stoppet når du avsluttet programmet sist.\r\nSjekk den siste timeregistreringen.</value>
+  </data>
+  <data name="FileNotFoundOnTheServerDeleteBrokenLink" xml:space="preserve">
+    <value>Filen '{0}' finnes ikke på server. Slett brutte lenke?</value>
+  </data>
+  <data name="FileExistsUseItQuestion" xml:space="preserve">
+    <value>Filen '{0}' eksisterer. Vil du bruke den?</value>
+  </data>
+  <data name="FileNotFoundOnTheServer" xml:space="preserve">
+    <value>Filen '{0}' finnes ikke på server.</value>
+  </data>
+  <data name="UploadingWait" xml:space="preserve">
+    <value>Opplasting ...</value>
+  </data>
+  <data name="FileUploadCompleted" xml:space="preserve">
+    <value>Filopplasting er fullført</value>
+  </data>
+  <data name="TryAgainQuestion" xml:space="preserve">
+    <value>Vil du prøve igjen?</value>
+  </data>
+  <data name="UploadInterruptedWithError" xml:space="preserve">
+    <value>Opplasting til '{0}' serveren er avbrutt. Feil:</value>
+  </data>
+  <data name="TimeRegistrationLockDatesInfo" xml:space="preserve">
+    <value>Sperredato for Timeregistrering {0}, Tidsadministrasjon {1}</value>
+  </data>
+  <data name="TheLotCantBeUsedWithoutArticle" xml:space="preserve">
+    <value>Parti/ lot kan ikke brukes fordi ingen artikkel er tildelt</value>
+  </data>
+  <data name="VendorNotSpecified" xml:space="preserve">
+    <value>Leverandør er ikke spesifisert</value>
+  </data>
+  <data name="CantCloseProjectNotAllMaterialsPicked" xml:space="preserve">
+    <value>Kan ikke lukke prosjektet fordi ikke alle materialer ble plukket</value>
+  </data>
+  <data name="SelectedFileCannotBeImportedHere" xml:space="preserve">
+    <value>Valgt fil kan ikke importeres her</value>
+  </data>
+  <data name="WatermarkNotAppliedException" xml:space="preserve">
+    <value>Vannmerket ble ikke tilordnet</value>
+  </data>
+  <data name="InvoiceLinesAreMissing" xml:space="preserve">
+    <value>Det mangles faktura linjer</value>
+  </data>
+  <data name="ErrorTheClientIsNotRegistered" xml:space="preserve">
+    <value>Klienten er ikke registrert!</value>
+    <comment>Klienten er ikke registrert!</comment>
+  </data>
+  <data name="UnableChangeProductTypeColon" xml:space="preserve">
+    <value>Ikke mulig å endre produkttype:</value>
+  </data>
+  <data name="ErrorNoEmailProgramsFound" xml:space="preserve">
+    <value>Ingen e-postprogrammer funnet</value>
+  </data>
+  <data name="PleaseEnterValidAccountRange" xml:space="preserve">
+    <value>Skriv inn en gyldig kontoliste
+For eksempel: 3000-3200;3300,3400,3500-3600</value>
+  </data>
+  <data name="Brief" xml:space="preserve">
+    <value>hurtig</value>
+  </data>
+  <data name="ConfirmStopRemindingSelectedInvoices" xml:space="preserve">
+    <value>Vennligst bekreft at du vil stoppe sending av purring på {0} valgte fakturaer?</value>
+  </data>
+  <data name="ConfirmStopRemindingSingleInvoice" xml:space="preserve">
+    <value>Vennligst bekreft at du vil stoppe sending av purring på faktura '{0}'? {1}</value>
+  </data>
+  <data name="MultiItemsConfirmationText" xml:space="preserve">
+    <value>Bekreft antall ({0})</value>
+  </data>
+  <data name="ConfirmSendToDebtCollectorsSelectedInvoices" xml:space="preserve">
+    <value>Vennligst bekreft at du vil merke {0} valgte fakturaer som "Sent til inkasso"?</value>
+  </data>
+  <data name="ConfirmSendToDebtCollectorsSingleInvoice" xml:space="preserve">
+    <value>Vennligst bekreft at du vil merke faktura '{0}' som "Sent til inkasso"? {1}</value>
+  </data>
+  <data name="ConfirmRemoveSendToDebtCollectorsSelectedInvoices" xml:space="preserve">
+    <value>Vennligst bekreft at du vil fjerne merket "Sendt til inkasso" fra {0} valgte fakturaer?</value>
+  </data>
+  <data name="ConfirmRemoveSendToDebtCollectorsSingleInvoice" xml:space="preserve">
+    <value>Vennligst bekreft at du vil fjerne merket "Sendt til inkasso" fra fakturaen '{0}'? {1}</value>
+  </data>
+  <data name="ConfirmResumeRemindingSelectedInvoices" xml:space="preserve">
+    <value>Vennligst bekreft at du vil fortsette sending av purring på {0} valgte fakturaer?</value>
+  </data>
+  <data name="ConfirmResumeRemindingSingleInvoice" xml:space="preserve">
+    <value>Vennligst bekreft at du vil fortsette sending av purring på faktura '{0}'? {1}</value>
+  </data>
+  <data name="CantSaveAssembly" xml:space="preserve">
+    <value>Kan ikke lagre artikkelskalkyle</value>
+  </data>
+  <data name="NewPurchaseProjectName_ForProject" xml:space="preserve">
+    <value>For {0} {1} - {2}</value>
+  </data>
+  <data name="NewPurchaseProjectName_ForProjectEmpty" xml:space="preserve">
+    <value>For {0} {1}</value>
+  </data>
+  <data name="NewPurchaseProjectName_ForVendor" xml:space="preserve">
+    <value>Innkjøp fra {0}</value>
+  </data>
+  <data name="NewPurchaseProjectName_ToStock" xml:space="preserve">
+    <value>Innkjøp til lager</value>
+  </data>
+  <data name="EditorSearchOrganizationByNameOrNumberHint" xml:space="preserve">
+    <value>Skriv inn navn eller organisasjonsnr.</value>
+  </data>
+  <data name="EditorSearchOrganizationByNameHint" xml:space="preserve">
+    <value>Skriv inn navn</value>
+  </data>
+  <data name="OrgNumberAlreadyExistsConfirmation" xml:space="preserve">
+    <value>Et firma med samme org.nr er allerede registrert ({0}).
+Vil du duplisere det?</value>
+  </data>
+  <data name="DoYouReallyWantToChangeStateToFinished" xml:space="preserve">
+    <value>Vil du endre status til ferdig?</value>
+  </data>
+  <data name="TimeForTodayStartedAt" xml:space="preserve">
+    <value>Starttid</value>
+  </data>
+  <data name="ExportProcessSuccessfullyFinished" xml:space="preserve">
+    <value>Eksportprosessen fullført</value>
+  </data>
+  <data name="NoErrors" xml:space="preserve">
+    <value>Ingen feil</value>
+  </data>
+  <data name="UpdatingAssemblies" xml:space="preserve">
+    <value>Oppdaterer kalkyler</value>
+  </data>
+  <data name="UpdatingPricesFromVendorArticles" xml:space="preserve">
+    <value>Oppdaterer priser fra leverandørartikler</value>
+  </data>
+  <data name="NumberOfSelectedInvoicesForExport" xml:space="preserve">
+    <value>{0} fakturaer er valgt for eksport</value>
+  </data>
+  <data name="CantRollbackExportedInvoice" xml:space="preserve">
+    <value>Kan ikke tilbakeføre eksportert faktura</value>
+  </data>
+  <data name="CertificateIsExpired" xml:space="preserve">
+    <value>Sertifikatet er utløpt</value>
+  </data>
+  <data name="ErrorHasOccurred" xml:space="preserve">
+    <value>Det har oppstått en feil:</value>
+  </data>
+  <data name="LoadingFrom" xml:space="preserve">
+    <value>Laster inn fra</value>
+  </data>
+  <data name="LoadingFromSources" xml:space="preserve">
+    <value>Lasting fra kilder</value>
+  </data>
+  <data name="LoadingInvoices" xml:space="preserve">
+    <value>Laster inn fakturaer ...</value>
+  </data>
+  <data name="TotalFilesLoaded" xml:space="preserve">
+    <value>Totalt {0} filer lastet inn.</value>
+  </data>
+  <data name="ChangeLocationWizardText" xml:space="preserve">
+    <value>For {0} valgte lot/parti(er) på {1}</value>
+  </data>
+  <data name="PleaseSelectValue" xml:space="preserve">
+    <value>Vennligst velg en verdi</value>
+  </data>
+  <data name="IncomingBalanceShort" xml:space="preserve">
+    <value>IB</value>
+  </data>
+  <data name="InventoryChanges" xml:space="preserve">
+    <value>Lagerendring</value>
+  </data>
+  <data name="Inverse" xml:space="preserve">
+    <value>Invers</value>
+  </data>
+  <data name="Movement" xml:space="preserve">
+    <value>Bevegelse</value>
+  </data>
+  <data name="OutgoingBalanceShort" xml:space="preserve">
+    <value>UB</value>
+  </data>
+  <data name="Wip" xml:space="preserve">
+    <value>VIA</value>
+  </data>
+  <data name="WipEarnedNotInvoiced" xml:space="preserve">
+    <value>VIA opptjent, ikke fakturert</value>
+  </data>
+  <data name="WipInvoicedNotEarned" xml:space="preserve">
+    <value>VIA fakturert, ikke opptjent</value>
+  </data>
+  <data name="ConfirmAssigningAccountToVendor" xml:space="preserve">
+    <value>Skal kontoen '{0}' tilordnes leverandøren '{1}'?</value>
+  </data>
+  <data name="ApprovingWait" xml:space="preserve">
+    <value>Godkjenner ...</value>
+  </data>
+  <data name="NoWFOwners" xml:space="preserve">
+    <value>Ingen eiere</value>
+  </data>
+  <data name="ProjectIsClosed" xml:space="preserve">
+    <value>Prosjektet er lukket</value>
+  </data>
+  <data name="NoArticlesFound" xml:space="preserve">
+    <value>Ingen artikler funnet</value>
+  </data>
+  <data name="FactoringCompanyIsNotDefinedInSystemSettings" xml:space="preserve">
+    <value>Faktoring firma er ikke spesifisert i Systeminnstillinger</value>
+  </data>
+  <data name="RemainsSecBeforeAutoSave" xml:space="preserve">
+    <value>{0} sek. igjen før autolagring</value>
+  </data>
+  <data name="ApprovalChange" xml:space="preserve">
+    <value>{0} godkjenninger endret</value>
+  </data>
+  <data name="ApprovalNew" xml:space="preserve">
+    <value>{0} nye godkjenninger</value>
+  </data>
+  <data name="EmailFail" xml:space="preserve">
+    <value>{0} e-poster kunne ikke sendes</value>
+  </data>
+  <data name="EmailNew" xml:space="preserve">
+    <value>{0} nye e-poster</value>
+  </data>
+  <data name="NoNewMessages" xml:space="preserve">
+    <value>Ingen nye meldinger</value>
+  </data>
+  <data name="ObjectChange" xml:space="preserve">
+    <value>{0} objekter endret</value>
+  </data>
+  <data name="SystemMessage" xml:space="preserve">
+    <value>{0} nye systemmeldinger</value>
+  </data>
+  <data name="TaskNew" xml:space="preserve">
+    <value>{0} nye oppgaver</value>
+  </data>
+  <data name="UserMessage" xml:space="preserve">
+    <value>{0} nye brukermeldinger</value>
+  </data>
+  <data name="ObjectAssign" xml:space="preserve">
+    <value>{0} objekter tilordnet</value>
+  </data>
+  <data name="CantApproveThisObject" xml:space="preserve">
+    <value>Du kan ikke godkjenne dette objektet.
+Du er ikke på listen over godkjennere.</value>
+  </data>
+  <data name="YouCanTryUploadingAgainLater" xml:space="preserve">
+    <value>Du kan prøve å laste opp igjen senere</value>
+  </data>
+  <data name="ConfirmRevokeApprovalForRow" xml:space="preserve">
+    <value>Ønsker du å tilbakekalle godkjenningen for denne raden?</value>
+  </data>
+  <data name="FillFieldsByScanningBarcode" xml:space="preserve">
+    <value>Fyll inn ved å skanne strekkode</value>
+  </data>
+  <data name="EnterTextToSearchLikeSyntax" xml:space="preserve">
+    <value>Skriv inn tekst for å søke (bruk % for å spesifisere søket)</value>
+  </data>
+  <data name="EnterTextToSearch" xml:space="preserve">
+    <value>Skriv inn tekst for å søke</value>
+  </data>
+  <data name="BarcodesWasNotFound" xml:space="preserve">
+    <value>Følgende strekkode ble ikke funnet:</value>
+  </data>
+  <data name="BarcodesWereNotFound" xml:space="preserve">
+    <value>Følgende strekkoder ble ikke funnet:</value>
+  </data>
+  <data name="ConfirmRevokeApprovalForMultipleRows" xml:space="preserve">
+    <value>Ønsker du å tilbakekalle godkjenning for {0} elementer?</value>
+  </data>
+  <data name="CantCreateWorkOrder" xml:space="preserve">
+    <value>Kunne ikke opprette arbeidsordre</value>
+  </data>
+  <data name="ConfirmCreatingVatReportExportFile" xml:space="preserve">
+    <value>Vil du opprette en eksportfil for MVA-meldingen?</value>
+  </data>
+  <data name="FileSavedToFolder" xml:space="preserve">
+    <value>Fil lagret på:\r\n{0}</value>
+  </data>
+  <data name="WorkOrderIsRequired" xml:space="preserve">
+    <value>Arbeidsordre kreves</value>
+  </data>
+  <data name="ChangeProjectState_ChecklistError" xml:space="preserve">
+    <value>Ikke fullført gjeldende oppgaveliste ({0})</value>
+  </data>
+  <data name="ChangeProjectState_ChecklistWarning" xml:space="preserve">
+    <value>Noen sjekklisteoppgaver ({0}) ble hoppet over</value>
+  </data>
+  <data name="CantChangePostedDocument" xml:space="preserve">
+    <value>Postert dokument kan ikke endres</value>
+  </data>
+  <data name="SpecifyUniqueAccount" xml:space="preserve">
+    <value>Denne kontoen er allerede i bruk</value>
+  </data>
+  <data name="PleaseEnterValidNumber" xml:space="preserve">
+    <value>Skriv inn et nummer</value>
+  </data>
+  <data name="DoYouWantToOverrideDrawingReferences" xml:space="preserve">
+    <value>Noen objekter har allerede tegningsreferanser. Vil du overstyre det?</value>
+  </data>
+  <data name="ConfirmAccrualRemoving" xml:space="preserve">
+    <value>Vil du fjerne periodisering fra denne linjen?</value>
+  </data>
+  <data name="SelectOneOfResourceType" xml:space="preserve">
+    <value>Vennligst velg ressurstype</value>
+  </data>
+  <data name="ExportReportsFileNamePart" xml:space="preserve">
+    <value>rapport(er)</value>
+  </data>
+  <data name="ProjectTemplateIsRequired" xml:space="preserve">
+    <value>Prosjektmal kreves</value>
+  </data>
+  <data name="FromScanList" xml:space="preserve">
+    <value>Fra skanneliste</value>
+  </data>
+  <data name="ThisBarcodeTypeIsNotSupported" xml:space="preserve">
+    <value>Denne strekkodetypen støttes ikke</value>
+  </data>
+  <data name="DoYouWantToChangeCostOfArticle" xml:space="preserve">
+    <value>Vil du endre artikkelkostnad?</value>
+  </data>
+  <data name="ApplyCostsToArticles_Error_Duplicates" xml:space="preserve">
+    <value>Tvetydig kostnad for artikkelen '{0}'. Velg kun én av prosjektlinjene</value>
+  </data>
+  <data name="ConfirmProjectStateCanNotBeChanged" xml:space="preserve">
+    <value>Fasen for {0} prosjekt(er) kan ikke endres fordi ikke alle sjekklisteoppgaver er fullført. Vil du fikse dette?</value>
+  </data>
+  <data name="CanNotChangeStateForProjects" xml:space="preserve">
+    <value>Fasen '{0}' kan ikke settes for {1} prosjekt(er)</value>
+  </data>
+  <data name="ConfirmMultipleProjectsOpen" xml:space="preserve">
+    <value>Vil du åpne {0} prosjekt(er)</value>
+  </data>
+  <data name="DifferentTypesProjectsSelected" xml:space="preserve">
+    <value>Alle valgte prosjekter må ha samme prosjekttype</value>
+  </data>
+  <data name="SelectedProjectsCount" xml:space="preserve">
+    <value>{0} prosjekter er valgt</value>
+  </data>
+  <data name="SomeProjectsAreClosed" xml:space="preserve">
+    <value>{0} prosjekt(er) er lukket</value>
+  </data>
+  <data name="CreateNew" xml:space="preserve">
+    <value>Lag ny:</value>
+  </data>
+  <data name="OutgoingInvoice" xml:space="preserve">
+    <value>Utgående faktura</value>
+  </data>
+  <data name="ProjectLinesForArticle" xml:space="preserve">
+    <value>Prosjektlinje for artikkel</value>
+  </data>
+  <data name="ProjectLineWorkflow" xml:space="preserve">
+    <value>Workflow prosjektlinje</value>
+  </data>
+  <data name="PurchaseFrom" xml:space="preserve">
+    <value>Bestill fra</value>
+  </data>
+  <data name="PurchaseLines" xml:space="preserve">
+    <value>Innkjøpslinjer</value>
+  </data>
+  <data name="SummaryForLineMaterials" xml:space="preserve">
+    <value>Oversikt materialer</value>
+  </data>
+  <data name="SummaryForLineOperations" xml:space="preserve">
+    <value>Oversikt operasjoner</value>
+  </data>
+  <data name="ConfirmReplacingArticleInAssemblyLinesSingle" xml:space="preserve">
+    <value>Vil du erstatte artikkelen i kalkylelinjen {0}?</value>
+  </data>
+  <data name="ConfirmReplacingArticleInAssemblyLinesSelected" xml:space="preserve">
+    <value>Vil du erstatte artikkelen i {0} kalkylelinjer?</value>
+  </data>
+  <data name="ConfirmChangingTypeForArticlesSelected" xml:space="preserve">
+    <value>Vil du endre type for {0} artikler?</value>
+  </data>
+  <data name="ConfirmChangingTypeForArticlesSingle" xml:space="preserve">
+    <value>Vil du endre type for artikkelen {0}?</value>
+  </data>
+  <data name="CantSaveBatchWithoutProductLots" xml:space="preserve">
+    <value>Kan ikke lagre sporingslisten uten produktlot</value>
+  </data>
+  <data name="TheProductHasNoArticlesInAssembly" xml:space="preserve">
+    <value>Produktet har ingen artikler i kalkyle</value>
+  </data>
+  <data name="WarningNoteSavedForProjectLineAssembly" xml:space="preserve">
+    <value>NB! Notatet vil også bli oppdatert i prosjektlinjekalkyle</value>
+  </data>
+  <data name="DoYouWantToRemoveFixedPrice" xml:space="preserve">
+    <value>Vil du fjerne overstyrt pris fra valgte linjer?</value>
+  </data>
+  <data name="DoYouWantToSetFixedPrice" xml:space="preserve">
+    <value>Vil du sette overstyrt pris på valgte linjer?</value>
+  </data>
+  <data name="DoYouWantToRecalculateAllArticles" xml:space="preserve">
+    <value>Vil du rekalkulére alle artikler?</value>
+  </data>
+  <data name="LengthInMillimetersNotSpecifiedforUnit" xml:space="preserve">
+    <value>Lengden i mm for enheten er ikke spesifisert</value>
+  </data>
+  <data name="ConfirmCutting" xml:space="preserve">
+    <value>Bekrefter du kuttet?</value>
+  </data>
+  <data name="NewPurchaseProjectName_ForCutting" xml:space="preserve">
+    <value>Bestilling til kappeliste</value>
+  </data>
+  <data name="ConfirmMultipleDocumentsRollback" xml:space="preserve">
+    <value>Vil du tilbakeføre {0} dokumenter?</value>
+  </data>
+  <data name="ConfirmOneDocumentRollback" xml:space="preserve">
+    <value>Vil du tilbakeføre dokumentet {0}?</value>
+  </data>
+  <data name="UnableToDeleteDocumentDeniedByType" xml:space="preserve">
+    <value>Dokumenttype {0} tillater ikke fjerning av dokumenter</value>
+  </data>
+  <data name="ConfirmUpdateNewRates" xml:space="preserve">
+    <value>Er du sikker på at du vil oppdatere alle registrerte valutakurser?</value>
+  </data>
+  <data name="FooterCountFormatOf" xml:space="preserve">
+    <value>Antall: {0} av</value>
+  </data>
+  <data name="ConfirmReplaceArticleAssemblySingle" xml:space="preserve">
+    <value>Vil du erstatte kalkyle til artikkelen {0}?</value>
+  </data>
+  <data name="ConfirmReplaceArticleAssemblySelected" xml:space="preserve">
+    <value>Vil du erstatte kalkyler til {0} valgte artikler?</value>
+  </data>
+  <data name="items" xml:space="preserve">
+    <value>elementer</value>
+  </data>
+  <data name="ImportProcessFailed" xml:space="preserve">
+    <value>Importprosessen mislyktes</value>
+  </data>
+  <data name="ImportProcessSuccessfullyFinished" xml:space="preserve">
+    <value>Importprosessen fullført</value>
+  </data>
+  <data name="ImportedNumRecords" xml:space="preserve">
+    <value>{0} poster importert</value>
+  </data>
+  <data name="AddPosting" xml:space="preserve">
+    <value>Legg til postering</value>
+  </data>
+  <data name="Match" xml:space="preserve">
+    <value>Match</value>
+  </data>
+  <data name="Matched" xml:space="preserve">
+    <value>Matchet</value>
+  </data>
+  <data name="NotMatched" xml:space="preserve">
+    <value>Ikke matchet</value>
+  </data>
+  <data name="NumberOfRecordsSelected" xml:space="preserve">
+    <value>{0} poster valgt</value>
+  </data>
+  <data name="NumberOneRecordSelected" xml:space="preserve">
+    <value>1 post valgt</value>
+  </data>
+  <data name="NumberOfRecords" xml:space="preserve">
+    <value>{0} poster</value>
+  </data>
+  <data name="MatchedNumRecords" xml:space="preserve">
+    <value>{0} poster matchet</value>
+  </data>
+  <data name="BalanceDeviationHere" xml:space="preserve">
+    <value>Saldoavvik:</value>
+  </data>
+  <data name="DeleteAllBankStatementsConfirmationText" xml:space="preserve">
+    <value>Alle kontoutskrifter vil bli slettet for denne kontoen.</value>
+  </data>
+  <data name="DeleteAllBankStatementsConfirmationTitle" xml:space="preserve">
+    <value>Bekreft sletting av alle kontoutskrifter</value>
+  </data>
+  <data name="SelectSuggestion" xml:space="preserve">
+    <value>Velg forslag</value>
+  </data>
+  <data name="ConfirmLotReservation" xml:space="preserve">
+    <value>Ønsker du å reservere lot/partier til dette prosjektet?</value>
+  </data>
+</root>

@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdjustmentTime" xml:space="preserve">
+    <value>Justeringstid</value>
+  </data>
+  <data name="AdjustmentTimeHours" xml:space="preserve">
+    <value>Justeringstid i timer</value>
+  </data>
+  <data name="AssignedResource" xml:space="preserve">
+    <value>Tildelt ressurs</value>
+  </data>
+  <data name="Capacity" xml:space="preserve">
+    <value>Kapasitet</value>
+  </data>
+  <data name="CostPerHour" xml:space="preserve">
+    <value>Timekost</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Varighet</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Sluttdato</value>
+  </data>
+  <data name="Equipment_Resource" xml:space="preserve">
+    <value>Maskin</value>
+  </data>
+  <data name="Equipment_Tool" xml:space="preserve">
+    <value>Maskinverktøy</value>
+  </data>
+  <data name="EquipmentCostPerHour" xml:space="preserve">
+    <value>Utstyr timekost</value>
+  </data>
+  <data name="EquipmentPricePerHour" xml:space="preserve">
+    <value>Utstyr timepris</value>
+  </data>
+  <data name="ExtraCost" xml:space="preserve">
+    <value>Ekstra kost</value>
+  </data>
+  <data name="ExtraTime" xml:space="preserve">
+    <value>Ekstra tid</value>
+  </data>
+  <data name="FixedStartDate" xml:space="preserve">
+    <value>Overstyrt startdato</value>
+  </data>
+  <data name="IntNumber" xml:space="preserve">
+    <value>Nummer (numerisk)</value>
+  </data>
+  <data name="IsGroupInWorkOrder" xml:space="preserve">
+    <value>Summér op.tid på arb.ordre</value>
+  </data>
+  <data name="IsNoteExists" xml:space="preserve">
+    <value>Notat</value>
+  </data>
+  <data name="LeadTime" xml:space="preserve">
+    <value>Ledetid</value>
+  </data>
+  <data name="LeadTimeHours" xml:space="preserve">
+    <value>Ledetid i timer</value>
+  </data>
+  <data name="MaximumInterruptionTime" xml:space="preserve">
+    <value>Maks. avbruddstid (ITP)</value>
+  </data>
+  <data name="MeasurementUnit_AdjustmentTime" xml:space="preserve">
+    <value>Enhet justeringstid</value>
+  </data>
+  <data name="MeasurementUnit_LeadTime" xml:space="preserve">
+    <value>Enhet ledetid</value>
+  </data>
+  <data name="MeasurementUnit_PostLoadTime" xml:space="preserve">
+    <value>Enhet tid etter operasjon</value>
+  </data>
+  <data name="MeasurementUnit_Time" xml:space="preserve">
+    <value>Enhet tid</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Operasjonsmal</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Notat</value>
+  </data>
+  <data name="NotePlainText" xml:space="preserve">
+    <value>Notatinnhold</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="OperatorCostPerHour" xml:space="preserve">
+    <value>Operatør timekost</value>
+  </data>
+  <data name="OperatorFactor" xml:space="preserve">
+    <value>Operatørfaktor (%)</value>
+  </data>
+  <data name="OperatorPricePerHour" xml:space="preserve">
+    <value>Operatør timepris</value>
+  </data>
+  <data name="OrgUnit_Department" xml:space="preserve">
+    <value>Avdeling</value>
+  </data>
+  <data name="Overlap" xml:space="preserve">
+    <value>Overlapping %</value>
+  </data>
+  <data name="OverlapQuantity" xml:space="preserve">
+    <value>Overlappende mengde</value>
+  </data>
+  <data name="PercentComplete" xml:space="preserve">
+    <value>Ferdigstilt %</value>
+  </data>
+  <data name="PlanResourceType" xml:space="preserve">
+    <value>Planlegge operasjon til</value>
+  </data>
+  <data name="PostEndDate" xml:space="preserve">
+    <value>Registrer sluttdato</value>
+  </data>
+  <data name="PostLoadTime" xml:space="preserve">
+    <value>Tid etter operasjon</value>
+  </data>
+  <data name="PostLoadTimeHours" xml:space="preserve">
+    <value>Tid etter operasjon i timer</value>
+  </data>
+  <data name="PreparationStartDate" xml:space="preserve">
+    <value>Forberedelses startdato</value>
+  </data>
+  <data name="PricePerHour" xml:space="preserve">
+    <value>Timepris</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Prioritet</value>
+  </data>
+  <data name="RealDuration" xml:space="preserve">
+    <value>Faktisk varighet</value>
+  </data>
+  <data name="ResourceGroup" xml:space="preserve">
+    <value>Ressursgruppe</value>
+  </data>
+  <data name="ResourceGroup_TimingResourceGroup" xml:space="preserve">
+    <value>Gruppe tidsressurs</value>
+  </data>
+  <data name="SalaryCode" xml:space="preserve">
+    <value>Lønnskode</value>
+  </data>
+  <data name="SalaryRule_Additional" xml:space="preserve">
+    <value>Lønn - tilleggsregel</value>
+  </data>
+  <data name="SalaryRule_Main" xml:space="preserve">
+    <value>Lønn - hovedregel</value>
+  </data>
+  <data name="Sequence" xml:space="preserve">
+    <value>Rekkefølge</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Startdato</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TimingResourceCapacity" xml:space="preserve">
+    <value>Kapasitet tidsressurs</value>
+  </data>
+  <data name="TimingResourceCostPerHour" xml:space="preserve">
+    <value>Kostpris tidsressurs</value>
+  </data>
+  <data name="TimingResourcePricePerHour" xml:space="preserve">
+    <value>Timepris tidsressurs</value>
+  </data>
+  <data name="ToolCostPerHour" xml:space="preserve">
+    <value>Tillegg timekost</value>
+  </data>
+  <data name="ToolPricePerHour" xml:space="preserve">
+    <value>Tillegg timepris</value>
+  </data>
+  <data name="ToolsCostPerHour" xml:space="preserve">
+    <value>Tillegg timekost</value>
+  </data>
+  <data name="ToolsPricePerHour" xml:space="preserve">
+    <value>Tillegg timepris</value>
+  </data>
+  <data name="User_Resource" xml:space="preserve">
+    <value>Arbeider/operatør</value>
+  </data>
+  <data name="User_TimingResource" xml:space="preserve">
+    <value>Tidsressurs</value>
+  </data>
+  <data name="User_Tool" xml:space="preserve">
+    <value>Tillegg</value>
+  </data>
+  <data name="User_WorkResource" xml:space="preserve">
+    <value>Arbeidsressurs</value>
+  </data>
+  <data name="WorkingResourceFactor" xml:space="preserve">
+    <value>Arbeidsressursfaktor (%)</value>
+  </data>
+  <data name="WorkOrder" xml:space="preserve">
+    <value>Arbeidsordre</value>
+  </data>
+  <data name="WorkResourceCostPerHour" xml:space="preserve">
+    <value>Kostpris arbeidsressurs</value>
+  </data>
+  <data name="WorkResourceCostPerHourFull" xml:space="preserve">
+    <value>Arbeidsressurs kost per time (100%)</value>
+  </data>
+  <data name="WorkResourcePricePerHour" xml:space="preserve">
+    <value>Timepris arbeidsressurs</value>
+  </data>
+  <data name="WorkResourcePricePerHourFull" xml:space="preserve">
+    <value>Arbeidsressurs pris per time (100%)</value>
+  </data>
+  <data name="WorkTime" xml:space="preserve">
+    <value>Arbeidstid</value>
+  </data>
+  <data name="OperationQuantityType" xml:space="preserve">
+    <value>Mengdetype</value>
+  </data>
+  <data name="SalaryCode_Extra" xml:space="preserve">
+    <value>Lønnskode extratid</value>
+  </data>
+  <data name="IsAutoTimeRegistration" xml:space="preserve">
+    <value>Auto timeregistrering</value>
+  </data>
+  <data name="CapacityMin" xml:space="preserve">
+    <value>Minimum kapasitet</value>
+  </data>
+  <data name="EmissionFactor" xml:space="preserve">
+    <value>Utslippsfaktor, kgCO2e per time</value>
+  </data>
+</root>

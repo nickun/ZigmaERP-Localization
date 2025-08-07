@@ -1,0 +1,1008 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Account_Accrual" xml:space="preserve">
+    <value>Periodiseringskonto</value>
+  </data>
+  <data name="Account_Cost" xml:space="preserve">
+    <value>Kostnadskonto</value>
+  </data>
+  <data name="Account_Debit" xml:space="preserve">
+    <value>Debetkonto</value>
+  </data>
+  <data name="Account_Opposite" xml:space="preserve">
+    <value>Motsatt konto</value>
+  </data>
+  <data name="Account_Subledger" xml:space="preserve">
+    <value>Konto reskontro</value>
+  </data>
+  <data name="AccountFrom" xml:space="preserve">
+    <value>Konto fra</value>
+  </data>
+  <data name="AllLots" xml:space="preserve">
+    <value>Alle lot/parti</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Beløp</value>
+  </data>
+  <data name="Article" xml:space="preserve">
+    <value>Artikkel</value>
+  </data>
+  <data name="ArticleCode" xml:space="preserve">
+    <value>Artikkelnr.</value>
+  </data>
+  <data name="ArticleJoinCode" xml:space="preserve">
+    <value>Artikkelnr (eget+lev.)</value>
+  </data>
+  <data name="ArticleJoinName" xml:space="preserve">
+    <value>Artikkelnavn (eget+lev.)</value>
+  </data>
+  <data name="AssemblyTreeLine" xml:space="preserve">
+    <value>Kalkulasjonslinje</value>
+  </data>
+  <data name="AssignmentNumber" xml:space="preserve">
+    <value>Tildelingsnr</value>
+  </data>
+  <data name="AutoTimeReg" xml:space="preserve">
+    <value>Auto timeregistrering</value>
+  </data>
+  <data name="BalanceAmount" xml:space="preserve">
+    <value>Balanse</value>
+  </data>
+  <data name="BalanceAmountCurrency" xml:space="preserve">
+    <value>Balanse (valuta)</value>
+  </data>
+  <data name="BankDate" xml:space="preserve">
+    <value>Bank dato</value>
+  </data>
+  <data name="BankNumber" xml:space="preserve">
+    <value>Kontonummer</value>
+  </data>
+  <data name="BankReference" xml:space="preserve">
+    <value>Bankreferanse</value>
+  </data>
+  <data name="Basis" xml:space="preserve">
+    <value>Basis</value>
+  </data>
+  <data name="BasisImportFromAbroad" xml:space="preserve">
+    <value>Beregn.gr.lag for avgift på tjenester fra utl, og beregn. avg. høy sats</value>
+  </data>
+  <data name="BatchItem_Pos" xml:space="preserve">
+    <value>Materiale posisjon</value>
+  </data>
+  <data name="BatchItem_Quantity" xml:space="preserve">
+    <value>Materiale antall</value>
+  </data>
+  <data name="CertificateNumber" xml:space="preserve">
+    <value>Sert./charge/heatnr.</value>
+  </data>
+  <data name="Chapter" xml:space="preserve">
+    <value>Kapittel</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Firma</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Kost</value>
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>Kreditsum</value>
+  </data>
+  <data name="CreditAccount" xml:space="preserve">
+    <value>Kredit konto</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="CurrencyRate" xml:space="preserve">
+    <value>Valutakurs</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>Kunde</value>
+  </data>
+  <data name="CustomerNumber" xml:space="preserve">
+    <value>Kundenummer</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Dato</value>
+  </data>
+  <data name="DebitAccount" xml:space="preserve">
+    <value>Debet konto</value>
+  </data>
+  <data name="DeliveryDate" xml:space="preserve">
+    <value>Lev.dato</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Avdeling</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="Difference" xml:space="preserve">
+    <value>Differanse</value>
+  </data>
+  <data name="DocumentDetail" xml:space="preserve">
+    <value>Dok.linje</value>
+  </data>
+  <data name="DocumentNumber" xml:space="preserve">
+    <value>Dokumentnr</value>
+  </data>
+  <data name="DoInvoice" xml:space="preserve">
+    <value>Lage faktura</value>
+  </data>
+  <data name="DueDate" xml:space="preserve">
+    <value>Forfallsdato</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="Email_Bcc" xml:space="preserve">
+    <value>E-post blindkopi til</value>
+  </data>
+  <data name="Email_Cc" xml:space="preserve">
+    <value>E-post kopi til</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>Filnavn</value>
+  </data>
+  <data name="IncomingVatDeductibleHightRate" xml:space="preserve">
+    <value>Fradragsberettiget inngående avgift, høy sats</value>
+  </data>
+  <data name="IncomingVatDeductibleLowRate" xml:space="preserve">
+    <value>Fradragsberettiget inngående avgift, lav sats</value>
+  </data>
+  <data name="IncomingVatDeductibleMediumRate" xml:space="preserve">
+    <value>Fradragsberettiget inngående avgift, middels sats</value>
+  </data>
+  <data name="InvoiceCurrencyRate" xml:space="preserve">
+    <value>Valutakurs faktura</value>
+  </data>
+  <data name="InvoicedBefore" xml:space="preserve">
+    <value>Fakturert tidl.</value>
+  </data>
+  <data name="InvoicedNow" xml:space="preserve">
+    <value>Fakturert nå</value>
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>Fakturanr.</value>
+  </data>
+  <data name="InvoiceNumberInfo" xml:space="preserve">
+    <value>Fakturanr.</value>
+  </data>
+  <data name="IsDeliveredSeparately" xml:space="preserve">
+    <value>Leveres separat</value>
+  </data>
+  <data name="IsInvoiceClosed" xml:space="preserve">
+    <value>Faktura lukket</value>
+  </data>
+  <data name="IsRecognized" xml:space="preserve">
+    <value>Gjenkjent</value>
+  </data>
+  <data name="Kid" xml:space="preserve">
+    <value>KID</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Lokasjon</value>
+  </data>
+  <data name="LotName" xml:space="preserve">
+    <value>Lot</value>
+  </data>
+  <data name="LotNumber" xml:space="preserve">
+    <value>Lot No</value>
+  </data>
+  <data name="MeasurementUnit" xml:space="preserve">
+    <value>Enhet</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="NetAmount" xml:space="preserve">
+    <value>Nettobeløp</value>
+  </data>
+  <data name="NetPrice" xml:space="preserve">
+    <value>Enhetspris</value>
+  </data>
+  <data name="NetPrice_Currency" xml:space="preserve">
+    <value>Enhetspris (valuta)</value>
+  </data>
+  <data name="NewRate" xml:space="preserve">
+    <value>Ny kurs</value>
+  </data>
+  <data name="NewSum" xml:space="preserve">
+    <value>Ny sum</value>
+  </data>
+  <data name="OcrGiroNumber" xml:space="preserve">
+    <value>Ocr-giro nummer</value>
+  </data>
+  <data name="OrgUnit_Company" xml:space="preserve">
+    <value>Firma</value>
+  </data>
+  <data name="OrgUnit_Vendor" xml:space="preserve">
+    <value>Leverandør</value>
+  </data>
+  <data name="OutgoingVatHightRate" xml:space="preserve">
+    <value>Beregn.gr.lag høy sats, og beregnet avgift</value>
+  </data>
+  <data name="OutgoingVatLowRate" xml:space="preserve">
+    <value>Beregn.gr.lag lav sats, og beregnet avgift</value>
+  </data>
+  <data name="OutgoingVatMediumRate" xml:space="preserve">
+    <value>Beregn.gr.lag middels sats, og beregnet avgift</value>
+  </data>
+  <data name="Paid" xml:space="preserve">
+    <value>Betalt</value>
+  </data>
+  <data name="PaidAmount" xml:space="preserve">
+    <value>Betalt beløp</value>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>Filsti</value>
+  </data>
+  <data name="Pay" xml:space="preserve">
+    <value>Betal</value>
+  </data>
+  <data name="PayAmount" xml:space="preserve">
+    <value>Betalingsbeløp</value>
+  </data>
+  <data name="PayAmountCurrency" xml:space="preserve">
+    <value>Betalingsbeløp (valuta)</value>
+  </data>
+  <data name="PaymentAmount" xml:space="preserve">
+    <value>Betalingsbeløp</value>
+  </data>
+  <data name="PaymentDate" xml:space="preserve">
+    <value>Betalingsdato</value>
+  </data>
+  <data name="PendingAmount" xml:space="preserve">
+    <value>Til overføring</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Pris</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Prosjekt</value>
+  </data>
+  <data name="Project_Sales" xml:space="preserve">
+    <value>Salgsprosjekt</value>
+  </data>
+  <data name="ProjectLine" xml:space="preserve">
+    <value>Prosjektlinje</value>
+  </data>
+  <data name="Qnty" xml:space="preserve">
+    <value>Antall</value>
+  </data>
+  <data name="QntyInWO" xml:space="preserve">
+    <value>Ant. på arbeidsordre</value>
+  </data>
+  <data name="QntyOrdered" xml:space="preserve">
+    <value>Ant. bestilt tidl.</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Antall</value>
+  </data>
+  <data name="Quantity_Arrive" xml:space="preserve">
+    <value>Ant. mottatt nå</value>
+  </data>
+  <data name="Quantity_Arrived" xml:space="preserve">
+    <value>Ant. mottatt tidl.</value>
+  </data>
+  <data name="Quantity_Available" xml:space="preserve">
+    <value>Ant. tilgjengelig</value>
+  </data>
+  <data name="Quantity_Deliver" xml:space="preserve">
+    <value>Ant. levert nå</value>
+  </data>
+  <data name="Quantity_Delivered" xml:space="preserve">
+    <value>Ant. tidl. levert</value>
+  </data>
+  <data name="Quantity_DeliveredNotInvoiced" xml:space="preserve">
+    <value>Ant. lev. ikke fakt.</value>
+  </data>
+  <data name="Quantity_OnStock" xml:space="preserve">
+    <value>Ant. lagt på lager</value>
+  </data>
+  <data name="Quantity_Invoice" xml:space="preserve">
+    <value>Ant. på faktura</value>
+  </data>
+  <data name="Quantity_Invoiced" xml:space="preserve">
+    <value>Ant. tidl. fakturert</value>
+  </data>
+  <data name="Quantity_Labels" xml:space="preserve">
+    <value>Antall etikettutskrifter</value>
+  </data>
+  <data name="Quantity_Original" xml:space="preserve">
+    <value>Ant. opprinnelig</value>
+  </data>
+  <data name="Quantity_Pick" xml:space="preserve">
+    <value>Ant. plukket</value>
+  </data>
+  <data name="Quantity_Picked" xml:space="preserve">
+    <value>Ant. plukket tidl.</value>
+  </data>
+  <data name="Quantity_Produced" xml:space="preserve">
+    <value>Ant. produsert</value>
+  </data>
+  <data name="Quantity_Rest" xml:space="preserve">
+    <value>Ant. lager</value>
+  </data>
+  <data name="Quantity_Credit" xml:space="preserve">
+    <value>Ant. kreditert</value>
+  </data>
+  <data name="Quantity_Returned" xml:space="preserve">
+    <value>Antall tidl. returnert</value>
+  </data>
+  <data name="Quantity_Sent" xml:space="preserve">
+    <value>Ant. sendt</value>
+  </data>
+  <data name="Quantity_ToReturn" xml:space="preserve">
+    <value>Ant. retur</value>
+  </data>
+  <data name="Quantity_ToSend" xml:space="preserve">
+    <value>Ant. til sending</value>
+  </data>
+  <data name="Quantity_ToStock" xml:space="preserve">
+    <value>Antall til lager</value>
+  </data>
+  <data name="Quantity_Wreck" xml:space="preserve">
+    <value>Antall vrak</value>
+  </data>
+  <data name="QuantityDeliveredNotInvoiced" xml:space="preserve">
+    <value>Ant. lev. ikke fakt.</value>
+  </data>
+  <data name="QuantityEachPiece" xml:space="preserve">
+    <value>Ant. enheter pr stk.</value>
+  </data>
+  <data name="QuantityExist" xml:space="preserve">
+    <value>Eksist. mengde</value>
+  </data>
+  <data name="QuantityPieces" xml:space="preserve">
+    <value>Ant. stk</value>
+  </data>
+  <data name="QuantityProduced" xml:space="preserve">
+    <value>Ant. produsert</value>
+  </data>
+  <data name="QuantityPurchased" xml:space="preserve">
+    <value>Ant. bestilt tidl.</value>
+  </data>
+  <data name="QuantityPurchasе" xml:space="preserve">
+    <value>Ant. på bestilling</value>
+  </data>
+  <data name="QuantityQuarantine" xml:space="preserve">
+    <value>Karantene antall</value>
+  </data>
+  <data name="QuantityTotal" xml:space="preserve">
+    <value>Totalt antall</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Kurs</value>
+  </data>
+  <data name="RealPrice" xml:space="preserve">
+    <value>Faktisk pris</value>
+  </data>
+  <data name="RealQuantity" xml:space="preserve">
+    <value>Faktisk antall</value>
+  </data>
+  <data name="RealSum" xml:space="preserve">
+    <value>Faktisk sum</value>
+  </data>
+  <data name="ReceivedBefore" xml:space="preserve">
+    <value>Mottatt tidl.</value>
+  </data>
+  <data name="ReceivedNow" xml:space="preserve">
+    <value>Mottatt nå</value>
+  </data>
+  <data name="ReceivedQuantity" xml:space="preserve">
+    <value>Mottatt mengde</value>
+  </data>
+  <data name="ReceiveMoney" xml:space="preserve">
+    <value>Inngående betaling</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Referanse</value>
+  </data>
+  <data name="RevenueInTheVatArea" xml:space="preserve">
+    <value>Omsetning innenfor merverdiavgiftsloven</value>
+  </data>
+  <data name="RevenueOverall" xml:space="preserve">
+    <value>Omsetning innenfor og utenfor merverdiavgiftsloven</value>
+  </data>
+  <data name="RoyaltyFreeRevenue" xml:space="preserve">
+    <value>Avgiftsfri omsetning</value>
+  </data>
+  <data name="SAFTCodeList" xml:space="preserve">
+    <value>SAF-T kode</value>
+  </data>
+  <data name="SerialNumber" xml:space="preserve">
+    <value>Serienummer</value>
+  </data>
+  <data name="SerialNumber_Customer" xml:space="preserve">
+    <value>Kundens serienummer</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>Kilde</value>
+  </data>
+  <data name="SpendMoney" xml:space="preserve">
+    <value>Utgående betaling</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>Lager</value>
+  </data>
+  <data name="SubOrder" xml:space="preserve">
+    <value>Sub-ordre</value>
+  </data>
+  <data name="SubWO" xml:space="preserve">
+    <value>Sub-arbeidsordre</value>
+  </data>
+  <data name="Sum" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="SumCost" xml:space="preserve">
+    <value>Sum kost</value>
+  </data>
+  <data name="SumInvoice" xml:space="preserve">
+    <value>Fakturabeløp</value>
+  </data>
+  <data name="SumPrice" xml:space="preserve">
+    <value>Totalsum</value>
+  </data>
+  <data name="SumPrice_Currency" xml:space="preserve">
+    <value>Totalsum (valuta)</value>
+  </data>
+  <data name="SumWithTax" xml:space="preserve">
+    <value>Sum inkl. MVA</value>
+  </data>
+  <data name="TaxCode" xml:space="preserve">
+    <value>Mva-kode</value>
+  </data>
+  <data name="ToBuy" xml:space="preserve">
+    <value>Til innkjøp</value>
+  </data>
+  <data name="ToPay" xml:space="preserve">
+    <value>Oppgjør (-=å betale / += til gode)</value>
+  </data>
+  <data name="ToPayForReconciliation" xml:space="preserve">
+    <value>Skal betales</value>
+  </data>
+  <data name="ToReconciliation" xml:space="preserve">
+    <value>Skal avstemmes</value>
+  </data>
+  <data name="ToReconciliationPay" xml:space="preserve">
+    <value>Skal betales</value>
+  </data>
+  <data name="ToRound" xml:space="preserve">
+    <value>Til avrunding</value>
+  </data>
+  <data name="TotalAmount" xml:space="preserve">
+    <value>Sum inkl.mva</value>
+  </data>
+  <data name="TotalQuantity" xml:space="preserve">
+    <value>Totalt antall</value>
+  </data>
+  <data name="TransactionId" xml:space="preserve">
+    <value>Transaksjonsnr</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Enhet</value>
+  </data>
+  <data name="Unit_Pick" xml:space="preserve">
+    <value>Velg enhet</value>
+  </data>
+  <data name="Unit_Use" xml:space="preserve">
+    <value>Enhet</value>
+  </data>
+  <data name="Use" xml:space="preserve">
+    <value>Bruk</value>
+  </data>
+  <data name="UseAccrual" xml:space="preserve">
+    <value>Periodisering</value>
+  </data>
+  <data name="UseDefaultStock" xml:space="preserve">
+    <value>Bruk standard lager</value>
+  </data>
+  <data name="Vat" xml:space="preserve">
+    <value>Mva</value>
+  </data>
+  <data name="VatToPay" xml:space="preserve">
+    <value>Avgift å betale</value>
+  </data>
+  <data name="VatToReceive" xml:space="preserve">
+    <value>Avgift til gode</value>
+  </data>
+  <data name="Vendor" xml:space="preserve">
+    <value>Leverandør</value>
+  </data>
+  <data name="VendorArticle" xml:space="preserve">
+    <value>Leverandørartikkel</value>
+  </data>
+  <data name="VendorArticleCode" xml:space="preserve">
+    <value>Lev. artikkelnr.</value>
+  </data>
+  <data name="VendorNumber" xml:space="preserve">
+    <value>Leverandørens reskontronr.</value>
+  </data>
+  <data name="WhereIsUsed" xml:space="preserve">
+    <value>Brukes</value>
+  </data>
+  <data name="ItemSubtype" xml:space="preserve">
+    <value>Workflow subtype</value>
+  </data>
+  <data name="WorkOrder" xml:space="preserve">
+    <value>Arbeidsordre</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Rabatt, %</value>
+  </data>
+  <data name="PriceTotal" xml:space="preserve">
+    <value>Enhetspris u/rab.</value>
+  </data>
+  <data name="PriceTotal_Currency" xml:space="preserve">
+    <value>Enhetspris u/rab. (valuta)</value>
+  </data>
+  <data name="SumPriceIncludeTax" xml:space="preserve">
+    <value>Sum pris inkl. MVA</value>
+  </data>
+  <data name="SumPriceIncludeTax_Currency" xml:space="preserve">
+    <value>Sum pris inkl. MVA i valuta</value>
+  </data>
+  <data name="SumTax" xml:space="preserve">
+    <value>Total MVA</value>
+  </data>
+  <data name="SumTax_Currency" xml:space="preserve">
+    <value>Total MVA i valuta</value>
+  </data>
+  <data name="PriceIncludeTax" xml:space="preserve">
+    <value>Enhetspris inkl. mva</value>
+  </data>
+  <data name="PriceIncludeTax_Currency" xml:space="preserve">
+    <value>Enhetspris inkl. mva (valuta)</value>
+  </data>
+  <data name="IsOutgoing" xml:space="preserve">
+    <value>Utgående</value>
+  </data>
+  <data name="BankNumberOwner" xml:space="preserve">
+    <value>Eier av Kontonummeren</value>
+  </data>
+  <data name="InternalReference" xml:space="preserve">
+    <value>Intern referanse</value>
+  </data>
+  <data name="StatusReason" xml:space="preserve">
+    <value>Status grunn</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="Tax" xml:space="preserve">
+    <value>Mva</value>
+  </data>
+  <data name="OrderLineReference" xml:space="preserve">
+    <value>PO-linje</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Posisjon</value>
+  </data>
+  <data name="TaxCategoryId" xml:space="preserve">
+    <value>Mva kategori</value>
+  </data>
+  <data name="Account_Purchase" xml:space="preserve">
+    <value>Innkjøpskonto</value>
+  </data>
+  <data name="IsDefaultArticleLot" xml:space="preserve">
+    <value>Standard artikkel parti/lot</value>
+  </data>
+  <data name="CustomerPosition" xml:space="preserve">
+    <value>PO-linje</value>
+  </data>
+  <data name="UseArticleStock" xml:space="preserve">
+    <value>Bruk artikkels lager</value>
+  </data>
+  <data name="CreditPrice" xml:space="preserve">
+    <value>Kredittpris</value>
+  </data>
+  <data name="TotalAmount_Currency" xml:space="preserve">
+    <value>Sum inkl.mva (valuta)</value>
+  </data>
+  <data name="Quantity_CreditInvoice" xml:space="preserve">
+    <value>Ant. kreditert</value>
+  </data>
+  <data name="CreditPrice_Currency" xml:space="preserve">
+    <value>Kredittpris (valuta)</value>
+  </data>
+  <data name="Credit_Currency" xml:space="preserve">
+    <value>Kreditsum (valuta)</value>
+  </data>
+  <data name="NetAmount_Currency" xml:space="preserve">
+    <value>Nettobeløp (valuta)</value>
+  </data>
+  <data name="Tax_Currency" xml:space="preserve">
+    <value>Mva (valuta)</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>Utløpsdato</value>
+  </data>
+  <data name="Fee" xml:space="preserve">
+    <value>Gebyr</value>
+  </data>
+  <data name="FromDate" xml:space="preserve">
+    <value>Fra dato</value>
+  </data>
+  <data name="Interest" xml:space="preserve">
+    <value>Rente</value>
+  </data>
+  <data name="InterestCalculated" xml:space="preserve">
+    <value>Kalkulert rente</value>
+  </data>
+  <data name="InterestDays" xml:space="preserve">
+    <value>Rentedager</value>
+  </data>
+  <data name="InterestPercent" xml:space="preserve">
+    <value>Rente, % per år</value>
+  </data>
+  <data name="IsFeeUsed" xml:space="preserve">
+    <value>Gebyr brukes</value>
+  </data>
+  <data name="KIDNumber" xml:space="preserve">
+    <value>KID-nummer</value>
+  </data>
+  <data name="MinCountedInterest" xml:space="preserve">
+    <value>Minstebeløp rente</value>
+  </data>
+  <data name="ReminderSetup" xml:space="preserve">
+    <value>Purring</value>
+  </data>
+  <data name="RestInvoiceNumber" xml:space="preserve">
+    <value>Rest på faktura</value>
+  </data>
+  <data name="ReminderNumber" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="ReminderDate" xml:space="preserve">
+    <value>Påminnelsesdato</value>
+  </data>
+  <data name="CreditFee" xml:space="preserve">
+    <value>Kredittgebyr</value>
+  </data>
+  <data name="CreditInterest" xml:space="preserve">
+    <value>Kredittrente</value>
+  </data>
+  <data name="Quantity_ToProduce" xml:space="preserve">
+    <value>Ant. produsere</value>
+  </data>
+  <data name="DateCreate" xml:space="preserve">
+    <value>Opprettelsesdato</value>
+  </data>
+  <data name="IsProduct" xml:space="preserve">
+    <value>Produkt</value>
+  </data>
+  <data name="IsProductLot" xml:space="preserve">
+    <value>Produktparti</value>
+  </data>
+  <data name="ContactPerson" xml:space="preserve">
+    <value>Kontaktperson</value>
+  </data>
+  <data name="ProjectLine_PO" xml:space="preserve">
+    <value>PO-linje</value>
+  </data>
+  <data name="Project_PO" xml:space="preserve">
+    <value>Bestilling (PO)</value>
+  </data>
+  <data name="MaterialType" xml:space="preserve">
+    <value>Materialtype</value>
+  </data>
+  <data name="Cost_Currency" xml:space="preserve">
+    <value>Kost (valuta)</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="MinOrderQuantity" xml:space="preserve">
+    <value>Minimumsordre</value>
+  </data>
+  <data name="Quantity_Net" xml:space="preserve">
+    <value>Netto antall</value>
+  </data>
+  <data name="Unit_Net" xml:space="preserve">
+    <value>Netto enhet</value>
+  </data>
+  <data name="Unit_Orderable" xml:space="preserve">
+    <value>Bestillbar enhet</value>
+  </data>
+  <data name="OrderQuantityIncrement" xml:space="preserve">
+    <value>Ordremengdetrinn</value>
+  </data>
+  <data name="CustomerArticleCode" xml:space="preserve">
+    <value>Kundens artikkelnr</value>
+  </data>
+  <data name="WorkflowItem_Quality" xml:space="preserve">
+    <value>Kvalitetskontroll</value>
+  </data>
+  <data name="Account_Credit" xml:space="preserve">
+    <value>Kredittkonto</value>
+  </data>
+  <data name="Sum_IncomingBalance" xml:space="preserve">
+    <value>IB</value>
+  </data>
+  <data name="Sum_Movement" xml:space="preserve">
+    <value>Bevegelse</value>
+  </data>
+  <data name="Sum_OutgoingBalance" xml:space="preserve">
+    <value>UB</value>
+  </data>
+  <data name="EarliestDate" xml:space="preserve">
+    <value>Tidligste dato</value>
+  </data>
+  <data name="UNSPSC_Code" xml:space="preserve">
+    <value>UNSPSC kode</value>
+  </data>
+  <data name="FileType" xml:space="preserve">
+    <value>Filtype</value>
+  </data>
+  <data name="NewSumPrice" xml:space="preserve">
+    <value>Ny sum pris</value>
+  </data>
+  <data name="NewSumPrice_Currency" xml:space="preserve">
+    <value>Ny sum pris i valuta</value>
+  </data>
+  <data name="VatSpecification" xml:space="preserve">
+    <value>Mva-spesifikasjon</value>
+  </data>
+  <data name="ProjectState" xml:space="preserve">
+    <value>Prosjektfase</value>
+  </data>
+  <data name="ArticleDescription" xml:space="preserve">
+    <value>Beskrivelse artikkel</value>
+  </data>
+  <data name="QuantityToWorkPackage" xml:space="preserve">
+    <value>Ant. til arbeidspakke</value>
+  </data>
+  <data name="QuantityWorkPackage" xml:space="preserve">
+    <value>Ant. på arbeidspakker</value>
+  </data>
+  <data name="OperationTemplate" xml:space="preserve">
+    <value>Operasjonsmal</value>
+  </data>
+  <data name="WorkPackageNumber" xml:space="preserve">
+    <value>Arbeidspakkenummer</value>
+  </data>
+  <data name="QualityControl" xml:space="preserve">
+    <value>Kvalitetskontroll</value>
+  </data>
+  <data name="DeliveryFinished" xml:space="preserve">
+    <value>Ferdig levert</value>
+  </data>
+  <data name="Quantity_PutToStock" xml:space="preserve">
+    <value>Ant. lagt på lager</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Utført</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>Operasjon</value>
+  </data>
+  <data name="QuantityComplete" xml:space="preserve">
+    <value>Antall ferdig</value>
+  </data>
+  <data name="QuantityCompleteBefore" xml:space="preserve">
+    <value>Antall tidl. ferdigstilt</value>
+  </data>
+  <data name="QuantityWreck" xml:space="preserve">
+    <value>Antall vrak</value>
+  </data>
+  <data name="QuantityWreckBefore" xml:space="preserve">
+    <value>Antall tidl. vrak</value>
+  </data>
+  <data name="UsedHours" xml:space="preserve">
+    <value>Brukte timer</value>
+  </data>
+  <data name="UsedHoursBefore" xml:space="preserve">
+    <value>Brukte tidl. timer</value>
+  </data>
+  <data name="WorkHours" xml:space="preserve">
+    <value>Arbeidstimer</value>
+  </data>
+  <data name="MultiTaskCompletionWizard_QuantityTotal" xml:space="preserve">
+    <value>Totalt antall enheter</value>
+  </data>
+  <data name="DrawingReference" xml:space="preserve">
+    <value>Tegningsreferanse</value>
+  </data>
+  <data name="MeasurementUnit_Alternative" xml:space="preserve">
+    <value>Alternativ enhet</value>
+  </data>
+  <data name="QntyInWO_Alternative" xml:space="preserve">
+    <value>Ant. på arbeidsordre i alternativ enhet</value>
+  </data>
+  <data name="Qnty_Alternative" xml:space="preserve">
+    <value>Antall i alternativ enhet</value>
+  </data>
+  <data name="Quantity_Arrived_Alternative" xml:space="preserve">
+    <value>Ant. mottatt tidl. i alternativ enhet</value>
+  </data>
+  <data name="Quantity_Delivered_Alternative" xml:space="preserve">
+    <value>Ant. tidl. levert i alternativ enhet</value>
+  </data>
+  <data name="Quantity_OnStock_Alternative" xml:space="preserve">
+    <value>Ant. lagt på lager i alternativ enhet</value>
+  </data>
+  <data name="Quantity_Produced_Alternative" xml:space="preserve">
+    <value>Ant. produsert i alternativ enhet</value>
+  </data>
+  <data name="Quantity_ToStock_Alternative" xml:space="preserve">
+    <value>Antall til lager i alternativ enhet</value>
+  </data>
+  <data name="NotePlainText" xml:space="preserve">
+    <value>Notatinnhold</value>
+  </data>
+  <data name="ReservedFor" xml:space="preserve">
+    <value>Reservert for</value>
+  </data>
+  <data name="LengthInMillimeters" xml:space="preserve">
+    <value>Lengde (mm)</value>
+  </data>
+  <data name="EndMillimeters" xml:space="preserve">
+    <value>Slutt (mm)</value>
+  </data>
+  <data name="StartMillimeters" xml:space="preserve">
+    <value>Start (mm)</value>
+  </data>
+  <data name="CutsCount" xml:space="preserve">
+    <value>Antall kutt</value>
+  </data>
+  <data name="ProductLotGenerationRule" xml:space="preserve">
+    <value>Genereringsregel produkt lot</value>
+  </data>
+  <data name="SerialNumberDefinition" xml:space="preserve">
+    <value>Serienummer genereringsregel</value>
+  </data>
+  <data name="SerialNumberDefinition_Customer" xml:space="preserve">
+    <value>Kundens serienummer genereringsregel</value>
+  </data>
+  <data name="SerialNumberDefinition_Customer_OverrideCounter" xml:space="preserve">
+    <value>Overstyrt løpende nummer for kundens serienummer</value>
+  </data>
+  <data name="Gain" xml:space="preserve">
+    <value>Gevinst</value>
+  </data>
+  <data name="GainWithRests" xml:space="preserve">
+    <value>Gevinst med rester</value>
+  </data>
+  <data name="GainWithRestsAndBlade" xml:space="preserve">
+    <value>Gevinst med rester og skjæreblad</value>
+  </data>
+  <data name="IsRest" xml:space="preserve">
+    <value>Resten</value>
+  </data>
+  <data name="TotalCutsCount" xml:space="preserve">
+    <value>Totalt antall kutt</value>
+  </data>
+  <data name="Waste" xml:space="preserve">
+    <value>Avfall</value>
+  </data>
+  <data name="LotNumber_CopiedFrom" xml:space="preserve">
+    <value>Lot No kopiert fra</value>
+  </data>
+</root>

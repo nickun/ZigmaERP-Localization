@@ -1,0 +1,1766 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="AddedToWorkList" xml:space="preserve">
+    <value>Added to work list</value>
+  </data>
+  <data name="Agree" xml:space="preserve">
+    <value>Agree</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="AllArticles" xml:space="preserve">
+    <value>*All Articles</value>
+  </data>
+  <data name="AllSubtypes" xml:space="preserve">
+    <value>All subtypes</value>
+  </data>
+  <data name="AllWorkflowItems" xml:space="preserve">
+    <value>All workflow items</value>
+  </data>
+  <data name="AllWorkflowItemSubtypes" xml:space="preserve">
+    <value>*All workflow item subtypes</value>
+  </data>
+  <data name="AppIsNotRunning" xml:space="preserve">
+    <value>Zigma 360° application is not running</value>
+  </data>
+  <data name="Article" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="ArticlesWithoutGroup" xml:space="preserve">
+    <value>*Articles without group</value>
+  </data>
+  <data name="AssemblyTreeLine" xml:space="preserve">
+    <value>Assembly tree line</value>
+  </data>
+  <data name="AutoInvoiceNumber" xml:space="preserve">
+    <value>Auto invoice number</value>
+  </data>
+  <data name="BackupProcessStartedWait" xml:space="preserve">
+    <value>The backup process has been started ...</value>
+  </data>
+  <data name="BackupProcessSuccessfullyFinished" xml:space="preserve">
+    <value>The backup process has been successfully finished</value>
+  </data>
+  <data name="BankPaymentSpendMoney" xml:space="preserve">
+    <value>bank payment spend money</value>
+  </data>
+  <data name="Batch" xml:space="preserve">
+    <value>Batch</value>
+  </data>
+  <data name="Blank" xml:space="preserve">
+    <value>Without content</value>
+  </data>
+  <data name="BusinessProcessShapes" xml:space="preserve">
+    <value>Business Process</value>
+  </data>
+  <data name="CancelingWait" xml:space="preserve">
+    <value>Canceling ...</value>
+  </data>
+  <data name="CantChangeProjectCurrencyIfFinishedLinesExist" xml:space="preserve">
+    <value>Can't change the currency of the project if some lines are in Finished status</value>
+  </data>
+  <data name="CantCloseProjectWorkOrderInDraft" xml:space="preserve">
+    <value>It is not possible to close the project if some work orders are in draft status</value>
+  </data>
+  <data name="CantCreateArticle" xml:space="preserve">
+    <value>Failed to create article</value>
+  </data>
+  <data name="CantDeleteFromServer" xml:space="preserve">
+    <value>Can't delete '{0}' from server</value>
+  </data>
+  <data name="CantDeleteLoggedResource" xml:space="preserve">
+    <value>Can't delete logged resource</value>
+  </data>
+  <data name="CantRemoveArticleThatUsesInAssemblies" xml:space="preserve">
+    <value>Can't remove article that is used in assemblies!</value>
+  </data>
+  <data name="CantRemoveVendorArticleThatUsesInAssemblies1" xml:space="preserve">
+    <value>Can't remove vendor article that is used in assemblies!</value>
+  </data>
+  <data name="CantRunScript" xml:space="preserve">
+    <value>Can't run selected script!</value>
+  </data>
+  <data name="CantSaveItem" xml:space="preserve">
+    <value>Can't save object!</value>
+  </data>
+  <data name="CantSaveProjectAssembly" xml:space="preserve">
+    <value>Can't save project assembly</value>
+  </data>
+  <data name="CantSaveWorkOrderAssembly" xml:space="preserve">
+    <value>Can't save work order assembly</value>
+  </data>
+  <data name="CantStartOperation" xml:space="preserve">
+    <value>Can't start operation!</value>
+  </data>
+  <data name="CantUseDisabledArticle" xml:space="preserve">
+    <value>Can't use disabled article</value>
+  </data>
+  <data name="CircularReference" xml:space="preserve">
+    <value>The object was not added. Perhaps the problem is in circular reference.</value>
+  </data>
+  <data name="ClearAllSorting" xml:space="preserve">
+    <value>Clear All Sorting</value>
+  </data>
+  <data name="ClearSorting" xml:space="preserve">
+    <value>Clear Sorting</value>
+  </data>
+  <data name="ClosingWait" xml:space="preserve">
+    <value>Closing ...</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="ConfirmationError" xml:space="preserve">
+    <value>Confirmation error</value>
+  </data>
+  <data name="ConfirmChangeSelectedItem" xml:space="preserve">
+    <value>Are you sure you want to apply changes to the item: '{0}'? {1}</value>
+  </data>
+  <data name="ConfirmChangeSelectedItems" xml:space="preserve">
+    <value>Are you sure you want to apply changes to {0} selected items?</value>
+  </data>
+  <data name="ConfirmChangesSave" xml:space="preserve">
+    <value>Do you want to save changes?</value>
+  </data>
+  <data name="ConfirmCloseAutocalc" xml:space="preserve">
+    <value>Are you sure you want to exit Zigma 360°?</value>
+  </data>
+  <data name="ConfirmCreateDocumentIfExists" xml:space="preserve">
+    <value>There is a document already created in this period.
+Do you want to create one more?</value>
+  </data>
+  <data name="ConfirmDeleteFromGroup" xml:space="preserve">
+    <value>Are you sure you want to delete selected item(s) from group?</value>
+  </data>
+  <data name="ConfirmDeleteSelectedItem" xml:space="preserve">
+    <value>Are you sure you want to delete the item: '{0}'? {1}</value>
+  </data>
+  <data name="ConfirmDeleteSelectedItems" xml:space="preserve">
+    <value>Are you sure you want to delete the {0} selected items?</value>
+  </data>
+  <data name="ConfirmExcludeFromGroup" xml:space="preserve">
+    <value>Are you sure you want to exclude selected item(s) from group?</value>
+  </data>
+  <data name="ConfirmGenerateOrgUnitNumber" xml:space="preserve">
+    <value>Are you sure you want to generate a new number?</value>
+  </data>
+  <data name="ConfirmImport" xml:space="preserve">
+    <value>You import data not in correct order. Do you really want to do it?</value>
+  </data>
+  <data name="ConfirmOverwriteLocalCopyWorkflowFile" xml:space="preserve">
+    <value>Previously opened file has not been uploaded to the server.
+Do you really want to overwrite it?</value>
+  </data>
+  <data name="ConfirmOverwriteWorkflowFileWithSameSubtype" xml:space="preserve">
+    <value>There is already a file with the same subtype in a workflow.
+Do you want to overwrite it?</value>
+  </data>
+  <data name="ConfirmProjectCantBeClosed" xml:space="preserve">
+    <value>The project isn't approved. Do you still want to close the project?</value>
+  </data>
+  <data name="ConfirmProjectChangeEmail" xml:space="preserve">
+    <value>Do you want to change the project email from the contact person?</value>
+  </data>
+  <data name="ConfirmProjectClose" xml:space="preserve">
+    <value>Do you want to close the project {0} ?</value>
+  </data>
+  <data name="ConfirmProjectDiscard" xml:space="preserve">
+    <value>Not all project lines are finished. Do you still want to close the project?</value>
+  </data>
+  <data name="ConfirmProjectOpen" xml:space="preserve">
+    <value>Do you want to open the project {0} ?</value>
+  </data>
+  <data name="ConfirmResetColumnSettings" xml:space="preserve">
+    <value>Reset settings to defaults?</value>
+  </data>
+  <data name="ConfirmResetColumnSettingsForControl" xml:space="preserve">
+    <value>Do you want to reset settings for {0}?</value>
+  </data>
+  <data name="ConfirmResetColumnSettingsForUsers" xml:space="preserve">
+    <value>Do you want to reset column settings for {0} user(s)?</value>
+  </data>
+  <data name="ConfirmResetCustomization" xml:space="preserve">
+    <value>Do you want to remove all customizations?</value>
+  </data>
+  <data name="ConfirmRunningTask" xml:space="preserve">
+    <value>Time tracking is in progress. Do you want to exit the program?</value>
+  </data>
+  <data name="ConfirmSetAsDefault" xml:space="preserve">
+    <value>Are you sure you want to set item '{0}' as default?</value>
+  </data>
+  <data name="ConfirmSetAsGeneral" xml:space="preserve">
+    <value>Are you sure you want to set item '{0}' as general?</value>
+  </data>
+  <data name="ConfirmSkipGeneration" xml:space="preserve">
+    <value>Do you want to skip project generation? All earlier projects will be also skipped.</value>
+  </data>
+  <data name="ConfirmUpdateClient" xml:space="preserve">
+    <value>Client version isn't suitable for the server version.
+Do you want to download and run update?</value>
+  </data>
+  <data name="ConfirmUpdateClientHotFix" xml:space="preserve">
+    <value>Do you want to download and run the recent update?</value>
+  </data>
+  <data name="ConfirmUpdateDeliveryDateForPL" xml:space="preserve">
+    <value>Do you want to update delivery date for all project lines?</value>
+  </data>
+  <data name="ConfirmUseSettingsAsDefault" xml:space="preserve">
+    <value>Use settings as default?</value>
+  </data>
+  <data name="ConnectErrorMessage" xml:space="preserve">
+    <value>There is an error with the server communication:
+
+{0}
+
+Press "Restart" to restart the application, "Cancel" to remain on the page</value>
+  </data>
+  <data name="ContactAlreadyExist" xml:space="preserve">
+    <value>This contact already exists for this OrgUnit</value>
+  </data>
+  <data name="Converting" xml:space="preserve">
+    <value>Converting ...</value>
+  </data>
+  <data name="DateNotSpecified" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="DeleteArticleConfirmationText" xml:space="preserve">
+    <value>Now you will delete the Article</value>
+  </data>
+  <data name="DeleteArticleConfirmationTitle" xml:space="preserve">
+    <value>Article removing confirmation</value>
+  </data>
+  <data name="DeleteDocumentConfirmationText" xml:space="preserve">
+    <value>Now you will delete the WHOLE document.
+(to delete a document line, open document first)</value>
+  </data>
+  <data name="DeleteDocumentConfirmationTitle" xml:space="preserve">
+    <value>Document removing confirmation</value>
+  </data>
+  <data name="DeleteProjectConfirmationText" xml:space="preserve">
+    <value>Now you will delete the WHOLE project.
+(to delete a project line, open project lines first)</value>
+  </data>
+  <data name="DeleteProjectConfirmationTitle" xml:space="preserve">
+    <value>Project removing confirmation</value>
+  </data>
+  <data name="DeletingWait" xml:space="preserve">
+    <value>Deleting ...</value>
+  </data>
+  <data name="DirectoryNotFoundError" xml:space="preserve">
+    <value>Directory not found ({0})</value>
+  </data>
+  <data name="DiscardYourChanges" xml:space="preserve">
+    <value>Discard your changes</value>
+  </data>
+  <data name="DocumentDetail" xml:space="preserve">
+    <value>Document line</value>
+  </data>
+  <data name="DocumentForSpecifiedPeriodAlreadyExists" xml:space="preserve">
+    <value>Document for specified period already exists</value>
+  </data>
+  <data name="DocumentHeader" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="DocumentLocked" xml:space="preserve">
+    <value>Document is locked by {0}.</value>
+  </data>
+  <data name="DocumentLockedForDeletion" xml:space="preserve">
+    <value>Document is locked by {0}.
+You cannot remove it.</value>
+  </data>
+  <data name="DocumentLockedForModification" xml:space="preserve">
+    <value>Document is locked by {0}.
+You cannot modify it.</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Downloaded</value>
+  </data>
+  <data name="DoYouReallyWantToChangeStateFromFinished" xml:space="preserve">
+    <value>Do you want to change status from finished?</value>
+  </data>
+  <data name="DoYouWantToChangeProperty" xml:space="preserve">
+    <value>Do you want to change &lt;PropName&gt;?</value>
+  </data>
+  <data name="DuplicateVendorInVendorArticles" xml:space="preserve">
+    <value>Vendor article from this vendor already exists in the list. Please remove it first</value>
+  </data>
+  <data name="ElectricalSymbolsShapes" xml:space="preserve">
+    <value>Electrical Symbols</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ErrorAlreadyExistsDocumentWithSameSubtype" xml:space="preserve">
+    <value>Already exists a document with the same subtype!</value>
+  </data>
+  <data name="ErrorBreakMustBeInTimePeriod" xml:space="preserve">
+    <value>Break must be in time period</value>
+  </data>
+  <data name="ErrorBreakNotSpecified" xml:space="preserve">
+    <value>Break period is not specified</value>
+  </data>
+  <data name="ErrorBreaksMustBeInDifferentPeriods" xml:space="preserve">
+    <value>Breaks must be in different periods</value>
+  </data>
+  <data name="ErrorCantConvertToPdf" xml:space="preserve">
+    <value>Can't convert to Pdf</value>
+  </data>
+  <data name="ErrorInvalidSalaryCodePeriod" xml:space="preserve">
+    <value>Invalid salary code period</value>
+  </data>
+  <data name="ErrorOnSavingAutoCalcServerProblem" xml:space="preserve">
+    <value>Error while saving. AutoCalc server's problem. Try again later!</value>
+  </data>
+  <data name="ErrorOnSavingCheckLicense" xml:space="preserve">
+    <value>Error while saving. Check license's information!</value>
+  </data>
+  <data name="ErrorPeriodNotSpecified" xml:space="preserve">
+    <value>Time period is not specified</value>
+  </data>
+  <data name="ErrorRangesIntersect" xml:space="preserve">
+    <value>Ranges intersect</value>
+  </data>
+  <data name="ErrorTheFoundLotIsNotProductLot" xml:space="preserve">
+    <value>The found lot is not a product lot</value>
+  </data>
+  <data name="ErrorThereAreNotSuitableWorkOrders" xml:space="preserve">
+    <value>There are no suitable work orders</value>
+  </data>
+  <data name="ErrorThereAreNoWorkOrdersInProject" xml:space="preserve">
+    <value>There are no work orders in project</value>
+  </data>
+  <data name="ErrorWrongArticleCode" xml:space="preserve">
+    <value>Wrong article code</value>
+  </data>
+  <data name="ErrorWrongCompanyTypeForProjectType" xml:space="preserve">
+    <value>Wrong company type set up for project type</value>
+  </data>
+  <data name="ErrorWrongDocumentNumber" xml:space="preserve">
+    <value>Wrong document number</value>
+  </data>
+  <data name="ErrorWrongProjectNumber" xml:space="preserve">
+    <value>Wrong project number</value>
+  </data>
+  <data name="ExcelFileIsEmpty" xml:space="preserve">
+    <value>Microsoft Excel file is empty</value>
+  </data>
+  <data name="ExcelNotInstalled" xml:space="preserve">
+    <value>Not found any version of Microsoft Excel</value>
+  </data>
+  <data name="ExportCode" xml:space="preserve">
+    <value>Export code</value>
+  </data>
+  <data name="ExportException" xml:space="preserve">
+    <value>Export exception</value>
+  </data>
+  <data name="Exporting" xml:space="preserve">
+    <value>Exporting</value>
+  </data>
+  <data name="FatalErrorMessage" xml:space="preserve">
+    <value>Unexpected error in the application
+
+Press "OK" to exit, "Restart" to restart application or "Cancel" to stay on the page</value>
+  </data>
+  <data name="FileExistsInDb" xml:space="preserve">
+    <value>File already exists in the database</value>
+  </data>
+  <data name="FileHasNewVersion" xml:space="preserve">
+    <value>File you want to open already has a new version</value>
+  </data>
+  <data name="FileIsMissing" xml:space="preserve">
+    <value>File is missing</value>
+  </data>
+  <data name="FileNameValidationError" xml:space="preserve">
+    <value>A file name cannot contain any of the following characters: {0}</value>
+  </data>
+  <data name="FlowChartingShapes" xml:space="preserve">
+    <value>Flow charting</value>
+  </data>
+  <data name="FooterCheckedFormat" xml:space="preserve">
+    <value>Checked: {0}</value>
+  </data>
+  <data name="FooterCountFormat" xml:space="preserve">
+    <value>Count: {0}</value>
+  </data>
+  <data name="GeneratePeriodsFailed" xml:space="preserve">
+    <value>Failed to generate periods within specified year ({0}).{1}Make sure that periods in this year have not been created previously.</value>
+  </data>
+  <data name="GrabillaNotFound" xml:space="preserve">
+    <value>Looks like Grabilla not installed. Do you want to install it now?</value>
+  </data>
+  <data name="HostIsInvalidOrUnavailable" xml:space="preserve">
+    <value>Host '{0}'
+is invalid or unavailable</value>
+  </data>
+  <data name="ImageResizingFailed" xml:space="preserve">
+    <value>Image resizing failed or takes too much time.
+Please open the image in an external viewer.</value>
+  </data>
+  <data name="ImportException" xml:space="preserve">
+    <value>Import exception</value>
+  </data>
+  <data name="Importing" xml:space="preserve">
+    <value>Importing ...</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="IntegerMinimum" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="InvalidArticlePrefixFormatString" xml:space="preserve">
+    <value>Invalid prefix format string!</value>
+  </data>
+  <data name="InvalidDirectoryPath" xml:space="preserve">
+    <value>Invalid directory path!</value>
+  </data>
+  <data name="InvalidFileName" xml:space="preserve">
+    <value>Invalid file name</value>
+  </data>
+  <data name="InvalidFilePath" xml:space="preserve">
+    <value>Invalid file path!</value>
+  </data>
+  <data name="InvalidFolderName" xml:space="preserve">
+    <value>Invalid folder name!</value>
+  </data>
+  <data name="InvalidFromTime" xml:space="preserve">
+    <value>Start time value must be less than or equal to end time!</value>
+  </data>
+  <data name="InvalidInteger" xml:space="preserve">
+    <value>Invalid integer!</value>
+  </data>
+  <data name="InvalidInvoicePeriod" xml:space="preserve">
+    <value>Invoice period end is less than period start</value>
+  </data>
+  <data name="InvalidProjectPrefixFormatString" xml:space="preserve">
+    <value>Invalid prefix format string!</value>
+  </data>
+  <data name="InvalidToTime" xml:space="preserve">
+    <value>End time value must be greater than or equal to start time!</value>
+  </data>
+  <data name="InvalidUrl" xml:space="preserve">
+    <value>Invalid url</value>
+  </data>
+  <data name="InvalidValue" xml:space="preserve">
+    <value>Invalid value!</value>
+  </data>
+  <data name="InvalidWatermarkFormatString" xml:space="preserve">
+    <value>Invalid watermark format string!</value>
+  </data>
+  <data name="InvoicingLinesForThisPeriodAlreadyExists" xml:space="preserve">
+    <value>Invoicing lines for this period already exist</value>
+  </data>
+  <data name="InWorkAssemblyTreeLine" xml:space="preserve">
+    <value>In work assembly tree line</value>
+  </data>
+  <data name="InWorkOperation" xml:space="preserve">
+    <value>In work operation</value>
+  </data>
+  <data name="InWorkOperationChecklistTask" xml:space="preserve">
+    <value>In work operation checklist task</value>
+  </data>
+  <data name="IsNotAnImage" xml:space="preserve">
+    <value>'{0}' is not an image or it's format is not supported</value>
+  </data>
+  <data name="LastTimeYouWorkedWithDocumentModified" xml:space="preserve">
+    <value>Last time you worked with document {0} you did not upload it to Workflow.</value>
+  </data>
+  <data name="LicenseError" xml:space="preserve">
+    <value>License error: {0}</value>
+  </data>
+  <data name="LicenseExpiresError" xml:space="preserve">
+    <value>License expires in {0} day(s). Please contact administrator</value>
+  </data>
+  <data name="LicenseIsExpiredError" xml:space="preserve">
+    <value>License is expired. Please contact administrator</value>
+  </data>
+  <data name="LoadingClientInstaller" xml:space="preserve">
+    <value>Loading client installer ...</value>
+  </data>
+  <data name="LoadingWait" xml:space="preserve">
+    <value>Loading ...</value>
+  </data>
+  <data name="LocalCopyOfFileHaveModification" xml:space="preserve">
+    <value>Local copy of this file have modification. Do you want to open local file instead?</value>
+  </data>
+  <data name="LocalSyncFolderNotFound" xml:space="preserve">
+    <value>There is no local folder which would correspond to server folder. Want to specify it?</value>
+  </data>
+  <data name="Lot" xml:space="preserve">
+    <value>Lot</value>
+  </data>
+  <data name="MultiChangeConfirmationText" xml:space="preserve">
+    <value>Confirm the number of items you want to modify (ex. {0})</value>
+  </data>
+  <data name="MultiDeleteConfirmationText" xml:space="preserve">
+    <value>Confirm the number of items you want to delete (ex. {0})</value>
+  </data>
+  <data name="MustSelectItem" xml:space="preserve">
+    <value>You must select item for this field</value>
+  </data>
+  <data name="NameAlreadyExistConfirmation" xml:space="preserve">
+    <value>A company with the same name is already registered. Do you want to register a duplicate?</value>
+  </data>
+  <data name="NewBatch" xml:space="preserve">
+    <value>New batch</value>
+  </data>
+  <data name="NewDocument" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="NewPurchaseProject" xml:space="preserve">
+    <value>New purchase project</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoMatchesFound" xml:space="preserve">
+    <value>No matches found</value>
+  </data>
+  <data name="NoReportExistsForControl" xml:space="preserve">
+    <value>No reports exists for control</value>
+  </data>
+  <data name="NotAListBox" xml:space="preserve">
+    <value>Not a listbox! Use other validation rule!</value>
+  </data>
+  <data name="NotAssignedArticles" xml:space="preserve">
+    <value>*Not assigned articles</value>
+  </data>
+  <data name="NotBlank" xml:space="preserve">
+    <value>With content</value>
+  </data>
+  <data name="NotCorrectAnswer" xml:space="preserve">
+    <value>The answer isn't correct!</value>
+  </data>
+  <data name="NotCompletedChecklistTaskPresent" xml:space="preserve">
+    <value>Not all check list tasks are completed</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="NotSupportedReportRichTextFileFormat" xml:space="preserve">
+    <value>Warning! File "{0}" has format that not supported for preview. Use one of: {1}</value>
+  </data>
+  <data name="NoVendorSpecifiedForProject" xml:space="preserve">
+    <value>Error: A vendor is not specified for the project</value>
+  </data>
+  <data name="NowYouWillDeleteCompanyIncludingDetails" xml:space="preserve">
+    <value>Now you will delete the company name including details. Do you really want to delete?</value>
+  </data>
+  <data name="NumberNotSpecified" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="OperationChecklistTaskTemplate" xml:space="preserve">
+    <value>Operation checklist task template</value>
+  </data>
+  <data name="OperationTemplate" xml:space="preserve">
+    <value>Operation template</value>
+  </data>
+  <data name="OrganizationNotDefined" xml:space="preserve">
+    <value>Unknown organization</value>
+  </data>
+  <data name="OrgUnit" xml:space="preserve">
+    <value>Org unit</value>
+  </data>
+  <data name="OutOfRange" xml:space="preserve">
+    <value>Value is out of range!</value>
+  </data>
+  <data name="PasswordAndConfirmationDoesNotMatch" xml:space="preserve">
+    <value>The password and confirmation does not match</value>
+  </data>
+  <data name="PasswordChanged" xml:space="preserve">
+    <value>Password sucessfully changed</value>
+  </data>
+  <data name="PleaseEnterCorrectValue" xml:space="preserve">
+    <value>Please enter a correct value</value>
+  </data>
+  <data name="PleaseEnterGreaterZero" xml:space="preserve">
+    <value>Please enter a number greater than zero</value>
+  </data>
+  <data name="PleaseEnterOrSelectValue" xml:space="preserve">
+    <value>Please enter a value</value>
+  </data>
+  <data name="PleaseEnterUniqueArticleCodeValue" xml:space="preserve">
+    <value>Please enter unique article code value</value>
+  </data>
+  <data name="PleaseEnterValidEmail" xml:space="preserve">
+    <value>Please enter a valid email address(es)</value>
+  </data>
+  <data name="PleaseEnterValidNumberList" xml:space="preserve">
+    <value>Please enter a valid list of numbers</value>
+  </data>
+  <data name="PleaseEnterValidSingleEmail" xml:space="preserve">
+    <value>Please enter a valid email address</value>
+  </data>
+  <data name="PleaseEnterValue" xml:space="preserve">
+    <value>Please enter a value</value>
+  </data>
+  <data name="PleaseEnterZeroOrGreaterZero" xml:space="preserve">
+    <value>Please enter a number greater than or equal to zero</value>
+  </data>
+  <data name="PleaseRestartZigmaForAppliyngLicenseSettings" xml:space="preserve">
+    <value>Please restart Zigma360 for appliyng license settings.</value>
+  </data>
+  <data name="PleaseSelectAction" xml:space="preserve">
+    <value>Please select action:</value>
+  </data>
+  <data name="PleaseSelectExistingObject" xml:space="preserve">
+    <value>This object is removed from database! Please select an existing object.</value>
+  </data>
+  <data name="PleaseSelectPurchaseProject" xml:space="preserve">
+    <value>Please select a purchase project</value>
+  </data>
+  <data name="PostingDocument" xml:space="preserve">
+    <value>Document posting ...</value>
+  </data>
+  <data name="PostingError" xml:space="preserve">
+    <value>Posting error</value>
+  </data>
+  <data name="Preparing" xml:space="preserve">
+    <value>Preparing</value>
+  </data>
+  <data name="PreparingReport" xml:space="preserve">
+    <value>Preparing report ...</value>
+  </data>
+  <data name="Process" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="ProcessingWait" xml:space="preserve">
+    <value>Processing ...</value>
+  </data>
+  <data name="ProductHasNoOperationsError" xml:space="preserve">
+    <value>Product has no operations</value>
+  </data>
+  <data name="ProgressLoading" xml:space="preserve">
+    <value>Loading ({0} of {1} items)</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="ProjectAssemblyTreeLine" xml:space="preserve">
+    <value>Project assembly tree line</value>
+  </data>
+  <data name="ProjectChecklistTask" xml:space="preserve">
+    <value>Project checklist task</value>
+  </data>
+  <data name="ProjectCheckListTasks" xml:space="preserve">
+    <value>Project check list tasks</value>
+  </data>
+  <data name="ProjectChecklistTaskTemplate" xml:space="preserve">
+    <value>Project checklist task template</value>
+  </data>
+  <data name="ProjectConfirmationText" xml:space="preserve">
+    <value>Please enter the project's number to confirm the action</value>
+  </data>
+  <data name="ProjectConfirmationTitle" xml:space="preserve">
+    <value>Project confirmation</value>
+  </data>
+  <data name="ProjectLine" xml:space="preserve">
+    <value>Project line</value>
+  </data>
+  <data name="ProjectNumberPrefixNotSpecified" xml:space="preserve">
+    <value>Project number prefix is not specified</value>
+  </data>
+  <data name="ProjectOperation" xml:space="preserve">
+    <value>Project operation</value>
+  </data>
+  <data name="ProjectNotFound" xml:space="preserve">
+    <value>Project is not found</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="QuestionRowDelete" xml:space="preserve">
+    <value>Do you want to delete a row?</value>
+  </data>
+  <data name="RebuildingDocument" xml:space="preserve">
+    <value>Document rebuilding ...</value>
+  </data>
+  <data name="RecipientAddressesAreNotDefined" xml:space="preserve">
+    <value>Recipient addresses are not defined</value>
+  </data>
+  <data name="RelatedProjects" xml:space="preserve">
+    <value>Related projects</value>
+  </data>
+  <data name="RemoveOUGroup" xml:space="preserve">
+    <value>Group contains OUs! Proceed removing? OUs weren't removed!</value>
+  </data>
+  <data name="RequestForVendorPrices" xml:space="preserve">
+    <value>Request for vendor prices</value>
+  </data>
+  <data name="RequestingServerData" xml:space="preserve">
+    <value>Requesting server data ...</value>
+  </data>
+  <data name="ResizingImage" xml:space="preserve">
+    <value>Resizing an image</value>
+  </data>
+  <data name="ResourceWithSameNumberAlreadyExists" xml:space="preserve">
+    <value>Resource with the same number already exists</value>
+  </data>
+  <data name="RollbackDocumentConfirmationText" xml:space="preserve">
+    <value>Now you will rollback the document.
+(all journal lines will be deleted)</value>
+  </data>
+  <data name="RollbackDocumentConfirmationTitle" xml:space="preserve">
+    <value>Document rollback confirmation</value>
+  </data>
+  <data name="RollbackRemittanceDocumentConfirmationText" xml:space="preserve">
+    <value>&lt;b&gt;Attention!&lt;/b&gt;
+This document has been sent to a bank.
+Rollback can lead to mistakes in payments.</value>
+  </data>
+  <data name="RollingBackDocument" xml:space="preserve">
+    <value>Rolling back ...</value>
+  </data>
+  <data name="SaveYourChanges" xml:space="preserve">
+    <value>Save your changes</value>
+  </data>
+  <data name="SaveYourChangesAsANewFile" xml:space="preserve">
+    <value>Save your changes as a new file</value>
+  </data>
+  <data name="SavingLicense" xml:space="preserve">
+    <value>Saving license ...</value>
+  </data>
+  <data name="SavingWait" xml:space="preserve">
+    <value>Saving ...</value>
+  </data>
+  <data name="ScanBarcode" xml:space="preserve">
+    <value>Scan using webcamera</value>
+  </data>
+  <data name="SearchCTRL_F" xml:space="preserve">
+    <value>Search (Ctrl+F)</value>
+  </data>
+  <data name="SelectCommonDictionaryValue" xml:space="preserve">
+    <value>Select value from common dictionary</value>
+  </data>
+  <data name="ServerCommunicationProblemTryAgain" xml:space="preserve">
+    <value>Server communication problem.\r\nCheck your network connection and try again.</value>
+  </data>
+  <data name="ShouldBeZero" xml:space="preserve">
+    <value>Should be zero</value>
+  </data>
+  <data name="ShouldNotBeZero" xml:space="preserve">
+    <value>Should not be zero</value>
+  </data>
+  <data name="ShowSettingsPanel" xml:space="preserve">
+    <value>Show settings panel</value>
+  </data>
+  <data name="SpecificationListTypeWillBeChanged" xml:space="preserve">
+    <value>Specification list type will be changed! Do you want to continue?</value>
+  </data>
+  <data name="SpecifyCustomerAccount" xml:space="preserve">
+    <value>Error: The customer account is not specified</value>
+  </data>
+  <data name="SpecifyCustomerNumber" xml:space="preserve">
+    <value>Error: The customer number is not specified</value>
+  </data>
+  <data name="SpecifyCustomersAccount" xml:space="preserve">
+    <value>Error: The account for customers is not specified in system settings</value>
+  </data>
+  <data name="SpecifyCustomersSubledger" xml:space="preserve">
+    <value>Error: The subledger for customers is not specified in system settings</value>
+  </data>
+  <data name="SpecifyGeneralLedger" xml:space="preserve">
+    <value>Error: The general ledger is not specified in system settings</value>
+  </data>
+  <data name="SpecifyVendorAccount" xml:space="preserve">
+    <value>Error: The vendor account is not specified</value>
+  </data>
+  <data name="SpecifyVendorNotInvoiceAccount" xml:space="preserve">
+    <value>Error: The vendor's not invoice account is not specified</value>
+  </data>
+  <data name="SpecifyVendorNumber" xml:space="preserve">
+    <value>Error: The vendor number is not specified</value>
+  </data>
+  <data name="SpecifyVendorsAccount" xml:space="preserve">
+    <value>Error: The account for vendors is not specified in system settings</value>
+  </data>
+  <data name="SpecifyVendorsSubledger" xml:space="preserve">
+    <value>Error: The subledger for vendors is not specified in system settings</value>
+  </data>
+  <data name="SpellingErrorTypeAgreeAgain" xml:space="preserve">
+    <value>Spelling error. Type "Agree" again.</value>
+  </data>
+  <data name="StartingApp" xml:space="preserve">
+    <value>Entering Zigma360 ...</value>
+  </data>
+  <data name="TargetProjectTypeNotSpecified" xml:space="preserve">
+    <value>A target project type for the current project is not specified.</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="TenantAlreadyExist" xml:space="preserve">
+    <value>The tenant already exists</value>
+  </data>
+  <data name="TheArticleDontUseLatestDrawing" xml:space="preserve">
+    <value>The article does not use latest drawing. Do you really want to use it?</value>
+  </data>
+  <data name="TheCurrentUserDoesNotHaveAnyEmails" xml:space="preserve">
+    <value>The current user does not have any email addresses</value>
+  </data>
+  <data name="ThereIsANewRevisionOfThisFileInWorkflow" xml:space="preserve">
+    <value>There is a new revision of this file in Workflow, so you are not able to save changes to original document, create a new file instead.</value>
+  </data>
+  <data name="ThisWillDeleteFilesPermanently" xml:space="preserve">
+    <value>This will delete files permanently. Do you want to continue?</value>
+  </data>
+  <data name="TimeForToday" xml:space="preserve">
+    <value>Today's time</value>
+  </data>
+  <data name="TimeMustBeGreater" xml:space="preserve">
+    <value>Time must be greater</value>
+  </data>
+  <data name="TotalSumMustBeGreaterThanZero" xml:space="preserve">
+    <value>Total sum must be greater than zero</value>
+  </data>
+  <data name="TypeAgreeToContinue" xml:space="preserve">
+    <value>Type "&lt;b&gt;Agree&lt;/b&gt;" to continue</value>
+  </data>
+  <data name="UnableCreateCustomProjectTypeWithDuplicatePrefix" xml:space="preserve">
+    <value>Unable to create a custom project type. Custom project type with the same project number prefix already exists.</value>
+  </data>
+  <data name="UndoPdfPageChanges" xml:space="preserve">
+    <value>All changes on this page will be reverted.
+Are you sure you want to continue?</value>
+  </data>
+  <data name="UpdatingArticlePriceListPrice" xml:space="preserve">
+    <value>Updating articles price list prices</value>
+  </data>
+  <data name="UpdatingLicense" xml:space="preserve">
+    <value>Updating license ...</value>
+  </data>
+  <data name="UsedGroups" xml:space="preserve">
+    <value>Used groups</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="UserIsNotLoggedOn" xml:space="preserve">
+    <value>User is not logged on</value>
+  </data>
+  <data name="UsersWithoutGroup" xml:space="preserve">
+    <value>Users without group</value>
+  </data>
+  <data name="UserWithSameNameAlreadyExists" xml:space="preserve">
+    <value>User with the same login already exists</value>
+  </data>
+  <data name="VendorArticleAlreadyAssigned" xml:space="preserve">
+    <value>Selected vendor article already assigned to "{0}".
+Do you want to link to "{1}" instead?</value>
+  </data>
+  <data name="ViewActualFile" xml:space="preserve">
+    <value>View actual file</value>
+  </data>
+  <data name="ViewHistoryFile" xml:space="preserve">
+    <value>View history file</value>
+  </data>
+  <data name="ViewOriginalFile" xml:space="preserve">
+    <value>View original file</value>
+  </data>
+  <data name="ViewYourFile" xml:space="preserve">
+    <value>View your file</value>
+  </data>
+  <data name="Wait" xml:space="preserve">
+    <value>Please wait</value>
+  </data>
+  <data name="WantToMerge" xml:space="preserve">
+    <value>There are opened for merge projects for vendor '{0}' exist.{1}You can merge this project with one of existing ones, or create new project. Want to merge?</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="WarningResourcesPriceChanges" xml:space="preserve">
+    <value>NB! Changes made here will immediately influence the Articles' assembly</value>
+  </data>
+  <data name="WokflowItemUsedBySystem" xml:space="preserve">
+    <value>Wokflow item used by system and can't be deleted</value>
+  </data>
+  <data name="WorkflowItemNumber" xml:space="preserve">
+    <value>Workflow item number</value>
+  </data>
+  <data name="WorkflowItemSubtypesWithoutGroup" xml:space="preserve">
+    <value>*Subtypes without group</value>
+  </data>
+  <data name="WorkflowItemsWithoutGroup" xml:space="preserve">
+    <value>Workflow items without group</value>
+  </data>
+  <data name="WorkOrder" xml:space="preserve">
+    <value>Work order</value>
+  </data>
+  <data name="WorkOrderAssemblyTreeLine" xml:space="preserve">
+    <value>Work order assembly tree line</value>
+  </data>
+  <data name="WorkOrderChecklistTask" xml:space="preserve">
+    <value>Work order checklist task</value>
+  </data>
+  <data name="WorkOrderChecklistTaskTemplate" xml:space="preserve">
+    <value>Work order checklist task template</value>
+  </data>
+  <data name="WorkOrderOperation" xml:space="preserve">
+    <value>Work order operation</value>
+  </data>
+  <data name="WrongBarcodeType" xml:space="preserve">
+    <value>Wrong barcode type</value>
+  </data>
+  <data name="WrongFileNameFormat" xml:space="preserve">
+    <value>Wrong format</value>
+  </data>
+  <data name="WrongOldPassword" xml:space="preserve">
+    <value>Wrong old password</value>
+  </data>
+  <data name="WrongPaymentDate" xml:space="preserve">
+    <value>Wrong payment date</value>
+  </data>
+  <data name="WrongReportData" xml:space="preserve">
+    <value>Report contains no or wrong data</value>
+  </data>
+  <data name="WrongSerialNumberDefinitionFormat" xml:space="preserve">
+    <value>Wrong format</value>
+  </data>
+  <data name="WrongUserOrPassword" xml:space="preserve">
+    <value>Wrong user or password</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="TheCodeAlreadyExists" xml:space="preserve">
+    <value>The code already exists</value>
+  </data>
+  <data name="FailedToChangePassword" xml:space="preserve">
+    <value>Failed to change password</value>
+  </data>
+  <data name="NewPasswordAndConfirmationDoesNotMatch" xml:space="preserve">
+    <value>The new and confirmation password does not match</value>
+  </data>
+  <data name="PleaseUseOtherPassword" xml:space="preserve">
+    <value>Please use other password</value>
+  </data>
+  <data name="RequireCertificateOrSerial" xml:space="preserve">
+    <value>Please specify certificate or serial number</value>
+  </data>
+  <data name="FileIsLockedByOtheProcess" xml:space="preserve">
+    <value>File is already locked by some other process</value>
+  </data>
+  <data name="VendorArticleRequiresMasterArticle" xml:space="preserve">
+    <value>Vendor article requires a master article</value>
+  </data>
+  <data name="ChangedByUserOn" xml:space="preserve">
+    <value>Changed by {0} on {1}</value>
+  </data>
+  <data name="DeleteDocumentConfirmationTextShort" xml:space="preserve">
+    <value>Now you will delete the WHOLE document.</value>
+  </data>
+  <data name="WarningNonSalaryTime" xml:space="preserve">
+    <value>NB! Hours recorded here are not registered as salary hours</value>
+  </data>
+  <data name="OperationsAreConnectedToMaterialLine" xml:space="preserve">
+    <value>NB! These operations are connected to material line</value>
+  </data>
+  <data name="BudgetForYear" xml:space="preserve">
+    <value>Budget {0}</value>
+  </data>
+  <data name="WriteSignature" xml:space="preserve">
+    <value>Write signature</value>
+  </data>
+  <data name="CantRegisterTime" xml:space="preserve">
+    <value>You have no permissions to register work hours</value>
+  </data>
+  <data name="ContactPersonsLogonDenied" xml:space="preserve">
+    <value>Contact persons are denied!</value>
+  </data>
+  <data name="UserDoesntHaveLicense" xml:space="preserve">
+    <value>User doesn't have a license</value>
+  </data>
+  <data name="HasNoPermissionsToCantSaveTimeRecord" xml:space="preserve">
+    <value>You have no permissions to save the time record for this day</value>
+  </data>
+  <data name="SuffixAsChild" xml:space="preserve">
+    <value>as child</value>
+  </data>
+  <data name="SuffixAsRoot" xml:space="preserve">
+    <value>as root</value>
+  </data>
+  <data name="InfoForgottenTimeRecordWasStopped" xml:space="preserve">
+    <value>Time tracking was not stopped last time you exited the program.\nCheck the last time record.</value>
+  </data>
+  <data name="FileNotFoundOnTheServerDeleteBrokenLink" xml:space="preserve">
+    <value>The '{0}' file is not found on the server. Delete broken link?</value>
+  </data>
+  <data name="WrongDateRangeForBatchTimeRegistration" xml:space="preserve">
+    <value>Wrong date range is specified</value>
+  </data>
+  <data name="FileExistsUseItQuestion" xml:space="preserve">
+    <value>The '{0}' file exists. Do you want to use it?</value>
+  </data>
+  <data name="FileNotFoundOnTheServer" xml:space="preserve">
+    <value>The '{0}' file is not found on the server.</value>
+  </data>
+  <data name="UploadingWait" xml:space="preserve">
+    <value>Uploading ...</value>
+  </data>
+  <data name="FileUploadCompleted" xml:space="preserve">
+    <value>File upload completed</value>
+  </data>
+  <data name="TryAgainQuestion" xml:space="preserve">
+    <value>Do you want to try again?</value>
+  </data>
+  <data name="UploadInterruptedWithError" xml:space="preserve">
+    <value>Upload to the '{0}' server is interrupted. Error:</value>
+  </data>
+  <data name="SplitLots_NoCertificateOrSerial" xml:space="preserve">
+    <value>Certificate or serial number is missing</value>
+  </data>
+  <data name="SplitLots_NoLot" xml:space="preserve">
+    <value>A lot is not specified</value>
+  </data>
+  <data name="SplitLots_NoMaterial" xml:space="preserve">
+    <value>A material is not selected</value>
+  </data>
+  <data name="SplitLots_QuantityDoesnotMatch" xml:space="preserve">
+    <value>Quantity does not match</value>
+  </data>
+  <data name="WrongFormat" xml:space="preserve">
+    <value>Wrong format</value>
+  </data>
+  <data name="TimeRegistrationLockDatesInfo" xml:space="preserve">
+    <value>Closing date for Time registration {0}, Time administration {1}</value>
+  </data>
+  <data name="TheLotCantBeUsedWithoutArticle" xml:space="preserve">
+    <value>The lot can't be used as it has no article assigned</value>
+  </data>
+  <data name="NotSpecified" xml:space="preserve">
+    <value>Not specified</value>
+  </data>
+  <data name="VendorNotSpecified" xml:space="preserve">
+    <value>Vendor is not specified</value>
+  </data>
+  <data name="CantCloseProjectNotAllMaterialsPicked" xml:space="preserve">
+    <value>Can’t close the project as not all materials were picked</value>
+  </data>
+  <data name="SelectedFileCannotBeImportedHere" xml:space="preserve">
+    <value>Selected file cannot be imported here</value>
+  </data>
+  <data name="VendorArticleNothingToAssign" xml:space="preserve">
+    <value>Selected vendor article(s) already assigned to this master article</value>
+  </data>
+  <data name="WatermarkNotAppliedException" xml:space="preserve">
+    <value>The watermark was not applied</value>
+  </data>
+  <data name="IncorrectFileFormat" xml:space="preserve">
+    <value>Incorrect file format</value>
+  </data>
+  <data name="InvoiceLinesAreMissing" xml:space="preserve">
+    <value>Invoice lines are missing</value>
+  </data>
+  <data name="ErrorTheClientIsNotRegistered" xml:space="preserve">
+    <value>The client is not registered!</value>
+  </data>
+  <data name="CantEditPdf" xml:space="preserve">
+    <value>This pdf file can't be edited</value>
+  </data>
+  <data name="AndNMore" xml:space="preserve">
+    <value>and {0} more</value>
+  </data>
+  <data name="ThisItemInUseForNObjects" xml:space="preserve">
+    <value>This item in use for {0} object(s):</value>
+  </data>
+  <data name="UnableChangeProductTypeColon" xml:space="preserve">
+    <value>Unable to change product type:</value>
+  </data>
+  <data name="ErrorNoEmailProgramsFound" xml:space="preserve">
+    <value>No email programs found</value>
+  </data>
+  <data name="ViewProjectInNewTab" xml:space="preserve">
+    <value>View project in new tab</value>
+  </data>
+  <data name="PleaseEnterValidAccountRange" xml:space="preserve">
+    <value>Please enter a valid account range(s)
+For example: 3000-3200;3300,3400,3500-3600</value>
+  </data>
+  <data name="SalaryCodesGrid_MandatorySalaryCode" xml:space="preserve">
+    <value>Salary code should be specified if you set time for it</value>
+  </data>
+  <data name="SalaryCodesGrid_TooBigTime" xml:space="preserve">
+    <value>Time must be less than or equal to total time</value>
+  </data>
+  <data name="Brief" xml:space="preserve">
+    <value>quick</value>
+  </data>
+  <data name="ControlDataIsOutOfDate" xml:space="preserve">
+    <value>Control data is out of date.</value>
+  </data>
+  <data name="CantSaveDoYouWantExportData" xml:space="preserve">
+    <value>Changes can't be saved because you are working with old data:
+    &lt;{0}&gt; is obsolete. 
+Do you want to export current data before Note Editor will be closed?</value>
+  </data>
+  <data name="ConfirmStopRemindingSelectedInvoices" xml:space="preserve">
+    <value>Do you want to stop sending reminder for {0} selected invoices?</value>
+  </data>
+  <data name="ConfirmStopRemindingSingleInvoice" xml:space="preserve">
+    <value>Do you want to stop sending reminder for the invoice '{0}'? {1}</value>
+  </data>
+  <data name="MultiItemsConfirmationText" xml:space="preserve">
+    <value>Confirm the number of items (ex. {0})</value>
+  </data>
+  <data name="ConfirmSendToDebtCollectorsSelectedInvoices" xml:space="preserve">
+    <value>Do you want to mark {0} selected invoices as “Sent to debt collectors”?</value>
+  </data>
+  <data name="ConfirmSendToDebtCollectorsSingleInvoice" xml:space="preserve">
+    <value>Do you want to mark the invoice '{0}' as “Sent to debt collectors”? {1}</value>
+  </data>
+  <data name="ConfirmRemoveSendToDebtCollectorsSelectedInvoices" xml:space="preserve">
+    <value>Do you want to remove mark “Sent to debt collectors” from {0} selected invoices?</value>
+  </data>
+  <data name="ConfirmRemoveSendToDebtCollectorsSingleInvoice" xml:space="preserve">
+    <value>Do you want to remove mark “Sent to debt collectors” from the invoice '{0}'? {1}</value>
+  </data>
+  <data name="ConfirmResumeRemindingSelectedInvoices" xml:space="preserve">
+    <value>Do you want to resume sending reminder for {0} selected invoices?</value>
+  </data>
+  <data name="ConfirmResumeRemindingSingleInvoice" xml:space="preserve">
+    <value>Do you want to resume sending reminder for the invoice '{0}'? {1}</value>
+  </data>
+  <data name="CantSaveAssembly" xml:space="preserve">
+    <value>Can't save article assembly</value>
+  </data>
+  <data name="NewPurchaseProjectName_ForProject" xml:space="preserve">
+    <value>For {0} {1} - {2}</value>
+  </data>
+  <data name="NewPurchaseProjectName_ForProjectEmpty" xml:space="preserve">
+    <value>For {0} {1}</value>
+  </data>
+  <data name="NewPurchaseProjectName_ForVendor" xml:space="preserve">
+    <value>Purchase from {0}</value>
+  </data>
+  <data name="NewPurchaseProjectName_ToStock" xml:space="preserve">
+    <value>Purchase to stock</value>
+  </data>
+  <data name="ConfirmWorkOrdersReschedulingSelected" xml:space="preserve">
+    <value>Do you want to schedule {0} work orders?</value>
+  </data>
+  <data name="ConfirmWorkOrdersReschedulingSingle" xml:space="preserve">
+    <value>Do you want to schedule the work order {0} ? {1}</value>
+  </data>
+  <data name="ConfirmWorkOrdersUnschedulingSelected" xml:space="preserve">
+    <value>Do you want to unchedule {0} work orders?</value>
+  </data>
+  <data name="ConfirmWorkOrdersUnschedulingSingle" xml:space="preserve">
+    <value>Do you want to unschedule the work order {0} ? {1}</value>
+  </data>
+  <data name="Scheduling" xml:space="preserve">
+    <value>Scheduling</value>
+  </data>
+  <data name="Unscheduling" xml:space="preserve">
+    <value>Removing from planner</value>
+  </data>
+  <data name="UpdatingCapacities" xml:space="preserve">
+    <value>Updating capacities</value>
+  </data>
+  <data name="EditorSearchOrganizationByNameOrNumberHint" xml:space="preserve">
+    <value>Enter the company name or organization number</value>
+  </data>
+  <data name="EditorSearchOrganizationByNameHint" xml:space="preserve">
+    <value>Enter the company name</value>
+  </data>
+  <data name="ConfirmWorkOrdersRescheduling" xml:space="preserve">
+    <value>Do you want to schedule all "In work" work orders?</value>
+  </data>
+  <data name="OrgNumberAlreadyExistsConfirmation" xml:space="preserve">
+    <value>A company with the same organization number is already registered ({0}).
+Do you want to register a duplicate?</value>
+  </data>
+  <data name="RescheduleAllWorkOrdersConfirmationText" xml:space="preserve">
+    <value>All "in work" work orders except locked will be rescheduled</value>
+  </data>
+  <data name="RescheduleAllWorkOrdersConfirmationTitle" xml:space="preserve">
+    <value>Reschedule all work orders confirmation</value>
+  </data>
+  <data name="DoYouReallyWantToChangeStateToFinished" xml:space="preserve">
+    <value>Do you want to change status to finished?</value>
+  </data>
+  <data name="TimeForTodayStartedAt" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="SetWorkOrderFinishedFailed" xml:space="preserve">
+    <value>Wrong data is used to set the work order produced quantity</value>
+  </data>
+  <data name="SalaryCodesGrid_NoOvertimeAllowed" xml:space="preserve">
+    <value>No overtime allowed as the main salary code is also overtime</value>
+  </data>
+  <data name="SalaryCodesGrid_TooMuchOvertime" xml:space="preserve">
+    <value>Sum overtime cannot exceed the total work time</value>
+  </data>
+  <data name="ExportProcessSuccessfullyFinished" xml:space="preserve">
+    <value>Export process completed</value>
+  </data>
+  <data name="NoErrors" xml:space="preserve">
+    <value>No errors</value>
+  </data>
+  <data name="CantRegisterProducedItems" xml:space="preserve">
+    <value>"Is finished"or "Quantity produced" or "Quantity wreck" should be specified</value>
+  </data>
+  <data name="UpdatingAssemblies" xml:space="preserve">
+    <value>Updating assemblies</value>
+  </data>
+  <data name="UpdatingPricesFromVendorArticles" xml:space="preserve">
+    <value>Updating prices from vendor articles</value>
+  </data>
+  <data name="MoreThenOneVendorArticleWhithSameVendor" xml:space="preserve">
+    <value>More than one vendor article with the same vendor exists for this article. Please remove it at first.</value>
+  </data>
+  <data name="NumberOfSelectedInvoicesForExport" xml:space="preserve">
+    <value>{0} invoices are selected for export</value>
+  </data>
+  <data name="CantRollbackExportedInvoice" xml:space="preserve">
+    <value>Can't rollback exported invoice</value>
+  </data>
+  <data name="SuffixAsChildForcePLWorkflow" xml:space="preserve">
+    <value>as child with workflow</value>
+  </data>
+  <data name="SuffixAsRootForcePLWorkflow" xml:space="preserve">
+    <value>as root with workflow</value>
+  </data>
+  <data name="ConfirmMarkAsDraftSelectedEmails" xml:space="preserve">
+    <value>Do you want to cancel sending of {0} emails?</value>
+  </data>
+  <data name="ConfirmMarkAsDraftSelectedEmail" xml:space="preserve">
+    <value>Do you want to cancel the email sending?</value>
+  </data>
+  <data name="CertificateIsExpired" xml:space="preserve">
+    <value>The certificate is expired</value>
+  </data>
+  <data name="SelectCustomReferenceValue" xml:space="preserve">
+    <value>Select custom reference value</value>
+  </data>
+  <data name="ErrorHasOccurred" xml:space="preserve">
+    <value>An error has occurred:</value>
+  </data>
+  <data name="LoadingFrom" xml:space="preserve">
+    <value>Loading from</value>
+  </data>
+  <data name="LoadingFromSources" xml:space="preserve">
+    <value>Loading from sources</value>
+  </data>
+  <data name="LoadingInvoices" xml:space="preserve">
+    <value>Loading invoices ...</value>
+  </data>
+  <data name="TotalFilesLoaded" xml:space="preserve">
+    <value>Total {0} files loaded.</value>
+  </data>
+  <data name="ConfirmSaveAsMeasurementLogTemplate" xml:space="preserve">
+    <value>Do you want to save the measurement log as a template for the article?</value>
+  </data>
+  <data name="ChangeLocationWizardText" xml:space="preserve">
+    <value>For {0} selected lot(s) on {1}</value>
+  </data>
+  <data name="PleaseSelectValue" xml:space="preserve">
+    <value>Please select value</value>
+  </data>
+  <data name="ConfirmProjectsReschedulingSelected" xml:space="preserve">
+    <value>Do you want to schedule {0} projects?</value>
+  </data>
+  <data name="ConfirmProjectsReschedulingSingle" xml:space="preserve">
+    <value>Do you want to schedule the project {0} ? {1}</value>
+  </data>
+  <data name="IncomingBalanceShort" xml:space="preserve">
+    <value>IB</value>
+  </data>
+  <data name="InventoryChanges" xml:space="preserve">
+    <value>Inventory changes</value>
+  </data>
+  <data name="Inverse" xml:space="preserve">
+    <value>Inverse</value>
+  </data>
+  <data name="Movement" xml:space="preserve">
+    <value>Movement</value>
+  </data>
+  <data name="OutgoingBalanceShort" xml:space="preserve">
+    <value>OB</value>
+  </data>
+  <data name="Wip" xml:space="preserve">
+    <value>WIP</value>
+  </data>
+  <data name="WipEarnedNotInvoiced" xml:space="preserve">
+    <value>WIP earned, not invoiced</value>
+  </data>
+  <data name="WipInvoicedNotEarned" xml:space="preserve">
+    <value>WIP invoiced, not earned</value>
+  </data>
+  <data name="NoProductLotsWithoutMeasurementLog" xml:space="preserve">
+    <value>There are no product lots without measurement logs</value>
+  </data>
+  <data name="WorkOrderMeasurementLogsChangesConfirmation" xml:space="preserve">
+    <value>Do you want to modify all open measurement logs for the work order?</value>
+  </data>
+  <data name="WorkOrderMeasurementLogsChangesInformation" xml:space="preserve">
+    <value>{0} measurement logs were modified</value>
+  </data>
+  <data name="ConfirmAssigningAccountToVendor" xml:space="preserve">
+    <value>Should the account '{0}' be assigned to the vendor '{1}'?</value>
+  </data>
+  <data name="ApprovingWait" xml:space="preserve">
+    <value>Approving ...</value>
+  </data>
+  <data name="NoWFOwners" xml:space="preserve">
+    <value>No owners</value>
+  </data>
+  <data name="ProjectIsClosed" xml:space="preserve">
+    <value>The project is closed</value>
+  </data>
+  <data name="NoArticlesFound" xml:space="preserve">
+    <value>No articles found</value>
+  </data>
+  <data name="FactoringCompanyIsNotDefinedInSystemSettings" xml:space="preserve">
+    <value>Factoring company is not defined in the System settings</value>
+  </data>
+  <data name="RemainsSecBeforeAutoSave" xml:space="preserve">
+    <value>{0} sec. left before autosave</value>
+  </data>
+  <data name="ApprovalChange" xml:space="preserve">
+    <value>{0} approval(s) changed</value>
+  </data>
+  <data name="ApprovalNew" xml:space="preserve">
+    <value>{0} new approval(s)</value>
+  </data>
+  <data name="EmailFail" xml:space="preserve">
+    <value>{0} email(s) failed to send</value>
+  </data>
+  <data name="EmailNew" xml:space="preserve">
+    <value>{0} new email(s)</value>
+  </data>
+  <data name="NoNewMessages" xml:space="preserve">
+    <value>No new messages</value>
+  </data>
+  <data name="ObjectChange" xml:space="preserve">
+    <value>{0} object(s) changed</value>
+  </data>
+  <data name="SystemMessage" xml:space="preserve">
+    <value>{0} new system message(s)</value>
+  </data>
+  <data name="TaskNew" xml:space="preserve">
+    <value>{0} new task(s)</value>
+  </data>
+  <data name="UserMessage" xml:space="preserve">
+    <value>{0} new user message(s)</value>
+  </data>
+  <data name="WrongBarcodeFormat" xml:space="preserve">
+    <value>Wrong barcode format</value>
+  </data>
+  <data name="ObjectAssign" xml:space="preserve">
+    <value>{0} object(s) assigned</value>
+  </data>
+  <data name="CantApproveThisObject" xml:space="preserve">
+    <value>You cannot approve this object.
+You are not in the list of approvers.</value>
+  </data>
+  <data name="YouCanTryUploadingAgainLater" xml:space="preserve">
+    <value>You can try uploading again later.</value>
+  </data>
+  <data name="ConfirmRevokeApprovalForRow" xml:space="preserve">
+    <value>Do you wish to revoke approval for this row?</value>
+  </data>
+  <data name="NotificationObjectAssignHint" xml:space="preserve">
+    <value>Notification is sent:
+• when an object is assigned to a tracking group
+• the person responsible for a project is changed</value>
+  </data>
+  <data name="ConfirmRemoveShiftPlanForItem" xml:space="preserve">
+    <value>Do you want to remove the shift plan for the selected period for the '{0}' resource?</value>
+  </data>
+  <data name="ConfirmRemoveShiftPlanForItems" xml:space="preserve">
+    <value>Do you want to remove the shift plan for the selected period for {0} resources?</value>
+  </data>
+  <data name="MultiRemoveShiftPlanConfirmationText" xml:space="preserve">
+    <value>Confirm the number of resources for which you want to remove the shift plan (ex. {0})</value>
+  </data>
+  <data name="FillFieldsByScanningBarcode" xml:space="preserve">
+    <value>Fill fields by scanning barcode</value>
+  </data>
+  <data name="EnterTextToSearchLikeSyntax" xml:space="preserve">
+    <value>Enter text to search (use % to make the search specific)</value>
+  </data>
+  <data name="EnterTextToSearch" xml:space="preserve">
+    <value>Enter text to search</value>
+  </data>
+  <data name="BarcodesWasNotFound" xml:space="preserve">
+    <value>The following barcode was not found: </value>
+  </data>
+  <data name="BarcodesWereNotFound" xml:space="preserve">
+    <value>The following barcodes were not found: </value>
+  </data>
+  <data name="ConfirmRevokeApprovalForMultipleRows" xml:space="preserve">
+    <value>Do you wish to revoke approval for {0} items?</value>
+  </data>
+  <data name="CantCreateWorkOrder" xml:space="preserve">
+    <value>Failed to create work order</value>
+  </data>
+  <data name="ConfirmCreatingVatReportExportFile" xml:space="preserve">
+    <value>Do you want to create a VAT report export file?</value>
+  </data>
+  <data name="FileSavedToFolder" xml:space="preserve">
+    <value>File saved at:\r\n{0}</value>
+  </data>
+  <data name="WorkOrderIsRequired" xml:space="preserve">
+    <value>Work order is required</value>
+  </data>
+  <data name="ExcelComponentsNotInstalled" xml:space="preserve">
+    <value>Excel components not installed.</value>
+  </data>
+  <data name="ChangeProjectState_ChecklistError" xml:space="preserve">
+    <value>Not all check list tasks ({0}) are completed</value>
+  </data>
+  <data name="ChangeProjectState_ChecklistWarning" xml:space="preserve">
+    <value>Some check list tasks ({0}) were skipped</value>
+  </data>
+  <data name="CantChangePostedDocument" xml:space="preserve">
+    <value>Posted document can't be changed</value>
+  </data>
+  <data name="SpecifyUniqueAccount" xml:space="preserve">
+    <value>This account is already in use</value>
+  </data>
+  <data name="PleaseEnterValidNumber" xml:space="preserve">
+    <value>Please enter a valid number</value>
+  </data>
+  <data name="WarningUserDefinedStringFieldFormatChanges" xml:space="preserve">
+    <value>NB! Setting unappropriate field formats can lead to data loss</value>
+  </data>
+  <data name="WrongStringFormat" xml:space="preserve">
+    <value>Wrong string format</value>
+  </data>
+  <data name="ConfirmSubscriptionRemoving" xml:space="preserve">
+    <value>Do you want to remove the subscription for your organization?
+People will not be able to work with Zigma360 after this </value>
+  </data>
+  <data name="DoYouWantToOverrideDrawingReferences" xml:space="preserve">
+    <value>Some objects already have drawing references. Do you want to override it?</value>
+  </data>
+  <data name="RequireCertificate" xml:space="preserve">
+    <value>Please specify certificate number</value>
+  </data>
+  <data name="RequireSerialNumber" xml:space="preserve">
+    <value>Please specify serial number</value>
+  </data>
+  <data name="SplitLots_NoCertificate" xml:space="preserve">
+    <value>Certificate is missing</value>
+  </data>
+  <data name="SplitLots_NoSerialNumber" xml:space="preserve">
+    <value>Serial number is missing</value>
+  </data>
+  <data name="ConfirmAccrualRemoving" xml:space="preserve">
+    <value>Do you want to remove accrual from this line?</value>
+  </data>
+  <data name="PositiveNumberRequired" xml:space="preserve">
+    <value>A positive number is required!</value>
+  </data>
+  <data name="SelectOneOfResourceType" xml:space="preserve">
+    <value>Please select resource type</value>
+  </data>
+  <data name="ExportReportsFileNamePart" xml:space="preserve">
+    <value>report(s)</value>
+  </data>
+  <data name="ProjectTemplateIsRequired" xml:space="preserve">
+    <value>Template is required</value>
+  </data>
+  <data name="FromScanList" xml:space="preserve">
+    <value>From scan list</value>
+  </data>
+  <data name="ThisBarcodeTypeIsNotSupported" xml:space="preserve">
+    <value>This barcode type is not supported</value>
+  </data>
+  <data name="DoYouWantToChangeCostOfArticle" xml:space="preserve">
+    <value>Do you want to change articles cost?</value>
+  </data>
+  <data name="ApplyCostsToArticles_Error_Duplicates" xml:space="preserve">
+    <value>Ambiguous cost for the article '{0}'. Select only one of the project lines</value>
+  </data>
+  <data name="ConfirmProjectStateCanNotBeChanged" xml:space="preserve">
+    <value>The status of {0} project(s) can't be changed because not all checklist tasks have been completed. Would you like to fix this?</value>
+  </data>
+  <data name="CanNotChangeStateForProjects" xml:space="preserve">
+    <value>The state '{0}' can not be set for {1} project(s)</value>
+  </data>
+  <data name="ConfirmMultipleProjectsOpen" xml:space="preserve">
+    <value>Do you want to open {0} project(s)?</value>
+  </data>
+  <data name="DifferentTypesProjectsSelected" xml:space="preserve">
+    <value>All selected projects must have the same project type</value>
+  </data>
+  <data name="SelectedProjectsCount" xml:space="preserve">
+    <value>{0} projects selected</value>
+  </data>
+  <data name="SomeProjectsAreClosed" xml:space="preserve">
+    <value>{0} project(s) are closed</value>
+  </data>
+  <data name="CreateNew" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OutgoingInvoice" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ProjectLinesForArticle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ProjectLineWorkflow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PurchaseFrom" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PurchaseLines" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SummaryForLineMaterials" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SummaryForLineOperations" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DocumentsTabItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NotCerrectAnswer" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ProjectsNotFound" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UpdateArticlePriceListPrice" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ConfirmReplacingArticleInAssemblyLinesSingle" xml:space="preserve">
+    <value>Do you want to replace the article in the assembly line {0}?</value>
+  </data>
+  <data name="ConfirmReplacingArticleInAssemblyLinesSelected" xml:space="preserve">
+    <value>Do you want to replace the article in {0} assembly lines?</value>
+  </data>
+  <data name="ConfirmChangingTypeForArticlesSelected" xml:space="preserve">
+    <value>Do you want to change type for {0} articles?</value>
+  </data>
+  <data name="ConfirmChangingTypeForArticlesSingle" xml:space="preserve">
+    <value>Do you want to change type for the article {0}?</value>
+  </data>
+  <data name="CantSaveBatchWithoutProductLots" xml:space="preserve">
+    <value>Can't save the batch without product lots</value>
+  </data>
+  <data name="TheProductHasNoArticlesInAssembly" xml:space="preserve">
+    <value>The product has no articles in assembly</value>
+  </data>
+  <data name="WarningNoteSavedForProjectLineAssembly" xml:space="preserve">
+    <value>NB! The note will be also updated in project line assembly</value>
+  </data>
+  <data name="DoYouWantToRemoveFixedPrice" xml:space="preserve">
+    <value>Do you want to remove fixed price in selected project lines?</value>
+  </data>
+  <data name="DoYouWantToSetFixedPrice" xml:space="preserve">
+    <value>Do you want to set fixed price for selected project lines?</value>
+  </data>
+  <data name="DoYouWantToRecalculateAllArticles" xml:space="preserve">
+    <value>Do you want to recalculate all articles?</value>
+  </data>
+  <data name="LengthInMillimetersNotSpecifiedforUnit" xml:space="preserve">
+    <value>The length in mm is not specified for the unit</value>
+  </data>
+  <data name="ConfirmCutting" xml:space="preserve">
+    <value>Do you confirm the cut?</value>
+  </data>
+  <data name="NewPurchaseProjectName_ForCutting" xml:space="preserve">
+    <value>Purchase for cutting</value>
+  </data>
+  <data name="ConfirmMultipleDocumentsRollback" xml:space="preserve">
+    <value>Do you want to rollback {0} documents?</value>
+  </data>
+  <data name="ConfirmOneDocumentRollback" xml:space="preserve">
+    <value>Do you want to rollback the document {0}?</value>
+  </data>
+  <data name="UnableToDeleteDocumentDeniedByType" xml:space="preserve">
+    <value>Document type {0} does not allow documents removing</value>
+  </data>
+  <data name="ConfirmUpdateNewRates" xml:space="preserve">
+    <value>Are you sure you want to update all registered currency exchange rates?</value>
+  </data>
+  <data name="FooterCountFormatOf" xml:space="preserve">
+    <value>Count: {0} of</value>
+  </data>
+  <data name="ConfirmReplaceArticleAssemblySingle" xml:space="preserve">
+    <value>Do you want to replace assembly for the article {0}?</value>
+  </data>
+  <data name="ConfirmReplaceArticleAssemblySelected" xml:space="preserve">
+    <value>Do you want to replace assembly for {0} selected articles?</value>
+  </data>
+  <data name="items" xml:space="preserve">
+    <value>items</value>
+  </data>
+  <data name="ImportProcessFailed" xml:space="preserve">
+    <value>Import process failed</value>
+  </data>
+  <data name="ImportProcessSuccessfullyFinished" xml:space="preserve">
+    <value>Import process completed</value>
+  </data>
+  <data name="ImportedNumRecords" xml:space="preserve">
+    <value>{0} records imported</value>
+  </data>
+  <data name="AddPosting" xml:space="preserve">
+    <value>Add posting</value>
+  </data>
+  <data name="Match" xml:space="preserve">
+    <value>Match</value>
+  </data>
+  <data name="Matched" xml:space="preserve">
+    <value>Matched</value>
+  </data>
+  <data name="NotMatched" xml:space="preserve">
+    <value>Not matched</value>
+  </data>
+  <data name="NumberOfRecordsSelected" xml:space="preserve">
+    <value>{0} records selected</value>
+  </data>
+  <data name="NumberOneRecordSelected" xml:space="preserve">
+    <value>1 record selected</value>
+  </data>
+  <data name="NumberOfRecords" xml:space="preserve">
+    <value>{0} records</value>
+  </data>
+  <data name="MatchedNumRecords" xml:space="preserve">
+    <value>{0} records matched</value>
+  </data>
+  <data name="BalanceDeviationHere" xml:space="preserve">
+    <value>Balance deviation:</value>
+  </data>
+  <data name="DeleteAllBankStatementsConfirmationText" xml:space="preserve">
+    <value>All account statements will be deleted for this account.</value>
+  </data>
+  <data name="DeleteAllBankStatementsConfirmationTitle" xml:space="preserve">
+    <value>Confirm deletion of all account statements</value>
+  </data>
+  <data name="SelectSuggestion" xml:space="preserve">
+    <value>Select suggestion</value>
+  </data>
+  <data name="ConfirmLotReservation" xml:space="preserve">
+    <value>Do you want to reserve lots for this project?</value>
+  </data>
+</root>

@@ -1,0 +1,897 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_Cost" xml:space="preserve">
+    <value>Purchases account</value>
+  </data>
+  <data name="Account_Sales" xml:space="preserve">
+    <value>Sales account</value>
+  </data>
+  <data name="ActualEnd" xml:space="preserve">
+    <value>Actual end</value>
+  </data>
+  <data name="ActualStart" xml:space="preserve">
+    <value>Actual start</value>
+  </data>
+  <data name="AdditionalDescription" xml:space="preserve">
+    <value>Additional description</value>
+  </data>
+  <data name="ApproveDate" xml:space="preserve">
+    <value>Approval date</value>
+  </data>
+  <data name="ApproveDescription" xml:space="preserve">
+    <value>Approval description</value>
+  </data>
+  <data name="ApproveState" xml:space="preserve">
+    <value>Approval status</value>
+  </data>
+  <data name="Article" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="ArticleAdditionalDescription" xml:space="preserve">
+    <value>Article additional description</value>
+  </data>
+  <data name="ArticleCode" xml:space="preserve">
+    <value>Article code</value>
+  </data>
+  <data name="ArticleDescription" xml:space="preserve">
+    <value>Article description</value>
+  </data>
+  <data name="ArticleJoinCode" xml:space="preserve">
+    <value>Joined article code</value>
+  </data>
+  <data name="ArticleJoinName" xml:space="preserve">
+    <value>Joined article name</value>
+  </data>
+  <data name="AskApproveDate" xml:space="preserve">
+    <value>Approval request date</value>
+  </data>
+  <data name="BarCodeString" xml:space="preserve">
+    <value>Barcode</value>
+  </data>
+  <data name="CanChangeChapter" xml:space="preserve">
+    <value>Can change chapter</value>
+  </data>
+  <data name="Chapter" xml:space="preserve">
+    <value>Chapter</value>
+  </data>
+  <data name="ComplianceCount" xml:space="preserve">
+    <value>Compliance count</value>
+  </data>
+  <data name="ComplianceScoreAverage" xml:space="preserve">
+    <value>Compliance average score</value>
+  </data>
+  <data name="ComplianceScoreAverageColor" xml:space="preserve">
+    <value>Compliance average score color</value>
+  </data>
+  <data name="ComplianceScoreMin" xml:space="preserve">
+    <value>Compliance min score</value>
+  </data>
+  <data name="ComplianceScoreMinColor" xml:space="preserve">
+    <value>Compliance min score color</value>
+  </data>
+  <data name="CostFromArticle" xml:space="preserve">
+    <value>Cost from article</value>
+  </data>
+  <data name="CostToPricePercent" xml:space="preserve">
+    <value>Fixed Markup% materials</value>
+  </data>
+  <data name="CostTotal" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="CostTotal_Currency" xml:space="preserve">
+    <value>Cost (currency)</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="CurrencyRate" xml:space="preserve">
+    <value>Currency rate</value>
+  </data>
+  <data name="CustomerArticleCode" xml:space="preserve">
+    <value>Customer's article number</value>
+  </data>
+  <data name="CustomerLocation" xml:space="preserve">
+    <value>Customer's location</value>
+  </data>
+  <data name="CustomerPosition" xml:space="preserve">
+    <value>PO-line</value>
+  </data>
+  <data name="DateCreated" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="DaysToDeadline" xml:space="preserve">
+    <value>Days to deadline</value>
+  </data>
+  <data name="DeadlineDate" xml:space="preserve">
+    <value>Delivery date</value>
+  </data>
+  <data name="DeadlineTime" xml:space="preserve">
+    <value>Delivery time</value>
+  </data>
+  <data name="DeliveryWeekNumber" xml:space="preserve">
+    <value>Delivery week number</value>
+  </data>
+  <data name="Density" xml:space="preserve">
+    <value>Density, kg/m3</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Diameter" xml:space="preserve">
+    <value>Diameter, mm</value>
+  </data>
+  <data name="Dimension" xml:space="preserve">
+    <value>Dimension</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="ContractualDiscount" xml:space="preserve">
+    <value>Contractual discount</value>
+  </data>
+  <data name="DoNotDelivery" xml:space="preserve">
+    <value>Do not delivery</value>
+  </data>
+  <data name="DrawingNumber" xml:space="preserve">
+    <value>Drawing number</value>
+  </data>
+  <data name="EarliestDate" xml:space="preserve">
+    <value>Earliest date</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="ExpandState" xml:space="preserve">
+    <value>Expand state</value>
+  </data>
+  <data name="ExpectedReturnDate" xml:space="preserve">
+    <value>Expected return date</value>
+  </data>
+  <data name="ExportCode" xml:space="preserve">
+    <value>Export code</value>
+  </data>
+  <data name="FixedCost" xml:space="preserve">
+    <value>Fixed cost</value>
+  </data>
+  <data name="FixedCost_Currency" xml:space="preserve">
+    <value>Fixed cost (currency)</value>
+  </data>
+  <data name="FixedDiscount" xml:space="preserve">
+    <value>Fixed discount</value>
+  </data>
+  <data name="FixedPrice" xml:space="preserve">
+    <value>Fixed price</value>
+  </data>
+  <data name="FixedPrice_Currency" xml:space="preserve">
+    <value>Fixed price (currency)</value>
+  </data>
+  <data name="HasChildren" xml:space="preserve">
+    <value>Has sublines</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Thickness / height, mm</value>
+  </data>
+  <data name="HideAmountAndSumOnPrint" xml:space="preserve">
+    <value>Hide amount and sum on print</value>
+  </data>
+  <data name="InvoicingKind" xml:space="preserve">
+    <value>Invoicing kind</value>
+  </data>
+  <data name="IsArrived" xml:space="preserve">
+    <value>Arrived</value>
+  </data>
+  <data name="IsDelivered" xml:space="preserve">
+    <value>Delivered</value>
+  </data>
+  <data name="IsDeliveredSeparately" xml:space="preserve">
+    <value>Delivered separately</value>
+  </data>
+  <data name="IsFinished" xml:space="preserve">
+    <value>Produced</value>
+  </data>
+  <data name="IsIncomeInvoiced" xml:space="preserve">
+    <value>Incoming invoiced</value>
+  </data>
+  <data name="IsNoteExists" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="IsOutgoingInvoiced" xml:space="preserve">
+    <value>Invoiced</value>
+  </data>
+  <data name="IsPurchased" xml:space="preserve">
+    <value>Purchased</value>
+  </data>
+  <data name="IsRent" xml:space="preserve">
+    <value>Rent</value>
+  </data>
+  <data name="IsReturn" xml:space="preserve">
+    <value>Returned</value>
+  </data>
+  <data name="IsSentToSubcontractor" xml:space="preserve">
+    <value>Sent to subcontractor</value>
+  </data>
+  <data name="IsWorkorderCreated" xml:space="preserve">
+    <value>Work orders created</value>
+  </data>
+  <data name="KeyChangePricePercent" xml:space="preserve">
+    <value>Price change</value>
+  </data>
+  <data name="KeyCostToPrice" xml:space="preserve">
+    <value>CM/cost</value>
+  </data>
+  <data name="KeyDB" xml:space="preserve">
+    <value>CM</value>
+  </data>
+  <data name="KeyDBForHour" xml:space="preserve">
+    <value>CM per hour</value>
+  </data>
+  <data name="KeyDG" xml:space="preserve">
+    <value>CR</value>
+  </data>
+  <data name="KeyWorkDB" xml:space="preserve">
+    <value>CM work</value>
+  </data>
+  <data name="KeyWorkDBPerHour" xml:space="preserve">
+    <value>CM work per hour</value>
+  </data>
+  <data name="KeyWorkDG" xml:space="preserve">
+    <value>CR work</value>
+  </data>
+  <data name="LastInvoiceDate" xml:space="preserve">
+    <value>Last invoice date</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Length, mm</value>
+  </data>
+  <data name="Margin" xml:space="preserve">
+    <value>Margin, mm</value>
+  </data>
+  <data name="MaterialType" xml:space="preserve">
+    <value>Material type</value>
+  </data>
+  <data name="MeasuredWeight" xml:space="preserve">
+    <value>Measured weight, kg</value>
+  </data>
+  <data name="MeasuredWeightTotal" xml:space="preserve">
+    <value>Measured weight total, kg</value>
+  </data>
+  <data name="MeasurementUnit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NetPrice" xml:space="preserve">
+    <value>Net price</value>
+  </data>
+  <data name="NetPrice_Currency" xml:space="preserve">
+    <value>Net price (currency)</value>
+  </data>
+  <data name="NotePlainText" xml:space="preserve">
+    <value>Note plain text</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="OrgUnit_Vendor" xml:space="preserve">
+    <value>Vendor</value>
+  </data>
+  <data name="Overdue" xml:space="preserve">
+    <value>Overdue</value>
+  </data>
+  <data name="ParentId" xml:space="preserve">
+    <value>Parent id</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="PeriodFrom" xml:space="preserve">
+    <value>Invoice period from</value>
+  </data>
+  <data name="PeriodTo" xml:space="preserve">
+    <value>Invoice period to</value>
+  </data>
+  <data name="PlanningStrategy" xml:space="preserve">
+    <value>Planning strategy</value>
+  </data>
+  <data name="Pos" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="PriceBasic" xml:space="preserve">
+    <value>Basic price</value>
+  </data>
+  <data name="PriceBasic_Hint" xml:space="preserve">
+    <value>Price calculated from cost with "Cost to price"percent</value>
+  </data>
+  <data name="PriceDefault" xml:space="preserve">
+    <value>Default price</value>
+  </data>
+  <data name="PriceDefault_Hint" xml:space="preserve">
+    <value>Price list or basic price</value>
+  </data>
+  <data name="PriceFromArticle" xml:space="preserve">
+    <value>Price from article</value>
+  </data>
+  <data name="PriceIncludeTax" xml:space="preserve">
+    <value>Price incl. VAT</value>
+  </data>
+  <data name="PriceIncludeTax_Currency" xml:space="preserve">
+    <value>Price incl. VAT (currency)</value>
+  </data>
+  <data name="PriceListPrice" xml:space="preserve">
+    <value>Pricelist price</value>
+  </data>
+  <data name="PriceTotal" xml:space="preserve">
+    <value>Brutto price</value>
+  </data>
+  <data name="PriceTotal_Currency" xml:space="preserve">
+    <value>Brutto price (currency)</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="ProductLotGenerationRule" xml:space="preserve">
+    <value>Product lot generation rule</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="Project_Owner" xml:space="preserve">
+    <value>Owner project</value>
+  </data>
+  <data name="Project_Sales" xml:space="preserve">
+    <value>Sales project</value>
+  </data>
+  <data name="ProjectDiscount" xml:space="preserve">
+    <value>Project discount</value>
+  </data>
+  <data name="ProjectLine_Owner" xml:space="preserve">
+    <value>Owner project line</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Qnty</value>
+  </data>
+  <data name="QuantityArrived" xml:space="preserve">
+    <value>Qnty arrived</value>
+  </data>
+  <data name="QuantityDelivered" xml:space="preserve">
+    <value>Qnty delivered</value>
+  </data>
+  <data name="QuantityDeliveredNotInvoiced" xml:space="preserve">
+    <value>Qnty delivered not invoiced</value>
+  </data>
+  <data name="QuantityDeliveredNotReturned" xml:space="preserve">
+    <value>Qnty delivered not returned</value>
+  </data>
+  <data name="QuantityForInvoice" xml:space="preserve">
+    <value>Quantity for invoice</value>
+  </data>
+  <data name="QuantityIncomingInvoice" xml:space="preserve">
+    <value>Qnty incoming invoice</value>
+  </data>
+  <data name="QuantityLabels" xml:space="preserve">
+    <value>Number of labels</value>
+  </data>
+  <data name="QuantityOutgoingInvoice" xml:space="preserve">
+    <value>Qnty outgoing invoice</value>
+  </data>
+  <data name="QuantityPerLabel" xml:space="preserve">
+    <value>Quantity per label</value>
+  </data>
+  <data name="QuantityProduced" xml:space="preserve">
+    <value>Qnty produced</value>
+  </data>
+  <data name="QuantityPurchased" xml:space="preserve">
+    <value>Qnty purchased</value>
+  </data>
+  <data name="QuantityRented" xml:space="preserve">
+    <value>Qnty rented</value>
+  </data>
+  <data name="QuantityReturn" xml:space="preserve">
+    <value>Qnty returned</value>
+  </data>
+  <data name="QuantitySentToSubcontractor" xml:space="preserve">
+    <value>Qnty sent to subcontractor</value>
+  </data>
+  <data name="QuantityWreck" xml:space="preserve">
+    <value>Qnty wreck</value>
+  </data>
+  <data name="Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="RemarkColor" xml:space="preserve">
+    <value>Remark color</value>
+  </data>
+  <data name="RiskCount" xml:space="preserve">
+    <value>Risk count</value>
+  </data>
+  <data name="RiskScoreAverage" xml:space="preserve">
+    <value>Risk average score</value>
+  </data>
+  <data name="RiskScoreAverageColor" xml:space="preserve">
+    <value>Risk average score color</value>
+  </data>
+  <data name="RiskScoreMax" xml:space="preserve">
+    <value>Risk max score</value>
+  </data>
+  <data name="RiskScoreMaxColor" xml:space="preserve">
+    <value>Risk max score color</value>
+  </data>
+  <data name="SerialNumber" xml:space="preserve">
+    <value>Serial number</value>
+  </data>
+  <data name="SerialNumberDefinition" xml:space="preserve">
+    <value>Serial number generation rule</value>
+  </data>
+  <data name="SerialNumberDefinition_Customer" xml:space="preserve">
+    <value>Customer's serial number generation rule</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="StringField1" xml:space="preserve">
+    <value>String field 1</value>
+  </data>
+  <data name="StringField2" xml:space="preserve">
+    <value>String field 2</value>
+  </data>
+  <data name="StringField3" xml:space="preserve">
+    <value>String field 3</value>
+  </data>
+  <data name="StringField4" xml:space="preserve">
+    <value>String field 4</value>
+  </data>
+  <data name="StringField5" xml:space="preserve">
+    <value>String field 5</value>
+  </data>
+  <data name="SubWorkOrder" xml:space="preserve">
+    <value>Sub work order</value>
+  </data>
+  <data name="SumCost" xml:space="preserve">
+    <value>Sum cost</value>
+  </data>
+  <data name="SumCost_Currency" xml:space="preserve">
+    <value>Sum cost (currency)</value>
+  </data>
+  <data name="SumCostPerKg" xml:space="preserve">
+    <value>Sum cost per kg</value>
+  </data>
+  <data name="SumCostWork" xml:space="preserve">
+    <value>Sum cost of work</value>
+  </data>
+  <data name="SumCostWork_Currency" xml:space="preserve">
+    <value>Sum cost of work (currency)</value>
+  </data>
+  <data name="SumPrice" xml:space="preserve">
+    <value>Sum price</value>
+  </data>
+  <data name="SumPrice_Currency" xml:space="preserve">
+    <value>Sum price (currency)</value>
+  </data>
+  <data name="SumPriceBasic" xml:space="preserve">
+    <value>Sum basic price</value>
+  </data>
+  <data name="SumPriceIncludeTax" xml:space="preserve">
+    <value>Sum price incl. VAT</value>
+  </data>
+  <data name="SumPriceIncludeTax_Currency" xml:space="preserve">
+    <value>Sum price incl. VAT (currency)</value>
+  </data>
+  <data name="SumPriceNotInvoiced" xml:space="preserve">
+    <value>Sum uninvoiced</value>
+  </data>
+  <data name="SumPriceNotInvoiced_Currency" xml:space="preserve">
+    <value>Sum uninvoiced (currency)</value>
+  </data>
+  <data name="SumPricePerKg" xml:space="preserve">
+    <value>Sum price per kg</value>
+  </data>
+  <data name="SumPriceWork" xml:space="preserve">
+    <value>Sum price work</value>
+  </data>
+  <data name="SumPriceWork_Currency" xml:space="preserve">
+    <value>Sum price work (currency)</value>
+  </data>
+  <data name="SumTax" xml:space="preserve">
+    <value>Sum VAT</value>
+  </data>
+  <data name="SumTax_Currency" xml:space="preserve">
+    <value>Sum VAT (currency)</value>
+  </data>
+  <data name="TaxCode" xml:space="preserve">
+    <value>VAT code</value>
+  </data>
+  <data name="TaxPrice" xml:space="preserve">
+    <value>VAT</value>
+  </data>
+  <data name="TaxPrice_Currency" xml:space="preserve">
+    <value>VAT (currency)</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="UsedCostToPricePercent" xml:space="preserve">
+    <value>Markup% materials</value>
+  </data>
+  <data name="User_Approver" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="User_AskApprove" xml:space="preserve">
+    <value>Approval requested by</value>
+  </data>
+  <data name="VendorArticle" xml:space="preserve">
+    <value>Vendor article</value>
+  </data>
+  <data name="VendorArticleCode" xml:space="preserve">
+    <value>Vendor article code</value>
+  </data>
+  <data name="VendorArticleDescription" xml:space="preserve">
+    <value>Vendor article description</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Weight, kg</value>
+  </data>
+  <data name="WeightTotal" xml:space="preserve">
+    <value>Weight total, kg</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Width, mm</value>
+  </data>
+  <data name="WorkflowItem_Drawing" xml:space="preserve">
+    <value>Drawing</value>
+  </data>
+  <data name="WorkHours" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="WorkHoursEach" xml:space="preserve">
+    <value>Hours per unit</value>
+  </data>
+  <data name="WorkOrder_Purchase" xml:space="preserve">
+    <value>Work order purchase for</value>
+  </data>
+  <data name="FixedWeight" xml:space="preserve">
+    <value>Fixed weight, kg</value>
+  </data>
+  <data name="NewChapter" xml:space="preserve">
+    <value>New chapter</value>
+  </data>
+  <data name="CompleteDescription" xml:space="preserve">
+    <value>Complete description</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Task date</value>
+  </data>
+  <data name="DateClose" xml:space="preserve">
+    <value>Date closed</value>
+  </data>
+  <data name="DateEdge" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="PercentComplete" xml:space="preserve">
+    <value>Finished %</value>
+  </data>
+  <data name="RemainsHours" xml:space="preserve">
+    <value>Remaining hours</value>
+  </data>
+  <data name="TaskStatus" xml:space="preserve">
+    <value>Task status</value>
+  </data>
+  <data name="TaskStatusType" xml:space="preserve">
+    <value>Task status</value>
+  </data>
+  <data name="UsedHours" xml:space="preserve">
+    <value>Used hours</value>
+  </data>
+  <data name="User_AssignedTo" xml:space="preserve">
+    <value>Assigned to</value>
+  </data>
+  <data name="User_Close" xml:space="preserve">
+    <value>Closed by</value>
+  </data>
+  <data name="IsTask" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="CostRequest" xml:space="preserve">
+    <value>Cost from request</value>
+  </data>
+  <data name="TaskName" xml:space="preserve">
+    <value>Task name</value>
+  </data>
+  <data name="DoPrint" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="EmailCount" xml:space="preserve">
+    <value>Email count</value>
+  </data>
+  <data name="FileCount" xml:space="preserve">
+    <value>File count</value>
+  </data>
+  <data name="QuantityCreditInvoice" xml:space="preserve">
+    <value>Qnty credit invoiced</value>
+  </data>
+  <data name="FixedSumPrice" xml:space="preserve">
+    <value>Fixed sum price</value>
+  </data>
+  <data name="FixedSumPrice_Currency" xml:space="preserve">
+    <value>Fixed sum price (currency)</value>
+  </data>
+  <data name="StringField10" xml:space="preserve">
+    <value>String field 10</value>
+  </data>
+  <data name="StringField6" xml:space="preserve">
+    <value>String field 6</value>
+  </data>
+  <data name="StringField7" xml:space="preserve">
+    <value>String field 7</value>
+  </data>
+  <data name="StringField8" xml:space="preserve">
+    <value>String field 8</value>
+  </data>
+  <data name="StringField9" xml:space="preserve">
+    <value>String field 9</value>
+  </data>
+  <data name="KeySumCostWorkForHour" xml:space="preserve">
+    <value>Cost of work per hour</value>
+  </data>
+  <data name="KeySumPriceWorkForHour" xml:space="preserve">
+    <value>Price of work per hour</value>
+  </data>
+  <data name="ReferenceField1" xml:space="preserve">
+    <value>Multi choice field 1</value>
+  </data>
+  <data name="ReferenceField2" xml:space="preserve">
+    <value>Multi choice field 2</value>
+  </data>
+  <data name="ReferenceField3" xml:space="preserve">
+    <value>Multi choice field 3</value>
+  </data>
+  <data name="QuantityOutgoingInvoiceDraft" xml:space="preserve">
+    <value>Qnty outgoing invoice (draft)</value>
+  </data>
+  <data name="ManualEnd" xml:space="preserve">
+    <value>Manual end</value>
+  </data>
+  <data name="ManualStart" xml:space="preserve">
+    <value>Manual start</value>
+  </data>
+  <data name="PlannedEnd" xml:space="preserve">
+    <value>Planned end</value>
+  </data>
+  <data name="PlannedPostEnd" xml:space="preserve">
+    <value>Planned post end</value>
+  </data>
+  <data name="PlannedStart" xml:space="preserve">
+    <value>Planned start</value>
+  </data>
+  <data name="ScheduleStatus" xml:space="preserve">
+    <value>Schedule status</value>
+  </data>
+  <data name="DrawingReference" xml:space="preserve">
+    <value>Drawing reference</value>
+  </data>
+  <data name="IsPutToStock" xml:space="preserve">
+    <value>Put to stock</value>
+  </data>
+  <data name="QuantityPutToStock" xml:space="preserve">
+    <value>Qnty put to stock</value>
+  </data>
+  <data name="QuantityWorkOrders" xml:space="preserve">
+    <value>Qnty in work orders</value>
+  </data>
+  <data name="ArticleVersion" xml:space="preserve">
+    <value>Article version</value>
+  </data>
+  <data name="CostTotal_Hint" xml:space="preserve">
+    <value>Cost per unit</value>
+  </data>
+  <data name="ContractualDiscount_Hint" xml:space="preserve">
+    <value>Discount taken from price list or group discount</value>
+  </data>
+  <data name="Discount_Hint" xml:space="preserve">
+    <value>Actual discount</value>
+  </data>
+  <data name="PriceTotal_Hint" xml:space="preserve">
+    <value>Price per unit before any discount</value>
+  </data>
+  <data name="KeyDB_Hint" xml:space="preserve">
+    <value>Contribution margin</value>
+  </data>
+  <data name="KeyDG_Hint" xml:space="preserve">
+    <value>Contribution margin ratio</value>
+  </data>
+  <data name="FixedPercentComplete" xml:space="preserve">
+    <value>Fixed finished %</value>
+  </data>
+  <data name="CalculatedPercentComplete" xml:space="preserve">
+    <value>Calculated finished %</value>
+  </data>
+  <data name="PlannedHours" xml:space="preserve">
+    <value>Planned hours</value>
+  </data>
+  <data name="TimeRecords_Cost" xml:space="preserve">
+    <value>Time registration cost</value>
+  </data>
+  <data name="ActiveOperation" xml:space="preserve">
+    <value>Active operation</value>
+  </data>
+  <data name="PlannedLeadTimeHours" xml:space="preserve">
+    <value>Planned lead time, hours</value>
+  </data>
+  <data name="PriceListPrice_Currency" xml:space="preserve">
+    <value>Pricelist price (currency)</value>
+  </data>
+  <data name="ApproversCount" xml:space="preserve">
+    <value>Number of approvers</value>
+  </data>
+  <data name="FixedKeyDG" xml:space="preserve">
+    <value>Fixed CR, %</value>
+  </data>
+  <data name="SerialNumberDefinition_Customer_OverrideCounter" xml:space="preserve">
+    <value>Override counter for customer's serial number</value>
+  </data>
+  <data name="ReadyToStartOperation" xml:space="preserve">
+    <value>Ready to start operation</value>
+  </data>
+  <data name="_Id" xml:space="preserve">
+    <value>_Id</value>
+  </data>
+  <data name="_ParentId" xml:space="preserve">
+    <value>_ParentId</value>
+  </data>
+  <data name="QualityControl" xml:space="preserve">
+    <value>Quality control</value>
+  </data>
+  <data name="DeliveryFinished" xml:space="preserve">
+    <value>Delivery is completed</value>
+  </data>
+  <data name="ExtraExpenses" xml:space="preserve">
+    <value>Extra expenses</value>
+  </data>
+  <data name="ExtraHours" xml:space="preserve">
+    <value>Extra hours</value>
+  </data>
+  <data name="ExtraMaterialCost" xml:space="preserve">
+    <value>Extra material cost</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="SumPriceInvoiced" xml:space="preserve">
+    <value>Sum invoiced</value>
+  </data>
+  <data name="SumPriceInvoiced_Currency" xml:space="preserve">
+    <value>Sum invoiced (currency)</value>
+  </data>
+  <data name="EmissionFromArticle" xml:space="preserve">
+    <value>Emission from article, kgCO2e</value>
+  </data>
+</root>

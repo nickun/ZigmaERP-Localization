@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BarCodeString" xml:space="preserve">
+    <value>Strekkode</value>
+  </data>
+  <data name="CanBeTimingResource" xml:space="preserve">
+    <value>Er tidsressurs</value>
+  </data>
+  <data name="CanBeWorkingResource" xml:space="preserve">
+    <value>Er arbeidsressurs</value>
+  </data>
+  <data name="Capacity" xml:space="preserve">
+    <value>Kapasitet</value>
+  </data>
+  <data name="CostPerHour" xml:space="preserve">
+    <value>Timekost</value>
+  </data>
+  <data name="DateBirthday" xml:space="preserve">
+    <value>Fødselsdato</value>
+  </data>
+  <data name="DateCreated" xml:space="preserve">
+    <value>Registreringsdato</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-postadresse</value>
+  </data>
+  <data name="Email_Bcc" xml:space="preserve">
+    <value>E-post blindkopi (BCC)</value>
+  </data>
+  <data name="Email_Cc" xml:space="preserve">
+    <value>E-post kopi til (CC)</value>
+  </data>
+  <data name="Emails" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="EquipmentCostPerHour" xml:space="preserve">
+    <value>Utstyr timekost</value>
+  </data>
+  <data name="EquipmentPricePerHour" xml:space="preserve">
+    <value>Utstyr timepris</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Fullt navn</value>
+  </data>
+  <data name="IntNumber" xml:space="preserve">
+    <value>Ansattnummer (numerisk)</value>
+  </data>
+  <data name="IsDisabled" xml:space="preserve">
+    <value>Deaktivert</value>
+  </data>
+  <data name="IsLicensedUser" xml:space="preserve">
+    <value>Aktivert lisens</value>
+  </data>
+  <data name="IsNoteExists" xml:space="preserve">
+    <value>Notat</value>
+  </data>
+  <data name="IsOperator" xml:space="preserve">
+    <value>Operatør</value>
+  </data>
+  <data name="IsPlannerUser" xml:space="preserve">
+    <value>Aktivert lisens for planlegger</value>
+  </data>
+  <data name="IsTeamMember" xml:space="preserve">
+    <value>Teammedlem</value>
+  </data>
+  <data name="IsWorkingResource" xml:space="preserve">
+    <value>Operator</value>
+  </data>
+  <data name="MobilePhone" xml:space="preserve">
+    <value>Mobil</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Påloggingsnavn/nr</value>
+  </data>
+  <data name="Name_Grid" xml:space="preserve">
+    <value>Påloggingsnavn/nr</value>
+  </data>
+  <data name="Name_Property" xml:space="preserve">
+    <value>Påloggingsnavn/nr</value>
+  </data>
+  <data name="NotePlainText" xml:space="preserve">
+    <value>Notatinnhold</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Ansattnummer</value>
+  </data>
+  <data name="OperatorCostPerHour" xml:space="preserve">
+    <value>Operatør timekost</value>
+  </data>
+  <data name="OperatorFactor" xml:space="preserve">
+    <value>Operatørfaktor %</value>
+  </data>
+  <data name="OperatorPricePerHour" xml:space="preserve">
+    <value>Operatør timepris</value>
+  </data>
+  <data name="OrgUnit_Contact" xml:space="preserve">
+    <value>Firma</value>
+  </data>
+  <data name="OrgUnit_DefaultStock" xml:space="preserve">
+    <value>Standard lager</value>
+  </data>
+  <data name="OrgUnit_Department" xml:space="preserve">
+    <value>Avdeling</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Stilling</value>
+  </data>
+  <data name="PricePerHour" xml:space="preserve">
+    <value>Timepris</value>
+  </data>
+  <data name="Project_DefaultForTimeRegistration" xml:space="preserve">
+    <value>Standard prosjekt for timeregistrering</value>
+  </data>
+  <data name="ResourceGroup" xml:space="preserve">
+    <value>Ressursgruppe</value>
+  </data>
+  <data name="SalaryCode" xml:space="preserve">
+    <value>Lønnskode</value>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>Kortnavn</value>
+  </data>
+  <data name="TeamMemberOf" xml:space="preserve">
+    <value>Medlem i team</value>
+  </data>
+  <data name="ToolsCostPerHour" xml:space="preserve">
+    <value>Maskinverktøy timekost</value>
+  </data>
+  <data name="ToolsPricePerHour" xml:space="preserve">
+    <value>Maskinverktøy timepris</value>
+  </data>
+  <data name="UseForWorkOrderPriority" xml:space="preserve">
+    <value>Bruk for prioritet arbeidsordre</value>
+  </data>
+  <data name="User_Responsible" xml:space="preserve">
+    <value>Ansvarlig</value>
+  </data>
+  <data name="UserGroup" xml:space="preserve">
+    <value>Brukergruppe</value>
+  </data>
+  <data name="UserType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="WorkFlowItem_EmailFooter" xml:space="preserve">
+    <value>E-post signatur</value>
+  </data>
+  <data name="WorkFlowItem_Signature" xml:space="preserve">
+    <value>Signatur for utskrifter</value>
+  </data>
+  <data name="IsStartWorkOnLogon" xml:space="preserve">
+    <value>Aktiver auto start på timeregistrering</value>
+  </data>
+  <data name="IsTimeBankEnabled" xml:space="preserve">
+    <value>Aktiver Timebank</value>
+  </data>
+  <data name="Shift_Default" xml:space="preserve">
+    <value>Standard skift</value>
+  </data>
+  <data name="SkipIntervalAfterShiftEnd" xml:space="preserve">
+    <value>Hopp over intervall etter skiftslutt</value>
+  </data>
+  <data name="SkipIntervalBeforeShiftStart" xml:space="preserve">
+    <value>Hopp over intervall før skiftstart</value>
+  </data>
+  <data name="TimeBankValue" xml:space="preserve">
+    <value>Timebank</value>
+  </data>
+  <data name="UseResourceCostPriceInTimeRecord" xml:space="preserve">
+    <value>Bruk resurs kost / pris i timeregistrering</value>
+  </data>
+  <data name="SalaryPeriodType" xml:space="preserve">
+    <value>Lønnsperiode type</value>
+  </data>
+  <data name="IsSalaryEnabled" xml:space="preserve">
+    <value>Lønn aktivert</value>
+  </data>
+  <data name="IsCustomer" xml:space="preserve">
+    <value>Kunde</value>
+  </data>
+  <data name="IsVendor" xml:space="preserve">
+    <value>Leverandør</value>
+  </data>
+  <data name="StringField1" xml:space="preserve">
+    <value>Valgfritt felt 1</value>
+  </data>
+  <data name="StringField10" xml:space="preserve">
+    <value>Valgfritt felt 10</value>
+  </data>
+  <data name="StringField2" xml:space="preserve">
+    <value>Valgfritt felt 2</value>
+  </data>
+  <data name="StringField3" xml:space="preserve">
+    <value>Valgfritt felt 3</value>
+  </data>
+  <data name="StringField4" xml:space="preserve">
+    <value>Valgfritt felt 4</value>
+  </data>
+  <data name="StringField5" xml:space="preserve">
+    <value>Valgfritt felt 5</value>
+  </data>
+  <data name="StringField6" xml:space="preserve">
+    <value>Valgfritt felt 6</value>
+  </data>
+  <data name="StringField7" xml:space="preserve">
+    <value>Valgfritt felt 7</value>
+  </data>
+  <data name="StringField8" xml:space="preserve">
+    <value>Valgfritt felt 8</value>
+  </data>
+  <data name="StringField9" xml:space="preserve">
+    <value>Valgfritt felt 9</value>
+  </data>
+  <data name="GroupPanelVisibility" xml:space="preserve">
+    <value>Visningsmodus for gruppepanel</value>
+  </data>
+  <data name="IsExternalResource" xml:space="preserve">
+    <value>Ekstern</value>
+  </data>
+  <data name="IsTaskRegistrationEnabled" xml:space="preserve">
+    <value>Timeregistrering for oppgaver</value>
+  </data>
+  <data name="DefaultMenuProfile" xml:space="preserve">
+    <value>Standard menyprofil</value>
+  </data>
+  <data name="ArticleGroup" xml:space="preserve">
+    <value>Varegruppe</value>
+  </data>
+  <data name="IsShiftEditionEnabled" xml:space="preserve">
+    <value>Kan bytte skift</value>
+  </data>
+  <data name="IsUsedInPlanner" xml:space="preserve">
+    <value>Brukes i planlegger</value>
+  </data>
+</root>
